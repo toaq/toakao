@@ -92,7 +92,10 @@ def process_entry(i, dict, official_dict):
            .get(key, default) if is_official_entry else default
   # OK: id, date
   if not is_official_entry:
-    entry["head"] = normalized(entry["head"])
+    if entry["head"] in ("@toacia", "?", "???"):
+      entry["head"] = "???"
+    else:
+      entry["head"] = normalized(entry["head"])
   entry["is_a_lemma"]       = (
     set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
     .isdisjoint(entry["head"])
