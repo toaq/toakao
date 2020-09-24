@@ -178,6 +178,7 @@ def process_entry(i, dict, official_dict):
 
 # === ENTRY POINT === #
 
+t1 = time.time()
 if len(sys.argv) < 3:
   print("Not enough parameters.")
   sys.exit()
@@ -199,23 +200,29 @@ else:
     i = 0
     l = len(new_dict)
     log = ""
-    t = time.time()
+    n_removed_donwvoted = 0
+    t2 = time.time()
     while i < l:
       if (not type(new_dict[i]) is OrderedDict) or ("head" not in new_dict[i]):
         e = new_dict.pop(i)
-        log += "Removing element \"" + str(e) + "\"...\n"
+        log += "Removing anomalous element \"" + str(e) + "\"...\n"
         l -= 1
       elif "score" in new_dict[i] and new_dict[i]["score"] < 0:
-        log += ("Removing downvoted entry \"" + new_dict[i]["head"] \
-              + "\" from user \"" + new_dict[i]["user"] + "\".\n")
+        # log += ("Removing downvoted entry \"" + new_dict[i]["head"] \
+        #       + "\" from user \"" + new_dict[i]["user"] + "\".\n")
         e = new_dict.pop(i)
         l -= 1
+        n_removed_donwvoted += 1
       else:
         process_entry(i, new_dict, official_dict)
         i += 1
+    if n_removed_donwvoted > 0:
+      print("  " + str(n_removed_donwvoted) + " downvoted entr"
+            + ("y has" if n_removed_donwvoted == 1 else "ies have")
+            + " been removed.")
     if log != "":
       print(log)
-    print("Processed in {:.3f} seconds.".format(time.time() - t))
+    print("  Dictionaries processed in {:.3f} seconds.".format(time.time() - t2))
     new_dict_json.truncate()
     new_dict_json.write(
       bytes(
@@ -223,5 +230,7 @@ else:
         encoding = "utf8"
       )
     )
+    print("  Total execution time:     {:.3f} seconds.".format(
+      time.time() - t1))
     
 
