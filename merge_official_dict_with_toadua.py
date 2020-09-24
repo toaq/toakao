@@ -216,13 +216,15 @@ else:
       else:
         process_entry(i, new_dict, official_dict)
         i += 1
+    d = time.time() - t2
+    if log != "":
+      print(log)
     if n_removed_donwvoted > 0:
       print("  " + str(n_removed_donwvoted) + " downvoted entr"
             + ("y has" if n_removed_donwvoted == 1 else "ies have")
             + " been removed.")
-    if log != "":
-      print(log)
-    print("  Dictionaries processed in {:.3f} seconds.".format(time.time() - t2))
+    print("  New dictionary entry count: " + str(len(new_dict)) + ".")
+    print("  Dictionaries processed in {:.3f} seconds.".format(d))
     new_dict_json.truncate()
     new_dict_json.write(
       bytes(
