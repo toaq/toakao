@@ -207,7 +207,8 @@ else:
         e = new_dict.pop(i)
         log += "Removing anomalous element \"" + str(e) + "\"...\n"
         l -= 1
-      elif "score" in new_dict[i] and new_dict[i]["score"] < 0:
+      elif ("score" in new_dict[i] and new_dict[i]["score"] < 0
+            and new_dict[i]["user"] not in ("official", "examples")):
         # log += ("Removing downvoted entry \"" + new_dict[i]["head"] \
         #       + "\" from user \"" + new_dict[i]["user"] + "\".\n")
         e = new_dict.pop(i)
@@ -216,6 +217,21 @@ else:
       else:
         process_entry(i, new_dict, official_dict)
         i += 1
+    # Now checking for possible missing official entries
+    missing_official_entries = set()
+    for x in official_dict:
+      found = False
+      for y in new_dict:
+        if y["head"] == x["toaq"]:
+          found = True
+          break
+      if not found:
+        missing_official_entries.add(x["toaq"])
+    n = len(missing_official_entries)
+    if n > 0:
+      log += ("  " + str(n) + " MISSING OFFICIAL ENTR"
+              + ("Y" if n == 1 else "IES") + ": "
+              + str(missing_official_entries))
     d = time.time() - t2
     if log != "":
       print(log)
