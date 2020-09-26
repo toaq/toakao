@@ -87,7 +87,7 @@ def process_entry(i, dict, official_dict):
   assert("user" in entry)
   entry["author"] = entry.pop("user")
   is_official_entry = entry["author"] in ("official", "examples")
-  def official_key(key, default=None):
+  def official_key(key, default = None):
     return entry_from_head(official_dict, entry["head"]) \
            .get(key, default) if is_official_entry else default
   # OK: id, date
@@ -96,10 +96,11 @@ def process_entry(i, dict, official_dict):
       entry["head"] = "???"
     else:
       entry["head"] = normalized(entry["head"])
-  entry["is_a_lemma"]       = (
+  entry["is_a_lexeme"]       = (
     set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
     .isdisjoint(entry["head"])
     or entry["author"] != "examples"
+    or (entry["head"][0].isLower() and not " " in entry["head"])
   )
   entry["audio"]            = []
   entry["class"]            = official_key("type", "")
@@ -117,7 +118,7 @@ def process_entry(i, dict, official_dict):
       "id": id,
       "author": "official_examples",
       "head": ex["toaq"],
-      "is_a_lemma": False,
+      "is_a_lexeme": False,
       "target_language": "eng",
       "definition": ex["english"],
       "date": entry["date"],
@@ -138,9 +139,9 @@ def process_entry(i, dict, official_dict):
     d = entry["definition"]
     if len(d) >= 7 and d[0] == "(" and d[1] != " " and ") " in d:
       p = d.index(")") + 1
-      entry["example_id"] = d[:p]
-      entry["definition"] = d[p+1:]
-      entry["is_a_lemma"] = False
+      entry["example_id"]   = d[:p]
+      entry["definition"]   = d[p+1:]
+      entry["is_a_lexeme"]  = False
   entry["gloss"]            = official_key("gloss", "")
   entry["keywords"]         = official_key("keywords", "")
   entry["segmentation"]     = ""
@@ -167,7 +168,7 @@ def process_entry(i, dict, official_dict):
   # OK: score, votes
   # Reordering:
   order = (
-    "id", "date", "author", "head", "is_a_lemma", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "examples", "tags", "target_language", "def_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "date", "author", "head", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "examples", "tags", "target_language", "def_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)
