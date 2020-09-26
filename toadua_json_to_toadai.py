@@ -11,6 +11,7 @@ from collections import OrderedDict
 def entrypoint(this_path, toadua_json_path = None):
   if toadua_json_path is None:
     print("Not enough parameters.")
+    return
   t1 = time.time()
   i = len(this_path) - 1
   while i >= 0 and this_path[i] not in "/\\":
