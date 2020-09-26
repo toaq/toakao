@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# In a nutshell, this script takes the official Toaq dictionary JSON and a Toadua API JSON as input and merges them under a new JSON template and outputs the result in a separate file (the input files are not modified).
+# In a nutshell, this script removes official and example entries from a Toadua JSON and change a little its structure by renaming some fields and adding new ones.
 
-# USAGE: $ python merge_official_dict_with_toadua.py dictionary.json toadua_api_snapshot.json
+# USAGE: $ python toadua_json_to_toadai.py toadua_api_snapshot.json
 # OUTPUT: toadaı.json
 
 import sys, json, re, unicodedata, random, time
@@ -65,7 +65,7 @@ def entrypoint(this_path, toadua_json_path = None):
     f(n_removed_officials, "official")
     f(n_removed_examples,  "example")
     print("  New dictionary entry count: " + str(len(toadaı)) + ".")
-    print("  Dictionaries processed in {:.3f} seconds.".format(d))
+    print("  Dictionary processed in {:.3f} seconds.".format(d))
     toadaı_json.truncate()
     toadaı_json.write(
       bytes(
