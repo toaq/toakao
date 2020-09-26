@@ -84,7 +84,6 @@ def iso_date_from_comment_date(d):
 
 def process_entry(i, dict, official_dict):
   entry = dict[i]
-  assert("user" in entry)
   entry["author"] = entry.pop("user")
   is_official_entry = entry["author"] in ("official", "examples")
   def official_key(key, default = None):
@@ -100,7 +99,7 @@ def process_entry(i, dict, official_dict):
     set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
     .isdisjoint(entry["head"])
     or entry["author"] != "examples"
-    or (entry["head"][0].isLower() and not " " in entry["head"])
+    or (entry["head"][0].islower() and not " " in entry["head"])
   )
   entry["audio"]            = []
   entry["class"]            = official_key("type", "")
@@ -204,7 +203,8 @@ else:
     n_removed_donwvoted = 0
     t2 = time.time()
     while i < l:
-      if (not type(new_dict[i]) is OrderedDict) or ("head" not in new_dict[i]):
+      if ((not type(new_dict[i]) is OrderedDict)
+          or ("head" not in new_dict[i]) or ("user" not in new_dict[i])):
         e = new_dict.pop(i)
         log += "Removing anomalous element \"" + str(e) + "\"...\n"
         l -= 1
@@ -212,7 +212,7 @@ else:
             and new_dict[i]["user"] not in ("official", "examples")):
         # log += ("Removing downvoted entry \"" + new_dict[i]["head"] \
         #       + "\" from user \"" + new_dict[i]["user"] + "\".\n")
-        e = new_dict.pop(i)
+        new_dict.pop(i)
         l -= 1
         n_removed_donwvoted += 1
       else:
