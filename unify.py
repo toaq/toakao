@@ -122,6 +122,8 @@ def reformat(dictionary):
   while i < l:
     entry = dictionary[i]
     # Absent from official dict: id, date...
+    if "author" not in entry:
+      entry["author"] = "official"
     if "type" in entry:
       entry["class"] = entry.pop("type")
     if "frame" in entry:
