@@ -177,16 +177,16 @@ def process_entry(i, dict):
   lc = entry.pop("scope")
   entry["target_language"]  = lcs.get(lc, lc)
   assert len(entry["target_language"]) != 2
-  entry["def_type"]         = "informal"
+  entry["definition_type"]         = "informal"
   entry["definition"]       = entry.pop("body")
   if entry["target_language"] == "toa" :
     if len(entry["definition"]) >= 2:
       if entry["definition"][:2] == "⚙ ":
         entry["definition"] = entry["definition"][2:]
-        entry["def_type"]         = "meta"
+        entry["definition_type"]         = "meta"
       elif entry["definition"][:2] == "= ":
         entry["definition"] = entry["definition"][2:]
-        entry["def_type"]         = "formal"
+        entry["definition_type"]         = "formal"
       elif entry["definition"][:2] == "≈ ":
         entry["definition"] = entry["definition"][2:]
   assert len(entry["definition"]) > 0
@@ -216,7 +216,7 @@ def process_entry(i, dict):
   # OK: score, votes
   # Reordering:
   order = (
-    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "def_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)
