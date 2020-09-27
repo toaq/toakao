@@ -6,16 +6,16 @@
 |`toaq`|String|Toaq item being described.|
 |`is_a_lexeme`|Truth value|Indicates whether the Toaq item is a lexeme, as opposed to a transparent composition such as a phrase, a sentence or a whole text.|
 |`example_id`|String|Example ID, such as "QUA.1" or "B0001".|
-|`audio`|String|URL links to any number of audio files.|
+|`audio`|Set of links|URL links to any number of audio files.|
 |`class`|String|Syntactic class (e.g. DA, RU, RAI…), possibly combined with arity and signatures (POQ, CHUQ, TAO…).|
 |`namesake`|Truth value|If true, the word is the name used to refer to its frametype.|
 |`frame`|String|Signature for behavior in serial predicates ; this is NOT a type signature, so there’s no more than one subordinating slot per signature, e.g. ``c 0`` and not ``0 0`` for the predicate «ca».|
 |`distribution`|String|Distribution signature : list of letter codes. D = distributive, C = collective.|
 |`generics`|String|Generics handling signature : list of letter codes. K = kind slot, S = stage level, I = individual level.|
 |`noun_classes`|String|Noun class signature : list of letter codes. A = animate, I = inanimate, P = platonic/abstract/intensional, X = any.|
-|`slot_tags`|String|Ordered list of tags or semantic fields for each argument slot.|
-|`tags`|String|Semantic fields or tags for the current vocabulary item as a whole.|
-|`examples`|String|Any number of links to entries whose head is an example sentence illustrating the vocabulary item at hand.|
+|`slot_tags`|Sequence of strings|Ordered list of tags or semantic fields for each argument slot.|
+|`tags`|Set of strings|Semantic fields or tags for the current vocabulary item as a whole.|
+|`examples`|Set of links|Any number of links to entries whose head is an example sentence illustrating the vocabulary item at hand.|
 |`target_language`|String|Three letter ISO code for the language used for the definition, the glosses, the keywords and the notes.|
 |`definition_type`|String|Type of the definition : `meta`, `informal`, or `formal`. Formal definitions are strictly substitutional and have full definitional force (strict semantic equivalence), e.g. « we = you and me and possibly the others » ; Informal definitions are also substitutional but not are not semantically strictly equivalent, and rather focus on being shorter and easier to understand than formal definitions. Meta definitions are not substitutional, but external descriptions of the meaning of the vocabulary item, e.g. «’we’ is a pronoun referring to the speaker and the addressee taken together, possibly with the addition of related third parties».|
 |`definition`|String|Definition for the Toaq word in the target language.|
