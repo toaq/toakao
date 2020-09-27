@@ -157,14 +157,14 @@ def process_entry(i, dict):
     entry["toaq"] = "???"
   else:
     entry["toaq"] = normalized(entry["toaq"])
-  entry["is_a_lexeme"]       = (
+  entry["is_a_lexeme"]      = (
     set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
     .isdisjoint(entry["toaq"])
     or (entry["toaq"][0].islower() and not " " in entry["toaq"])
   )
   entry["audio"]            = []
   entry["class"]            = ""
-  entry["serial_signature"] = ""
+  entry["frame"]            = ""
   entry["distribution"]     = ""
   entry["generics"]         = ""
   entry["noun_classes"]     = ""
@@ -177,7 +177,7 @@ def process_entry(i, dict):
   lc = entry.pop("scope")
   entry["target_language"]  = lcs.get(lc, lc)
   assert len(entry["target_language"]) != 2
-  entry["definition_type"]         = "informal"
+  entry["definition_type"]  = "informal"
   entry["definition"]       = entry.pop("body")
   if entry["target_language"] == "toa" :
     if len(entry["definition"]) >= 2:
@@ -216,7 +216,7 @@ def process_entry(i, dict):
   # OK: score, votes
   # Reordering:
   order = (
-    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)

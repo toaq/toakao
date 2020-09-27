@@ -126,11 +126,11 @@ def reformat(dictionary):
       entry["author"] = "official"
     if "type" in entry:
       entry["class"] = entry.pop("type")
-    if "frame" in entry:
-      entry["serial_signature"]   = entry.pop("frame")
+    # if "frame" in entry:
+    #   entry["serial_signature"]   = entry.pop("frame")
     if "fields" in entry:
-      entry["tags"]   = entry.pop("fields")
-    entry["is_a_lexeme"]       = (
+      entry["tags"] = entry.pop("fields")
+    entry["is_a_lexeme"]      = (
       set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
       .isdisjoint(entry["toaq"])
       or (entry["toaq"][0].islower() and not " " in entry["toaq"])
@@ -142,7 +142,7 @@ def reformat(dictionary):
         "Entry: " + entry["toaq"] + "\n" + str(entry))
     assert len(entry["definition"]) > 0
     entry["target_language"]  = "eng"
-    entry["definition_type"]         = "informal"
+    entry["definition_type"]  = "informal"
     entry["audio"]            = []
     entry["generics"]         = ""
     entry["noun_classes"]     = ""
@@ -157,7 +157,7 @@ def reformat(dictionary):
     entry["hyponyms"]         = []
     # Reordering:
     order = (
-      "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "short", "namesake", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+      "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
     )
     # assert(all(map(lambda key: key in order, list(entry.keys()))))
     diff = set(entry.keys()) - set(order)
