@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# In a nutshell, this script takes the official Toaq dictionary JSON and a Toadua API JSON as input and merges them under a new JSON template and outputs the result in a separate file (the input files are not modified).
+# In a nutshell, this script takes the unofficial toadaı.json dictionary as input, then download the official dictionary and the example sentence spreadsheet, then merges them under a new JSON template and outputs the result in a separate file `toatuq.json` (the input files are not modified).
 
-# USAGE: $ python merge_official_dict_with_toadua.py dictionary.json toadua_api_snapshot.json
-# OUTPUT: toadaı.json
+# USAGE: $ python unify.py
+# OUTPUT: toatuq.json
 
 import sys, io, requests, json, csv, unicodedata, random, time, datetime
 from collections import OrderedDict
