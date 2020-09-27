@@ -216,7 +216,7 @@ def process_entry(i, dict):
   # OK: score, votes
   # Reordering:
   order = (
-    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "examples", "tags", "target_language", "def_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "serial_signature", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "def_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)
