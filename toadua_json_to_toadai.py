@@ -3,7 +3,7 @@
 # In a nutshell, this script removes official and example entries from a Toadua JSON and change a little its structure by renaming some fields and adding new ones.
 
 # USAGE: $ python toadua_json_to_toadai.py toadua_api_snapshot.json
-# OUTPUT: toadaı.json
+# OUTPUT: toadai-0.json
 
 import sys, json, re, unicodedata, random, time
 from collections import OrderedDict
@@ -17,7 +17,7 @@ def entrypoint(this_path, toadua_json_path = None):
   while i >= 0 and this_path[i] not in "/\\":
      i -= 1
   this_path = this_path[: i + 1]
-  toadaı_path = this_path + "toadai.json"
+  toadaı_path = this_path + "toadai-0.json"
   toadua_extra_path = this_path + "feedback_on_imported_entries.json"
 
   with open(toadua_json_path,  "r", encoding="utf8") as toadua_json, \
