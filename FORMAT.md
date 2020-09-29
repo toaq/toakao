@@ -1,8 +1,9 @@
 |Field|Type|Purpose|
 |---|---|---|
 |`id`|String|Unique identifier.|
-|`date`|String|ISO date of creation of the dictionary entry.|
-|`author`|String|Author of the dictionary entry.|
+|`official`|Truth value|Whether the entry is official or not.|
+|`date`|String|(Optional) ISO date of creation of the dictionary entry.|
+|`author`|String|(Optional) Author of the dictionary entry.|
 |`toaq`|String|Toaq item being described.|
 |`is_a_lexeme`|Truth value|Indicates whether the Toaq item is a lexeme, as opposed to a transparent composition such as a phrase, a sentence or a whole text.|
 |`example_id`|String|Example ID, such as "QUA.1" or "B0001".|
@@ -30,8 +31,8 @@
 |`antonyms`|Set of links|Vocabulary items with a meaning opposed to that of this one.|
 |`hypernyms`|Set of links|Vocabulary items with a broader meaning encompassing the meaning of this item.|
 |`hyponyms`|Set of links|Vocabulary items with a narrower meaning encompassed in the meaning of this item.|
-|`comments`|Sequence of associative arrays|Components follow the structure [`date`, `user`, `content`]. This is a list of dated comments made by Toaq users.|
-|`score`|Integer|Total upvotes minus total downvotes.|
-|`votes`|Sequence of associative arrays|Components follow the structure [`user`, `vote`]. List of votes on the dictionary entry. Should be hidden from public view.|
+|`comments`|(Optional) Sequence of associative arrays|Components follow the structure [`date`, `user`, `content`]. This is a list of dated comments made by Toaq users.|
+|`score`|Integer|(Optional) Total upvotes minus total downvotes.|
+|`votes`|(Optional) Sequence of associative arrays|Components follow the structure [`user`, `vote`]. List of votes on the dictionary entry. Should be hidden from public view.|
 
 
