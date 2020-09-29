@@ -150,6 +150,7 @@ def iso_date_from_comment_date(d):
 
 def process_entry(i, dict):
   entry = dict[i]
+  entry["official"] = False
   entry["author"] = entry.pop("user")
   entry["toaq"]   = entry.pop("head")
   # OK: id, date
@@ -216,7 +217,7 @@ def process_entry(i, dict):
   # OK: score, votes
   # Reordering:
   order = (
-    "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)

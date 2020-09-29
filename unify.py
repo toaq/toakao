@@ -39,7 +39,10 @@ def entrypoint(this_path, toadaı_json_path = None):
     response = requests.get('https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=574044693')
     assert response.status_code == 200, 'Wrong status code'
     csv_b = response.content
-    
+    response = requests.get('https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1905610286')
+    assert response.status_code == 200, 'Wrong status code'
+    csv_o = response.content
+  
   except:
     print(
       "Unexpected error upon attempting to download the spreadsheet:",
@@ -58,6 +61,12 @@ def entrypoint(this_path, toadaı_json_path = None):
   for row in csv_reader:
     b_sentences.append(row)
   
+  csv_reader = csv.reader(io.StringIO(csv_o.decode("UTF8"), newline = None),
+                          delimiter=',')
+  o_sentences = []
+  for row in csv_reader:
+    o_sentences.append(row)
+  
   with open(toadaı_path, "r", encoding="utf8") as toadaı_json, \
        open(toatuq_path, "wb")                 as toatuq_json:
     reformat(official_dict)
@@ -65,8 +74,9 @@ def entrypoint(this_path, toadaı_json_path = None):
     toatuq += json.loads(toadaı_json.read(),
                          object_pairs_hook=OrderedDict)
     # ⌵ Importing example sentences, ignoring the two first rows.
-    toatuq += json_from_sentences(a_sentences[2:], toatuq)
-    toatuq += json_from_sentences(b_sentences[2:], toatuq)
+    toatuq += json_from_sentences(a_sentences[2:], toatuq, False)
+    toatuq += json_from_sentences(b_sentences[2:], toatuq, False)
+    toatuq += json_from_sentences(o_sentences[2:], toatuq, True)
     print("  New dictionary entry count: " + str(len(toatuq)) + ".")
     toatuq_json.truncate()
     toatuq_json.write(
@@ -78,8 +88,8 @@ def entrypoint(this_path, toadaı_json_path = None):
     print("  Total execution time:     {:.3f} seconds.".format(
       time.time() - t1))
 
-def json_from_sentences(sentences, dictionary):
-  date = datetime.datetime.utcnow().isoformat()
+def json_from_sentences(sentences, dictionary, is_official):
+  # date = datetime.datetime.utcnow().isoformat()
   json = []
   for row in sentences:
     if len(row) < 3:
@@ -88,13 +98,14 @@ def json_from_sentences(sentences, dictionary):
       id = new_unique_id(dictionary)
       e = {
         "id": id,
+        "official": is_official,
         "author": "examples",
         "toaq": row[1],
         "is_a_lexeme": False,
         "example_id": row[0],
         "target_language": "eng",
         "definition": row[2],
-        "date": date,
+        # "date": date,
         "tags": []
       }
       json.append(e)
@@ -121,9 +132,10 @@ def reformat(dictionary):
   l = len(dictionary)
   while i < l:
     entry = dictionary[i]
+    entry["official"] = True
     # Absent from official dict: id, date...
     if "author" not in entry:
-      entry["author"] = "official"
+      entry["author"] = "Hoemai"
     if "type" in entry:
       entry["class"] = entry.pop("type")
     # if "frame" in entry:
@@ -157,7 +169,7 @@ def reformat(dictionary):
     entry["hyponyms"]         = []
     # Reordering:
     order = (
-      "id", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+      "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
     )
     # assert(all(map(lambda key: key in order, list(entry.keys()))))
     diff = set(entry.keys()) - set(order)
