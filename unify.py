@@ -29,43 +29,22 @@ def entrypoint(this_path, toadaı_json_path = None):
       "Unexpected error upon attempting to download the official dictionary:",
       sys.exc_info()[0])
     sys.exit()
-  
   official_dict = json.loads(response.content)
 
   try:
-    response = requests.get('https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1395088029')
-    assert response.status_code == 200, 'Wrong status code'
-    csv_a = response.content
-    response = requests.get('https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=574044693')
-    assert response.status_code == 200, 'Wrong status code'
-    csv_b = response.content
-    response = requests.get('https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1905610286')
-    assert response.status_code == 200, 'Wrong status code'
-    csv_o = response.content
-  
+    a_sentences = table_from_csv_url(
+      'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1395088029')
+    b_sentences = table_from_csv_url(
+      'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=574044693')
+    o_sentences = table_from_csv_url(
+      'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1905610286')
+    countries = table_from_csv_url(
+      'https://docs.google.com/spreadsheet/ccc?key=1P9p1D38p364JSiNqLMGwY3zDRPQ_f6Yob_OL-uku28Q&output=csv&gid=637793855')
   except:
     print(
       "Unexpected error upon attempting to download the spreadsheet:",
       sys.exc_info()[0])
     sys.exit()
-  
-  csv_reader = csv.reader(io.StringIO(csv_a.decode("UTF8"), newline = None),
-                          delimiter=',')
-  a_sentences = []
-  for row in csv_reader:
-    a_sentences.append(row)
-  
-  csv_reader = csv.reader(io.StringIO(csv_b.decode("UTF8"), newline = None),
-                          delimiter=',')
-  b_sentences = []
-  for row in csv_reader:
-    b_sentences.append(row)
-  
-  csv_reader = csv.reader(io.StringIO(csv_o.decode("UTF8"), newline = None),
-                          delimiter=',')
-  o_sentences = []
-  for row in csv_reader:
-    o_sentences.append(row)
   
   with open(toadaı_path, "r", encoding="utf8") as toadaı_json, \
        open(toatuq_path, "wb")                 as toatuq_json:
@@ -74,9 +53,11 @@ def entrypoint(this_path, toadaı_json_path = None):
     toatuq += json.loads(toadaı_json.read(),
                          object_pairs_hook=OrderedDict)
     # ⌵ Importing example sentences, ignoring the two first rows.
-    toatuq += json_from_sentences(a_sentences[2:], toatuq, False)
-    toatuq += json_from_sentences(b_sentences[2:], toatuq, False)
-    toatuq += json_from_sentences(o_sentences[2:], toatuq, True)
+    toatuq += dicts_from_sentences(a_sentences[2:], toatuq, False)
+    toatuq += dicts_from_sentences(b_sentences[2:], toatuq, False)
+    toatuq += dicts_from_sentences(o_sentences[2:], toatuq, True)
+    # ⌵ Importing country names, ignoring the two first rows.
+    toatuq += dicts_from_countries(countries[2:], toatuq)
     print("  New dictionary entry count: " + str(len(toatuq)) + ".")
     toatuq_json.truncate()
     toatuq_json.write(
@@ -88,12 +69,12 @@ def entrypoint(this_path, toadaı_json_path = None):
     print("  Total execution time:     {:.3f} seconds.".format(
       time.time() - t1))
 
-def json_from_sentences(sentences, dictionary, is_official):
+def dicts_from_sentences(sentences, dictionary, is_official):
   # date = datetime.datetime.utcnow().isoformat()
-  json = []
+  ds = []
   for row in sentences:
     if len(row) < 3:
-      return json
+      return ds
     if row[1] != "":
       id = new_unique_id(dictionary)
       e = {
@@ -108,8 +89,19 @@ def json_from_sentences(sentences, dictionary, is_official):
         # "date": date,
         "tags": []
       }
-      json.append(e)
-  return json
+      ds.append(e)
+  return ds
+
+def dicts_from_countries(countries, dictionary):
+  ds = []
+  for row in countries:
+    if len(row) < 4:
+      return ds
+    if row[1] != "":
+      # /!\ TODO: TO BE IMPLEMENTED /!\
+      # TODO: rm [xx] from row[0].
+      pass
+  return ds
 
 def random_id():
   cs = "0123456789-_abcdefghijklmnopqrstuvwxyzABCDERFGIJKLMNOPQRSTUVWXYZ"
@@ -180,6 +172,15 @@ def reformat(dictionary):
     )
     i += 1
 
+def table_from_csv_url(url):
+  response = requests.get(url)
+  assert response.status_code == 200, 'Wrong status code'
+  csv = io.StringIO(response.content.decode("UTF8"), newline = None)
+  csv_reader = csv.reader(csv, delimiter=',')
+  table = []
+  for row in csv_reader:
+    table.append(row)
+  return table
 
 # === ENTRY POINT === #
 
