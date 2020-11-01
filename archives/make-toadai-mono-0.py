@@ -49,8 +49,8 @@ def proceed(toadai_path, output_dir):
   official_dict_url = (
     "https://raw.githubusercontent.com/toaq/dictionary/master/dictionary.json"
   )
-  official_words = set(e["toaq"] for e in dicts_from_json_url(official_dict_url))
-  #official_words = set()
+  official_words = set(
+    e["toaq"] for e in dicts_from_json_url(official_dict_url))
   orphs = []
   dels = []
   defs = []
@@ -88,11 +88,9 @@ def proceed(toadai_path, output_dir):
         j = dict_index_from_key_value(ds, "id", target_id)
         if j == None:
           j = dict_index_from_key_value(words, "content", [de["toaq"]])
-          #l = list(filter(lambda e: de["toaq"] in e["content"], words))
           if j == None:
             print("MERGE ACTION FAILED: unable to find ID "
                   + f"\"{target_id}\".")
-            #print(str(words))
             elem = None
           else:
             elem = ds[words[j]["index"]]
