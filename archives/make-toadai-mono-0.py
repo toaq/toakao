@@ -180,6 +180,11 @@ def proceed(toadai_path, output_dir):
       })
     ds[i] = reorder(de)
     i += 1
+  print(f"{len(orphs)} orphaned entries;")
+  print(f"{len(dels)} deleted entries;")
+  print(f"{len(odcs)} official definition competitors;")
+  print(f"{len(toods)} translations of official definitions;")
+  print(f"{len(ds)} remaining entries in Toadaı Mono.")
   save_dicts_as_csv_file(
     orphs, ";", output_dir + "toadai-0-orphane-entries.csv")
   save_dicts_as_csv_file(

@@ -7,19 +7,16 @@
 
 # ==================================================================== #
 
-import sys, io, requests, json, csv, unicodedata, random, time, datetime
+import sys, os, io, requests, json, csv, unicodedata, random, time, datetime
 from collections import OrderedDict
 from routines import *
 
 def entrypoint(this_path, toadaı_json_path = None):
   t1 = time.time()
-  i = len(this_path) - 1
-  while i >= 0 and this_path[i] not in "/\\":
-     i -= 1
-  this_path = this_path[: i + 1]
+  this_dir = os.path.dirname(os.path.abspath(this_path)) + os.path.sep
   if toadaı_json_path is None:
-    toadaı_path = this_path + "toadai.json"
-  toatuq_path = this_path + "toatuq.json"
+    toadaı_path = this_dir + "toadai.json"
+  toatuq_path = this_dir + "toatuq.json"
   
   try:
     response = requests.get(
