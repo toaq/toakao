@@ -39,7 +39,7 @@ def entrypoint(this_path, toadai_path = None):
   if toadai_path is None:
     toadai_path = this_dir + "toadai-0.json"
   proceed(toadai_path, this_dir)
-  print("  Total execution time:     {:.3f} seconds.".format(
+  print("Total execution time:     {:.3f} seconds.".format(
     time.time() - t1))
 
 def proceed(toadai_path, output_dir):
@@ -80,10 +80,44 @@ def proceed(toadai_path, output_dir):
     elif action == "DELETE":
       dels.append(ds.pop(ds.index(de)))
       continue
-    elif (isinstance(action, str) and len(action) >= 7
-          and action[:7] == "RENAME:"):
-      de["toaq"] = action[7:]
-    assert "translations" not in ds[i]
+    elif isinstance(action, str):
+      if (len(action) >= 7 and action[:7] == "RENAME:"):
+        de["toaq"] = action[7:]
+      elif (len(action) >= 6 and action[:6] == "MERGE:"):
+        target_id = action[6:]
+        j = dict_index_from_key_value(ds, "id", target_id)
+        if j == None:
+          j = dict_index_from_key_value(words, "content", [de["toaq"]])
+          #l = list(filter(lambda e: de["toaq"] in e["content"], words))
+          if j == None:
+            print("MERGE ACTION FAILED: unable to find ID "
+                  + f"\"{target_id}\".")
+            #print(str(words))
+            elem = None
+          else:
+            elem = ds[words[j]["index"]]
+            print(f"MERGE ACTION: redirected to #{elem['id']}.")
+        else:
+          elem = ds[j]
+        if elem != None:
+          lang = elem["toaq"]
+          lang = lang if isinstance(lang, str) else lang[0]
+          assert lang == de["toaq"], (
+            "MERGE ACTION ERROR: language mismatch between"
+            + f" #{elem['id']} and #{de['id']}: {elem['toaq']} vs"
+            + f" {de['toaq']}."
+          )
+          addition = "\n\u001F" + de["definition"]
+          if "definition" in elem:
+            elem["definition"] += addition
+          elif "translations" in elem:
+            k = dict_index_from_key_value(
+              elem["translations"], "language", de["target_language"])
+            elem["translations"][k]["definition"] += addition
+          else:
+            raise Exception(f"{elem['id']} has no definition field!")
+          ds.pop(ds.index(de))
+          continue
     # MERGING SYNONYMS AND DEFINITIONS OF A SAME WORD IN DIFFERENT LANGUAGES
     de["toaq"] = [de["toaq"]]
     def f(dl, entry_name):
@@ -119,11 +153,11 @@ def proceed(toadai_path, output_dir):
           ds[i_del] = reformat(ds[i_del])
           if (ds[i]["translations"][0]["language"]
               in set(d["language"] for d in ds[j]["translations"])):
-            print("COMPETING DEFINITION: " + str(ds[i]["id"] + " "
+            print("COMPETING DEFINITION: #" + str(ds[i]["id"] + " "
                   + str(ds[i]["toaq"][0]))
-                  + " " + str(ds[i]["translations"][0]["language"]))
-            print(
-              f"  (competing with {ds[j]['id']} {ds[j]['toaq'][0]})")
+                  + " " + str(ds[i]["translations"][0]["language"])
+                  + f" (competing with #{ds[j]['id']} "
+                  + str(ds[j]['toaq'][0]) + ").")
           ds[i_kept]["translations"] += ds[i_del]["translations"]
           if i_kept > i_del:
             i_kept -= 1
