@@ -37,6 +37,23 @@ def table_gen_from_csv_path(path, delim):
   with open(path, "r", encoding = "utf-8") as f:
     return csv.reader(f, delimiter = delim)
 
+def dicts_from_json_url(url):
+  import requests
+  response = requests.get(url)
+  assert response.status_code == 200, 'Wrong status code'
+  return json.loads(response.content)
+
+def table_from_csv_url(url):
+  import requests
+  response = requests.get(url)
+  assert response.status_code == 200, 'Wrong status code'
+  csv = io.StringIO(response.content.decode("UTF8"), newline = None)
+  csv_reader = csv.reader(csv, delimiter=',')
+  table = []
+  for row in csv_reader:
+    table.append(row)
+  return table
+
 def edit_csv_from_path(path, delim, func, outp = None):
   if outp == None:
     outp = (lambda t: t[0] + "-out" + t[1])(os.path.splitext(path))
@@ -74,7 +91,8 @@ def keys_and_table_from_dict(dicts):
   keys = []
   table = []
   for d in dicts:
-    assert isinstance(d, (dict, OrderedDict))
+    assert isinstance(d, (dict, OrderedDict)), (
+      f"keys_and_table_from_dict(): Wrong element type: {type(d)}")
     for k in d.keys():
       if k not in keys:
         keys.append(k)
@@ -98,5 +116,18 @@ def dict_from_key_value(dictionaries, key, value):
     if isinstance(d, (dict, OrderedDict)) and key in d:
       if d[key] == value:
         return d
+  return None
+
+def dict_index_from_key_value(dictionaries, key, value):
+  i = 0
+  l = len(dictionaries)
+  while i < l:
+    d = dictionaries[i]
+    if isinstance(d, (list, tuple, set, frozenset)):
+      d = dict(d)
+    if isinstance(d, (dict, OrderedDict)) and key in d:
+      if d[key] == value:
+        return i
+    i += 1
   return None
 

@@ -5,8 +5,11 @@
 # USAGE: $ python unify.py
 # OUTPUT: toatuq.json
 
+# ==================================================================== #
+
 import sys, io, requests, json, csv, unicodedata, random, time, datetime
 from collections import OrderedDict
+from routines import *
 
 def entrypoint(this_path, toadaı_json_path = None):
   t1 = time.time()
@@ -172,15 +175,6 @@ def reformat(dictionary):
     )
     i += 1
 
-def table_from_csv_url(url):
-  response = requests.get(url)
-  assert response.status_code == 200, 'Wrong status code'
-  csv = io.StringIO(response.content.decode("UTF8"), newline = None)
-  csv_reader = csv.reader(csv, delimiter=',')
-  table = []
-  for row in csv_reader:
-    table.append(row)
-  return table
 
 # === ENTRY POINT === #
 

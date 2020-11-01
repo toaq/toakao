@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
 
-# In a nutshell, this script removes official and example entries from a Toadua JSON and change a little its structure by renaming some fields and adding new ones.
+# ==================================================================== #
 
-# USAGE: $ python toadua_json_to_toadai.py toadua_api_snapshot.json
-# OUTPUT: toadai-0.json
+'''
+PURPOSE:
+  In a nutshell, this script removes official and example entries from a Toadua JSON and change a little its structure by renaming some fields and adding new ones.
+
+USAGE: $ python toadua_json_to_toadai.py toadua_api_snapshot.json
+OUTPUT: toadai-0.json
+'''
+
+# ==================================================================== #
 
 import sys, os, time, json, re, unicodedata, random
 from collections import OrderedDict
-
-# ==================================================================== #
 
 def import_from_path(name, path):
   import importlib.util
@@ -18,6 +23,8 @@ def import_from_path(name, path):
   return mod
 
 routines = import_from_path("routines", "../routines.py")
+
+# ==================================================================== #
 
 def entrypoint(this_path, toadua_json_path = None):
   if toadua_json_path is None:
