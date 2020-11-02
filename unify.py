@@ -97,7 +97,7 @@ def dicts_from_sentences(sentences, dictionary, is_official):
 
 def dicts_from_countries(countries, dictionary):
   import enum
-  Col = enum.IntEnum("Col", "NAME CULTURE COUNTRY LANGUAGE")
+  #Col = enum.IntEnum("Col", "NAME CULTURE COUNTRY LANGUAGE")
   templates = {
     ("culture", "", "▯ pertains to the culture of {}."),
     ("country", "gūa", "▯ is the country {}."),
@@ -108,9 +108,9 @@ def dicts_from_countries(countries, dictionary):
   for row in countries:
     if len(row) < 2:
       continue
-    culture_word = normalized_r(row[Col.CULTURE])
+    culture_word = normalized_r(row[1])
     if culture_word != "":
-      country_name = format_country_name(row[Col.NAME])
+      country_name = format_country_name(row[0])
       for tag, suffix, template in templates:
         ds.append(entry_from_toaq_and_def(
           culture_word + suffix, "eng", 
@@ -122,7 +122,7 @@ def format_country_name(name):
   original_name = name
   name = name.replace(" → ", " / ")
   name = re.sub("\[[^\]]*\]", "", name)
-  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1 \\3", name)
+  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1\\3", name)
   if original_name != name:
     print(f"format_country_name(): {original_name} --> {name}")
   return name
