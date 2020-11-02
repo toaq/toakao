@@ -28,8 +28,12 @@ routines = import_from_path("routines", "../routines.py")
 
 def entrypoint(this_path, toadua_json_path = None):
   if toadua_json_path is None:
-    print("Not enough parameters.")
-    return
+    p = "200708-last-toadua-dump.json"
+    if os.path.isfile(p):
+      toadua_json_path = p
+    else:
+      print("Not enough parameters.")
+      return
   t1 = time.time()
   this_dir = os.path.dirname(os.path.abspath(this_path)) + os.path.sep
   toadaı = routines.dicts_from_json_path(toadua_json_path)
@@ -188,7 +192,7 @@ def process_entry(i, dict):
   entry["definition_type"]  = "informal"
   entry["definition"]       = entry.pop("body")
   if entry["target_language"] == "eng":
-    entry["definition"] = entry["definition"].replace("◌", "___")
+    entry["definition"] = entry["definition"].replace("◌", "▯")
   elif entry["target_language"] == "toa":
     if len(entry["definition"]) >= 2:
       if entry["definition"][:2] == "⚙ ":
