@@ -76,9 +76,8 @@ def dicts_from_sentences(sentences, dictionary, is_official):
     if len(row) < 3:
       return ds
     if row[1] != "":
-      id = new_unique_id(dictionary)
       e = {
-        "id": id,
+        "id": new_unique_id(dictionary),
         "official": is_official,
         "author": "examples",
         "toaq": row[1],
@@ -93,15 +92,52 @@ def dicts_from_sentences(sentences, dictionary, is_official):
   return ds
 
 def dicts_from_countries(countries, dictionary):
+  import enum
+  Col = enum.Enum("Col", "NAME CULTURE COUNTRY LANGUAGE")
+  templates = {
+    ("culture", "", "▯ pertains to the culture of {}."),
+    ("country", "gūa", "▯ is the country {}."),
+    ("language", "zū", "▯ is (one of) the language(s) spoken in {}."),
+    ("citizenship", "pōq", "▯ is a citizen, inhabitant or person originating from {}.")
+  }
   ds = []
   for row in countries:
-    if len(row) < 4:
-      return ds
-    if row[1] != "":
-      # /!\ TODO: TO BE IMPLEMENTED /!\
-      # TODO: rm [xx] from row[0].
-      pass
+    if len(row) < 2:
+      continue
+    culture_word = row[Col.CULTURE]
+    if culture_word != "":
+      country_name = format_country_name(row[Col.NAME]))
+      for tag, suffix, template in templates:
+        ds.append(entry_from_toaq_and_def(
+          culture_word + suffix,
+          "eng",
+          template.format(country_name),
+          [tag])
   return ds
+
+def format_country_name(name):
+  import re
+  original_name = name
+  name = name.replace(" → ", " / ")
+  name = re.sub("\[^\]]*[\]", "")
+  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1 \\3")
+  print(f"format_country_name(): {original_name} --> {name}")
+  return name
+
+def entry_from_toaq_and_def(toaq, definition, language, tags):
+  return {
+    "id": new_unique_id(dictionary),
+    "official": False,
+    "author": "countries",
+    "toaq": toaq,
+    "is_a_lexeme": True,
+    "translations": {
+      "language": language,
+      "definition_type": "informal"
+      "definition": definition
+    },
+    "tags": tags
+  }
 
 def random_id():
   cs = "0123456789-_abcdefghijklmnopqrstuvwxyzABCDERFGIJKLMNOPQRSTUVWXYZ"
