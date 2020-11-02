@@ -122,7 +122,12 @@ def format_country_name(name):
   original_name = name
   name = name.replace(" → ", " / ")
   name = re.sub("\[[^\]]*\]", "", name)
-  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1\\3", name)
+  l = re.split("( [/–] )", name)
+  i = 0
+  while i < len(l):
+    l[i] = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1\\3", l[i])
+    i += 2
+  name = "".join(l)
   if original_name != name:
     print(f"format_country_name(): {original_name} --> {name}")
   return name
