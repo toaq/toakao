@@ -126,6 +126,9 @@ def format_country_name(name):
   i = 0
   while i < len(l):
     l[i] = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1\\3", l[i])
+    if i >= 2:
+      if l[i] == l[i - 2]:
+        l[i - 2] = l[i - 1] = ""
     i += 2
   name = "".join(l)
   if original_name != name:
