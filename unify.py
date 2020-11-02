@@ -20,7 +20,6 @@ def entrypoint(this_path, toadaı_json_path = None):
   if toadaı_json_path is None:
     toadaı_path = this_dir + "toadai.json"
   toatuq_path = this_dir + "toatuq.json"
-  
   try:
     response = requests.get(
         "https://raw.githubusercontent.com/toaq/dictionary/master/"
@@ -48,33 +47,23 @@ def entrypoint(this_path, toadaı_json_path = None):
       "Unexpected error upon attempting to download the spreadsheet:",
       sys.exc_info()[0])
     sys.exit()
-  
-  with open(toadaı_path, "r", encoding="utf8") as toadaı_json, \
-       open(toatuq_path, "wb")                 as toatuq_json:
-    toatuq = json.loads(toadaı_json.read(),
-                         object_pairs_hook=OrderedDict)
-    reformat(official_dict, toatuq)
-    toatuq += official_dict
-    # ⌵ Importing example sentences, ignoring the two first rows.
-    append_if_unique(toatuq, dicts_from_sentences(
-      a_sentences[2:], toatuq, False))
-    append_if_unique(toatuq, dicts_from_sentences(
-      b_sentences[2:], toatuq, False))
-    append_if_unique(toatuq, dicts_from_sentences(
-      o_sentences[2:], toatuq, True))
-    # ⌵ Importing country names, ignoring the two first rows.
-    append_if_unique(toatuq, dicts_from_countries(
-      countries[2:], toatuq))
-    print("  New dictionary entry count: " + str(len(toatuq)) + ".")
-    toatuq_json.truncate()
-    toatuq_json.write(
-      bytes(
-        json.dumps(toatuq, indent = 2, ensure_ascii = False),
-        encoding = "utf8"
-      )
-    )
-    print("  Total execution time:     {:.3f} seconds.".format(
-      time.time() - t1))
+  toatuq = dicts_from_json_path(toadaı_path)
+  reformat(official_dict, toatuq)
+  toatuq += official_dict
+  # ⌵ Importing example sentences, ignoring the two first rows.
+  append_if_unique(toatuq, dicts_from_sentences(
+    a_sentences[2:], toatuq, False))
+  append_if_unique(toatuq, dicts_from_sentences(
+    b_sentences[2:], toatuq, False))
+  append_if_unique(toatuq, dicts_from_sentences(
+    o_sentences[2:], toatuq, True))
+  # ⌵ Importing country names, ignoring the two first rows.
+  append_if_unique(toatuq, dicts_from_countries(
+    countries[2:], toatuq))
+  save_as_json_file(toatuq, toatuq_path)
+  print(f"Toatuq entry count: {len(toatuq)}.")
+  print("Total execution time:     {:.3f} seconds.".format(
+    time.time() - t1))
 
 flatten = lambda table: [item for row in table for item in row]
 
