@@ -134,7 +134,7 @@ def format_country_name(name):
     i += 2
   name = "".join(l)
   if original_name != name:
-    print(f"format_country_name(): {original_name} --> {name}")
+    print(f"format_country_name(): {original_name} -> {name}")
   return name
 
 def entry_from_toaq_and_def(
