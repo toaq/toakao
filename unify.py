@@ -79,16 +79,17 @@ def dicts_from_sentences(sentences, name, is_official):
   for row in sentences:
     if len(row) < 3:
       return ds
-    if row[1] != "":
+    example_id, toaq, definition = row[:3]
+    if row[1] != "" and row[2] != "":
       e = {
-        "id": name + ":" + str(sentences.index(row) + 1),
+        "id": name + ":" + example_id,
         "official": is_official,
         "author": "examples",
-        "toaq": [normalized_r(row[1])],
+        "toaq": [normalized_r(toaq)],
         "is_a_lexeme": False,
-        "example_id": row[0],
+        "example_id": example_id,
         "target_language": "eng",
-        "definition": row[2],
+        "definition": definition,
         # "date": date,
         "tags": []
       }
