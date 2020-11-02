@@ -77,17 +77,12 @@ def entrypoint(this_path, toadaı_json_path = None):
       time.time() - t1))
 
 flatten = lambda table: [item for row in table for item in row]
-def flatten2(l):
-  for e in l:
-    if isinstance(e, (list, tuple)):
-      for x in e:
-        l.append(x)
-    l.pop(l.index(e))
 
 def append_if_unique(d1, d2):
   s = set(tuple(flatten([e["toaq"] for e in d2])))
   assert_words_uniqueness(s, d1)
-  return d2
+  d1.extend(d2)
+  return d1
 
 def dicts_from_sentences(sentences, dictionary, is_official):
   # date = datetime.datetime.utcnow().isoformat()
@@ -277,7 +272,6 @@ def assert_words_uniqueness(new_words, toatuq):
     set(tuple(flatten([e["toaq"] for e in toatuq]))))
   if intersection != set():
     print(f"COMPETING DEFINITION(S) FOUND FOR: {intersection}")
-    l = list(new_words)[:min(len(new_words), 8)]
 
 def normalized_r(s):
   r = normalized(s)
