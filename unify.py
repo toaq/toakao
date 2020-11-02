@@ -7,9 +7,12 @@
 
 # ==================================================================== #
 
-import sys, os, io, requests, json, csv, unicodedata, random, time, datetime
+import sys, os, io, requests, json, csv, re, unicodedata, random, time
+import datetime
 from collections import OrderedDict
 from routines import *
+
+EXAMPLES_ARE_LINKS = True
 
 def entrypoint(this_path, toadaı_json_path = None):
   t1 = time.time()
@@ -48,16 +51,20 @@ def entrypoint(this_path, toadaı_json_path = None):
   
   with open(toadaı_path, "r", encoding="utf8") as toadaı_json, \
        open(toatuq_path, "wb")                 as toatuq_json:
-    reformat(official_dict)
-    toatuq = official_dict
-    toatuq += json.loads(toadaı_json.read(),
+    toatuq = json.loads(toadaı_json.read(),
                          object_pairs_hook=OrderedDict)
+    reformat(official_dict, toatuq)
+    toatuq += official_dict
     # ⌵ Importing example sentences, ignoring the two first rows.
-    toatuq += dicts_from_sentences(a_sentences[2:], toatuq, False)
-    toatuq += dicts_from_sentences(b_sentences[2:], toatuq, False)
-    toatuq += dicts_from_sentences(o_sentences[2:], toatuq, True)
+    append_if_unique(toatuq, dicts_from_sentences(
+      a_sentences[2:], toatuq, False))
+    append_if_unique(toatuq, dicts_from_sentences(
+      b_sentences[2:], toatuq, False))
+    append_if_unique(toatuq, dicts_from_sentences(
+      o_sentences[2:], toatuq, True))
     # ⌵ Importing country names, ignoring the two first rows.
-    toatuq += dicts_from_countries(countries[2:], toatuq)
+    append_if_unique(toatuq, dicts_from_countries(
+      countries[2:], toatuq))
     print("  New dictionary entry count: " + str(len(toatuq)) + ".")
     toatuq_json.truncate()
     toatuq_json.write(
@@ -68,6 +75,19 @@ def entrypoint(this_path, toadaı_json_path = None):
     )
     print("  Total execution time:     {:.3f} seconds.".format(
       time.time() - t1))
+
+flatten = lambda table: [item for row in table for item in row]
+def flatten2(l):
+  for e in l:
+    if isinstance(e, (list, tuple)):
+      for x in e:
+        l.append(x)
+    l.pop(l.index(e))
+
+def append_if_unique(d1, d2):
+  s = set(tuple(flatten([e["toaq"] for e in d2])))
+  assert_words_uniqueness(s, d1)
+  return d2
 
 def dicts_from_sentences(sentences, dictionary, is_official):
   # date = datetime.datetime.utcnow().isoformat()
@@ -80,7 +100,7 @@ def dicts_from_sentences(sentences, dictionary, is_official):
         "id": new_unique_id(dictionary),
         "official": is_official,
         "author": "examples",
-        "toaq": row[1],
+        "toaq": [normalized_r(row[1])],
         "is_a_lexeme": False,
         "example_id": row[0],
         "target_language": "eng",
@@ -93,7 +113,7 @@ def dicts_from_sentences(sentences, dictionary, is_official):
 
 def dicts_from_countries(countries, dictionary):
   import enum
-  Col = enum.Enum("Col", "NAME CULTURE COUNTRY LANGUAGE")
+  Col = enum.IntEnum("Col", "NAME CULTURE COUNTRY LANGUAGE")
   templates = {
     ("culture", "", "▯ pertains to the culture of {}."),
     ("country", "gūa", "▯ is the country {}."),
@@ -104,38 +124,37 @@ def dicts_from_countries(countries, dictionary):
   for row in countries:
     if len(row) < 2:
       continue
-    culture_word = row[Col.CULTURE]
+    culture_word = normalized_r(row[Col.CULTURE])
     if culture_word != "":
-      country_name = format_country_name(row[Col.NAME]))
+      country_name = format_country_name(row[Col.NAME])
       for tag, suffix, template in templates:
         ds.append(entry_from_toaq_and_def(
-          culture_word + suffix,
-          "eng",
+          culture_word + suffix, "eng", 
           template.format(country_name),
-          [tag])
+          [tag], dictionary))
   return ds
 
 def format_country_name(name):
-  import re
   original_name = name
   name = name.replace(" → ", " / ")
-  name = re.sub("\[^\]]*[\]", "")
-  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1 \\3")
-  print(f"format_country_name(): {original_name} --> {name}")
+  name = re.sub("\[[^\]]*\]", "", name)
+  name = re.sub("([^,]+), ([^–]+)( – .+)*", "\\2 \\1 \\3", name)
+  if original_name != name:
+    print(f"format_country_name(): {original_name} --> {name}")
   return name
 
-def entry_from_toaq_and_def(toaq, definition, language, tags):
+def entry_from_toaq_and_def(toaq, definition, language, tags, dict):
   return {
-    "id": new_unique_id(dictionary),
+    "id": new_unique_id(dict),
     "official": False,
     "author": "countries",
-    "toaq": toaq,
+    "toaq": [normalized_r(toaq)],
     "is_a_lexeme": True,
-    "translations": {
+    "translations": [{
       "language": language,
-      "definition_type": "informal"
+      "definition_type": "informal",
       "definition": definition
-    },
+    }],
     "tags": tags
   }
 
@@ -155,49 +174,70 @@ def new_unique_id(dictionary):
           continue
     return id
 
-def reformat(dictionary):
+def reformat(dictionary, toatuq):
   i = 0
   l = len(dictionary)
   while i < l:
     entry = dictionary[i]
     entry["official"] = True
     # Absent from official dict: id, date...
-    if "author" not in entry:
-      entry["author"] = "Hoemai"
+    def check_key(key, default):
+      if key not in entry:
+        entry[key] = default
+    check_key("author", "Hoemai")
+    if isinstance(entry["toaq"], str):
+      entry["toaq"] = [normalized_r(entry["toaq"])]
+    elif isinstance(entry["toaq"], (list, set)):
+      entry["toaq"] = [normalized_r(e["toaq"]) for e in entry["toaq"]]
+    else:
+      raise Exception(
+        f"Unexpected type for `toaq` key: {type(entry['toaq'])}")
+    assert_words_uniqueness(set(tuple(entry["toaq"])), toatuq)
+    check_key("is_a_lexeme", is_a_lexeme(entry["toaq"][0]))
     if "type" in entry:
       entry["class"] = entry.pop("type")
+    check_key("namesake", False)
     # if "frame" in entry:
     #   entry["serial_signature"]   = entry.pop("frame")
     if "fields" in entry:
       entry["tags"] = entry.pop("fields")
-    entry["is_a_lexeme"]      = (
-      set(" ảẻỉỏủỷáéíóúýàèìòùỳâêîôûŷäëïöüÿãẽĩõũỹ")
-      .isdisjoint(entry["toaq"])
-      or (entry["toaq"][0].islower() and not " " in entry["toaq"])
-    )
-    if "english" in entry:
-      entry["definition"] = entry.pop("english")
+    check_key("examples", [])
+    if EXAMPLES_ARE_LINKS:
+      add_examples_as_new_entries(dictionary, entry, toatuq)
+    if "translations" in entry:
+      pass
+    elif "english" in entry:
+      def pop_else(key, default):
+        return entry.pop(key) if key in entry else default
+      entry["translations"]     = [{
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": entry.pop("english"),
+        "notes": pop_else("notes", ""),
+        "gloss": pop_else("gloss", ""),
+        "short": pop_else("short", ""),
+        "keywords": pop_else("keywords", "")
+      }]
     else:
-      assert "definition" in d, (
-        "Entry: " + entry["toaq"] + "\n" + str(entry))
-    assert len(entry["definition"]) > 0
-    entry["target_language"]  = "eng"
-    entry["definition_type"]  = "informal"
-    entry["audio"]            = []
-    entry["generics"]         = ""
-    entry["noun_classes"]     = ""
-    entry["slot_tags"]        = []
-    entry["segmentation"]     = ""
-    entry["etymology"]        = []
-    entry["related"]          = []
-    entry["derived"]          = []
-    entry["synonyms"]         = []
-    entry["antonyms"]         = []
-    entry["hypernyms"]        = []
-    entry["hyponyms"]         = []
+      raise Exception(
+        "ERROR: No definition found in official dictionary for "
+         + str(entry["toaq"]))
+    ##assert len(entry["definition"]) > 0
+    check_key("audio",        [])
+    check_key("generics",     "")
+    check_key("noun_classes", "")
+    check_key("slot_tags",    [])
+    ## check_key("segmentation", "")
+    check_key("etymologies",  [])
+    check_key("related",      [])
+    check_key("derived",      [])
+    check_key("synonyms",     [])
+    check_key("antonyms",     [])
+    check_key("hypernyms",    [])
+    check_key("hyponyms",     [])
     # Reordering:
     order = (
-      "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+      "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "translations", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymologies", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
     )
     # assert(all(map(lambda key: key in order, list(entry.keys()))))
     diff = set(entry.keys()) - set(order)
@@ -207,6 +247,86 @@ def reformat(dictionary):
       (key, entry[key]) for key in order if key in entry
     )
     i += 1
+
+def add_examples_as_new_entries(dictionary, entry, toatuq):
+  i = 0
+  while i < len(entry["examples"]):
+    ex = entry["examples"][i]
+    new_id = new_unique_id(toatuq)
+    entry["examples"][i] = new_id
+    dictionary.append({
+      "id": new_id,
+      "official": False,
+      "author": "Hoemai",
+      "toaq": ex["toaq"],
+      "is_a_lexeme": True,
+      "translations": [
+        {
+          "language": language,
+          "definition_type": "informal",
+          "definition": definition
+        } for language, definition in [
+          (k, ex[k]) for k in ex if k != "toaq"]
+      ],
+      "tags": "example"
+    })
+    i += 1
+
+def assert_words_uniqueness(new_words, toatuq):
+  intersection = new_words.intersection(
+    set(tuple(flatten([e["toaq"] for e in toatuq]))))
+  if intersection != set():
+    print(f"COMPETING DEFINITION(S) FOUND FOR: {intersection}")
+    l = list(new_words)[:min(len(new_words), 8)]
+
+def normalized_r(s):
+  r = normalized(s)
+  if r != s:
+    print(f"NORMALIZED: {s} -> {r}")
+  return r
+
+def convert_caron_to_diaresis(s):
+  cs = "ǎěǐǒǔ"
+  ds = "äëïöü"
+  i = 0
+  while i < len(s):
+    if s[i] in cs:
+      s = s[:i] + ds[cs.index(s[i])] + s[i+1:]
+    i += 1
+  return s
+
+def normalized(s):
+  s = re.sub(u'ı', u'i', s)
+  s = re.sub(u"(?<=^)['’]", u'', s)
+  s = re.sub(u'[x’]', u"'", s)
+  if is_a_lexeme(s):
+    s = unicodedata.normalize('NFD', s)
+    # s = re.sub(u'(?!\u0304)[\u0300-\u030f]', u'', s)
+    s = re.sub(u"[^0-9A-Za-zı\u0300-\u030f'_ ()«»,;.…!?]+", u' ', s)
+    # ^ \u0300-\u030f are combining diacritics.
+    s = s.lower()
+  s = unicodedata.normalize('NFC', s)
+  s = re.sub(u' +', u' ', s)
+  # ⌵ Restoring missing macrons:
+  p = u"([aeiıouyāēīōūȳáéíóúýäëïöüÿǎěǐǒǔảẻỉỏủỷâêîôûŷàèìòùỳãẽĩõũỹ][aeiıouy]*q?['bcdfghjklmnprstz]h?[aeiouy])(?![\u0300-\u030f])"
+  s = re.sub(p , u'\\1\u0304', s)
+  s = unicodedata.normalize('NFC', s)
+  s = re.sub(u'i', u'ı', s)
+  s = convert_caron_to_diaresis(s)
+  return s.strip()
+
+
+def is_a_contentive(s):
+  return None != re.match(
+    ( u"([bcdfghjklmnprstz]h?)?[aeiıouy]+q?"
+    + u"((['bcdfghjklmnprstz]h?)[āēīōūȳ][aeiouy]*q?)*$"),
+    s)
+
+def is_a_lexeme(s):
+  return (
+    is_a_contentive(s) or None != re.match(
+      u"[áéíóúýäëïöüÿǎěǐǒǔảẻỉỏủỷâêîôûŷàèìòùỳãẽĩõũỹ][aeiıouy]*$", s)
+  )
 
 
 # === ENTRY POINT === #

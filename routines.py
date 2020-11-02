@@ -44,11 +44,11 @@ def dicts_from_json_url(url):
   return json.loads(response.content)
 
 def table_from_csv_url(url):
-  import requests
+  import requests, io
   response = requests.get(url)
   assert response.status_code == 200, 'Wrong status code'
-  csv = io.StringIO(response.content.decode("UTF8"), newline = None)
-  csv_reader = csv.reader(csv, delimiter=',')
+  content = io.StringIO(response.content.decode("UTF8"), newline = None)
+  csv_reader = csv.reader(content, delimiter=',')
   table = []
   for row in csv_reader:
     table.append(row)
