@@ -254,7 +254,7 @@ def add_examples_as_new_entries(dictionary, entry):
       "id": new_id,
       "official": False,
       "author": "Hoemai",
-      "toaq": ex["toaq"],
+      "toaq": [ex["toaq"]],
       "is_a_lexeme": True,
       "translations": [
         {
