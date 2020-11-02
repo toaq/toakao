@@ -52,14 +52,14 @@ def entrypoint(this_path, toadaı_json_path = None):
   toatuq += official_dict
   # ⌵ Importing example sentences, ignoring the two first rows.
   append_if_unique(toatuq, dicts_from_sentences(
-    a_sentences[2:], toatuq, False))
+    a_sentences[2:], "a-sentences", False))
   append_if_unique(toatuq, dicts_from_sentences(
-    b_sentences[2:], toatuq, False))
+    b_sentences[2:], "b-sentences", False))
   append_if_unique(toatuq, dicts_from_sentences(
-    o_sentences[2:], toatuq, True))
+    o_sentences[2:], "toaq-org-examples", True))
   # ⌵ Importing country names, ignoring the two first rows.
   append_if_unique(toatuq, dicts_from_countries(
-    countries[2:], toatuq))
+    countries[2:]))
   save_as_json_file(toatuq, toatuq_path)
   print(f"Toatuq entry count: {len(toatuq)}.")
   print("Total execution time:     {:.3f} seconds.".format(
@@ -73,7 +73,7 @@ def append_if_unique(d1, d2):
   d1.extend(d2)
   return d1
 
-def dicts_from_sentences(sentences, dictionary, is_official):
+def dicts_from_sentences(sentences, name, is_official):
   # date = datetime.datetime.utcnow().isoformat()
   ds = []
   for row in sentences:
@@ -81,7 +81,7 @@ def dicts_from_sentences(sentences, dictionary, is_official):
       return ds
     if row[1] != "":
       e = {
-        "id": new_unique_id(dictionary),
+        "id": name + ":" + str(sentences.index(row) + 1),
         "official": is_official,
         "author": "examples",
         "toaq": [normalized_r(row[1])],
@@ -95,7 +95,7 @@ def dicts_from_sentences(sentences, dictionary, is_official):
       ds.append(e)
   return ds
 
-def dicts_from_countries(countries, dictionary):
+def dicts_from_countries(countries):
   import enum
   #Col = enum.IntEnum("Col", "NAME CULTURE COUNTRY LANGUAGE")
   templates = {
@@ -111,11 +111,12 @@ def dicts_from_countries(countries, dictionary):
     culture_word = normalized_r(row[1])
     if culture_word != "":
       country_name = format_country_name(row[0])
-      for tag, suffix, template in templates:
+      for kind, suffix, template in templates:
         ds.append(entry_from_toaq_and_def(
           culture_word + suffix, "eng", 
           template.format(country_name),
-          [tag], dictionary))
+          [kind], "countries",
+          str(countries.index(row) + 1) + ":" + kind))
   return ds
 
 def format_country_name(name):
@@ -135,11 +136,12 @@ def format_country_name(name):
     print(f"format_country_name(): {original_name} --> {name}")
   return name
 
-def entry_from_toaq_and_def(toaq, definition, language, tags, dict):
+def entry_from_toaq_and_def(
+  toaq, definition, language, tags, author, id):
   return {
-    "id": new_unique_id(dict),
+    "id": author + ":" + id,
     "official": False,
-    "author": "countries",
+    "author": author,
     "toaq": [normalized_r(toaq)],
     "is_a_lexeme": True,
     "translations": [{
@@ -185,6 +187,7 @@ def reformat(dictionary, toatuq):
       raise Exception(
         f"Unexpected type for `toaq` key: {type(entry['toaq'])}")
     assert_words_uniqueness(set(tuple(entry["toaq"])), toatuq)
+    check_key("id", "official:" + entry["toaq"][0])
     check_key("is_a_lexeme", is_a_lexeme(entry["toaq"][0]))
     if "type" in entry:
       entry["class"] = entry.pop("type")
@@ -195,7 +198,7 @@ def reformat(dictionary, toatuq):
       entry["tags"] = entry.pop("fields")
     check_key("examples", [])
     if EXAMPLES_ARE_LINKS:
-      add_examples_as_new_entries(dictionary, entry, toatuq)
+      add_examples_as_new_entries(dictionary, entry)
     if "translations" in entry:
       pass
     elif "english" in entry:
@@ -240,11 +243,11 @@ def reformat(dictionary, toatuq):
     )
     i += 1
 
-def add_examples_as_new_entries(dictionary, entry, toatuq):
+def add_examples_as_new_entries(dictionary, entry):
   i = 0
   while i < len(entry["examples"]):
     ex = entry["examples"][i]
-    new_id = new_unique_id(toatuq)
+    new_id = "official:" + entry["toaq"][0] + ":" + str(i + 1)
     entry["examples"][i] = new_id
     dictionary.append({
       "id": new_id,
