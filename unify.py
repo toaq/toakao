@@ -293,6 +293,7 @@ def convert_caron_to_diaresis(s):
 
 def normalized(s):
   s = re.sub(u'ı', u'i', s)
+  s = re.sub(u'ȷ', u'j', s)
   s = re.sub(u"(?<=^)['’]", u'', s)
   s = re.sub(u'[x’]', u"'", s)
   if is_a_lexeme(s):
