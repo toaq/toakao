@@ -253,10 +253,10 @@ def add_examples_as_new_entries(dictionary, entry):
     entry["examples"][i] = new_id
     dictionary.append({
       "id": new_id,
-      "official": False,
+      "official": True,
       "author": "Hoemai",
       "toaq": [ex["toaq"]],
-      "is_a_lexeme": True,
+      "is_a_lexeme": False,
       "translations": [
         {
           "language": language,
