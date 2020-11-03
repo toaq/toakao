@@ -121,20 +121,24 @@ def convert_caron_to_diaresis(s):
 
 def normalized(s):
   s = re.sub(u'ı', u'i', s)
+  s = re.sub(u'ȷ', u'j', s)
   s = re.sub(u"(?<=^)['’]", u'', s)
-  s = unicodedata.normalize('NFD', s)
   s = re.sub(u'[x’]', u"'", s)
-  # s = re.sub(u'(?!\u0304)[\u0300-\u030f]', u'', s)
-  s = re.sub(u"[^0-9A-Za-zı\u0300-\u030f'_ ()«»,;.…!?]+", u' ', s)
-  # ^ \u0300-\u030f are combining diacritics.
+  if is_a_lexeme(s):
+    s = unicodedata.normalize('NFD', s)
+    # s = re.sub(u'(?!\u0304)[\u0300-\u030f]', u'', s)
+    s = re.sub(u"[^0-9A-Za-zı\u0300-\u030f'_ ()«»,;.…!?]+", u' ', s)
+    # ^ \u0300-\u030f are combining diacritics.
+    s = s.lower()
+  s = unicodedata.normalize('NFC', s)
   s = re.sub(u' +', u' ', s)
   # ⌵ Restoring missing macrons:
   p = u"([aeiıouyāēīōūȳáéíóúýäëïöüÿǎěǐǒǔảẻỉỏủỷâêîôûŷàèìòùỳãẽĩõũỹ][aeiıouy]*q?['bcdfghjklmnprstz]h?[aeiouy])(?![\u0300-\u030f])"
   s = re.sub(p , u'\\1\u0304', s)
   s = unicodedata.normalize('NFC', s)
   s = re.sub(u'i', u'ı', s)
-  convert_caron_to_diaresis(s)
-  return s.strip().lower()
+  s = convert_caron_to_diaresis(s)
+  return s.strip()
 
 def entry_from_head(dictionary, head):
   for e in dictionary:
