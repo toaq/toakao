@@ -118,6 +118,7 @@ def convert_caron_to_diaresis(s):
     if s[i] in cs:
       s = s[:i] + ds[cs.index(s[i])] + s[i+1:]
     i += 1
+  return s
 
 def normalized(s):
   s = re.sub(u'ı', u'i', s)
