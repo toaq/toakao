@@ -202,6 +202,7 @@ def reformat(e):
     e.pop("segmentation")
     e.pop("etymology")
     e["similar"] = []
+    e["segmentations"] = []
     e["etymologies"] = []
     e["translations"] = [{
       "language": e.pop("target_language"),
@@ -216,7 +217,7 @@ def reformat(e):
 def reorder(entry):
   # Reordering:
   order = (
-    "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "translations", "etymologies", "related", "derived", "similar", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+    "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "translations", "segmentations", "etymologies", "related", "derived", "similar", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
   )
   # assert(all(map(lambda key: key in order, list(entry.keys()))))
   diff = set(entry.keys()) - set(order)

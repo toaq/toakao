@@ -201,8 +201,10 @@ def reformat(dictionary, toatuq):
     if EXAMPLES_ARE_LINKS:
       add_examples_as_new_entries(dictionary, entry)
     if "translations" in entry:
-      pass
+      for e in entry["translations"]:
+        assert None not in {e["language"], e["definition"]}
     elif "english" in entry:
+      assert len(entry["english"]) > 0
       def pop_else(key, default):
         return entry.pop(key) if key in entry else default
       entry["translations"]     = [{
@@ -218,22 +220,21 @@ def reformat(dictionary, toatuq):
       raise Exception(
         "ERROR: No definition found in official dictionary for "
          + str(entry["toaq"]))
-    ##assert len(entry["definition"]) > 0
-    check_key("audio",        [])
-    check_key("generics",     "")
-    check_key("noun_classes", "")
-    check_key("slot_tags",    [])
-    ## check_key("segmentation", "")
-    check_key("etymologies",  [])
-    check_key("related",      [])
-    check_key("derived",      [])
-    check_key("synonyms",     [])
-    check_key("antonyms",     [])
-    check_key("hypernyms",    [])
-    check_key("hyponyms",     [])
+    check_key("audio",         [])
+    check_key("generics",      "")
+    check_key("noun_classes",  "")
+    check_key("slot_tags",     [])
+    check_key("segmentations", "")
+    check_key("etymologies",   [])
+    check_key("related",       [])
+    check_key("derived",       [])
+    check_key("synonyms",      [])
+    check_key("antonyms",      [])
+    check_key("hypernyms",     [])
+    check_key("hyponyms",      [])
     # Reordering:
     order = (
-      "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "translations", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentation", "etymologies", "etymology", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
+      "id", "official", "date", "author", "toaq", "is_a_lexeme", "example_id", "audio", "class", "namesake", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "translations", "target_language", "definition_type", "definition", "notes", "gloss", "short", "keywords", "segmentations", "etymologies", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score", "votes"
     )
     # assert(all(map(lambda key: key in order, list(entry.keys()))))
     diff = set(entry.keys()) - set(order)
