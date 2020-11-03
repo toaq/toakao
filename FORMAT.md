@@ -17,13 +17,13 @@
 |`slot_tags`|Sequence of strings|Ordered list of tags or semantic fields for each argument slot.|
 |`tags`|Set of strings|Semantic fields or tags for the current vocabulary item as a whole.|
 |`examples`|Set of links|Any number of links to entries whose head is an example sentence illustrating the vocabulary item at hand.|
-|`translations`|Set of maps|Set of definitions in different languages. Each member is a map containing the following elements:\
-• `language` (string): Three letter ISO code for the language used for the definition, the glosses, the keywords and the notes.\
-• `definition_type` (string): Type of the definition : `meta`, `informal`, or `formal`. Formal definitions are strictly substitutional and have full definitional force (strict semantic equivalence), e.g. « we = you and me and possibly the others » ; Informal definitions are also substitutional but not are not semantically strictly equivalent, and rather focus on being shorter and easier to understand than formal definitions. Meta definitions are not substitutional, but external descriptions of the meaning of the vocabulary item, e.g. «’we’ is a pronoun referring to the speaker and the addressee taken together, possibly with the addition of related third parties».
-• `definition` (string): Definition for the Toaq word in the target language.\
-• `notes` (string): Notes on the word, its meaning or usage.\
-• `gloss` (string): Short gloss word used for example in interlinear glosses.\
-• `keywords` (string): List of relevant words of the target langages which may be appropriate translations of the vocabulary item it at least some contexts or environments, or may help better finding the word when these keywords are searched for.|
+|`translations`|Set of maps|Set of definitions in different languages. Each member is a map containing the following elements:|
+|||• `language` (string): Three letter ISO code for the language used for the definition, the glosses, the keywords and the notes.|
+|||• `definition_type` (string): Type of the definition : `meta`, `informal`, or `formal`. Formal definitions are strictly substitutional and have full definitional force (strict semantic equivalence), e.g. « we = you and me and possibly the others » ; Informal definitions are also substitutional but not are not semantically strictly equivalent, and rather focus on being shorter and easier to understand than formal definitions. Meta definitions are not substitutional, but external descriptions of the meaning of the vocabulary item, e.g. «’we’ is a pronoun referring to the speaker and the addressee taken together, possibly with the addition of related third parties».|
+|||• `definition` (string): Definition for the Toaq word in the target language.|
+|||• `notes` (string): Notes on the word, its meaning or usage.|
+|||• `gloss` (string): Short gloss word used for example in interlinear glosses.|
+|||• `keywords` (string): List of relevant words of the target langages which may be appropriate translations of the vocabulary item it at least some contexts or environments, or may help better finding the word when these keywords are searched for.|
 |`segmentations`|Sequence of strings|Each element of the sequence corresponds to one element in the `toaq` entry, at the same sequence index. For each element in `toaq`, a string of morphological element (affix, root…) separated by a hyphen `-` is provided. For example if `toaq` contains `[chıejīo]`, then `segmentations` will contain `["chıe-jıo"]`.
 |`etymologies`|Sequence of sequences of maps|A sequence of etymological informations, each sequence corresponding to one of the element of the `toaq` entry, in the same order of appearance.
 Each member sequence is a sequence of etymological information for each etymological element of the target Toaq item, in the form of a data structure [`language`, `item`]. Item is the original vocabulary item in the source language (provided in the native script).|
