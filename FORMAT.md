@@ -25,8 +25,7 @@
 |||• `gloss` (string): Short gloss word used for example in interlinear glosses.|
 |||• `keywords` (string): List of relevant words of the target langages which may be appropriate translations of the vocabulary item it at least some contexts or environments, or may help better finding the word when these keywords are searched for.|
 |`segmentations`|Sequence of strings|Each element of the sequence corresponds to one element in the `toaq` entry, at the same sequence index. For each element in `toaq`, a string of morphological element (affix, root…) separated by a hyphen `-` is provided. For example if `toaq` contains `[chıejīo]`, then `segmentations` will contain `["chıe-jıo"]`.
-|`etymologies`|Sequence of sequences of maps|A sequence of etymological informations, each sequence corresponding to one of the element of the `toaq` entry, in the same order of appearance.
-Each member sequence is a sequence of etymological information for each etymological element of the target Toaq item, in the form of a data structure [`language`, `item`]. Item is the original vocabulary item in the source language (provided in the native script).|
+|`etymologies`|Sequence of sequences of maps|A sequence of etymological informations, each sequence corresponding to one of the element of the `toaq` entry, in the same order of appearance. Each member sequence is a sequence of etymological information for each etymological element of the target Toaq item, in the form of a data structure [`language`, `item`]. Item is the original vocabulary item in the source language (provided in the native script).|
 |`related`|Set of links|Related vocabulary items; "see also".|
 |`derived`|Set of links|Vocabulary items derived from this one.|
 |`similar`|Set of links|Vocabulary items with a meaning similar to this one's.|
