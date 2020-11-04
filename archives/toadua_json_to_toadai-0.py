@@ -210,7 +210,7 @@ def process_entry(i, dict):
         entry["definition"] = entry["definition"][2:]
   assert len(entry["definition"]) > 0
   entry["gloss"]            = ""
-  entry["keywords"]         = ""
+  entry["keywords"]         = []
   entry["segmentation"]     = ""
   entry["etymology"]        = []
   entry["related"]          = []
