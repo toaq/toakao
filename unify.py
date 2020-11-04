@@ -224,7 +224,7 @@ def reformat(dictionary, toatuq):
     check_key("generics",      "")
     check_key("noun_classes",  "")
     check_key("slot_tags",     [])
-    check_key("segmentations", "")
+    check_key("segmentations", [])
     check_key("etymologies",   [])
     check_key("related",       [])
     check_key("derived",       [])
