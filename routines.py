@@ -40,12 +40,14 @@ def table_gen_from_csv_path(path, delim):
 def dicts_from_json_url(url):
   import requests
   response = requests.get(url)
+  response.raise_for_status()
   assert response.status_code == 200, 'Wrong status code'
   return json.loads(response.content)
 
 def table_from_csv_url(url):
   import requests, io
   response = requests.get(url)
+  response.raise_for_status()
   assert response.status_code == 200, 'Wrong status code'
   content = io.StringIO(response.content.decode("UTF8"), newline = None)
   csv_reader = csv.reader(content, delimiter=',')
