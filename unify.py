@@ -313,7 +313,6 @@ def normalized(s):
   s = convert_caron_to_diaresis(s)
   return s.strip()
 
-
 def is_a_contentive(s):
   return None != re.match(
     ( u"([bcdfghjklmnprstz]h?)?[aeiıouy]+q?"
