@@ -19,7 +19,7 @@ This is a project of modular Toaq dictionary, aiming to be a complement for [the
 
 `archives/toadai-0.json` is the original basis for `toadai.json`and contains reformated Toadua data excluding all definitions which were automatically imported from external dictionaries (i.e. official definitions, example sentences, country words…) and with downvoted entries removed. It has been automatically generated from `archives/200708-last-toadua-dump.json` using `archives/toadua_json_to_toadai-0.py`. The Toadua data also contained comments and votes information on the aforementioned imported entries; these were removed from `archives/toadai-0.json` and were stored instead in a dedicated database `archives/feedback_on_imported_entries.json`.
 
-`archives/toadai-mono-0.json` was generated from `archives/toadai-0.json` with the `archives/make-toadai-mono-0.py` script, whose purpose is to filter out duplicates and merge synonyms and definition translations into single entries. All the duplicate entries which were filtered out are stored in archive database, such as `archives/toadai-0-deleted-entries.json`, `archives/toadai-0-orphane-entries.json` an `archives/official-definition-competitors.csv`.
+`archives/toadai-mono-0.json` was generated from `archives/toadai-0.json` with the `archives/make-toadai-mono-0.py` script, whose purpose is to filter out duplicates and merge synonyms and definition translations into single entries. All the duplicate entries which were filtered out are stored in archive databases, such as `archives/toadai-0-deleted-entries.json`, `archives/toadai-0-orphane-entries.json` an `archives/official-definition-competitors.csv`.
 
 # Roadmap
 
