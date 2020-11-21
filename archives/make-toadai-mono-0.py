@@ -186,14 +186,14 @@ def proceed(toadai_path, output_dir):
   print(f"{len(toods)} translations of official definitions;")
   print(f"{len(ds)} remaining entries in Toadaı Mono.")
   save_dicts_as_csv_file(
-    orphs, ";", output_dir + "toadai-0-orphane-entries.csv")
+    orphs, output_dir + "toadai-0-orphane-entries.csv")
   save_dicts_as_csv_file(
-    dels, ";", output_dir + "toadai-0-deleted-entries.csv")
+    dels, output_dir + "toadai-0-deleted-entries.csv")
   save_dicts_as_csv_file(
-    odcs, ";", output_dir + "official-definition-competitors.csv")
+    odcs, output_dir + "official-definition-competitors.csv")
   save_dicts_as_csv_file(
-    toods, ";", output_dir + "translations-of-official-definitions.csv")
-  save_dicts_as_csv_file(ds, ";", output_dir + "toadai-mono-0.csv")
+    toods, output_dir + "translations-of-official-definitions.csv")
+  save_dicts_as_csv_file(ds, output_dir + "toadai-mono-0.csv")
   save_as_json_file(ds, output_dir + "toadai-mono-0.json")
 
 def reformat(e):

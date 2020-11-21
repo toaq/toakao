@@ -58,9 +58,9 @@ def compare_with_gaqmekao(json_path, output_dir):
             s.add((d1e["toaq"], def1))
     f(ds, g, missing_from_gaqmekao)
     f(g, ds, missing_from_toadai)
-    save_as_csv_file(missing_from_gaqmekao, ";",
+    save_as_csv_file(missing_from_gaqmekao,
                      output_dir + "missing_from_gaqmekao.csv")
-    save_as_csv_file(missing_from_toadai, ";",
+    save_as_csv_file(missing_from_toadai,
                      output_dir + f"missing_from_{json_name}.csv")
     dws = [normalized(e["toaq"]) for e in ds]
     gws = [normalized(e["toaq"]) for e in g]

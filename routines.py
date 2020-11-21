@@ -71,15 +71,15 @@ def edit_csv_from_path(path, delim, func, outp = None):
     t = func(t)
     w.writerows(t)
 
-def save_as_csv_file(table, delim, path):
+def save_as_csv_file(table, path):
   with open(path, "w", newline='', encoding='utf-8') as o:
-    csv.writer(o, delimiter = delim).writerows(table)
+    csv.writer(o, delimiter = ',').writerows(table)
 
-def save_dicts_as_csv_file(dicts, delim, path):
+def save_dicts_as_csv_file(dicts, path):
   with open(path, "w", newline='', encoding='utf-8') as o:
     keys, table = keys_and_table_from_dict(dicts)
     table.insert(0, keys)
-    csv.writer(o, delimiter = delim).writerows(table)
+    csv.writer(o, delimiter = ',').writerows(table)
 
 def save_as_json_file(dicts, path, indent = 2):
   with open(path, "wb") as o:
