@@ -21,18 +21,13 @@ def entrypoint(this_path, toadaı_json_path = None):
     toadaı_path = this_dir + "toadai.json"
   toatuq_path = this_dir + "toatuq.json"
   try:
-    response = requests.get(
-        "https://raw.githubusercontent.com/toaq/dictionary/master/"
-        + "dictionary.json")
-    assert response.status_code == 200, (
-      "HTTP error: status code " + str(response.status_code))
+    official_dict = dicts_from_json_url(
+      "https://raw.githubusercontent.com/toaq/dictionary/master/")
   except:
     print(
       "Unexpected error upon attempting to download the official dictionary:",
       sys.exc_info()[0])
     sys.exit()
-  official_dict = json.loads(response.content)
-
   try:
     a_sentences = table_from_csv_url(
       'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1395088029')
