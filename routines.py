@@ -8,24 +8,31 @@ def edit_json_from_path(input_path, function, output_path = None):
     output_path = (lambda t: t[0] + "-out" + t[1])(
       os.path.splitext(input_path)
     )
-  # TODO: Handle the case where both paths are the same:
-  # open the file in read-write mode, then inputf = outputf.
-  with open(input_path,  "r", encoding="utf8") as inputf, \
-       open(output_path, "wb")                 as outputf:
-    ds = json.loads(inputf.read(), object_pairs_hook = OrderedDict)
-    outputf.truncate()
-    outputf.write(
-      bytes(
-        json.dumps(function(ds), indent = 2, ensure_ascii = False),
-        encoding = "utf8"
-      )
+  if input_path == output_path:
+    inputf = outputf = open(output_path, "rb+")
+    input = inputf.read().decode('utf-8')
+  else:
+    inputf = open(input_path,  "r", encoding = "utf8")
+    outputf = open(output_path, "wb")
+    input = inputf.read()
+  ds = json.loads(input, object_pairs_hook = OrderedDict)
+  if outputf == inputf:
+    outputf.seek(0)
+  outputf.truncate()
+  outputf.write(
+    bytes(
+      json.dumps(function(ds), indent = 2, ensure_ascii = False),
+      encoding = "utf8"
     )
+  )
+  inputf.close()
+  outputf.close()
 
 def dicts_from_json_path(path):
   with open(path, "r", encoding = "utf-8") as f:
     return json.loads(f.read(), object_pairs_hook = OrderedDict)
 
-def table_from_csv_path(path, delim):
+def table_from_csv_path(path, delim = ','):
   with open(path, "r", encoding = "utf-8") as f:
     r = csv.reader(f, delimiter = delim)
     t = []
@@ -33,7 +40,7 @@ def table_from_csv_path(path, delim):
       t.append(row)
     return t
 
-def table_gen_from_csv_path(path, delim):
+def table_gen_from_csv_path(path, delim = ','):
   with open(path, "r", encoding = "utf-8") as f:
     return csv.reader(f, delimiter = delim)
 
@@ -58,20 +65,31 @@ def table_from_csv_url(url):
     table.append(row)
   return table
 
-def edit_csv_from_path(path, delim, func, outp = None):
-  if outp == None:
-    outp = (lambda t: t[0] + "-out" + t[1])(os.path.splitext(path))
-  # TODO: Handle the case where both paths are the same:
-  # open the file in read-write mode, then path = outp.
-  with open(path, "r", newline='', encoding='utf-8') as i, \
-       open(outp, "w", newline='', encoding='utf-8') as o:
-    r = csv.reader(i, delimiter = delim)
-    w = csv.writer(o, delimiter = delim)
-    t = []
-    for row in r:
-      t.append(row)
-    t = func(t)
-    w.writerows(t)
+def edit_csv_from_path(
+  input_path, function, output_path = None, delimiter = ","
+):
+  if output_path == None:
+    output_path = (lambda t: t[0] + "-out" + t[1])(
+      os.path.splitext(input_path)
+    )
+  if input_path == output_path:
+    inputf = outputf = open(
+      output_path, "r+", newline = "", encoding = "utf-8")
+  else:
+    inputf = open(input_path,  "r", newline = "", encoding = "utf-8")
+    outputf = open(output_path, "w", newline = "", encoding = "utf-8")
+  r = csv.reader(inputf, delimiter = delimiter)
+  w = csv.writer(outputf, delimiter = delimiter)
+  t = []
+  for row in r:
+    t.append(row)
+  t = function(t)
+  if outputf == inputf:
+    outputf.seek(0)
+  outputf.truncate()
+  w.writerows(t)
+  inputf.close()
+  outputf.close()
 
 def save_as_csv_file(table, path):
   with open(path, "w", newline='', encoding='utf-8') as o:
