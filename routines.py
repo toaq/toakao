@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import os, csv, json
+import os, io, csv, json
+import requests
 from collections import OrderedDict
 
 def edit_json_from_path(input_path, function, output_path = None):
@@ -45,7 +46,6 @@ def table_gen_from_csv_path(path, delim = ','):
     return csv.reader(f, delimiter = delim)
 
 def dicts_from_json_url(url):
-  import requests
   response = requests.get(url)
   response.raise_for_status()
   assert response.status_code == 200, (
@@ -53,7 +53,6 @@ def dicts_from_json_url(url):
   return json.loads(response.content)
 
 def table_from_csv_url(url):
-  import requests, io
   response = requests.get(url)
   response.raise_for_status()
   assert response.status_code == 200, (
