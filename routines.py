@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# SPDX-License-Identifier: ISC
+
 import os, io, csv, json
 import requests
 from collections import OrderedDict

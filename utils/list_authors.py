@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# SPDX-License-Identifier: ISC
+
 import sys, os, json, time
 from collections import OrderedDict, Counter as multiset
 
