@@ -4,7 +4,7 @@ The following files:
 * `unify.py`
 * `utils/list_authors.py`
 
-are provided under the Internet Systems Consortium license located at `[LICENSES]/ISC LICENSE.md`]([LICENSES]/ISC LICENSE.md) (see this file for the copyright notice and list of authors).
+are provided under the Internet Systems Consortium license located at `[LICENSES]/ISC LICENSE.md`]("[LICENSES]/ISC LICENSE.md") (see this file for the copyright notice and list of authors).
 
 ---
 
@@ -25,5 +25,5 @@ are the joint work of the following authors or contributors:
 * akesi
 * xorxes
 
-These aforementioned files are provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license located at `[LICENSES]/CC BY-NC-SA 4.0 LICENSE.txt`]([LICENSES]/CC BY-NC-SA 4.0 LICENSE.txt).
+These aforementioned files are provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license located at `[LICENSES]/CC BY-NC-SA 4.0 LICENSE.txt`]("[LICENSES]/CC BY-NC-SA 4.0 LICENSE.txt").
 
