@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+# COPYRIGHT LICENSE: See LICENSE.md in the top level directory.
+
+# PURPOSE:
 # In a nutshell, this script takes the unofficial toadaı.json dictionary as input, then download the official dictionary and the example sentence spreadsheet, then merges them under a new JSON template and outputs the result in a separate file `toatuq.json` (the input files are not modified).
 
 # USAGE: $ python unify.py
