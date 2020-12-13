@@ -47,6 +47,7 @@ def entrypoint(this_path, toadaı_json_path = None):
       sys.exc_info()[0])
     sys.exit()
   toatuq = dicts_from_json_path(toadaı_path)
+  # ^ TODO: we may want to catch possible exceptions there.
   reformat(official_dict, toatuq)
   toatuq += official_dict
   # ⌵ Importing example sentences, ignoring the two first rows.
@@ -96,7 +97,7 @@ def dicts_from_sentences(sentences, name, is_official):
   return ds
 
 def dicts_from_countries(countries):
-  import enum
+  #import enum
   #Col = enum.IntEnum("Col", "NAME CULTURE COUNTRY LANGUAGE")
   templates = {
     ("culture", "", "▯ pertains to the culture of {}."),
@@ -137,7 +138,8 @@ def format_country_name(name):
   return name
 
 def entry_from_toaq_and_def(
-  toaq, definition, language, tags, author, id):
+  toaq, definition, language, tags, author, id
+):
   return {
     "id": author + ":" + id,
     "official": False,
