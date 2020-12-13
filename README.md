@@ -11,7 +11,7 @@ This is a project of modular Toaq dictionary, aiming to be a complement for [the
 
 `archives/` contains archived data and scripts which shouldn't be modified anymore. Among these, `official-definition-competitors.csv`, `toadai-0-orphane-entries.csv` and `feedback_on_imported_entries.json` are the files which remain most useful as of now.
 
-`official-definition-competitors.csv` is the list of community definitions competing for an already official word. Some of these definitions are redundant or obsolete, but some of them are still relevant proposals of improvment of existing official definitions; ideally pull requests or issues should be opened for each of these still relevant proposals in the official dictionary repository.
+`official-definition-competitors.csv` is the list of community definitions competing for an already official word. Some of these definitions are redundant or obsolete, but some of them are still relevant proposals of improvement of existing official definitions; ideally pull requests or issues should be opened for each of these still relevant proposals in the official dictionary repository.
 
 `toadai-0-orphane-entries.csv` are definitions which weren't assigned to any word or were assigned to an already existing word; they should be given a different word form, or better arguments for justifying changing the definition of their targeted word forms should be provided (ideally in a GitHub issue or pull request agaisnt the official dictionary repository).
 
