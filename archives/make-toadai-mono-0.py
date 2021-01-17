@@ -70,9 +70,7 @@ def proceed(toadai_path, output_dir):
       if de["target_language"] == "eng":
         odcs.append(ds.pop(ds.index(de)))
       else:
-        reformat(de)
-        toods += de["translations"]
-        ds.pop(ds.index(de))
+        toods.append(ds.pop(ds.index(de)))
       continue
     elif de["toaq"] in {"?", "???"} or action == "ORPHANE":
       orphs.append(ds.pop(ds.index(de)))
