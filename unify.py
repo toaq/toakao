@@ -14,6 +14,7 @@
 import sys, os, io, requests, json, csv, re, unicodedata, random, time
 import datetime
 from collections import OrderedDict
+import dep.pytoaq.latin as toaq
 from routines import *
 
 EXAMPLES_ARE_LINKS = True
@@ -26,7 +27,8 @@ def entrypoint(this_path, toadaı_json_path = None):
   toatuq_path = this_dir + "toatuq.json"
   try:
     official_dict = dicts_from_json_url(
-      "https://raw.githubusercontent.com/toaq/dictionary/master/")
+      "https://raw.githubusercontent.com/toaq/dictionary/master/dictionary.json"
+    )
   except:
     print(
       "Unexpected error upon attempting to download the official dictionary:",
@@ -85,7 +87,7 @@ def dicts_from_sentences(sentences, name, is_official):
         "id": name + ":" + example_id,
         "official": is_official,
         "author": "examples",
-        "toaq": [normalized_r(toaq)],
+        "toaq": [normalized_with_report(toaq)],
         "is_a_lexeme": False,
         "example_id": example_id,
         "target_language": "eng",
@@ -109,7 +111,7 @@ def dicts_from_countries(countries):
   for row in countries:
     if len(row) < 2:
       continue
-    culture_word = normalized_r(row[1])
+    culture_word = normalized_with_report(row[1])
     if culture_word != "":
       country_name = format_country_name(row[0])
       for kind, suffix, template in templates:
@@ -144,7 +146,7 @@ def entry_from_toaq_and_def(
     "id": author + ":" + id,
     "official": False,
     "author": author,
-    "toaq": [normalized_r(toaq)],
+    "toaq": [normalized_with_report(toaq)],
     "is_a_lexeme": True,
     "translations": [{
       "language": language,
@@ -182,9 +184,10 @@ def reformat(dictionary, toatuq):
         entry[key] = default
     check_key("author", "Hoemai")
     if isinstance(entry["toaq"], str):
-      entry["toaq"] = [normalized_r(entry["toaq"])]
+      entry["toaq"] = [normalized_with_report(entry["toaq"])]
     elif isinstance(entry["toaq"], (list, set)):
-      entry["toaq"] = [normalized_r(e["toaq"]) for e in entry["toaq"]]
+      entry["toaq"] = [
+        normalized_with_report(e["toaq"]) for e in entry["toaq"]]
     else:
       raise Exception(
         f"Unexpected type for `toaq` key: {type(entry['toaq'])}")
@@ -277,54 +280,14 @@ def assert_words_uniqueness(new_words, toatuq):
   if intersection != set():
     print(f"COMPETING DEFINITION(S) FOUND FOR: {intersection}")
 
-def normalized_r(s):
-  r = normalized(s)
+def normalized_with_report(s):
+  r = toaq.normalized(s)
   if r != s:
     print(f"NORMALIZED: {s} -> {r}")
   return r
 
-def convert_caron_to_diaresis(s):
-  cs = "ǎěǐǒǔ"
-  ds = "äëïöü"
-  i = 0
-  while i < len(s):
-    if s[i] in cs:
-      s = s[:i] + ds[cs.index(s[i])] + s[i+1:]
-    i += 1
-  return s
-
-def normalized(s):
-  s = re.sub(u'ı', u'i', s)
-  s = re.sub(u'ȷ', u'j', s)
-  s = re.sub(u"(?<=^)['’]", u'', s)
-  s = re.sub(u'[x’]', u"'", s)
-  if is_a_lexeme(s):
-    s = unicodedata.normalize('NFD', s)
-    # s = re.sub(u'(?!\u0304)[\u0300-\u030f]', u'', s)
-    s = re.sub(u"[^0-9A-Za-zı\u0300-\u030f'_ ()«»,;.…!?]+", u' ', s)
-    # ^ \u0300-\u030f are combining diacritics.
-    s = s.lower()
-  s = unicodedata.normalize('NFC', s)
-  s = re.sub(u' +', u' ', s)
-  # ⌵ Restoring missing macrons:
-  p = u"([aeiıouyāēīōūȳáéíóúýäëïöüÿǎěǐǒǔảẻỉỏủỷâêîôûŷàèìòùỳãẽĩõũỹ][aeiıouy]*q?['bcdfghjklmnprstz]h?[aeiouy])(?![\u0300-\u030f])"
-  s = re.sub(p , u'\\1\u0304', s)
-  s = unicodedata.normalize('NFC', s)
-  s = re.sub(u'i', u'ı', s)
-  s = convert_caron_to_diaresis(s)
-  return s.strip()
-
-def is_a_contentive(s):
-  return None != re.match(
-    ( u"([bcdfghjklmnprstz]h?)?[aeiıouy]+q?"
-    + u"((['bcdfghjklmnprstz]h?)[āēīōūȳ][aeiouy]*q?)*$"),
-    s)
-
 def is_a_lexeme(s):
-  return (
-    is_a_contentive(s) or None != re.match(
-      u"[áéíóúýäëïöüÿǎěǐǒǔảẻỉỏủỷâêîôûŷàèìòùỳãẽĩõũỹ][aeiıouy]*$", s)
-  )
+  return toaq.is_a_lemma(s)
 
 
 # === ENTRY POINT === #
