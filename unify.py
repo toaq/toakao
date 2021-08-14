@@ -114,8 +114,8 @@ def dicts_from_countries(countries):
       country_name = format_country_name(row[0])
       for kind, suffix, template in templates:
         ds.append(entry_from_toaq_and_def(
-          culture_word + suffix, "eng", 
-          template.format(country_name),
+          culture_word + suffix,
+          template.format(country_name), "eng",
           [kind], "countries",
           str(countries.index(row) + 1) + ":" + kind))
   return ds
