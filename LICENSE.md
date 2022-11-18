@@ -10,20 +10,29 @@ are provided under the Internet Systems Consortium license located at [`[LICENSE
 
 The following files:
 
-* `toadai.json`
 * `toatuq.json`
-* `translations-of-official-definitions.csv`
+* `orphanes.json`
 
 are the joint work of the following authors or contributors:
 * Miles Forster AKA solpahi AKA Hoemai
-* Ilmen AKA Ntsékees
 * uakci
-* seaqtaq
+* Ntsékees AKA Ilmen
 * lynn
+* seaqtaq
 * fagri
-* magi
+* robintown
+* Machy
+* eednb
+* el
+* salarua
 * akesi
+* Hydro AKA HydroCyaNide
+* mimiaoganhaqpy
 * xorxes
+* Amo
+* verte
+* Xylochoron
 
 These aforementioned files are provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license located at [`[LICENSES]/CC BY-NC-SA 4.0 LICENSE.txt`](https://github.com/toaq/toakao/blob/master/%5BLICENSES%5D/CC%20BY-NC-SA%204.0%20LICENSE.txt).
+
 

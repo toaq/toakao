@@ -19,10 +19,12 @@ def entrypoint(this_path, json_path):
   ds = routines.dicts_from_json_path(json_path)
   authors = multiset()
   for d in ds:
-    if "author" in d:
-      authors.update([d["author"]])
-    else:
-      authors.update(None)
+    if "toaq_forms" in d:
+      for e in d["toaq_forms"]:
+        if "author" in e:
+          authors.update([e["author"]])
+        else:
+          authors.update(None)
   print("AUTHORS:")
   maxlen = 0
   for a in authors.keys():

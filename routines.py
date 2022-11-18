@@ -2,7 +2,7 @@
 
 # SPDX-License-Identifier: ISC
 
-import os, io, csv, json
+import os, io, csv, json, oyaml
 import requests
 from collections import OrderedDict
 
@@ -18,22 +18,28 @@ def edit_json_from_path(input_path, function, output_path = None):
     inputf = open(input_path,  "r", encoding = "utf8")
     outputf = open(output_path, "wb")
     input = inputf.read()
-  ds = json.loads(input, object_pairs_hook = OrderedDict)
+  obj = json.loads(input, object_pairs_hook = OrderedDict)
   if outputf == inputf:
     outputf.seek(0)
   outputf.truncate()
   outputf.write(
     bytes(
-      json.dumps(function(ds), indent = 2, ensure_ascii = False),
+      json.dumps(function(obj), indent = 2, ensure_ascii = False),
       encoding = "utf8"
     )
   )
   inputf.close()
   outputf.close()
 
-def dicts_from_json_path(path):
+def object_from_json_path(path):
   with open(path, "r", encoding = "utf-8") as f:
     return json.loads(f.read(), object_pairs_hook = OrderedDict)
+
+dicts_from_json_path = object_from_json_path
+
+def object_from_yaml_path(path):
+  with open(path, "r", encoding = "utf-8") as f:
+    return oyaml.full_load(f.read())
 
 def table_from_csv_path(path, delim = ','):
   with open(path, "r", encoding = "utf-8") as f:
@@ -47,12 +53,14 @@ def table_gen_from_csv_path(path, delim = ','):
   with open(path, "r", encoding = "utf-8") as f:
     return csv.reader(f, delimiter = delim)
 
-def dicts_from_json_url(url):
+def object_from_json_url(url):
   response = requests.get(url)
   response.raise_for_status()
   assert response.status_code == 200, (
     'Wrong status code :' + str(response.status_code))
   return json.loads(response.content)
+
+dicts_from_json_url = object_from_json_url
 
 def table_from_csv_url(url):
   response = requests.get(url)
@@ -107,6 +115,14 @@ def save_as_json_file(dicts, path, indent = 2):
     o.truncate()
     o.write(bytes(
       json.dumps(dicts, indent = indent, ensure_ascii = False),
+      encoding = "utf8"
+    ))
+
+def save_as_yaml_file(obj, path, indent = 2):
+  with open(path, "wb") as o:
+    o.truncate()
+    o.write(bytes(
+      oyaml.dump(obj, indent = indent, sort_keys = False),
       encoding = "utf8"
     ))
 
