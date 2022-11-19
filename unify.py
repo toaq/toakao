@@ -329,9 +329,8 @@ def toadua_entry_shall_be_included(entry):
   )
 
 LANGUAGE_CODE_MAP = {
-  "en": "eng", "fr": "fra", "es": "spa", "de": "deu",
-  "pl": "pol", "is": "isl", "ja": "jpn", "zh": "cmn",
-  "ch": "cha"}
+  "toa": "toa", "en": "eng", "fr": "fra", "es": "spa", "de": "deu",
+  "pl": "pol", "is": "isl", "ja": "jpn", "zh": "cmn", "ch": "cha"}
 
 def reformated_entry(entry):
   def pop_else(key, default):
@@ -377,17 +376,22 @@ def reformated_entry(entry):
       "author": comment["user"]
     } for comment in comments
   ]
-  language_code = LANGUAGE_CODE_MAP.get(pop_else("scope", "en"), "∅")
+  
+  two_letters_language_code = pop_else("scope", "en")
+  language_code = LANGUAGE_CODE_MAP.get(
+    two_letters_language_code, two_letters_language_code)
   if len(language_code) == 2:
     print("❖❖❖ [WARNING] Unknown 2-letter language code: “"
           + str(entry["translations"]["language"]) + "”")
   definition_type = "informal"
-  m = re.match("(\(fork of #[^ )]+\))", definition)
-  if m:
-    fork_message = m.groups()[0]
-    definition = definition[len(fork_message) + 1 :]
-    fs = [] if "fork_of" not in entry else entry["fork_of"]
-    entry["fork_of"] = fs + [fork_message[9:]]
+  if (len(definition) > 0x10 and definition[0] == '('):
+    m = re.match("(fork of #[^ )]+)\) ", definition)
+    if m:
+      fork_message = m.groups()[0]
+      definition = definition[len(fork_message) + 3 :]
+      fs = [] if "fork_of" not in entry else entry["fork_of"]
+      entry["fork_of"] = fs + [fork_message[9:]]
+      print(f"❖❖❖ #{id}: fork of {fork_message[9:]}.")
   match language_code:
     case "eng":
        definition = definition.replace("◌", "▯")
