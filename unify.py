@@ -210,9 +210,9 @@ def with_merged_entries(d):
     lambda _: -timestamp_from_date_text(δ(_).get("date", None))
   ]
   orphaned_definitions = []
-  def ω(α, β, k):
+  def ω(α, β, ks):
     for x in β:
-      if α[0][k] == x[k]:
+      if forall(lambda k: α[0][k] == x[k], ks):
         return True
     return False
   for i, e in enumerate(d):
@@ -226,7 +226,7 @@ def with_merged_entries(d):
         break
       if ε is None:
         continue
-      if ω(e["toaq_forms"], ε["toaq_forms"], "toaq"):
+      if ω(e["toaq_forms"], ε["toaq_forms"], {"toaq", "language"}):
         # ⟦e⟧ and ⟦ε⟧ are definitions competing for a same head word.
         # There must remain only one of them.
         l = [x["toaq"] for x in ε["toaq_forms"]]
@@ -259,11 +259,11 @@ def with_merged_entries(d):
               # Specifically, the ⟦toaq_forms⟧ of the former will be added to that of the latter, and then the former will be replaced by a null value.
               def φ(i, j, k):
                 return d[i]['toaq_forms'][j][k]
-              print(
-                f"❖❖❖ SYNONYM MERGER:\n"
-                + f"  • #{i}: {φ(i, 0, 'id')} {φ(i, 0, 'toaq')}\n"
-                + f"  • #{ι}: {φ(ι, 0, 'id')} {φ(ι, 0, 'toaq')}"
-              )
+              #print(
+              #  f"❖❖❖ SYNONYM MERGER:\n"
+              #  + f"  • #{i}: {φ(i, 0, 'id')} {φ(i, 0, 'toaq')}\n"
+              #  + f"  • #{ι}: {φ(ι, 0, 'id')} {φ(ι, 0, 'toaq')}"
+              #)
               ε["toaq_forms"] += e["toaq_forms"]
               d[i] = None
       if d[i] is None:
