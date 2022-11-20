@@ -349,7 +349,8 @@ def toadua_entry_shall_be_included(entry):
 
 LANGUAGE_CODE_MAP = {
   "toa": "toa", "en": "eng", "fr": "fra", "es": "spa", "de": "deu",
-  "pl": "pol", "is": "isl", "ja": "jpn", "zh": "cmn", "ch": "cha"}
+  "pl": "pol", "is": "isl", "ja": "jpn", "zh": "cmn", "ch": "cha",
+  "vp": "Viossa"}
 
 def reformated_entry(entry):
   def pop_else(key, default):
