@@ -35,7 +35,6 @@ COUNTRIES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1P9p1D38p364JSiNqLM
 def entrypoint(this_path):
   t1 = time.time()
   this_dir = os.path.dirname(os.path.abspath(this_path)) + os.path.sep
-  print(f"Path: ⟪{this_dir}⟫")
   toatuq_path = this_dir + "toatuq.json"
   orphanes_path = this_dir + "orphanes.json"
   print("Collecting remote vocabulary sources…")
@@ -196,60 +195,80 @@ def timestamp_from_date_text(date_text):
   except:
     return 0
 
+WINNER_SELECTION_FUNCTIONS = [
+  lambda _: 1 if is_official_author(_["author"]) else 0,
+  lambda _: _["score"] if "score" in _ else 0,
+  lambda _: -timestamp_from_date_text(_.get("date", None))
+]
+
 def with_merged_entries(d):
-  def δ(_):
-    try:
-      return d[_[0]]["toaq_forms"][_[1]]
-    except:
-      print(f"◆◆◆ {str(_)} :: {str(d[_[0]])}")
-      return 0
-  δx = lambda _: d[_[0]]["toaq_forms"][_[1]]
-  WINNER_SELECTION_FUNCTIONS = [
-    lambda _: 1 if is_official_author(δ(_)["author"]) else 0,
-    lambda _: e["score"] if "score" in (e := δ(_)) else 0,
-    lambda _: -timestamp_from_date_text(δ(_).get("date", None))
-  ]
-  orphaned_definitions = []
-  def ω(α, β, ks):
-    for x in β:
-      if forall(lambda k: α[0][k] == x[k], ks):
+  def ε_target(e, ε, k1, k2):
+    l = [x[k2] for x in ε[k1]]
+    return l.index(e[k1][0][k2])
+  def winner_of(e, ε, k1, n):
+    for f in WINNER_SELECTION_FUNCTIONS:
+      winner = the_most(
+        e[k1][0],
+        ε[k1][n],
+        f
+      )
+      if winner != None:
+        break
+    if winner is None:
+      def φ(l, i, key):
+        return l["toaq_forms"][i].get(key, '∅')
+      print(
+        f"[⚠ WARNING ⚠] Resolution of competing definitions:\n"
+        + f"  Cannot satisfyingly break the tie between the following entries:\n"
+        + f"  • #{φ(e, 0, 'id')} {φ(e, 0, 'toaq')}\n"
+        + f"  • #{φ(ε, n, 'id')} {φ(ε, n, 'toaq')}\n"
+        + f"  By default, the entry with the lowest index is therefore selected."
+      )
+      winner = ι
+    return winner
+  def ω(a, b, k1, k2):
+    for x in b[k1]:
+      if a[k1][0][k2] == x[k2]:
         return True
     return False
+  orphaned_definitions = []
   for i, e in enumerate(d):
     if i % 500 == 0:
       print(f"◇◈◇ #{i}")
     assert d[i] is not None
     for ι, ε in enumerate(d[:i]):
-      if ε is None:
-        continue
       if ι >= i:
         break
       if ε is None:
         continue
-      if ω(e["toaq_forms"], ε["toaq_forms"], {"toaq", "language"}):
-        # ⟦e⟧ and ⟦ε⟧ are definitions competing for a same head word.
-        # There must remain only one of them.
-        l = [x["toaq"] for x in ε["toaq_forms"]]
-        k = l.index(e["toaq_forms"][0]["toaq"])
-        for f in WINNER_SELECTION_FUNCTIONS:
-          loser = the_least((i, 0), (ι, k), f)
-          if loser != None:
-            break
-        if loser != None:
-          orphaned_definitions.append(d[loser[0]])
-          d[loser[0]] = None
-        else:
-          def φ(i, j, k):
-            return d[i]['toaq_forms'][j][k]
-          print(
-            f"[⚠ WARNING ⚠] Resolution of competing definitions:\n"
-            + f"  Cannot satisfyingly break the tie between the following entries:\n"
-            + f"  • #{i}: {φ(i, 0, 'id')} {φ(i, 0, 'toaq')}\n"
-            + f"  • #{ι}: {φ(ι, k, 'id')} {φ(ι, k, 'toaq')}\n"
-            + f"  By default, the entry with the lowest index is therefore selected."
-          )
-          d[ι] = None
-      else:
+      if ω(e, ε, "toaq_forms", "toaq"):
+        if ω(e, ε, "translations", "language"):
+          # ⟦e⟧ and ⟦ε⟧ are have same-language definitions competing for the same head words.
+          # Of these two definitions, there must remain only one.
+          n = ε_target(e, ε, "toaq_forms", "toaq")
+          w = winner_of(e, ε, "toaq_forms", n)
+          if w == i:
+            print(f"◈ #{i} STEALS {ε['toaq_forms'][n]['toaq']} FROM #{ι}.")
+            ε["toaq_forms"][:n] + ε["toaq_forms"][n + 1:]
+            if len(ε["toaq_forms"]) == 0:
+              print(f"◈ #{ι} is now orphaned!")
+            orphaned_definitions.append(d[ι])
+            d[ι] = None
+          else:
+            j = ε_target(e, ε, "translations", "language")
+            w = winner_of(e, ε, "translations", j)
+            if w == i:
+              print(f"◈ #{i}'s definition overwrites the same-language one in #{ι}.")
+              ε["translations"][n] = e["translations"][0]
+              d[i] = None
+            else:
+              orphaned_definitions.append(d[i])
+              d[i] = None
+        else: # not ω(e, ε, "translations", "language")
+          print(f"❖ Adding to {[x['toaq'] for x in ε['toaq_forms']]} in languages {[x['language'] for x in ε['translations']]} a new translation in language '{e['translations'][0]['language']}'.")
+          ε["translations"] += e["translations"]
+          d[i] = None
+      else: # not (ω(e, ε, "toaq_forms", "toaq")
         if equal(e, ε, lambda _: _["distribution"]):
           for ɛt in ε["translations"]:
             et = e["translations"][0]
@@ -257,10 +276,10 @@ def with_merged_entries(d):
                       {"language", "definition"}):
               # ⟦e⟧ and ⟦ε⟧ are synonyms and will be merged.
               # Specifically, the ⟦toaq_forms⟧ of the former will be added to that of the latter, and then the former will be replaced by a null value.
-              def φ(i, j, k):
-                return d[i]['toaq_forms'][j][k]
+              #def φ(i, j, k):
+              #  return d[i]['toaq_forms'][j][k]
               #print(
-              #  f"❖❖❖ SYNONYM MERGER:\n"
+              #  f"◇ SYNONYM MERGER:\n"
               #  + f"  • #{i}: {φ(i, 0, 'id')} {φ(i, 0, 'toaq')}\n"
               #  + f"  • #{ι}: {φ(ι, 0, 'id')} {φ(ι, 0, 'toaq')}"
               #)
@@ -273,11 +292,11 @@ def with_merged_entries(d):
 def equal(α, β, f):
   return f(α) == f(β)
 
-def the_least(α, β, f):
+def the_most(α, β, f):
   if f(α) > f(β):
-    return β
-  elif f(α) < f(β):
     return α
+  elif f(α) < f(β):
+    return β
   else:
     return None
 
@@ -381,22 +400,24 @@ def reformated_entry(entry):
   language_code = LANGUAGE_CODE_MAP.get(
     two_letters_language_code, two_letters_language_code)
   if len(language_code) == 2:
-    print("❖❖❖ [WARNING] Unknown 2-letter language code: “"
-          + str(entry["translations"]["language"]) + "”")
+    print(f"❖❖❖ [WARNING] Unknown 2-letter language code: "
+          + f"“{language_code}”")
   definition_type = "informal"
+  fork_of = []
   if (len(definition) > 0x10 and definition[0] == '('):
     m = re.match("(fork of #[^ )]+)\) ", definition)
     if m:
       fork_message = m.groups()[0]
       definition = definition[len(fork_message) + 3 :]
-      fs = [] if "fork_of" not in entry else entry["fork_of"]
-      entry["fork_of"] = fs + [fork_message[9:]]
+      if "fork_of" in entry:
+        fork_of = entry["fork_of"]
+      fork_of += [fork_message[9:]]
       print(f"❖❖❖ #{id}: fork of {fork_message[9:]}.")
   match language_code:
     case "eng":
        definition = definition.replace("◌", "▯")
     case "toa":
-      if len(d) >= 2:
+      if len(definition) >= 2:
         match definition[:2]:
           case "⚙ ":
             definition      = definition[2:]
@@ -423,42 +444,46 @@ def reformated_entry(entry):
         toadua_etymologies += content[m.end():]
   # === Toaq Form map === #
   toaq_forms = [{
-    "id":             id,
-    "is_official":    is_official_author(author),
-    "author":         author,
-    "date":           date,
-    "toaq":           toaq_item,
-    "is_a_lemma":     pytoaq.is_a_lemma(toaq_item),
-    "audio":          [],
-    "class":          pop_else("type", ""),
-    "is_namesake":    pop_else("namesake", None),
-    "frame":          pop_else("frame", ""),
-    "generics":       "",
-    "noun_classes":   "",
-    "examples":       pop_else("examples", []),
-    "segmentations":  [],
-    "etymology":      [],
+    "id":               id,
+    "is_official":      is_official_author(author),
+    "author":           author,
+    "date":             date,
+    "toaq":             toaq_item,
+    "is_a_lemma":       pytoaq.is_a_lemma(toaq_item),
+    "audio":            [],
+    "class":            pop_else("type", ""),
+    "is_namesake":      pop_else("namesake", None),
+    "frame":            pop_else("frame", ""),
+    "generics":         "",
+    "noun_classes":     "",
+    "examples":         pop_else("examples", []),
+    "segmentations":    [],
+    "etymology":        [],
     "toadua_etymologies": toadua_etymologies,
-    "comments":       comments
+    "comments":         comments,
+    "score":            pop_else("score", 0)
   }]
   # === Treanslation map === #
   translations = [{
-    "language":        language_code,
-    "definition_type": definition_type,
-    "definition":      definition,
-    "notes":           notes,
-    "keywords":        keywords,
-    "gloss":           pop_else("gloss", "")
+    "language":         language_code,
+    "definition_type":  definition_type,
+    "definition":       definition,
+    "notes":            notes,
+    "keywords":         keywords,
+    "gloss":            pop_else("gloss", ""),
+    "fork_of":          fork_of,
+    "author":           author,
+    "date":             date,
+    "score":            pop_else("score", 0)
   }]
   # === Main map === #
   entry = {
-    "predilex_id":  "",
-    "translations": translations,
-    "toaq_forms":   toaq_forms,
-    "distribution": pop_else("distribution", ""),
-    "slot_tags":    pop_else("fields", []),
-    "tags":         [],
-    "score":        pop_else("score", 0)
+    "predilex_id":      "",
+    "translations":     translations,
+    "toaq_forms":       toaq_forms,
+    "distribution":     pop_else("distribution", ""),
+    "slot_tags":        pop_else("fields", []),
+    "tags":             [],
   }
   for e in (
     "related", "derived", "similar", "synonyms", "antonyms",
@@ -503,22 +528,6 @@ def examples_as_new_entries(examples, item):
       "tags": ["example"]
     })
   return example_entries
-
-ENTRY_KEY_LIST = (
-    "id", "officialness", "authors", "dates", "toaq", "is_a_lemma", "example_id", "audio", "class", "frame", "distribution", "generics", "noun_classes", "slot_tags", "tags", "examples", "target_language", "definition_type", "definition", "notes", "gloss", "keywords", "segmentation", "etymology", "toadua_etymologies", "related", "derived", "synonyms", "antonyms", "hypernyms", "hyponyms", "comments", "score"
-  )
-
-# ⌵ CURRENTLY UNUSED
-def reordered_entry(entry):
-  # assert all(map(
-  #   lambda key: key in ENTRY_KEY_LIST, list(entry.keys())))
-  diff = set(entry.keys()) - set(ENTRY_KEY_LIST)
-  if diff != set() and not hasattr(reordered_entry, "foreign_keys_already_found"):
-    print("  FOREIGN KEYS: " + str(diff))
-    reordered_entry.foreign_keys_already_found = True
-  return OrderedDict(
-    (key, entry[key]) for key in ENTRY_KEY_LIST if key in entry
-  )
 
 def follows_iso_date(d1, d2):
   f = lambda x: filtered_string(x, lambda c: c in "0123456789")
