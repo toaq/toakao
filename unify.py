@@ -265,7 +265,7 @@ def with_merged_entries(d):
               orphaned_definitions.append(d[i])
               d[i] = None
         else: # not ω(e, ε, "translations", "language")
-          print(f"❖ Adding to {[x['toaq'] for x in ε['toaq_forms']]} in languages {[x['language'] for x in ε['translations']]} a new translation in language '{e['translations'][0]['language']}'.")
+          # print(f"❖ Adding to {[x['toaq'] for x in ε['toaq_forms']]} in languages {[x['language'] for x in ε['translations']]} a new translation in language '{e['translations'][0]['language']}'.")
           ε["translations"] += e["translations"]
           d[i] = None
       else: # not (ω(e, ε, "toaq_forms", "toaq")
