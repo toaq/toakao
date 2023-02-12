@@ -25,9 +25,9 @@ TOADUA_SCORE_THRESHOLD = 0
 
 OFFICIAL_DICTIONARY_URL = "https://raw.githubusercontent.com/toaq/dictionary/master/dictionary.json"
 TOADUA_DOWNLOAD_COMMAND = 'wget -O- https://toadua.uakci.pl/api --post-data \'{"action":"search","query":["term",""]}\' | jq .results'
-A_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1395088029'
+A_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1211677603'
 B_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=574044693'
-O_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1905610286'
+O_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=955667013'
 COUNTRIES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1P9p1D38p364JSiNqLMGwY3zDRPQ_f6Yob_OL-uku28Q&output=csv&gid=637793855'
 
 # ==================================================================== #
@@ -53,8 +53,10 @@ def entrypoint(this_path):
       toadua = dicts_from_json_path("archives/toadua-test.json")
     step_desc = "attempting to download the spreadsheets"
     a_sentences = table_from_csv_url(A_SENTENCES_URL)
-    b_sentences = table_from_csv_url(B_SENTENCES_URL)
+    ## b_sentences = table_from_csv_url(B_SENTENCES_URL)
     o_sentences = table_from_csv_url(O_SENTENCES_URL)
+    i = o_sentences[0].index("ID")
+    o_sentences = [[r[i], r[1], r[2]] for r in o_sentences]
     countries   = table_from_csv_url(COUNTRIES_URL)
   except:
     print(
@@ -69,7 +71,7 @@ def entrypoint(this_path):
   ## toatuq += dicts_from_countries(countries[2:])
   # ⌵ Importing example sentences, ignoring the two first rows.
   toatuq += dicts_from_sentences(a_sentences[2:], "examples")
-  toatuq += dicts_from_sentences(b_sentences[2:], "examples")
+  ## toatuq += dicts_from_sentences(b_sentences[2:], "examples")
   toatuq += dicts_from_sentences(o_sentences[2:], "official-examples")
   # ⌵ Merging duplicates.
   toatuq, orphanes = with_merged_entries(toatuq)
@@ -112,10 +114,10 @@ def dicts_from_sentences(sentences, author):
   for row in sentences:
     if len(row) < 3:
       return ds
-    example_id, toaq, definition = row[:3]
-    if row[1] != "" and row[2] != "":
+    example_id, toaq, english = row[:3]
+    if toaq != "" and english != "":
       e = entry_from_toaq_and_def(
-        toaq, definition, "eng", [], author, "example:" + example_id
+        toaq, english, "eng", [], author, "example:" + example_id
       )
       e["example_id"] =  example_id
       ds.append(e)
@@ -348,9 +350,14 @@ def toadua_entry_shall_be_included(entry):
   )
 
 LANGUAGE_CODE_MAP = {
-  "toa": "toa", "en": "eng", "fr": "fra", "es": "spa", "de": "deu",
-  "pl": "pol", "is": "isl", "ja": "jpn", "zh": "cmn", "ch": "cha",
-  "vp": "Viossa"}
+  "toa": "qtq",
+  "en": "eng", "es": "spa","zh": "cmn", "ar": "ara", "hi": "hin",
+  "ru": "rus", "pt": "por", "ms": "msa", "fr": "fra", "de": "deu",
+  "bn": "ben", "ja": "jpn", "fa": "fas", "sw": "swa", "ta": "tam",
+  "it": "ita", "jv": "jav", "te": "tel", "ko": "kor", "tr": "tur",
+  "pl": "pol", "nl": "nld", "is": "isl", "tl": "tgl", "ch": "cha",
+  "eo": "epo", "jbo": "jbo", "vo": "vol", "vp": "qpv", "qit": "qit"
+}
 
 def reformated_entry(entry):
   def pop_else(key, default):
@@ -396,7 +403,6 @@ def reformated_entry(entry):
       "author": comment["user"]
     } for comment in comments
   ]
-  
   two_letters_language_code = pop_else("scope", "en")
   language_code = LANGUAGE_CODE_MAP.get(
     two_letters_language_code, two_letters_language_code)
@@ -484,7 +490,7 @@ def reformated_entry(entry):
     "toaq_forms":       toaq_forms,
     "distribution":     pop_else("distribution", ""),
     "slot_tags":        pop_else("fields", []),
-    "tags":             [],
+    "tags":             []
   }
   for e in (
     "related", "derived", "similar", "synonyms", "antonyms",
@@ -562,28 +568,33 @@ def iso_date_from_toadua_comment_date(d):
     return ""
   res = res.groups()
   assert(len(res) >= 4)
-  ms = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
-       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+  ms = (
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
   if res[1] not in ms:
     print("UNKNOWN MONTH CODE: " + str(res[1]))
     return ""
   m = ms.index(res[1]) + 1
-  return (res[2] + "-" + "{:02d}".format(m) + "-" + res[0]
-          + "T" + res[3] + "Z")
+  return (
+    res[2] + "-" + "{:02d}".format(m) + f"-{res[0]}T{res[3]}Z")
 
 # ==================================================================== #
 
 ### MISCELLANEOUS ROUTINES ###
 
 def normalized_with_report(s):
-  r = pytoaq.normalized(s)
+  try:
+    r = pytoaq.normalized_with_quotes_excluded(s)
+  except:
+    print(f"Normalization error on expression ⟪{s}⟫:\n  {str(sys.exc_info()[1])}")
+    r = s
   if r != s:
     print(f"NORMALIZED: {s}\n         -> {r}")
   return r
 
 def random_id():
-  cs = ("0123456789-_abcdefghijklmnopqrstuvwxyz"
-        + "ABCDERFGIJKLMNOPQRSTUVWXYZ")
+  cs = (
+    "0123456789-_abcdefghijklmnopqrstuvwxyzABCDERFGIJKLMNOPQRSTUVWXYZ")
   id = ""
   while len(id) < 0xA:
     id += random.choice(cs)
