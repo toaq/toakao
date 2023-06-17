@@ -21,6 +21,8 @@ def entrypoint(this_path, json_path):
         time.time() - t1))
 
 def f(ml):
+  quaternaries = set()
+  superquaternaries = set()
   arities = multiset()
   for m in ml:
     if has_lemma(m) and "translations" in m:
@@ -28,6 +30,11 @@ def f(ml):
         assert "language" in t
         if t["language"] == "eng":
           a = arity_of(t["definition"])
+          toa = [tfs["toaq"] for tfs in m["toaq_forms"]]
+          if a == 4:
+            quaternaries |= set(toa)
+          elif a > 4:
+            superquaternaries |= set(toa)
           arities.update(str(a))
   print("ARITIES:")
   maxlen = 0
@@ -43,6 +50,8 @@ def f(ml):
     a = f'{a}'
     r = "{:.2f}".format(n / t)
     print(f"  │ {a.ljust(maxlen)} │ {str(n).rjust(5)} │ {r} │")
+  print("QUATERNARY PREDICATES:\n" + str(quaternaries))
+  print("SUPERQUATERNARY PREDICATES:\n" + str(superquaternaries))
 
 def has_lemma(m):
   if "toaq_forms" in m:
