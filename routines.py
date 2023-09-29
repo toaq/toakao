@@ -2,9 +2,13 @@
 
 # SPDX-License-Identifier: ISC
 
-import os, io, csv, json, oyaml
+import os, io, csv, json
 import requests
 from collections import OrderedDict
+from ruamel.yaml import YAML
+
+yaml = YAML(typ = "rt", pure = True)
+yaml.default_flow_style = False
 
 def edit_json_from_path(input_path, function, output_path = None):
   if output_path == None:
@@ -39,36 +43,40 @@ dicts_from_json_path = object_from_json_path
 
 def object_from_yaml_path(path):
   with open(path, "r", encoding = "utf-8") as f:
-    return oyaml.full_load(f.read())
+    return yaml.load(f.read())
 
-def table_from_csv_path(path, delim = ','):
+def table_from_csv_path(path, delimiter = ','):
   with open(path, "r", encoding = "utf-8") as f:
-    r = csv.reader(f, delimiter = delim)
+    r = csv.reader(f, delimiter = delimiter)
     t = []
     for row in r:
       t.append(row)
     return t
 
-def table_gen_from_csv_path(path, delim = ','):
+def table_gen_from_csv_path(path, delimiter = ','):
   with open(path, "r", encoding = "utf-8") as f:
-    return csv.reader(f, delimiter = delim)
+    return csv.reader(f, delimiter = delimiter)
 
-def object_from_json_url(url):
+def _content_from_url(url):
   response = requests.get(url)
   response.raise_for_status()
   assert response.status_code == 200, (
     'Wrong status code :' + str(response.status_code))
-  return json.loads(response.content)
+  return response.content
+
+def object_from_json_url(url):
+  return json.loads(_content_from_url(url))
 
 dicts_from_json_url = object_from_json_url
 
-def table_from_csv_url(url):
-  response = requests.get(url)
-  response.raise_for_status()
-  assert response.status_code == 200, (
-    'Wrong status code :' + str(response.status_code))
-  content = io.StringIO(response.content.decode("UTF8"), newline = None)
-  csv_reader = csv.reader(content, delimiter=',')
+def object_from_yaml_url(url):
+  return yaml.load(_content_from_url(url))
+
+
+def table_from_csv_url(url, delimiter = ','):
+  content = _content_from_url(url)
+  content = io.StringIO(content.decode("UTF8"), newline = None)
+  csv_reader = csv.reader(content, delim)
   table = []
   for row in csv_reader:
     table.append(row)
@@ -100,15 +108,15 @@ def edit_csv_from_path(
   inputf.close()
   outputf.close()
 
-def save_as_csv_file(table, path):
+def save_as_csv_file(table, path, delimiter = ','):
   with open(path, "w", newline='', encoding='utf-8') as o:
-    csv.writer(o, delimiter = ',').writerows(table)
+    csv.writer(o, delimiter = delimiter).writerows(table)
 
-def save_dicts_as_csv_file(dicts, path):
+def save_dicts_as_csv_file(dicts, path, delimiter = ','):
   with open(path, "w", newline='', encoding='utf-8') as o:
     keys, table = keys_and_table_from_dict(dicts)
     table.insert(0, keys)
-    csv.writer(o, delimiter = ',').writerows(table)
+    csv.writer(o, delimiter = delimiter).writerows(table)
 
 def save_as_json_file(dicts, path, indent = 2):
   with open(path, "wb") as o:
@@ -119,12 +127,10 @@ def save_as_json_file(dicts, path, indent = 2):
     ))
 
 def save_as_yaml_file(obj, path, indent = 2):
+  yaml.indent(mapping = indent, sequence = indent * 2, offset = indent)
   with open(path, "wb") as o:
     o.truncate()
-    o.write(bytes(
-      oyaml.dump(obj, indent = indent, sort_keys = False),
-      encoding = "utf8"
-    ))
+    yaml.dump(obj, o)
 
 def keys_and_table_from_dict(dicts):
   keys = []
