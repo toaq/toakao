@@ -24,7 +24,7 @@ EXAMPLES_ARE_LINKS = True
 TOADUA_SCORE_THRESHOLD = 0
 
 OFFICIAL_DICTIONARY_URL = "https://raw.githubusercontent.com/toaq/dictionary/master/dictionary.json"
-TOADUA_DOWNLOAD_COMMAND = 'wget -O- https://toadua.uakci.pl/api --post-data \'{"action":"search","query":["term",""]}\' | jq .results'
+TOADUA_DOWNLOAD_COMMAND = 'wget -O- https://toadua.uakci.space/api --post-data \'{"action":"search","query":["term",""]}\' | jq .results'
 A_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=1211677603'
 B_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=574044693'
 O_SENTENCES_URL = 'https://docs.google.com/spreadsheet/ccc?key=1bCQoaX02ZyaElHiiMcKHFemO4eV1MEYmYloYZgOAhac&output=csv&gid=955667013'
