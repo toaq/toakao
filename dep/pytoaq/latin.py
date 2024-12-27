@@ -158,10 +158,14 @@ def is_a_prefix_lemma(s):
     s)
 
 def is_a_contentive_lemma(s):
+  if len(s) == 0:
+	  return False
+  s = s[0].lower() + s[1:]
   return None != re.match(
     ( f"([{std_word_initial_str}]h?)?[aeıouạẹı̣ọụ]+[mq]?"
     + f"(([{std_consonant_str}]h?)[aeıouạẹı̣ọụ]+[mq]?)*$" ),
     s)
+
 
 def is_a_lemma(s):
   return (
