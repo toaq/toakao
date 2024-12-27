@@ -412,7 +412,7 @@ def reformated_entry(entry):
   definition_type = "informal"
   fork_of = []
   if (len(definition) > 0x10 and definition[0] == '('):
-    m = re.match("(fork of #[^ )]+)\) ", definition)
+    m = re.match(r"(fork of #[^ )]+)\) ", definition)
     if m:
       fork_message = m.groups()[0]
       definition = definition[len(fork_message) + 3 :]
@@ -470,7 +470,7 @@ def reformated_entry(entry):
     "comments":         comments,
     "score":            pop_else("score", 0)
   }]
-  # === Treanslation map === #
+  # === Translation map === #
   translations = [{
     "language":         language_code,
     "definition_type":  definition_type,
