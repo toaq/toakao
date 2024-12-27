@@ -206,7 +206,7 @@ def normalized(s, without_stripping = False):
   s = unicodedata.normalize("NFC", s)
   s = s.replace(PU2, CUD)
   if None == re.search(
-    "[\s'áéíóúäëïöüâêîôû]", s, re.IGNORECASE
+    r"[\s'áéíóúäëïöüâêîôû]", s, re.IGNORECASE
   ) or s in functors_with_grammatical_tone:
     # The input is a lemma.
     s = s[0] + s[1:].lower()

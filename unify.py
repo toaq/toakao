@@ -147,7 +147,7 @@ def dicts_from_countries(countries):
 def format_country_name(name):
   original_name = name
   name = name.replace(" → ", " / ")
-  name = re.sub("\[[^\]]*\]", "", name)
+  name = re.sub(r"\[[^\]]*\]", "", name)
   l = re.split("( [/–] )", name)
   i = 0
   while i < len(l):
