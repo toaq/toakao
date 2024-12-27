@@ -112,6 +112,7 @@ def inflected_from_lemma(lemma, tone):
   return lemma
 
 def inflected_vowel(vowel, tone):
+  # TODO: Under-dotted vowels
   if vowel not in "aeıouAEIOU":
     raise ValueError(f"⟦inflected_vowel⟧: Invalid vowel: ⟪{vowel}⟫")
   if tone == "":
@@ -151,6 +152,11 @@ def is_an_inflected_contentive(s):
     + f"[aeıou]*[mq]?(([{std_consonant_str}]h?)[aeıouạẹı̣ọụ]+[mq]?)*$" ),
     s)
 
+def is_a_prefix_lemma(s):
+  return None != re.match(
+    f"(([{std_word_initial_str}]h?)?)?[aeıou]+[mq]?-$",
+    s)
+
 def is_a_contentive_lemma(s):
   return None != re.match(
     ( f"([{std_word_initial_str}]h?)?[aeıouạẹı̣ọụ]+[mq]?"
@@ -159,7 +165,7 @@ def is_a_contentive_lemma(s):
 
 def is_a_lemma(s):
   return (
-    is_a_contentive_lemma(s) or s in (
+    is_a_contentive_lemma(s) or is_a_prefix_lemma(s) or s in (
       toneless_particles | functors_with_lexical_tone | interjections))
 
 def __is_an_interjection(s):
