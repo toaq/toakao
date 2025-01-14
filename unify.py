@@ -356,6 +356,7 @@ LANGUAGE_CODE_MAP = {
   "bn": "ben", "ja": "jpn", "fa": "fas", "sw": "swa", "ta": "tam",
   "it": "ita", "jv": "jav", "te": "tel", "ko": "kor", "tr": "tur",
   "pl": "pol", "nl": "nld", "is": "isl", "tl": "tgl", "ch": "cha",
+  "bg": "bul",
   "eo": "epo", "jbo": "jbo", "vo": "vol", "vp": "qpv", "qit": "qit"
 }
 
