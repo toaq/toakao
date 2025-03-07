@@ -5,10 +5,6 @@
 import os, io, csv, json
 import requests
 from collections import OrderedDict
-from ruamel.yaml import YAML
-
-yaml = YAML(typ = "rt", pure = True)
-yaml.default_flow_style = False
 
 def edit_json_from_path(input_path, function, output_path = None):
   if output_path == None:
@@ -41,10 +37,6 @@ def object_from_json_path(path):
 
 dicts_from_json_path = object_from_json_path
 
-def object_from_yaml_path(path):
-  with open(path, "r", encoding = "utf-8") as f:
-    return yaml.load(f.read())
-
 def table_from_csv_path(path, delimiter = ','):
   with open(path, "r", encoding = "utf-8") as f:
     r = csv.reader(f, delimiter = delimiter)
@@ -68,10 +60,6 @@ def object_from_json_url(url):
   return json.loads(_content_from_url(url))
 
 dicts_from_json_url = object_from_json_url
-
-def object_from_yaml_url(url):
-  return yaml.load(_content_from_url(url))
-
 
 def table_from_csv_url(url, delimiter = ','):
   content = _content_from_url(url)
@@ -125,12 +113,6 @@ def save_as_json_file(dicts, path, indent = 2):
       json.dumps(dicts, indent = indent, ensure_ascii = False),
       encoding = "utf8"
     ))
-
-def save_as_yaml_file(obj, path, indent = 2):
-  yaml.indent(mapping = indent, sequence = indent * 2, offset = indent)
-  with open(path, "wb") as o:
-    o.truncate()
-    yaml.dump(obj, o)
 
 def keys_and_table_from_dict(dicts):
   keys = []
