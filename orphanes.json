@@ -125,7 +125,7 @@
             "author": "Machy"
           }
         ],
-        "score": 8
+        "score": 9
       }
     ],
     "distribution": "",
@@ -404,66 +404,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ wants to satisfy property ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "uakci",
-        "date": "2023-09-04T14:01:20.475Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "FcGl3tIP1",
-        "is_official": false,
-        "author": "uakci",
-        "date": "2023-09-04T14:01:20.475Z",
-        "toaq": "shao",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "rationale: this is easily the least intuitive thing about toaq to learners. they have to be told to use **ıqshao** for this frame. meanwhile, ‘to want to X’ is a super super super common catenative/modal verb/inflection in most languages i’m familiar with, and our departure from this seems to benefit nobody in particular. for (c 0) frame i’d suggest **faqshao** or perhaps **shao gaı**",
-            "date": "2023-09-04T14:03:15.765Z",
-            "author": "uakci"
-          },
-          {
-            "content": "Hoemaı has defined **aojaı** which I like to interpret as a gentle statement of support for this definition :)  +1",
-            "date": "2023-10-31T22:56:06.750Z",
-            "author": "Laqme"
-          }
-        ],
-        "score": 5
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ volunteers for doing ▯.",
         "notes": [],
         "keywords": [],
@@ -660,6 +600,11 @@
             "content": "+1",
             "date": "2021-10-05T19:29:48.669Z",
             "author": "Machy"
+          },
+          {
+            "content": "by means of, via",
+            "date": "2025-03-20T00:34:37.185Z",
+            "author": "lassc"
           }
         ],
         "score": 4
@@ -742,6 +687,136 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "▯ is a child of ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2022-03-03T01:49:30.257Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "Pam8cBXNm",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2022-03-03T01:49:30.257Z",
+        "toaq": "fu",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "+1, i think it is important to make the biological forms of these words the marked forms as opposed to vice versa",
+            "date": "2025-03-25T16:29:12.569Z",
+            "author": "lassc"
+          },
+          {
+            "content": "+1 ^",
+            "date": "2025-03-25T16:32:04.754Z",
+            "author": "ijonetun"
+          },
+          {
+            "content": "mıja :3",
+            "date": "2025-03-25T16:39:07.339Z",
+            "author": "evie"
+          }
+        ],
+        "score": 4
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "predicate: ‘have.purpose’; ▯ is for purpose ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2023-01-13T19:24:53.941Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "oi9C5T2w1Kp",
+        "is_official": true,
+        "author": "official",
+        "date": "2023-01-13T19:24:53.941Z",
+        "toaq": "zuo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "Clarification: This is \"is done for purpose\" as opposed to \"exists for purpose\" (according to the refgram)",
+            "date": "2023-01-30T00:31:55.449Z",
+            "author": "TheAndSys"
+          },
+          {
+            "content": "Personally, I think we should consider this word to cover both senses",
+            "date": "2023-09-11T01:29:21.547Z",
+            "author": "robintown"
+          },
+          {
+            "content": "in order to",
+            "date": "2025-03-17T12:24:00.602Z",
+            "author": "jiqci"
+          }
+        ],
+        "score": 3
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "▯ tells / communicates to ▯ that ▯ is the case.",
         "notes": [],
         "keywords": [],
@@ -797,23 +872,23 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ deems/judges/finds ▯ to be the case.",
+        "definition": "▯ wants to satisfy property ▯.",
         "notes": [],
         "keywords": [],
         "gloss": "",
         "fork_of": [],
-        "author": "robintown",
-        "date": "2023-10-27T22:18:45.127Z",
+        "author": "uakci",
+        "date": "2023-09-04T14:01:20.475Z",
         "score": 0
       }
     ],
     "toaq_forms": [
       {
-        "id": "YbopIs6U-",
+        "id": "FcGl3tIP1",
         "is_official": false,
-        "author": "robintown",
-        "date": "2023-10-27T22:18:45.127Z",
-        "toaq": "jıe",
+        "author": "uakci",
+        "date": "2023-09-04T14:01:20.475Z",
+        "toaq": "shao",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -825,7 +900,23 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "rationale: this is easily the least intuitive thing about toaq to learners. they have to be told to use **ıqshao** for this frame. meanwhile, ‘to want to X’ is a super super super common catenative/modal verb/inflection in most languages i’m familiar with, and our departure from this seems to benefit nobody in particular. for (c 0) frame i’d suggest **faqshao** or perhaps **shao gaı**",
+            "date": "2023-09-04T14:03:15.765Z",
+            "author": "uakci"
+          },
+          {
+            "content": "Hoemaı has defined **aojaı** which I like to interpret as a gentle statement of support for this definition :)  +1",
+            "date": "2023-10-31T22:56:06.750Z",
+            "author": "Laqme"
+          },
+          {
+            "content": "wish, desire",
+            "date": "2025-03-20T09:07:54.094Z",
+            "author": "lassc"
+          }
+        ],
         "score": 4
       }
     ],
@@ -1174,6 +1265,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘near’; ▯ is near ▯ in property ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-05-05T22:26:00.483Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "w9hOKEWAif",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-05-05T22:26:00.483Z",
+        "toaq": "juı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 2
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘left’; ▯ is to the left of ▯.",
         "notes": [],
         "keywords": [],
@@ -1463,7 +1603,13 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "alike",
+            "date": "2025-03-19T16:57:21.030Z",
+            "author": "lassc"
+          }
+        ],
         "score": 2
       }
     ],
@@ -2521,66 +2667,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘have.purpose’; ▯ is for purpose ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2023-01-13T19:24:53.941Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "oi9C5T2w1Kp",
-        "is_official": true,
-        "author": "official",
-        "date": "2023-01-13T19:24:53.941Z",
-        "toaq": "zuo",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "Clarification: This is \"is done for purpose\" as opposed to \"exists for purpose\" (according to the refgram)",
-            "date": "2023-01-30T00:31:55.449Z",
-            "author": "TheAndSys"
-          },
-          {
-            "content": "Personally, I think we should consider this word to cover both senses",
-            "date": "2023-09-11T01:29:21.547Z",
-            "author": "robintown"
-          }
-        ],
-        "score": 2
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘is.false’; ▯ is false / is not the case.",
         "notes": [],
         "keywords": [],
@@ -2685,6 +2771,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "▯ deems/judges/finds ▯ to be the case.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2023-10-27T22:18:45.127Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "YbopIs6U-",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2023-10-27T22:18:45.127Z",
+        "toaq": "jıe",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 3
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "▯ mentions ▯.",
         "notes": [],
         "keywords": [],
@@ -2763,6 +2898,76 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
+        "score": 3
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ falls.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-09-11T14:51:38.679Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "Ep5zGd5sB",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-09-11T14:51:38.679Z",
+        "toaq": "shua",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "How do we recover the second argument?",
+            "date": "2025-03-07T21:24:06.343Z",
+            "author": "Hoemai"
+          },
+          {
+            "content": "**fâ** / **fâna**",
+            "date": "2025-03-07T21:29:47.469Z",
+            "author": "evie"
+          },
+          {
+            "content": "Hmm, and then maybe also **nêofa** for specifically \"onto\"; and also **chûoq**/**dôka**.",
+            "date": "2025-03-07T21:38:56.161Z",
+            "author": "Hoemai"
+          },
+          {
+            "content": "I would go for **chûoq**",
+            "date": "2025-03-07T21:40:13.860Z",
+            "author": "robintown"
+          }
+        ],
         "score": 3
       }
     ],
@@ -4408,55 +4613,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘hail’; ▯ is hail.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-05-05T22:25:10.992Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "REUu6CiC-1",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-05-05T22:25:10.992Z",
-        "toaq": "chuaıruq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘window’; ▯ is a window.",
         "notes": [],
         "keywords": [],
@@ -4916,55 +5072,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘offspring’; ▯ is a biological offspring of ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-05-05T22:25:28.859Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "30_daspdrp",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-05-05T22:25:28.859Z",
-        "toaq": "fu",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘feel’; ▯ feels ▯ (good or bad); ▯ is ▯ (ill or well).",
         "notes": [],
         "keywords": [],
@@ -5292,55 +5399,6 @@
         "author": "official",
         "date": "2019-05-05T22:25:59.894Z",
         "toaq": "juq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "predicate: ‘near’; ▯ is near ▯ in property ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-05-05T22:26:00.483Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "w9hOKEWAif",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-05-05T22:26:00.483Z",
-        "toaq": "juı",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -7049,6 +7107,61 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘choose.to’; ▯ chooses to do ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-05-05T22:27:41.131Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "1XIVIZBp6X",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-05-05T22:27:41.131Z",
+        "toaq": "taokoe",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "voluntarily, voluntary, willingly",
+            "date": "2025-03-20T09:31:11.041Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘near’; ▯ is near / in the vicinity of ▯.",
         "notes": [],
         "keywords": [],
@@ -7464,6 +7577,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘sometimes’; ▯ happens sometimes.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-08-22T20:30:00.622Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "vgMRB_vCMc",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-08-22T20:30:00.622Z",
+        "toaq": "guosa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘refrigerator’; ▯ is a refrigerator.",
         "notes": [],
         "keywords": [],
@@ -7708,61 +7870,6 @@
         "toadua_etymologies": [],
         "comments": [],
         "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "particle: emphasis, attention-drawing, exclamation\ngı̉da ıo! that's great!",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "akesi",
-        "date": "2020-02-01T10:54:34.673Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "6IclhCW3n",
-        "is_official": false,
-        "author": "akesi",
-        "date": "2020-02-01T10:54:34.673Z",
-        "toaq": "ıo",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "io",
-            "date": "2020-07-04T18:04:11.942Z",
-            "author": "Machy"
-          }
-        ],
-        "score": 2
       }
     ],
     "distribution": "",
@@ -9771,6 +9878,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "▯ is ▯-th among ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "uakci",
+        "date": "2023-01-02T10:14:51.245Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "6QH-Y-UcS",
+        "is_official": false,
+        "author": "uakci",
+        "date": "2023-01-02T10:14:51.245Z",
+        "toaq": "ko",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 2
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘satisfy.property’; ▯ satisfy property ▯.",
         "notes": [],
         "keywords": [],
@@ -10068,7 +10224,13 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "Expresses a hope, wish, or command. **Taı gáqme ba!** May the team succeed!",
+            "date": "2025-03-21T11:16:20.407Z",
+            "author": "Laqme"
+          }
+        ],
         "score": 1
       }
     ],
@@ -11573,6 +11735,55 @@
         "author": "TheAndSys",
         "date": "2023-10-18T19:09:33.900Z",
         "toaq": "fuaqkaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 2
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ smells ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2023-10-22T11:40:12.557Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "oL8jm7NcV",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2023-10-22T11:40:12.557Z",
+        "toaq": "shıq",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -16396,6 +16607,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘hail’; ▯ is hail.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-05-05T22:25:10.992Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "REUu6CiC-1",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-05-05T22:25:10.992Z",
+        "toaq": "chuaıruq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘temple’; ▯ is a temple/church/sanctuary/synagogue/shrine.",
         "notes": [],
         "keywords": [],
@@ -18270,6 +18530,11 @@
             "content": "\"sho dua\"",
             "date": "2021-10-14T00:54:30.175Z",
             "author": "Machy"
+          },
+          {
+            "content": "learn of, not learn to",
+            "date": "2025-03-24T17:23:54.344Z",
+            "author": "lassc"
           }
         ],
         "score": 0
@@ -19552,6 +19817,55 @@
         "author": "official",
         "date": "2019-05-05T22:25:28.700Z",
         "toaq": "fao",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "predicate: ‘offspring’; ▯ is a biological offspring of ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-05-05T22:25:28.859Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "30_daspdrp",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-05-05T22:25:28.859Z",
+        "toaq": "fu",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -21007,7 +21321,13 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "ground, earth",
+            "date": "2025-03-24T17:17:52.715Z",
+            "author": "lassc"
+          }
+        ],
         "score": 0
       }
     ],
@@ -31343,7 +31663,13 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "narrative, tale, fable, myth, legend, parable",
+            "date": "2025-03-20T10:55:23.791Z",
+            "author": "lassc"
+          }
+        ],
         "score": 0
       }
     ],
@@ -36992,6 +37318,11 @@
             "content": "Tags: pajama, pajamas, pyjamas, PJ's, PJ",
             "date": "2023-05-30T16:50:55.581Z",
             "author": "fagri"
+          },
+          {
+            "content": "cf. **pıjama**",
+            "date": "2025-03-20T09:25:27.452Z",
+            "author": "lassc"
           }
         ],
         "score": 0
@@ -40589,6 +40920,11 @@
             "content": "Tags: pajama, pajamas, pyjamas, PJ's, PJ",
             "date": "2023-05-30T16:51:00.358Z",
             "author": "fagri"
+          },
+          {
+            "content": "cf. **nuofuq**",
+            "date": "2025-03-20T09:25:18.457Z",
+            "author": "lassc"
           }
         ],
         "score": 0
@@ -41550,6 +41886,16 @@
             "content": "to be found: theme, related, subject, topic, relation, relationship",
             "date": "2024-09-18T16:52:57.956Z",
             "author": "maigoi"
+          },
+          {
+            "content": "\"with regards to\"",
+            "date": "2025-03-18T02:06:31.833Z",
+            "author": "lassc"
+          },
+          {
+            "content": "concerning",
+            "date": "2025-03-20T00:18:42.713Z",
+            "author": "lassc"
           }
         ],
         "score": 0
@@ -47837,55 +48183,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘choose.to’; ▯ chooses to do ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-05-05T22:27:41.131Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "1XIVIZBp6X",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-05-05T22:27:41.131Z",
-        "toaq": "taokoe",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘consider.doing’; ▯ considers doing ▯.",
         "notes": [],
         "keywords": [],
@@ -49952,6 +50249,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘bra’; ▯ is a bra.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2019-05-05T22:27:53.523Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "P6aDM34fQ",
+        "is_official": true,
+        "author": "official",
+        "date": "2019-05-05T22:27:53.523Z",
+        "toaq": "teaqrıaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘form’; ▯ is a form/shape; ▯ is a form/shape of ▯.",
         "notes": [],
         "keywords": [],
@@ -50874,55 +51220,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘sometimes’; ▯ happens sometimes.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-08-22T20:30:00.622Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "vgMRB_vCMc",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-08-22T20:30:00.622Z",
-        "toaq": "guosa",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘never’; ▯ happens never.",
         "notes": [],
         "keywords": [],
@@ -51583,55 +51880,6 @@
         "author": "official",
         "date": "2019-08-22T20:30:01.405Z",
         "toaq": "shaha",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "predicate: ‘smell’; ▯ smells state of affairs ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "official",
-        "date": "2019-08-22T20:30:01.439Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "Dk6HVmzjmyL",
-        "is_official": true,
-        "author": "official",
-        "date": "2019-08-22T20:30:01.439Z",
-        "toaq": "shıqgaı",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -52984,6 +53232,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘work’; ▯ works in satisfying property ▯; ▯ satisfies property ▯ with effort.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Ilmen",
+        "date": "2020-01-29T20:35:15.190Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "Lyb_Ujp34",
+        "is_official": false,
+        "author": "Ilmen",
+        "date": "2020-01-29T20:35:15.190Z",
+        "toaq": "guaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "▯ is a content word.",
         "notes": [],
         "keywords": [],
@@ -53013,6 +53310,61 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "particle: emphasis, attention-drawing, exclamation\ngı̉da ıo! that's great!",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "akesi",
+        "date": "2020-02-01T10:54:34.673Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "6IclhCW3n",
+        "is_official": false,
+        "author": "akesi",
+        "date": "2020-02-01T10:54:34.673Z",
+        "toaq": "ıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "io",
+            "date": "2020-07-04T18:04:11.942Z",
+            "author": "Machy"
+          }
+        ],
         "score": 1
       }
     ],
@@ -56124,6 +56476,61 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘group’; ▯ is a group/team/gang/band.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "official",
+        "date": "2021-09-29T13:08:54.619Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "IRT35tGCaKH",
+        "is_official": true,
+        "author": "official",
+        "date": "2021-09-29T13:08:54.619Z",
+        "toaq": "gaqme",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "−1; needs [1] or [e] slot",
+            "date": "2021-12-16T01:04:41.537Z",
+            "author": "uakci"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘G’; ▯ is the letter G.",
         "notes": [],
         "keywords": [],
@@ -56201,7 +56608,13 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "← PIE *gʷʰrḗn, is _not_ actually **gu** + **req** (but its a pretty neat mnemonic!)",
+            "date": "2025-03-26T12:11:50.755Z",
+            "author": "lassc"
+          }
+        ],
         "score": 0
       }
     ],
@@ -60146,55 +60559,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ is a child of ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Laqme",
-        "date": "2022-03-03T01:49:30.257Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "Pam8cBXNm",
-        "is_official": false,
-        "author": "Laqme",
-        "date": "2022-03-03T01:49:30.257Z",
-        "toaq": "fu",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘like’; ▯ likes satisfying property ▯.",
         "notes": [],
         "keywords": [],
@@ -63193,55 +63557,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ is ▯-th among ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "uakci",
-        "date": "2023-01-02T10:14:51.245Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "6QH-Y-UcS",
-        "is_official": false,
-        "author": "uakci",
-        "date": "2023-01-02T10:14:51.245Z",
-        "toaq": "ko",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ feels / is doing/faring in a way exemplified with property ▯; ▯ satisfies property ▯, and this is reflective of their mood/disposition/state of mind/status in life/how they’re doing; ▯ is up to satisfying property ▯.",
         "notes": [],
         "keywords": [],
@@ -66135,7 +66450,18 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "Marks a verb as being done \"towards\" a goal, like **fạchuq** = \"to eat up\", **fạbaı** = \"to build (to completion)\"",
+            "date": "2025-03-14T13:02:56.956Z",
+            "author": "Laqme"
+          },
+          {
+            "content": "**fạkoı** \"to walk (all the way) there\"",
+            "date": "2025-03-14T13:05:06.574Z",
+            "author": "Laqme"
+          }
+        ],
         "score": 0
       }
     ],
@@ -70401,7 +70727,18 @@
         "segmentations": [],
         "etymology": [],
         "toadua_etymologies": [],
-        "comments": [],
+        "comments": [
+          {
+            "content": "Marks a verb as *not* being done \"towards\" a goal, like **rụıchuq** = \"to eat of\", **rụıbaı** = \"to build up\" (whether or not it becomes completely built)",
+            "date": "2025-03-14T13:04:21.687Z",
+            "author": "Laqme"
+          },
+          {
+            "content": "**rụıkoı** = \"to walk around / to walk (for a bit)\"",
+            "date": "2025-03-14T13:06:45.226Z",
+            "author": "Laqme"
+          }
+        ],
         "score": 0
       }
     ],
@@ -74079,55 +74416,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ smells ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Laqme",
-        "date": "2023-10-22T11:40:12.557Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "oL8jm7NcV",
-        "is_official": false,
-        "author": "Laqme",
-        "date": "2023-10-22T11:40:12.557Z",
-        "toaq": "shıq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ tastes ▯.",
         "notes": [],
         "keywords": [],
@@ -75462,6 +75750,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "predicate: ‘do’; ▯ intentionally makes itself satisfy property ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Isi",
+        "date": "2024-07-23T16:42:41.448Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "G8ZOUyaZc",
+        "is_official": false,
+        "author": "Isi",
+        "date": "2024-07-23T16:42:41.448Z",
+        "toaq": "tao",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "cleft verb: opens incidental clause commenting on the complement of the speech act",
         "notes": [],
         "keywords": [],
@@ -75630,6 +75967,64 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "▯ endures/withstands ▯.",
+        "notes": [],
+        "keywords": [
+          "weathers",
+          "bears"
+        ],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-09-07T17:49:15.253Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "TWsvf5TYp",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-09-07T17:49:15.253Z",
+        "toaq": "fea",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "keywords: weathers, bears",
+            "date": "2024-09-07T17:49:25.579Z",
+            "author": "robintown"
+          }
+        ],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "predicate: ‘similar’; ▯ are similar.",
         "notes": [],
         "keywords": [],
@@ -75709,55 +76104,6 @@
         "toadua_etymologies": [],
         "comments": [],
         "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "▯ falls.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-09-11T14:51:38.679Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "Ep5zGd5sB",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-09-11T14:51:38.679Z",
-        "toaq": "shua",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 1
       }
     ],
     "distribution": "",
@@ -75875,6 +76221,202 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "degree: very, extremely",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T03:37:27.379Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "8Fd3WJVlo",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T03:37:27.379Z",
+        "toaq": "jaq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: little, not much",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T03:37:36.991Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "GLkOZfbxs",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T03:37:36.991Z",
+        "toaq": "tuao",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: a little, a little bit",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T03:38:10.352Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "mmyUtT1No",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T03:38:10.352Z",
+        "toaq": "sono",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: quite",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T03:38:26.713Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "_eXDLlQ07",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T03:38:26.713Z",
+        "toaq": "tuaobu",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "degree: fully, completely",
         "notes": [],
         "keywords": [],
@@ -75904,6 +76446,164 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: to such an extent",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T03:40:41.712Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "u4dlWl4LK",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T03:40:41.712Z",
+        "toaq": "nunhe",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: how much?",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2024-10-24T04:01:12.140Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "kVz-T8NFj",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2024-10-24T04:01:12.140Z",
+        "toaq": "tıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ promises/threatens to satisfy property ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "takoda",
+        "date": "2024-10-28T02:41:35.238Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "5xaXsbcJd",
+        "is_official": false,
+        "author": "takoda",
+        "date": "2024-10-28T02:41:35.238Z",
+        "toaq": "nue",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "Simplified version of official **nue** without the audience slot. You can use **côm**.",
+            "date": "2024-10-28T02:42:57.612Z",
+            "author": "takoda"
+          },
+          {
+            "content": "This does not imply the subject actually intends to do it. Ill-intentioned promises, fake promises, and empty threats are also covered by this word.",
+            "date": "2024-10-28T02:49:03.642Z",
+            "author": "takoda"
+          }
+        ],
         "score": 1
       }
     ],
@@ -76051,61 +76751,6 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
-        "score": 1
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "prefix: X-less, without X",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Laqme",
-        "date": "2024-12-26T12:46:41.374Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "XaOxTwOhH",
-        "is_official": false,
-        "author": "Laqme",
-        "date": "2024-12-26T12:46:41.374Z",
-        "toaq": "cıa-",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "Exactly equivalent to **kịcıa, lâ haola já báq X**",
-            "date": "2024-12-26T12:47:07.778Z",
-            "author": "Laqme"
-          }
-        ],
         "score": 1
       }
     ],
@@ -76308,6 +76953,153 @@
             "author": "Laqme"
           }
         ],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: too much",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-02T18:31:11.432Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "fZMcamXBO",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-02T18:31:11.432Z",
+        "toaq": "duı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "degree: too little",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-02T18:31:37.276Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "wY1KqKKLl",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-02T18:31:37.276Z",
+        "toaq": "nhoa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 1
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is a seed.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-28T12:16:48.305Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "oM-2ak9FA",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-28T12:16:48.305Z",
+        "toaq": "poaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
         "score": 1
       }
     ],
@@ -76825,55 +77617,6 @@
         "author": "Ilmen",
         "date": "2018-11-18T13:11:32.000Z",
         "toaq": "leı",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "▯ executes ▯ perpetually; ▯ is stuck in infinite loop ▯; ▯ doesn’t halt.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "uakci",
-        "date": "2018-12-08T16:45:50.000Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "SCP1WFmJ1",
-        "is_official": false,
-        "author": "uakci",
-        "date": "2018-12-08T16:45:50.000Z",
-        "toaq": "mıqdoe",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -77460,61 +78203,6 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "▯ expresses sympathy for ▯ ; ▯ uunmo ▯ (lojban)",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "fagri",
-        "date": "2019-01-01T21:18:08.000Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "T1b7H-qGC",
-        "is_official": false,
-        "author": "fagri",
-        "date": "2019-01-01T21:18:08.000Z",
-        "toaq": "nunu",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "tags: \"uh oh\", \"oh no\", \"yikes\"... (when used with ka)",
-            "date": "2019-12-08T06:10:26.090Z",
-            "author": "fagri"
-          }
-        ],
         "score": 0
       }
     ],
@@ -79144,6 +79832,55 @@
         "author": "Hoemai",
         "date": "2019-02-26T20:26:43.000Z",
         "toaq": "tapıra",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is the case and ▯ is the case; ▯ satisfies property ▯ and satisfies property ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "uakci",
+        "date": "2019-02-27T17:57:35.000Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "6p4p0A84N",
+        "is_official": false,
+        "author": "uakci",
+        "date": "2019-02-27T17:57:35.000Z",
+        "toaq": "jeoru",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -86709,55 +87446,6 @@
         "author": "Ilmen",
         "date": "2020-01-29T13:04:08.867Z",
         "toaq": "ne",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "predicate: ‘work’; ▯ works in satisfying property ▯; ▯ satisfies property ▯ with effort.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Ilmen",
-        "date": "2020-01-29T20:35:15.190Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "Lyb_Ujp34",
-        "is_official": false,
-        "author": "Ilmen",
-        "date": "2020-01-29T20:35:15.190Z",
-        "toaq": "guaı",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -94728,6 +95416,55 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "▯ is a process.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Machy",
+        "date": "2021-10-10T02:56:36.401Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "9nFygiMYP",
+        "is_official": false,
+        "author": "Machy",
+        "date": "2021-10-10T02:56:36.401Z",
+        "toaq": "case",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "▯ is a presence.",
         "notes": [],
         "keywords": [],
@@ -100508,61 +101245,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ stands on ▯; ▯ is upright.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "uakci",
-        "date": "2022-06-05T12:18:31.073Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "W8btyJRZ9",
-        "is_official": false,
-        "author": "uakci",
-        "date": "2022-06-05T12:18:31.073Z",
-        "toaq": "sheaq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "vertical",
-            "date": "2022-06-05T12:19:34.826Z",
-            "author": "uakci"
-          }
-        ],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ lies/reclines on ▯; ▯ is level.",
         "notes": [],
         "keywords": [],
@@ -101792,55 +102474,6 @@
         "author": "Laqme",
         "date": "2022-07-12T17:10:21.018Z",
         "toaq": "jeotoa",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "interjection: nom nom",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "uakci",
-        "date": "2022-07-12T17:52:32.909Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "UbnXsu1YA",
-        "is_official": false,
-        "author": "uakci",
-        "date": "2022-07-12T17:52:32.909Z",
-        "toaq": "chuqchuq",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -110458,61 +111091,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ is an aromatic compound.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "jiqci",
-        "date": "2023-01-29T17:07:39.912Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "Y87kySnCr",
-        "is_official": false,
-        "author": "jiqci",
-        "date": "2023-01-29T17:07:39.912Z",
-        "toaq": "zeq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "from **beqzeq**",
-            "date": "2023-01-29T17:07:54.597Z",
-            "author": "jiqci"
-          }
-        ],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ is random-access memory",
         "notes": [],
         "keywords": [],
@@ -111403,6 +111981,11 @@
             "content": "≈ hackneyed, run-off-the-mill, humdrum, banal",
             "date": "2023-03-01T13:36:19.517Z",
             "author": "Laqme"
+          },
+          {
+            "content": "cliché",
+            "date": "2025-03-23T00:45:21.877Z",
+            "author": "lassc"
           }
         ],
         "score": 0
@@ -117291,6 +117874,71 @@
       {
         "language": "eng",
         "definition_type": "informal",
+        "definition": "prefix: indicates that a property is false with the tagged word present, but remains true when the word is left out",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "uakci",
+        "date": "2023-12-09T21:48:39.929Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "JnaQCd_DM",
+        "is_official": false,
+        "author": "uakci",
+        "date": "2023-12-09T21:48:39.929Z",
+        "toaq": "cıa-",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "more specifically, one can think of a function that modifies the tagged word’s denotation by negating it and &ing it with an identity function wrt its usual complement",
+            "date": "2023-12-09T21:49:10.563Z",
+            "author": "uakci"
+          },
+          {
+            "content": "**cịaleo zaomıa** ‘to be famous without trying’",
+            "date": "2023-12-09T21:49:31.124Z",
+            "author": "uakci"
+          },
+          {
+            "content": "**cịahaı nıtı** ‘to be present in a not-“already” way’; ‘to be there at the expected time’ more or less",
+            "date": "2023-12-09T21:50:47.177Z",
+            "author": "uakci"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
         "definition": "▯ is encrypted.",
         "notes": [],
         "keywords": [],
@@ -118501,55 +119149,6 @@
         "author": "TheAndSys",
         "date": "2024-05-06T00:24:23.548Z",
         "toaq": "guqsheaq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "response to / acknowledgment of **kıkı** (cf **kıjı**→**jıkı**)",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "evie",
-        "date": "2024-05-06T21:20:11.572Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "uUGxZJNd_",
-        "is_official": false,
-        "author": "evie",
-        "date": "2024-05-06T21:20:11.572Z",
-        "toaq": "jıjı",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
@@ -120218,55 +120817,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "predicate: ‘do’; ▯ intentionally makes itself satisfy property ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Isi",
-        "date": "2024-07-23T16:42:41.448Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "G8ZOUyaZc",
-        "is_official": false,
-        "author": "Isi",
-        "date": "2024-07-23T16:42:41.448Z",
-        "toaq": "tao",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "▯ is an arachnid (class Arachnida).",
         "notes": [],
         "keywords": [],
@@ -121257,64 +121807,6 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "▯ endures/withstands ▯.",
-        "notes": [],
-        "keywords": [
-          "weathers",
-          "bears"
-        ],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-09-07T17:49:15.253Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "TWsvf5TYp",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-09-07T17:49:15.253Z",
-        "toaq": "fea",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "keywords: weathers, bears",
-            "date": "2024-09-07T17:49:25.579Z",
-            "author": "robintown"
-          }
-        ],
         "score": 0
       }
     ],
@@ -123511,300 +124003,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "degree: very, extremely",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T03:37:27.379Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "8Fd3WJVlo",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T03:37:27.379Z",
-        "toaq": "jaq",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: little, not much",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T03:37:36.991Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "GLkOZfbxs",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T03:37:36.991Z",
-        "toaq": "tuao",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: a little, a little bit",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T03:38:10.352Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "mmyUtT1No",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T03:38:10.352Z",
-        "toaq": "sono",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: quite",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T03:38:26.713Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "_eXDLlQ07",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T03:38:26.713Z",
-        "toaq": "tuaobu",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: to such an extent",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T03:40:41.712Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "u4dlWl4LK",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T03:40:41.712Z",
-        "toaq": "nunhe",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: how much?",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "robintown",
-        "date": "2024-10-24T04:01:12.140Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "kVz-T8NFj",
-        "is_official": false,
-        "author": "robintown",
-        "date": "2024-10-24T04:01:12.140Z",
-        "toaq": "tıo",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "predicate: ‘point’; ▯ is a point, an entity of null spatiotemporal volume.",
         "notes": [],
         "keywords": [],
@@ -123834,66 +124032,6 @@
         "etymology": [],
         "toadua_etymologies": [],
         "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "▯ promises/threatens to satisfy property ▯.",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "takoda",
-        "date": "2024-10-28T02:41:35.238Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "5xaXsbcJd",
-        "is_official": false,
-        "author": "takoda",
-        "date": "2024-10-28T02:41:35.238Z",
-        "toaq": "nue",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [
-          {
-            "content": "Simplified version of official **nue** without the audience slot. You can use **côm**.",
-            "date": "2024-10-28T02:42:57.612Z",
-            "author": "takoda"
-          },
-          {
-            "content": "This does not imply the subject actually intends to do it. Ill-intentioned promises, fake promises, and empty threats are also covered by this word.",
-            "date": "2024-10-28T02:49:03.642Z",
-            "author": "takoda"
-          }
-        ],
         "score": 0
       }
     ],
@@ -127006,104 +127144,6 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "degree: too much",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Laqme",
-        "date": "2025-03-02T18:31:11.432Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "fZMcamXBO",
-        "is_official": false,
-        "author": "Laqme",
-        "date": "2025-03-02T18:31:11.432Z",
-        "toaq": "duı",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
-        "definition": "degree: too little",
-        "notes": [],
-        "keywords": [],
-        "gloss": "",
-        "fork_of": [],
-        "author": "Laqme",
-        "date": "2025-03-02T18:31:37.276Z",
-        "score": 0
-      }
-    ],
-    "toaq_forms": [
-      {
-        "id": "wY1KqKKLl",
-        "is_official": false,
-        "author": "Laqme",
-        "date": "2025-03-02T18:31:37.276Z",
-        "toaq": "nhoa",
-        "is_a_lemma": true,
-        "audio": [],
-        "class": "",
-        "is_namesake": null,
-        "frame": "",
-        "generics": "",
-        "noun_classes": "",
-        "examples": [],
-        "segmentations": [],
-        "etymology": [],
-        "toadua_etymologies": [],
-        "comments": [],
-        "score": 0
-      }
-    ],
-    "distribution": "",
-    "slot_tags": [],
-    "tags": [],
-    "related": [],
-    "derived": [],
-    "similar": [],
-    "synonyms": [],
-    "antonyms": [],
-    "hypernyms": [],
-    "hyponyms": []
-  },
-  {
-    "predilex_id": "",
-    "translations": [
-      {
-        "language": "eng",
-        "definition_type": "informal",
         "definition": "interjection: I see (only literally)",
         "notes": [],
         "keywords": [],
@@ -127202,23 +127242,1888 @@
       {
         "language": "eng",
         "definition_type": "informal",
-        "definition": "▯ is a human from species Homo sapiens.",
+        "definition": "▯ takes off ▯ clothing ▯.",
         "notes": [],
         "keywords": [],
         "gloss": "",
         "fork_of": [],
         "author": "jiqci",
-        "date": "2025-03-07T09:26:13.457Z",
+        "date": "2025-03-08T11:40:16.826Z",
         "score": 0
       }
     ],
     "toaq_forms": [
       {
-        "id": "BlHtfblcR",
+        "id": "sx4G6A8-i",
         "is_official": false,
         "author": "jiqci",
-        "date": "2025-03-07T09:26:13.457Z",
-        "toaq": "ochareq",
+        "date": "2025-03-08T11:40:16.826Z",
+        "toaq": "geınua",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ works.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-12T01:48:21.715Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "YkSgZ8DGb",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-12T01:48:21.715Z",
+        "toaq": "guaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ does paid work / works their job.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-12T01:49:22.615Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "A-IFQ91cE",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-12T01:49:22.615Z",
+        "toaq": "teqguaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is a teacher.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-14T12:21:00.151Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "QkJQIYfmr",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-14T12:21:00.151Z",
+        "toaq": "galeche",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ types ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-14T12:28:00.351Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "-dBMpgyeD",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-14T12:28:00.351Z",
+        "toaq": "keakaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is an electrical cable.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-16T00:13:06.016Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "Yf0kOebis",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-16T00:13:06.016Z",
+        "toaq": "ceoqnhoq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is sleet/slush/frozen rain.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-19T16:07:02.452Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "WLNUgTomh",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-19T16:07:02.452Z",
+        "toaq": "chuaıruq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "distinction with official **chuaıruq** that is impossible without the word **kıeıruq**",
+            "date": "2025-03-19T16:07:24.980Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is afflicted with ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-19T23:46:07.361Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "xZv2z4q4s",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-19T23:46:07.361Z",
+        "toaq": "bıa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "vaguer definition than official to consider more than things typically described in english as \"sickness\". distinguished from something like **hıaolıe** by this referring to an affliction that occurs over time (similar to an illness)",
+            "date": "2025-03-19T23:49:06.508Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ screams/shouts/yells/howls/cries (out) ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-20T10:01:38.778Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "LJgCe6DrC",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-20T10:01:38.778Z",
+        "toaq": "shoı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "(c c) compared to official's (c) to support a context of dialogue. if you want to retain official use while adopting this use **sạ-** or an equivalent object-filling prefix",
+            "date": "2025-03-20T10:03:00.471Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is a rating/grade/score.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-20T16:01:33.281Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "JszdwE6Dn",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-20T16:01:33.281Z",
+        "toaq": "gıne",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is a detail/nuance/aspect/subtlety/particular/factor/facet of something.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-21T15:01:02.392Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "VWkAiN04G",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-21T15:01:02.392Z",
+        "toaq": "foaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "differs from #ranAO2oEs in frame; to supply the second arg, use **po**",
+            "date": "2025-03-21T15:02:00.035Z",
+            "author": "lassc"
+          },
+          {
+            "content": "in general this allows for specification of both the detail itself (with ꝡë) and what the detail belongs to (with po or a predicatizer) with similar amounts of difficulty",
+            "date": "2025-03-21T15:02:57.643Z",
+            "author": "lassc"
+          },
+          {
+            "content": "another* predicatizer or an adverbial",
+            "date": "2025-03-21T15:03:42.862Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "jbo",
+        "definition_type": "informal",
+        "definition": "cnivla jecu smudu'i zo «.ie» ja lu« sei tugni »li'u",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "zearen",
+        "date": "2025-03-21T23:18:16.072Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "X4KLA72Ev",
+        "is_official": false,
+        "author": "zearen",
+        "date": "2025-03-21T23:18:16.072Z",
+        "toaq": "mıja",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ prepares food / cooks / bakes.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-22T22:10:17.912Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "4qPYRGaDS",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-22T22:10:17.912Z",
+        "toaq": "haqbaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "interjection: \"that's it\", \"that concludes it\", \"I have nothing else to say\", \"I don't know what else to say\"",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Avaxar",
+        "date": "2025-03-23T14:53:53.319Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "kHL3_VFHb",
+        "is_official": false,
+        "author": "Avaxar",
+        "date": "2025-03-23T14:53:53.319Z",
+        "toaq": "ꝡada",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is without property ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-23T20:04:35.851Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "BaEtxfuM7",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-23T20:04:35.851Z",
+        "toaq": "cıa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is without / doesn't have part ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-23T20:08:14.937Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "1wkPtJN4A",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-23T20:08:14.937Z",
+        "toaq": "paqcıa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is biologically related/blood-related to ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "uakci",
+        "date": "2025-03-25T17:11:26.881Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "mlppyJcqA",
+        "is_official": false,
+        "author": "uakci",
+        "date": "2025-03-25T17:11:26.881Z",
+        "toaq": "roaq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "+1, good alternative to using **jıu** for this!",
+            "date": "2025-03-25T17:24:10.353Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is a biological child of ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "uakci",
+        "date": "2025-03-25T17:11:49.641Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "JVVASb_7X",
+        "is_official": false,
+        "author": "uakci",
+        "date": "2025-03-25T17:11:49.641Z",
+        "toaq": "roaqfu",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ yearns/longs/desire to be physically close to ▯.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-25T22:17:27.946Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "yfmbS1Bmk",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-25T22:17:27.946Z",
+        "toaq": "juıkuaı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ (plural) are the same/identical.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "salarua",
+        "date": "2025-03-26T00:12:09.478Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "ealjrO6mB",
+        "is_official": false,
+        "author": "salarua",
+        "date": "2025-03-26T00:12:09.478Z",
+        "toaq": "jeq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ (plural) are different.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "salarua",
+        "date": "2025-03-26T00:12:23.107Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "MpucRIC8C",
+        "is_official": false,
+        "author": "salarua",
+        "date": "2025-03-26T00:12:23.107Z",
+        "toaq": "heo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ (plural) are similar.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "salarua",
+        "date": "2025-03-26T00:12:36.879Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "daysbjKUv",
+        "is_official": false,
+        "author": "salarua",
+        "date": "2025-03-26T00:12:36.879Z",
+        "toaq": "sıu",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ forgives ▯",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "evie",
+        "date": "2025-03-26T02:24:06.399Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "ggryDYxyX",
+        "is_official": false,
+        "author": "evie",
+        "date": "2025-03-26T02:24:06.399Z",
+        "toaq": "ruao",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "spa",
+        "definition_type": "informal",
+        "definition": "▯ es masculino/es hombre",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "TheAndSys",
+        "date": "2025-03-26T05:17:09.735Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "HoiomyiNZ",
+        "is_official": false,
+        "author": "TheAndSys",
+        "date": "2025-03-26T05:17:09.735Z",
+        "toaq": "naq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "spa",
+        "definition_type": "informal",
+        "definition": "▯ es femenino/es mujer",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "TheAndSys",
+        "date": "2025-03-26T05:17:20.631Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "mHDscEZYo",
+        "is_official": false,
+        "author": "TheAndSys",
+        "date": "2025-03-26T05:17:20.631Z",
+        "toaq": "lıq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ (number) repetitions of ▯ happen in a row.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Laqme",
+        "date": "2025-03-27T00:25:29.888Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "dkdCxD6R2",
+        "is_official": false,
+        "author": "Laqme",
+        "date": "2025-03-27T00:25:29.888Z",
+        "toaq": "chıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "▯ times, ▯ repeats. (flipped from official)",
+            "date": "2025-03-27T00:25:44.042Z",
+            "author": "Laqme"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "interjection: <3",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "evie",
+        "date": "2025-03-27T16:42:03.708Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "Q9mjdRM8e",
+        "is_official": false,
+        "author": "evie",
+        "date": "2025-03-27T16:42:03.708Z",
+        "toaq": "mıum",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ forms an exothermic reaction.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "kazoo",
+        "date": "2025-03-27T17:31:41.430Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "2dvdrllZI",
+        "is_official": false,
+        "author": "kazoo",
+        "date": "2025-03-27T17:31:41.430Z",
+        "toaq": "buıhoq",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "prefix: attaches implicit question as to the validity of the usage of the phrase within context",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "lassc",
+        "date": "2025-03-28T16:25:53.343Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "j_Hnz9g0W",
+        "is_official": false,
+        "author": "lassc",
+        "date": "2025-03-28T16:25:53.343Z",
+        "toaq": "em-",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [
+          {
+            "content": "notes: this is kinda confusing to even me at the moment. the idea is that its akin to how people use (?) when writing or will answer questions with a rising intonation on a word that they aren't sure has a better alternative (but like, sometimes both are and are not asking that actual question directly?)",
+            "date": "2025-03-28T16:34:54.523Z",
+            "author": "lassc"
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "▯ is liquid.",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "Ilmen",
+        "date": "2025-03-29T23:09:45.800Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "_GBR7VC3a",
+        "is_official": false,
+        "author": "Ilmen",
+        "date": "2025-03-29T23:09:45.800Z",
+        "toaq": "nao'aı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: sometimes",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:38:41.833Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "3Dk6Tw5aL",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:38:41.833Z",
+        "toaq": "guosa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: never",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:38:49.940Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "LtkhnxvjS",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:38:49.940Z",
+        "toaq": "guosıa",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: zero times",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:39:05.049Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "jYIJiGfl0",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:39:05.049Z",
+        "toaq": "koamchıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: once",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:39:12.492Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "L1UhLFGaC",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:39:12.492Z",
+        "toaq": "shıchıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: twice",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:39:20.950Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "tvCgAfIW8",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:39:20.950Z",
+        "toaq": "guchıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: three times, thrice",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:39:42.503Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "RYW-fQTcv",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:39:42.503Z",
+        "toaq": "saqchıo",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: often, frequently",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:40:43.689Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "iLPjXIFrU",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:40:43.689Z",
+        "toaq": "faı",
+        "is_a_lemma": true,
+        "audio": [],
+        "class": "",
+        "is_namesake": null,
+        "frame": "",
+        "generics": "",
+        "noun_classes": "",
+        "examples": [],
+        "segmentations": [],
+        "etymology": [],
+        "toadua_etymologies": [],
+        "comments": [],
+        "score": 0
+      }
+    ],
+    "distribution": "",
+    "slot_tags": [],
+    "tags": [],
+    "related": [],
+    "derived": [],
+    "similar": [],
+    "synonyms": [],
+    "antonyms": [],
+    "hypernyms": [],
+    "hyponyms": []
+  },
+  {
+    "predilex_id": "",
+    "translations": [
+      {
+        "language": "eng",
+        "definition_type": "informal",
+        "definition": "adverb of quantification: seldom, rarely",
+        "notes": [],
+        "keywords": [],
+        "gloss": "",
+        "fork_of": [],
+        "author": "robintown",
+        "date": "2025-03-31T02:41:04.445Z",
+        "score": 0
+      }
+    ],
+    "toaq_forms": [
+      {
+        "id": "LGfhAUYjm",
+        "is_official": false,
+        "author": "robintown",
+        "date": "2025-03-31T02:41:04.445Z",
+        "toaq": "leı",
         "is_a_lemma": true,
         "audio": [],
         "class": "",
