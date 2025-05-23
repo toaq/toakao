@@ -351,7 +351,7 @@ def toadua_entry_shall_be_included(entry):
 
 LANGUAGE_CODE_MAP = {
   "toa": "qtq",
-  "en": "eng", "es": "spa","zh": "cmn", "ar": "ara", "hi": "hin",
+  "en": "eng", "es": "spa", "zh": "cmn", "ar": "ara", "hi": "hin",
   "ru": "rus", "pt": "por", "ms": "msa", "fr": "fra", "de": "deu",
   "bn": "ben", "ja": "jpn", "fa": "fas", "sw": "swa", "ta": "tam",
   "it": "ita", "jv": "jav", "te": "tel", "ko": "kor", "tr": "tur",
