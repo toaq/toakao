@@ -314,7 +314,7 @@ def reformated_entry(entry):
 				toaq_item, "áéíóúâêîôûäëïöü", "aeıouaeıouaeıou")
 		)
 	)
-	return {
+	r = {
 		"id":               id,
 		"toaq":             toaq_item,
 		"is_a_lemma":       is_a_lemma,
@@ -330,15 +330,38 @@ def reformated_entry(entry):
 		"sememe":           "",
 		"definition_type":  definition_type,
 		"translations":     [{
-		 "language":         language_code,
-		 "definition":       definition,
-		 "notes":            notes,
-		 "gloss":            pop_else("gloss", ""),
-		 "author":           author,
-		 "date":             date,
-		 "score":            pop_else("score", 0)
+			"language":         language_code,
+			"definition":       definition,
+			"notes":            notes,
+			"gloss":            pop_else("gloss", ""),
+			"author":           author,
+			"date":             date,
+			"score":            pop_else("score", 0)
 		}]
 	}
+	return with_toadua_note_fields(r, comments)
+
+def with_toadua_note_fields(entry, notes):
+	# We will walk the notes from the most recent one to the most ancient one,
+	# looking for field-value expressions such as ⟪type: illocution⟫,
+	# and for each field we will at most pick a single assignment, namely
+	# the most recent one.
+	notes = reversed(notes)
+	ks = [k for k in entry.keys() if k not in [
+		"id", "toaq", "is_official"]]
+	for note in notes:
+		for k in ks:
+			t = note["content"]
+			if t.startswith(k) or t.startswith(k.capitalize()):
+				t = t[len(k):]
+				if t.startswith(":") or t.startswith("s:"):
+					entry[k] = t[t.index(":")+1:].strip()
+					ks.remove(k)
+					# TODO: Handle multiple notes each starting with ⟪example:⟫.
+	if isinstance(entry["etymology"], str):
+		entry["etymological_notes"] = entry["etymology"]
+		entry["etymology"] = []
+	return entry
 
 def postprocessed(toakao):
 	nonlemmas = []
