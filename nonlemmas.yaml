@@ -396,51 +396,6 @@
         author: examples
         date: '2023-02-12T17:01:39.884Z'
         score: 0
-  - id: 09NgrvVd3
-    toaq: bâ
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: imperative illocution
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2021-10-11T21:03:28.309Z'
-        score: 2
-  - id: -pzYxLJo9
-    toaq: bä
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'hortative/counterfactual optative illocution: "If only..."/"Were
-          that..."'
-        notes: ''
-        gloss: ''
-        author: seaqtaq
-        date: '2024-10-22T23:35:15.141Z'
-        score: 2
   - id: eXtkBvBb7
     toaq: buaq moaq
     is_a_lemma: false
@@ -499,28 +454,6 @@
         author: el
         date: '2022-07-10T02:09:25.313Z'
         score: 0
-  - id: 8Jc1NeziZ
-    toaq: búkeo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "conjunction: 'not X, but Y'"
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-06-13T10:16:41.538Z'
-        score: 1
   - id: i9v-Ha7kG
     toaq: boe(sıu)guaq
     is_a_lemma: false
@@ -1097,94 +1030,6 @@
         author: uakci
         date: '2023-01-11T22:31:56.562Z'
         score: 0
-  - id: i9KigYt6q
-    toaq: bú'aq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pre-nounform particle: …which is not **áq**'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-01-02T14:45:46.016Z'
-        score: 0
-  - id: nmbaJDc4_
-    toaq: búao
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'conjunction: ‘nor’; not/neither X nor Y'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-07-05T21:22:18.806Z'
-        score: 0
-  - id: 0HBo7Jy60
-    toaq: bë
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: generic adjectival phrase head
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-09-14T20:35:51.108Z'
-        score: 0
-  - id: xACrRUOnn
-    toaq: búımı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'deictic pronoun: outside/the outdoors'
-        notes: ''
-        gloss: ''
-        author: seaqtaq
-        date: '2024-11-22T01:07:38.958Z'
-        score: 0
   - id: k_PtmIIHm
     toaq: bmj
     is_a_lemma: false
@@ -1207,50 +1052,6 @@
         author: evie
         date: '2025-02-16T22:41:00.395Z'
         score: 0
-  - id: QlV_c98jP
-    toaq: búra
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'conjunction: ‘implies’; not or, material implication, P → Q'
-        notes: ''
-        gloss: ''
-        author: kazoo
-        date: '2025-02-23T12:26:21.706Z'
-        score: 0
-  - id: 9NfM8JXeD
-    toaq: cúaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: “the concept/idea of satisfying X”'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-10-15T13:22:57.582Z'
-        score: 3
   - id: f4SmsiWGI
     toaq: cuhybıa
     is_a_lemma: false
@@ -1671,28 +1472,6 @@
         author: examples
         date: '2023-01-09T21:51:47.078Z'
         score: 0
-  - id: 6NchAJCuD
-    toaq: cúom
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus particle: damn, fucking, bloody, the fuck'
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2023-01-29T18:24:29.537Z'
-        score: 0
   - id: B4lNwX-TU
     toaq: ca moaq
     is_a_lemma: false
@@ -1736,28 +1515,6 @@
         gloss: ''
         author: seaqtaq
         date: '2024-07-30T20:02:55.125Z'
-        score: 0
-  - id: O4RC_baT7
-    toaq: cîam
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'Subject sharing adjunct phrase head: "without (also doing/being)"'
-        notes: ''
-        gloss: ''
-        author: seaqtaq
-        date: '2024-11-29T21:33:25.642Z'
         score: 0
   - id: HqMAk53Uj
     toaq: cnopıt
@@ -1846,28 +1603,6 @@
         gloss: ''
         author: Laqme
         date: '2022-03-05T21:14:02.423Z'
-        score: 1
-  - id: 9BEqxAo29
-    toaq: châm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'adverbial head: “by”; subject-sharing, specifies manner/method'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-04-05T19:02:05.089Z'
         score: 1
   - id: khZARYmvk
     toaq: ch
@@ -2783,28 +2518,6 @@
         author: seaqtaq
         date: '2024-11-12T18:20:26.451Z'
         score: 0
-  - id: KFx27mEl5
-    toaq: dä
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'illocution: corrective'
-        notes: ''
-        gloss: ''
-        author: jiqci
-        date: '2023-03-08T19:44:47.299Z'
-        score: 2
   - id: YzKMBhhgT
     toaq: du ru bu
     is_a_lemma: false
@@ -3590,53 +3303,6 @@
         author: salarua
         date: '2025-03-17T02:21:51.936Z'
         score: 0
-  - id: Hf7peXd8h
-    toaq: ëgo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'eventive retroactive cleft: ‘EV.RETROCLE’; lift the event of
-          the top-level clause, binding hóa to it in the following matrix clause.'
-        notes: ''
-        gloss: ''
-        author: Ilmen
-        date: '2023-12-12T18:43:25.211Z'
-        score: 2
-  - id: wK2fjXFdM
-    toaq: ëıgo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'eventive relative retroactive cleft: ‘EV.REL.RETROCLE’; lift
-          the event of the superordinate clause, binding hóa in the following clause
-          on the same level as said superordinate clause'
-        notes: ''
-        gloss: ''
-        author: seaqtaq
-        date: '2024-07-16T08:57:26.977Z'
-        score: 1
   - id: DLZvSxeYG
     toaq: eqdyhaıda
     is_a_lemma: false
@@ -4167,28 +3833,6 @@
         gloss: ''
         author: evie
         date: '2024-11-11T01:54:12.516Z'
-        score: 0
-  - id: kIrzaNZZw
-    toaq: fúım
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus marker: obviously'
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2024-11-22T07:30:20.626Z'
         score: 0
   - id: 2-JID9Gvn
     toaq: guqgıepıy
@@ -4775,75 +4419,6 @@
         author: Laqme
         date: '2024-07-15T12:39:16.481Z'
         score: 0
-  - id: vkH9iauhO
-    toaq: gúom
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus particle: more (of) X; X more/further; X again/still; X
-          anew; another X / X yet another time'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-12-31T19:12:57.671Z'
-        score: 0
-  - id: pE8VKyJ0s
-    toaq: gô
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'retroactive CP cleft adverb: wraps the preceding sentence in
-          the following CPrel mimicking an adverb'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2025-01-03T09:02:28.417Z'
-        score: 0
-  - id: a2boFbpIg
-    toaq: gâ
-    is_a_lemma: false
-    is_official: true
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pendent particle: allows placing an argument in front and outside
-          of a phrase in order to bind a variable within that phrase'
-        notes: ''
-        gloss: ''
-        author: Hoemai
-        date: '2025-03-07T14:42:21.270Z'
-        score: 0
   - id: bvr8NpVm6
     toaq: g
     is_a_lemma: false
@@ -4954,73 +4529,6 @@
         gloss: ''
         author: Laqme
         date: '2024-04-27T01:02:07.655Z'
-        score: 1
-  - id: Ap12T9yAP
-    toaq: hâıba
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: "I should stop talking / what am I saying?"'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-04-29T10:28:28.635Z'
-        score: 1
-  - id: NqnmjbqT3
-    toaq: húq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'Connective: "or rather", erases the left-hand side connectand
-          and replaces it with the right-hand side one.'
-        notes: ''
-        gloss: ''
-        author: Ilmen
-        date: '2025-05-03T21:04:51.743Z'
-        score: 1
-  - id: 1yia6Lnkb
-    toaq: húe
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "pronoun: refers to last **ë** phrase (equivalent to **hụ́'e**)"
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-05-07T19:06:17.237Z'
         score: 1
   - id: LYeR-jxwU
     toaq: hápa kuq
@@ -5579,29 +5087,6 @@
         author: uakci
         date: '2022-09-22T17:53:07.308Z'
         score: 0
-  - id: T89rH7hLr
-    toaq: hê
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'gnomic conditional: **hê, ꝡä X, nä Y** = "As a rule, whenever
-          X is the case, Y is the case."'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-07-17T01:17:03.065Z'
-        score: 0
   - id: u9JMhEPO-
     toaq: heıgujue bạtoashuaq
     is_a_lemma: false
@@ -5734,30 +5219,6 @@
         gloss: ''
         author: seaqtaq
         date: '2024-09-01T09:47:44.611Z'
-        score: 0
-  - id: DfEZbQWcV
-    toaq: húaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus particle: the more X, the more …; specifies that it’s X
-          whose extent/intensity contributes to the extent to which the containing
-          clause holds'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-09-13T15:46:24.486Z'
         score: 0
   - id: yoCSdlYnh
     toaq: ıqfylueqtıa
@@ -6026,28 +5487,6 @@
         gloss: ''
         author: uakci
         date: '2022-02-08T11:49:15.338Z'
-        score: 1
-  - id: giv1Zz9yK
-    toaq: júm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'conjunction: X, which incidentally is the same as Y'
-        notes: ''
-        gloss: ''
-        author: el
-        date: '2023-01-05T17:54:54.239Z'
         score: 1
   - id: veA572hKO
     toaq: jaq leı
@@ -6616,28 +6055,6 @@
         author: uakci
         date: '2022-02-10T02:46:39.405Z'
         score: 0
-  - id: FqIfLl3rl
-    toaq: jâna
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: ‘whenever you’re ready’
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-03-07T16:36:55.540Z'
-        score: 0
   - id: zraLyeYYB
     toaq: jeykuaı
     is_a_lemma: false
@@ -6925,50 +6342,6 @@
         author: fagri
         date: '2023-06-01T22:14:43.924Z'
         score: 0
-  - id: EMLjK_NcL
-    toaq: júnaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: true, 1, ⊤'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-06-12T00:35:44.684Z'
-        score: 0
-  - id: PHHsxGBgM
-    toaq: jïem
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "cleft thingy: 'according to x'"
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2024-11-22T05:10:23.339Z'
-        score: 0
   - id: gbeH6EQzN
     toaq: jꝡa
     is_a_lemma: false
@@ -6990,28 +6363,6 @@
         gloss: ''
         author: Laqme
         date: '2024-12-21T20:04:30.373Z'
-        score: 0
-  - id: e2c7W_bSx
-    toaq: jâdı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: response to jadı
-        notes: ''
-        gloss: ''
-        author: kazoo
-        date: '2025-04-22T13:09:01.962Z'
         score: 0
   - id: BfopwwJwdz-D
     toaq: Jaq mıa jí, lä mala tı já poq já gua da.
@@ -12119,28 +11470,6 @@
         author: el
         date: '2022-06-27T18:26:47.631Z'
         score: 1
-  - id: --BhGZdbn
-    toaq: kö
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: Starts "inner clause" allowing you to fill nouns' slots
-        notes: ''
-        gloss: ''
-        author: TheAndSys
-        date: '2024-10-30T04:03:16.007Z'
-        score: 1
   - id: tmwe1tAGo
     toaq: kıu mamıeq
     is_a_lemma: false
@@ -12385,32 +11714,6 @@
         gloss: ''
         author: Machy
         date: '2021-09-13T06:05:23.169Z'
-        score: 0
-  - id: tObOJdaIg
-    toaq: kâ
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'sloppy declarative illocution: informs the listener that the
-          speak is about to make the claim true, or already has, or is doing so through
-          an act vaguely related to the speech act; also that the proposition is already
-          true and the speaker wishes to draw the listener’s attention towards this
-          and the speaker’s responsibility in this'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2021-10-09T16:39:42.090Z'
         score: 0
   - id: Th_c_2gcK
     toaq: kırısyto
@@ -12766,28 +12069,6 @@
         author: el
         date: '2022-07-10T02:25:40.625Z'
         score: 0
-  - id: A7sschihB
-    toaq: kúeqceq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "pronoun: 'one another', forming a semiconnected graph"
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2022-07-10T18:07:37.618Z'
-        score: 0
   - id: BEye2uvyb
     toaq: kıky
     is_a_lemma: false
@@ -13096,28 +12377,6 @@
         author: evie
         date: '2024-07-19T05:36:10.840Z'
         score: 0
-  - id: CPFslSd-6
-    toaq: kúım
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus marker: depending on X'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-09-06T09:10:31.872Z'
-        score: 0
   - id: q7hCyHar_
     toaq: kueshıqdao gạnıq
     is_a_lemma: false
@@ -13249,29 +12508,6 @@
         gloss: ''
         author: robintown
         date: '2021-11-06T22:18:09.229Z'
-        score: 1
-  - id: 49F_VMDdn
-    toaq: lúm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: anaphoric pronoun referring back reflexively to the nearest direct
-          object to the left
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-02-18T16:25:47.230Z'
         score: 1
   - id: bPdipjSO5
     toaq: la toaheo
@@ -13850,28 +13086,6 @@
         author: fagri
         date: '2023-01-06T07:19:09.930Z'
         score: 0
-  - id: NOBxvi7vVhS
-    toaq: lúa
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: the story
-        notes: ''
-        gloss: ''
-        author: examples
-        date: '2023-01-09T21:51:47.020Z'
-        score: 0
   - id: 0YBBWS2tik6
     toaq: leo jara
     is_a_lemma: false
@@ -13982,28 +13196,6 @@
         author: seaqtaq
         date: '2024-09-01T09:43:41.447Z'
         score: 0
-  - id: hVf51YI_E
-    toaq: lú
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: anaphoric pronoun for property clauses
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2024-10-21T06:04:25.132Z'
-        score: 0
   - id: _SJXMQr7z
     toaq: leoqfuom gạradıo
     is_a_lemma: false
@@ -14025,28 +13217,6 @@
         gloss: ''
         author: seaqtaq
         date: '2024-11-13T17:32:10.468Z'
-        score: 0
-  - id: JTAQ_Zh6N
-    toaq: lîalu
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'adjunct head: forms subject-sharing adverbials (allomorph ▯̂)'
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2024-11-19T04:37:16.792Z'
         score: 0
   - id: 2MomIdEG4Qu1
     toaq: Luı shua sá raı chûoq cháotıeq da.
@@ -16965,29 +16135,6 @@
         author: jiqci
         date: '2023-03-11T14:47:40.583Z'
         score: 0
-  - id: COP4UGXsJ
-    toaq: múam
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus prefix and negation head: **béı** **aımu**; paired with
-          a **béı** elsewhere, forms a contrastive pair'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-07-23T18:16:30.138Z'
-        score: 0
   - id: tz6DlMbI_
     toaq: mıokuq sâ fofuaq
     is_a_lemma: false
@@ -17009,29 +16156,6 @@
         gloss: ''
         author: jiqci
         date: '2023-10-17T14:57:23.509Z'
-        score: 0
-  - id: BrO-D6lH2
-    toaq: mëam
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'topic particle (with **bï** grammar): restrict the universe of
-          discourse to the referents of the provided definite reference'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-11-03T18:20:42.110Z'
         score: 0
   - id: Rz5ut7I-m
     toaq: mẹ́qjoq'ıq
@@ -17612,29 +16736,6 @@
         gloss: ''
         author: Laqme
         date: '2025-03-10T22:05:30.112Z'
-        score: 1
-  - id: GnAIT_UHl
-    toaq: në
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: "well..." / "I mean..." (adjusting / nuancing a
-          statement)'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-04-09T11:36:26.682Z'
         score: 1
   - id: SY11qvCUO
     toaq: nmj
@@ -18528,28 +17629,6 @@
         author: fagri
         date: '2023-04-04T17:02:05.405Z'
         score: 0
-  - id: XSuhZiD3e
-    toaq: núına
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: ‘your lowness’ (derogatory or tongue-in-cheek)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-09-15T07:09:59.270Z'
-        score: 0
   - id: EWpEzXCkQ
     toaq: noa fea
     is_a_lemma: false
@@ -18617,34 +17696,6 @@
         gloss: ''
         author: Laqme
         date: '2023-11-26T15:30:04.152Z'
-        score: 0
-  - id: Exo8377ZD
-    toaq: näꝡa
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'particle: discourse-level frame-setting cleft — placed after
-          a tense or modal expression, setting it as the domain in which the following
-          sentences are evaluated as true, until the next occurrence of ⟪näꝡa⟫. May
-          be used for introducing storytelling, in which case the following sentences
-          are set to describe a context unrelated to the “here and now” of the speaker
-          and addressees, describing instead events set in the past or in an imaginary
-          universe.'
-        notes: ''
-        gloss: ''
-        author: Ilmen
-        date: '2024-02-22T20:16:59.388Z'
         score: 0
   - id: s85iWJmqb
     toaq: noa tao
@@ -18956,96 +18007,6 @@
         author: seaqtaq
         date: '2025-05-03T11:10:49.462Z'
         score: 0
-  - id: aesA9Xp98
-    toaq: nhä
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "complementizer: 'INDQ'; opens indirect question clause"
-        notes: ''
-        gloss: ''
-        author: TheAndSys
-        date: '2024-09-22T05:49:51.531Z'
-        score: 2
-  - id: SjXVZqYSU
-    toaq: nhâ
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: catgirl illocution
-        notes: ''
-        gloss: ''
-        author: el
-        date: '2022-07-12T20:48:25.367Z'
-        score: 1
-  - id: d1z7Bky6h
-    toaq: nhêo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: presuppositional explanatory illocution; akin to “after all, as
-          we know, …”
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-07-30T12:46:53.380Z'
-        score: 1
-  - id: xdzRDvso0
-    toaq: nhúm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: anaphoric pronoun referring back reflexively to the nearest indirect
-          object to the left
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-02-18T16:25:53.913Z'
-        score: 1
   - id: dRV2UW45l
     toaq: nhuopeomy
     is_a_lemma: false
@@ -19263,29 +18224,6 @@
         author: seaqtaq
         date: '2025-05-12T14:53:42.815Z'
         score: 0
-  - id: xjOl8IU3S
-    toaq: nhäq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "interjection: dismissal\nmostly synonymous with ä, but has a\
-          \ feline illocution"
-        notes: ''
-        gloss: ''
-        author: Lisaki
-        date: '2025-09-03T13:36:09.698Z'
-        score: 0
   - id: 1Rt3a0h0T
     toaq: otyraı
     is_a_lemma: false
@@ -19440,50 +18378,6 @@
         gloss: ''
         author: Ilmen
         date: '2019-02-04T22:21:48.000Z'
-        score: 1
-  - id: KDYEEDMwK
-    toaq: púı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'number: many'
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2023-01-10T05:16:16.883Z'
-        score: 1
-  - id: ByVTyw42l
-    toaq: púsıechaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: the day before yesterday'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-05-07T10:44:53.848Z'
         score: 1
   - id: g5_XZfwth
     toaq: papy
@@ -20014,72 +18908,6 @@
         author: jiqci
         date: '2023-08-29T17:01:36.383Z'
         score: 0
-  - id: 0JtQcSOEW
-    toaq: pújı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: ▯ is us (me talking to me; may be used in self-addresses).
-        notes: ''
-        gloss: ''
-        author: Ilmen
-        date: '2024-10-11T09:08:38.834Z'
-        score: 0
-  - id: ja7Xt3sY0
-    toaq: pë
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'topicalizer: relative to x, ...'
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2024-10-28T21:27:01.853Z'
-        score: 0
-  - id: kDfBRWq7_
-    toaq: rúm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: anaphoric pronoun for content clauses
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-08-02T01:17:57.037Z'
-        score: 2
   - id: m4hV5ze8a
     toaq: ru sugo
     is_a_lemma: false
@@ -20146,28 +18974,6 @@
         gloss: ''
         author: uakci
         date: '2021-08-18T15:12:09.895Z'
-        score: 1
-  - id: nOUpw3e5R
-    toaq: rúım
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus prefix: X instead (of some other option)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-05-14T18:14:33.700Z'
         score: 1
   - id: 2iHnK6JNp
     toaq: roateu go
@@ -20547,28 +19353,6 @@
         author: Laqme
         date: '2022-06-24T13:07:54.618Z'
         score: 0
-  - id: _AjOMq2M1
-    toaq: rúeceq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "pronoun: 'one another', forming a weakly connected graph"
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2022-07-10T18:06:00.073Z'
-        score: 0
   - id: rbdSqotba
     toaq: rıaımypuefuq
     is_a_lemma: false
@@ -20590,95 +19374,6 @@
         gloss: ''
         author: mimiaoganhaqpy
         date: '2022-08-21T06:11:54.408Z'
-        score: 0
-  - id: Xn_yJ8rLH
-    toaq: rúrıjı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'personal pronoun: the one(s) (people, organizations, concepts)
-          I am speaking on behalf of'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-10-23T20:52:18.229Z'
-        score: 0
-  - id: FsqOmHLUjcw
-    toaq: rúa
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: the flower
-        notes: ''
-        gloss: ''
-        author: examples
-        date: '2023-01-09T21:51:46.986Z'
-        score: 0
-  - id: 9vDYRpgoq
-    toaq: rútıu
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'conjunction: X, and therefore Y'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-01-04T17:53:37.504Z'
-        score: 0
-  - id: cql1Bd8WO
-    toaq: rúbıe
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'connective: ‘and then’'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-01-06T01:09:33.114Z'
         score: 0
   - id: XxaEzsUn2
     toaq: rln.
@@ -20702,28 +19397,6 @@
         author: Laqme
         date: '2024-04-26T15:44:45.156Z'
         score: 0
-  - id: Z4oVPTXtx
-    toaq: rúmao
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "conjunction: 'and also'"
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-07-15T11:27:27.368Z'
-        score: 0
   - id: WyGdcosbS
     toaq: rhr
     is_a_lemma: false
@@ -20745,28 +19418,6 @@
         gloss: ''
         author: evie
         date: '2024-09-01T00:35:53.110Z'
-        score: 0
-  - id: 2YC5vOHOv
-    toaq: rújuaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'conjunction: "and even"'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-09-04T10:49:25.981Z'
         score: 0
   - id: ZcTsDSLEX
     toaq: râo nínıaqme
@@ -20790,28 +19441,6 @@
         author: Ilmen
         date: '2025-05-05T22:15:02.344Z'
         score: 0
-  - id: USLTd9YOD
-    toaq: súı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus particle: the least'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-01-21T00:12:36.325Z'
-        score: 2
   - id: lMLj80kWI
     toaq: sîna sá nao luq
     is_a_lemma: false
@@ -20835,28 +19464,6 @@
         author: salarua
         date: '2024-09-26T15:57:09.806Z'
         score: 2
-  - id: t_QT7xZj0
-    toaq: súqjenı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'anaphoric pronoun: your most recently uttered sentence'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-10-21T19:55:55.099Z'
-        score: 1
   - id: GzDfr6aw6
     toaq: sraı
     is_a_lemma: false
@@ -21277,28 +19884,6 @@
         author: Ilmen
         date: '2022-10-02T21:00:51.668Z'
         score: 0
-  - id: 1GncrVD4s
-    toaq: súqsıenı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'cataphoric pronoun: the following sentence to be uttered by you'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-10-22T08:30:30.088Z'
-        score: 0
   - id: PnqVsREvVlP
     toaq: sá lua
     is_a_lemma: false
@@ -21431,28 +20016,6 @@
         author: examples
         date: '2023-01-09T21:51:47.229Z'
         score: 0
-  - id: B13EKm9pA
-    toaq: súqke
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "pronoun: 'you', vulgar/arrogant/superior 2nd person singular"
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-11-17T15:28:49.659Z'
-        score: 0
   - id: tjSWQDWO3
     toaq: sem tı
     is_a_lemma: false
@@ -21562,50 +20125,6 @@
         gloss: ''
         author: examples
         date: '2024-07-19T13:15:24.628Z'
-        score: 0
-  - id: l1_d-TE_C
-    toaq: súnı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: ‘that’; second person / medial demonstrative'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-12-21T15:17:11.396Z'
-        score: 0
-  - id: 31_RGG3f9
-    toaq: súkena
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: "you"; vulgar/arrogant/superior 2nd person plural'
-        notes: ''
-        gloss: ''
-        author: lassc
-        date: '2025-03-29T09:48:09.477Z'
         score: 0
   - id: klHnKpo9B
     toaq: stenokaı
@@ -24732,28 +23251,6 @@
         author: examples
         date: '2025-09-21T17:44:35.877Z'
         score: 0
-  - id: UBSfz9cvO
-    toaq: shúq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "focus particle: 'just', 'merely', 'simply'"
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2023-04-04T23:09:39.870Z'
-        score: 3
   - id: NjxAqyGuM
     toaq: shuaınu jẽo
     is_a_lemma: false
@@ -24841,28 +23338,6 @@
         gloss: ''
         author: Laqme
         date: '2023-11-07T15:34:09.874Z'
-        score: 1
-  - id: eLZk8RIN8
-    toaq: shú
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'word-quoting determiner: the word…'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2024-06-11T15:09:48.854Z'
         score: 1
   - id: MPIwE70e7
     toaq: sho roaq
@@ -25241,32 +23716,6 @@
         author: Laqme
         date: '2025-05-10T15:58:08.848Z'
         score: 0
-  - id: official:tútu
-    toaq: tútu
-    is_a_lemma: false
-    is_official: true
-    type: determiner
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples:
-      - toaq: tútu poq
-        english: everyone
-      - toaq: tútu raı
-        english: everything; anything
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: universal quantifier
-        notes: ''
-        gloss: every
-        author: official
-        date: ''
-        score: 0
   - id: oO4_u12pN
     toaq: tî hí
     is_a_lemma: false
@@ -25354,50 +23803,6 @@
         gloss: ''
         author: fagri
         date: '2021-08-06T10:50:47.077Z'
-        score: 1
-  - id: ySPEybew4
-    toaq: tëo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'cleft quote: ‘CLEQ’; Raise mó quote to the front of the clause'
-        notes: ''
-        gloss: ''
-        author: TheAndSys
-        date: '2023-05-22T19:24:52.095Z'
-        score: 1
-  - id: 7ADUcNTqP
-    toaq: túqnanı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: all those Xs'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-04-26T10:57:29.204Z'
         score: 1
   - id: rdeos9fwT
     toaq: tua seo
@@ -26439,30 +24844,6 @@
         author: uakci
         date: '2022-10-16T16:09:10.981Z'
         score: 0
-  - id: HHpXKkUOF
-    toaq: túnı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: all of us/you (found in a specific context, e.g., “all
-          of us gathered here in this room” or “all of us Toaqists” or “all of you
-          in this chatroom”)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-10-18T22:35:37.607Z'
-        score: 0
   - id: NhkGdtglR
     toaq: te do
     is_a_lemma: false
@@ -26484,28 +24865,6 @@
         gloss: ''
         author: uakci
         date: '2022-12-16T17:03:12.762Z'
-        score: 0
-  - id: WI8auzZJ4
-    toaq: túm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: plural universal quantifier'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-01-01T17:56:49.232Z'
         score: 0
   - id: ADYqZN-z7Du
     toaq: tú gaqguru
@@ -26594,28 +24953,6 @@
         gloss: ''
         author: mimiaoganhaqpy
         date: '2023-01-13T06:08:28.124Z'
-        score: 0
-  - id: 4vFROjcY4
-    toaq: túam
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'focus prefix: *this* little / to *such* a little extent'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-02-06T19:36:56.401Z'
         score: 0
   - id: yCbRb9Tch
     toaq: tua cueq
@@ -26770,50 +25107,6 @@
         gloss: ''
         author: seaqtaq
         date: '2024-11-05T00:32:57.355Z'
-        score: 0
-  - id: 3XM46gpo5
-    toaq: túqnı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: all of this'
-        notes: ''
-        gloss: ''
-        author: jiqci
-        date: '2025-01-13T10:04:39.591Z'
-        score: 0
-  - id: AoJR_KeTI
-    toaq: tújuı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'determiner: "almost all"'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-09-07T13:54:25.868Z'
         score: 0
   - id: x9cuWd7_4
     toaq: Tıjaı jí súq da.
@@ -32188,104 +30481,6 @@
         author: Ilmen
         date: '2022-06-27T21:02:41.874Z'
         score: 0
-  - id: 4TtQWheib
-    toaq: úq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: “yeah, mhm, and then?” (phatic, encouraging to
-          continue)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-02-21T03:37:50.351Z'
-        score: 1
-  - id: of2LwoP18
-    toaq: úm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: anaphoric pronoun referring back reflexively to the nearest subject
-          to the left
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-02-18T16:32:02.221Z'
-        score: 1
-  - id: dAn6DZLIk
-    toaq: úı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: colloquial variant of **úmı** ‘us (you and I; 1st +
-          2nd person)’'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-02-23T12:40:04.706Z'
-        score: 1
-  - id: ce7hZkv_S
-    toaq: úmı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'pronoun: us (you and I; 1st + 2nd person)'
-        notes: ''
-        gloss: ''
-        author: el
-        date: '2022-10-18T22:28:04.468Z'
-        score: 0
-      - language: qtq
-        definition: Jí roı súq
-        notes: ''
-        gloss: ''
-        author: robintown
-        date: '2022-10-21T18:11:15.295Z'
-        score: 0
   - id: CQmLYjpem
     toaq: Ua, joe tû raı súq!
     is_a_lemma: false
@@ -32329,52 +30524,6 @@
         gloss: ''
         author: examples
         date: '2023-02-12T17:01:37.815Z'
-        score: 0
-  - id: mc6WzMCxA
-    toaq: ꝡö
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'complementizer like **ju**: open incidental clause expressing
-          a discursive comment or speech act acting disjunctively on its surroundings'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2023-10-27T22:13:33.900Z'
-        score: 0
-  - id: xvhpKLLgw
-    toaq: ꝡöı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: faux relative clause marker piecing a noun form and a subject-truncated
-          clause together into a full clause
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2024-05-08T19:17:42.308Z'
         score: 0
   - id: W2JUayImA
     toaq: zuydea
@@ -32596,94 +30745,6 @@
         gloss: ''
         author: seaqtaq
         date: '2024-12-19T02:54:35.641Z'
-        score: 0
-  - id: VFfv7xJ2Y
-    toaq: zöı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'complementizer: indirect question'
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2025-06-12T00:05:08.687Z'
-        score: 0
-  - id: rV-Gbi0su
-    toaq: â
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: realization, "aha!"'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2019-04-21T13:15:31.000Z'
-        score: 4
-  - id: u9CeZwVZd
-    toaq: âhı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: ‘ouch…’, ‘oof’, ‘that must’ve hurt’
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-06-24T13:02:06.703Z'
-        score: 0
-  - id: 97odUIUnC
-    toaq: âja
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: "yay! happy for you!"'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-02-09T00:12:15.536Z'
         score: 0
   - id: Ipu3q_oZ3
     toaq: Kuaq ka.
@@ -36672,124 +34733,6 @@
         author: examples
         date: '2025-09-21T17:44:36.072Z'
         score: 0
-  - id: 70rCWf6zQ
-    toaq: ôq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: Adjunct head for direct-object-sharing adverbials
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-02-18T00:50:22.160Z'
-        score: 2
-      - language: spa
-        definition: núcleo de adjuntos para adverbios que comparten objeto directo
-        notes: ''
-        gloss: ''
-        author: TheAndSys
-        date: '2025-03-26T05:51:42.320Z'
-        score: 0
-  - id: vgOdMlfLn
-    toaq: ôro
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: that must suck for you; i’m sorry for you; (an
-          empathic ‘yikes’ or ‘ouch’)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-06-20T07:48:25.228Z'
-        score: 1
-  - id: 9s5oSoj5T
-    toaq: ôaı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: "interjection: \"uh-oh, looks like you're in trouble\""
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-12-19T08:52:02.093Z'
-        score: 1
-  - id: 85gonBvR8
-    toaq: ä
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: dismissal ("naww / psh! / nuh-uh")'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-09-02T11:01:19.512Z'
-        score: 2
-  - id: -r4qMEgOr
-    toaq: äm
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: go away'
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2025-08-17T03:59:43.936Z'
-        score: 0
   - id: zechg2WNA
     toaq: Sho tuı súq ní põı gaqcıa ba
     is_a_lemma: false
@@ -39034,52 +36977,6 @@
         author: examples
         date: '2025-09-21T17:44:36.168Z'
         score: 0
-  - id: -ubuUiPzI
-    toaq: ïe
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: start editorial parenthetical (closed by **kı**)
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2025-01-02T15:07:49.408Z'
-        score: 2
-  - id: wxeB-9cn1
-    toaq: ïgo
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'relative retroactive cleft: ‘RELRETROCLE’; lift superordinate
-          clause, binding hóa in the following clause on the same level as said superordinate
-          clause'
-        notes: ''
-        gloss: ''
-        author: seaqtaq
-        date: '2024-07-16T08:50:18.604Z'
-        score: 1
   - id: 8Xol7Ea5J
     toaq: Pu luı caqbo nháo sá jıoꝡo da.
     is_a_lemma: false
@@ -43768,29 +41665,6 @@
         author: examples
         date: '2023-02-11T18:31:30.114Z'
         score: 0
-  - id: 9JCkmi54n
-    toaq: üq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: “mhm, yeah, so?, eh?” (phatic; explicitly asks
-          for a response or acknowledgement, giving up one’s turn in the conversation)'
-        notes: ''
-        gloss: ''
-        author: uakci
-        date: '2022-02-21T03:40:21.236Z'
-        score: 1
   - id: llsDVRkdjO
     toaq: Naı fa jí sa jao
     is_a_lemma: false
@@ -56138,28 +54012,6 @@
         author: examples
         date: '2025-09-21T17:44:36.824Z'
         score: 0
-  - id: OHr10p6ko
-    toaq: êaq
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'Adjunct head, same meaning as :d4: but only valid in main clause'
-        notes: ''
-        gloss: ''
-        author: Laqme
-        date: '2023-02-18T00:45:04.676Z'
-        score: 1
   - id: wxpONS7aF
     toaq: Ruomıaı da!
     is_a_lemma: false
@@ -74993,28 +72845,6 @@
         author: uakci
         date: '2023-11-03T18:45:35.452Z'
         score: 0
-  - id: lbGcMe87u
-    toaq: Nhúꝡoko
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'proper noun: New York City'
-        notes: ''
-        gloss: ''
-        author: jiqci
-        date: '2025-08-25T17:56:38.737Z'
-        score: 0
   - id: 3B33ljxT0
     toaq: '..., gö kuq jí hóa âo, ꝡä bu sahu hóa.'
     is_a_lemma: false
@@ -75080,49 +72910,4 @@
         gloss: ''
         author: seaqtaq
         date: '2024-11-05T09:49:30.135Z'
-        score: 0
-  - id: WWoYjS7Mo
-    toaq: îna
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'interjection: acknowledging that the other side has understood
-          what i said'
-        notes: ''
-        gloss: ''
-        author: kazoo
-        date: '2025-01-31T17:58:08.803Z'
-        score: 0
-  - id: ZxxlL0NdG
-    toaq: îaı
-    is_a_lemma: false
-    is_official: false
-    type: ''
-    frame: ''
-    distribution: ''
-    pronominal_class: ''
-    subject: ''
-    examples: []
-    etymology: []
-    etymological_notes: ''
-    sememe: ''
-    definition_type: informal
-    translations:
-      - language: eng
-        definition: 'adjunct head: forms direct-object-sharing adverbials'
-        notes: ''
-        gloss: ''
-        author: evie
-        date: '2025-09-21T01:58:35.055Z'
         score: 0

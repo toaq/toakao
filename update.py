@@ -309,10 +309,10 @@ def reformated_entry(entry):
 						# ⟦definition_type⟧ remains set to "informal".
 	assert(len(definition) > 0)
 	is_a_lemma = (
-		pytoaq.is_a_lemma(toaq_item)
-		or pytoaq.is_a_lemma(
-			toaq_item.replace("á", "a").replace("é", "e").replace("í", "ı")
-				.replace("ó", "o").replace("û", "u"))
+		pytoaq.is_a_lemma(toaq_item) or pytoaq.is_a_lemma(
+			with_replaced_chars(
+				toaq_item, "áéíóúâêîôûäëïöü", "aeıouaeıouaeıou")
+		)
 	)
 	return {
 		"id":               id,
@@ -405,6 +405,15 @@ def sync_with(old, new):
 
 def forall(property, iterable):
 	return all([property(e) for e in iterable])
+
+def with_replaced_chars(s, srclist, dstlist):
+	r = ""
+	for c in s:
+		for i, sc in enumerate(srclist):
+			if c == sc:
+				c = dstlist[i]
+		r += c
+	return r
 
 # ==================================================================== #
 
