@@ -66,11 +66,11 @@ def entrypoint(this_path):
 	# ⌵ Merging duplicates.
 	toakao, orphanes = with_merged_entries(toakao)
 	toakao, nonlemmas = postprocessed(toakao)
+	toakao, deleted = sync_with(old_toakao, toakao)
 	print(f"toakao: {len(toakao)} entries.")
 	print(f"muakao: {len(muakao)} entries.")
 	print(f"nonlemmas: {len(nonlemmas)} entries.")
 	print(f"orphanes: {len(orphanes)} entries.")
-	toakao, deleted = sync_with(old_toakao, toakao)
 	# ⌵ Saving files.
 	print("Saving files…")
 	t3 = time.time()
@@ -80,7 +80,6 @@ def entrypoint(this_path):
 	save_as_yaml_file(orphanes, orphanes_path)
 	save_as_yaml_file(deleted, deleted_path)
 	print("Duration: {:.3f} seconds.".format(time.time() - t3))
-	# print(f"Toakao entry count: {len(toakao)}.")
 	print("Total execution time:     {:.3f} seconds.".format(
 		time.time() - t1))
 	return
