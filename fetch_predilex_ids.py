@@ -23,7 +23,6 @@ def entrypoint(this_path):
 
 def fetch_predilex_ids(toakao, full_predilex):
 	header, predilex = full_predilex[0], full_predilex[2:]
-	print(f"len(predilex) = {len(predilex)}")
 	success_count = 0
 	error_count = 0
 	missing_count = 0
@@ -59,21 +58,25 @@ def fetch_predilex_ids(toakao, full_predilex):
 						if te["lemma"] == lemdata["lemma"]:
 							te["sememe"] = pe[header.index("id")]
 							if lemdata["slot_reordering"] != "":
-								te["sememe"] += " " + lemdata["slot_reordering"]
+								try:
+									frame = frame_from(
+										lemdata["slot_reordering"],
+										pe[header.index("arity")])
+									te["sememe"] += frame
+								except:
+									print(
+										f"⚠ Invalid slot identifier in ⟪{lemdata['slot_reordering']}⟫")
+									error_count += 1
+									break
 							if lemdata["syntactic_class"] != "":
 								if te["type"] != "":
 									te["type"] = lemdata["syntactic_class"]
-							#print(
-							#	f"✽ {te['lemma']} {te['type']} {te['sememe']}")
 							success_count += 1
 							is_found = True
 							break
 					if not is_found:
 						missing_count += 1
 						missing_list.append(lemdata["lemma"])
-						x = lemdata["lemma"]
-						if x.startswith("aımu"):
-							print(f"🙨 MISSING ⟪{x}⟫")
 				else:
 					bad_count += 1
 	print(f"✽ Error count: {error_count}")
@@ -83,6 +86,25 @@ def fetch_predilex_ids(toakao, full_predilex):
 	print(f"✽ Nonempty entry count: {nonempty_entry_count}")
 	print(f"✽ Missing list: {', '.join(missing_list)}.")
 	return toakao
+
+def frame_from(notation, valency):
+	def f(c):
+		if c in "123456789":
+			c = int(c)
+		return c
+	if notation != "":
+		slots = [f(c) for c in list(notation)]
+	else:
+		slots = []
+		v = valency
+		n = 1
+		while v > 0:
+			slots.append(n)
+			n += 1
+			v -= 1
+	mapping = { 1 : "S", 2 : "DO", 3 : "IO", 4 : "TO", "X" : "COMPL" }
+	return "[" + ",".join([mapping[e] for e in slots]) + "]"
+
 
 # ==================================================================== #
 
