@@ -30,11 +30,11 @@ TOADUA_DOWNLOAD_COMMAND = 'wget -O- https://toadua.uakci.space/api --post-data \
 def entrypoint(this_path):
 	t1 = time.time()
 	this_dir = os.path.dirname(os.path.abspath(this_path)) + os.path.sep
-	toakao_path = this_dir + "toakao.yaml"
-	nonlemmas_path = this_dir + "nonlemmas.yaml"
-	muakao_path = this_dir + "muakao.yaml"
-	orphanes_path = this_dir + "orphanes.yaml"
-	deleted_path = this_dir + "deleted.yaml"
+	toakao_path = this_dir + "toakao.json"
+	nonlemmas_path = this_dir + "nonlemmas.json"
+	muakao_path = this_dir + "muakao.json"
+	orphanes_path = this_dir + "orphanes.json"
+	deleted_path = this_dir + "deleted.json"
 	print("Collecting remote vocabulary sources…")
 	try:
 		step_desc = "attempting to download the official dictionary"
@@ -56,7 +56,7 @@ def entrypoint(this_path):
 	print("Download time: {:.3f} seconds.".format(time.time() - t1))
 	print("Opening the previous Toakao file…")
 	t2 = time.time()
-	old_toakao = object_from_yaml_path(toakao_path)
+	old_toakao = object_from_json_path(toakao_path)
 	print("Duration: {:.3f} seconds.".format(time.time() - t2))
 	print("Now unifying the data from these different sources…")
 	official_dict, muakao = reformat_official_dictionary(official_dict)
@@ -74,11 +74,11 @@ def entrypoint(this_path):
 	# ⌵ Saving files.
 	print("Saving files…")
 	t3 = time.time()
-	save_as_yaml_file(toakao, toakao_path)
-	save_as_yaml_file(muakao, muakao_path)
-	save_as_yaml_file(nonlemmas, nonlemmas_path)
-	save_as_yaml_file(orphanes, orphanes_path)
-	save_as_yaml_file(deleted, deleted_path)
+	save_as_json_file(toakao, toakao_path)
+	save_as_json_file(muakao, muakao_path)
+	save_as_json_file(nonlemmas, nonlemmas_path)
+	save_as_json_file(orphanes, orphanes_path)
+	save_as_json_file(deleted, deleted_path)
 	print("Duration: {:.3f} seconds.".format(time.time() - t3))
 	print("Total execution time:     {:.3f} seconds.".format(
 		time.time() - t1))
