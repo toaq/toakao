@@ -327,6 +327,7 @@ def reformated_entry(entry):
 		"etymology":        [],
 		"etymological_notes": "",
 		"sememe":           "",
+		"synonyms":         [],
 		"definition_type":  definition_type,
 		"translations":     [{
 			"language":         language_code,
@@ -347,7 +348,7 @@ def with_toadua_note_fields(entry, notes):
 	# the most recent one.
 	notes = reversed(notes)
 	ks = [k for k in entry.keys() if k not in [
-		"id", "toaq", "is_official"]]
+		"id", "toaq", "is_official", "synonyms"]]
 	for note in notes:
 		for k in ks:
 			t = note["content"]
