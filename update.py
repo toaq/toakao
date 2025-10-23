@@ -63,11 +63,11 @@ def entrypoint(this_path):
 	official_dict, muakao = reformat_official_dictionary(official_dict)
 	toadua, muakao2 = reformated_toadua(toadua)
 	muakao += muakao2
-	toakao = official_dict + toadua
+	new_toakao = official_dict + toadua
 	# ⌵ Merging duplicates.
-	toakao, orphanes, clashlist = with_merged_entries(toakao)
-	toakao, nonlemmas = postprocessed(toakao)
-	toakao, deleted = sync_with(old_toakao, toakao)
+	new_toakao, orphanes, clashlist = with_merged_entries(new_toakao)
+	new_toakao, nonlemmas = postprocessed(new_toakao)
+	toakao, deleted = sync_with(old_toakao, new_toakao)
 	print(f"toakao: {len(toakao)} entries.")
 	print(f"muakao: {len(muakao)} entries.")
 	print(f"nonlemmas: {len(nonlemmas)} entries.")
