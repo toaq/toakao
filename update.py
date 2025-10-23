@@ -35,6 +35,7 @@ def entrypoint(this_path):
 	muakao_path = this_dir + "muakao.json"
 	orphanes_path = this_dir + "orphanes.json"
 	deleted_path = this_dir + "deleted.json"
+	clashlist_path = this_dir + "clashlist.csv"
 	print("Collecting remote vocabulary sources…")
 	try:
 		step_desc = "attempting to download the official dictionary"
@@ -64,13 +65,14 @@ def entrypoint(this_path):
 	muakao += muakao2
 	toakao = official_dict + toadua
 	# ⌵ Merging duplicates.
-	toakao, orphanes = with_merged_entries(toakao)
+	toakao, orphanes, clashlist = with_merged_entries(toakao)
 	toakao, nonlemmas = postprocessed(toakao)
 	toakao, deleted = sync_with(old_toakao, toakao)
 	print(f"toakao: {len(toakao)} entries.")
 	print(f"muakao: {len(muakao)} entries.")
 	print(f"nonlemmas: {len(nonlemmas)} entries.")
 	print(f"orphanes: {len(orphanes)} entries.")
+	print(f"definition clashes: {len(clashlist)} entries.")
 	# ⌵ Saving files.
 	print("Saving files…")
 	t3 = time.time()
@@ -79,6 +81,7 @@ def entrypoint(this_path):
 	save_as_json_file(nonlemmas, nonlemmas_path)
 	save_as_json_file(orphanes, orphanes_path)
 	save_as_json_file(deleted, deleted_path)
+	save_as_csv_file(clashlist, clashlist_path)
 	print("Duration: {:.3f} seconds.".format(time.time() - t3))
 	print("Total execution time:     {:.3f} seconds.".format(
 		time.time() - t1))
@@ -116,6 +119,7 @@ def with_merged_entries(d):
 			else:
 				return None
 	orphaned_definitions = []
+	clashlist = []
 	lex = dict()
 	for i, e in enumerate(d):
 		assert e is not None
@@ -166,25 +170,47 @@ def with_merged_entries(d):
 									+ f"  By default, the entry with the lowest index is therefore selected."
 								)
 							ws = False
+						discarded_is_officialized = False
 						if ws:
 							kept = new_translation
 							discarded = ε['translations'][j]
+							if ε["officialized"]:
+								discarded_is_officialized = True
 						else:
 							kept = ε['translations'][j]
 							discarded = new_translation
+							if e["officialized"]:
+								discarded_is_officialized = True
 						# print(
 						# 	f"◈ For lemma ⟪{e['toaq']}⟫, discarding ⟦{lang}⟧ "
 						# 	+ f"translation ⟪{discarded}⟫ for ⟪{kept}⟫.")
-						orphaned_definitions.append((ε["toaq"], discarded))
 						ε["translations"][j] = kept
 						assert isinstance(kept, dict)
+						orphaned_definitions.append((ε["toaq"], discarded))
+						if (
+							e["is_a_lemma"]
+							and kept["definition"] != discarded["definition"]
+							and not forall(
+								lambda x: x["author"] == "official",
+								[kept, discarded])
+							and not discarded["author"] == "countries"
+							and not (
+								kept["author"] == "official"
+								and discarded_is_officialized
+								and kept["date"] > discarded["date"]
+							)
+						):
+							clashlist.append([
+									e["toaq"], kept["language"],
+									kept["author"], discarded["author"]
+								])
 					break
 			if not is_found:
 				lex[initial].append(e)
 				# print(f"ADD {e['toaq']}")
 	lex = [lex[initial] for initial in lex]
 	lex = list(itertools.chain.from_iterable(lex))
-	return (lex, orphaned_definitions)
+	return (lex, orphaned_definitions, clashlist)
 
 def the_most(α, β, f):
 	if f(α) > f(β):
@@ -233,7 +259,8 @@ def toadua_entry_shall_be_included(entry):
 		entry["score"] >= TOADUA_SCORE_THRESHOLD
 		and entry["user"] not in {
 			"oldofficial", "oldexamples", "oldcountries"
-		}
+		} and not entry["scope"].endswith("-arch")
+		and not entry["scope"].endswith("-archive")
 	)
 
 LANGUAGE_CODE_MAP = {
@@ -318,6 +345,7 @@ def reformated_entry(entry):
 		"toaq":             toaq_item,
 		"is_a_lemma":       is_a_lemma,
 		"is_official":      is_official_author(author),
+		"officialized":     False,
 		"type":             pop_else("type", ""),
 		"frame":            pop_else("frame", ""),
 		"distribution":     pop_else("distribution", ""),
@@ -370,7 +398,7 @@ def postprocessed(toakao):
 		if not toakao[i]["is_a_lemma"]:
 			nonlemmas.append(toakao.pop(i))
 			continue
-		for k in ["is_a_lemma", "id"]:
+		for k in ["is_a_lemma", "id", "officialized"]:
 			if k in toakao[i]:
 				toakao[i].pop(k)
 		for translation in toakao[i]["translations"]:
