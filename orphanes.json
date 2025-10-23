@@ -1,29 +1,5 @@
 [
   [
-    "nuogaı",
-    {
-      "language": "eng",
-      "definition": "▯ dreams ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-18T20:51:01.000Z",
-      "score": 12
-    }
-  ],
-  [
-    "kato",
-    {
-      "language": "eng",
-      "definition": "▯ is a cat.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-24T22:04:45.000Z",
-      "score": 10
-    }
-  ],
-  [
     "soq",
     {
       "language": "eng",
@@ -48,18 +24,6 @@
     }
   ],
   [
-    "daqchıu",
-    {
-      "language": "eng",
-      "definition": "▯ is the time address of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-20T13:57:21.000Z",
-      "score": 5
-    }
-  ],
-  [
     "feıluaq",
     {
       "language": "eng",
@@ -81,18 +45,6 @@
       "author": "uakci",
       "date": "2023-09-04T14:01:20.475Z",
       "score": 5
-    }
-  ],
-  [
-    "dıetaq",
-    {
-      "language": "eng",
-      "definition": "▯ volunteers for doing ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-08T20:49:04.000Z",
-      "score": 4
     }
   ],
   [
@@ -180,18 +132,6 @@
     }
   ],
   [
-    "toıdue",
-    {
-      "language": "eng",
-      "definition": "▯ is morally/ethically right/correct.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-03-07T08:27:21.724Z",
-      "score": 4
-    }
-  ],
-  [
     "choq",
     {
       "language": "eng",
@@ -260,18 +200,6 @@
       "gloss": "",
       "author": "robintown",
       "date": "2023-01-15T04:07:44.108Z",
-      "score": 4
-    }
-  ],
-  [
-    "kaı",
-    {
-      "language": "eng",
-      "definition": "▯ writes ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "evie",
-      "date": "2024-06-13T03:57:30.895Z",
       "score": 4
     }
   ],
@@ -564,6 +492,18 @@
     }
   ],
   [
+    "ko",
+    {
+      "language": "eng",
+      "definition": "▯ is ▯-th among ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "uakci",
+      "date": "2023-01-02T10:14:51.245Z",
+      "score": 3
+    }
+  ],
+  [
     "chum",
     {
       "language": "eng",
@@ -660,6 +600,18 @@
     }
   ],
   [
+    "kaı",
+    {
+      "language": "eng",
+      "definition": "▯ writes ▯",
+      "notes": "",
+      "gloss": "",
+      "author": "evie",
+      "date": "2024-06-13T03:57:30.895Z",
+      "score": 3
+    }
+  ],
+  [
     "shua",
     {
       "language": "eng",
@@ -696,18 +648,6 @@
     }
   ],
   [
-    "buruaq",
-    {
-      "language": "eng",
-      "definition": "▯ denies ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-26T12:26:28.000Z",
-      "score": 2
-    }
-  ],
-  [
     "sıu",
     {
       "language": "eng",
@@ -740,18 +680,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2019-02-02T23:11:20.000Z",
-      "score": 2
-    }
-  ],
-  [
-    "puecheı",
-    {
-      "language": "eng",
-      "definition": "▯ is a toe.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-02-04T17:12:52.000Z",
       "score": 2
     }
   ],
@@ -1812,18 +1740,6 @@
     }
   ],
   [
-    "poıba",
-    {
-      "language": "eng",
-      "definition": "▯ is grass.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-06T14:43:33.532Z",
-      "score": 2
-    }
-  ],
-  [
     "neq",
     {
       "language": "eng",
@@ -2184,6 +2100,30 @@
     }
   ],
   [
+    "daqchıu",
+    {
+      "language": "eng",
+      "definition": "predicate: ‘time.address’; ▯ is the time address of ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "official",
+      "date": "2022-07-19T18:30:50.942Z",
+      "score": 1
+    }
+  ],
+  [
+    "dıetaq",
+    {
+      "language": "eng",
+      "definition": "predicate: ‘volunteer’; ▯ volunteers for doing ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "official",
+      "date": "2022-07-19T18:30:51.106Z",
+      "score": 1
+    }
+  ],
+  [
     "hupı",
     {
       "language": "eng",
@@ -2216,18 +2156,6 @@
       "gloss": "",
       "author": "Hoemai",
       "date": "2022-08-06T19:57:04.300Z",
-      "score": 2
-    }
-  ],
-  [
-    "ıq",
-    {
-      "language": "eng",
-      "definition": "▯ satisfies property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Hoemai",
-      "date": "2022-08-10T11:10:48.527Z",
       "score": 2
     }
   ],
@@ -2276,18 +2204,6 @@
       "gloss": "",
       "author": "lassc",
       "date": "2022-11-30T19:57:30.237Z",
-      "score": 2
-    }
-  ],
-  [
-    "ko",
-    {
-      "language": "eng",
-      "definition": "▯ is ▯-th among ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2023-01-02T10:14:51.245Z",
       "score": 2
     }
   ],
@@ -2856,18 +2772,6 @@
     }
   ],
   [
-    "noa",
-    {
-      "language": "eng",
-      "definition": "▯ is difficult.",
-      "notes": "",
-      "gloss": "",
-      "author": "nano",
-      "date": "2024-10-24T21:55:01.113Z",
-      "score": 2
-    }
-  ],
-  [
     "dıa",
     {
       "language": "eng",
@@ -2964,42 +2868,6 @@
     }
   ],
   [
-    "tıbumeo",
-    {
-      "language": "eng",
-      "definition": "▯ misses ▯; ▯ is sad that ▯ is not there.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-18T20:45:21.000Z",
-      "score": 1
-    }
-  ],
-  [
-    "sudo",
-    {
-      "language": "eng",
-      "definition": "(fork of #1lWhikWDB) ▯ takes place with superuser privileges; ▯ does ▯ as superuser.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2018-09-30T22:02:15.000Z",
-      "score": 1
-    }
-  ],
-  [
-    "choqkıu",
-    {
-      "language": "eng",
-      "definition": "▯ is available; ▯ is available for being or doing ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-08T20:40:11.000Z",
-      "score": 1
-    }
-  ],
-  [
     "daqko",
     {
       "language": "eng",
@@ -3008,30 +2876,6 @@
       "gloss": "",
       "author": "fagri",
       "date": "2018-11-21T21:16:15.000Z",
-      "score": 1
-    }
-  ],
-  [
-    "tue",
-    {
-      "language": "eng",
-      "definition": "▯ is the event ▯/0.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2019-01-26T00:04:18.000Z",
-      "score": 1
-    }
-  ],
-  [
-    "muqcheıbea",
-    {
-      "language": "eng",
-      "definition": "▯ is a knuckle (finger joint).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-02-04T17:11:28.000Z",
       "score": 1
     }
   ],
@@ -3104,18 +2948,6 @@
       "gloss": "",
       "author": "Hoemai",
       "date": "2019-03-18T17:22:28.000Z",
-      "score": 1
-    }
-  ],
-  [
-    "goso",
-    {
-      "language": "eng",
-      "definition": "▯ is a member of genus Gallus (the junglefowls and the chicken).",
-      "notes": "",
-      "gloss": "",
-      "author": "Hoemai",
-      "date": "2019-03-21T21:33:58.000Z",
       "score": 1
     }
   ],
@@ -3912,6 +3744,18 @@
     }
   ],
   [
+    "chuqguao",
+    {
+      "language": "eng",
+      "definition": "predicate: ‘fork’; ▯ is a fork.",
+      "notes": "",
+      "gloss": "",
+      "author": "official",
+      "date": "2019-05-05T22:25:08.856Z",
+      "score": 0
+    }
+  ],
+  [
     "chuqkuaı",
     {
       "language": "eng",
@@ -4484,6 +4328,18 @@
       "gloss": "",
       "author": "official",
       "date": "2019-05-05T22:25:23.276Z",
+      "score": 0
+    }
+  ],
+  [
+    "duaı",
+    {
+      "language": "eng",
+      "definition": "predicate: ‘must’; ▯ must satisfy property ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "official",
+      "date": "2019-05-05T22:25:23.417Z",
       "score": 0
     }
   ],
@@ -12444,18 +12300,6 @@
     }
   ],
   [
-    "guobe",
-    {
-      "language": "eng",
-      "definition": "▯ is cattle/cow/bull/ox (Bos taxonomic genus).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-12-07T13:52:05.366Z",
-      "score": 1
-    }
-  ],
-  [
     "pe",
     {
       "language": "eng",
@@ -12464,30 +12308,6 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2019-12-07T17:29:50.214Z",
-      "score": 1
-    }
-  ],
-  [
-    "anı",
-    {
-      "language": "eng",
-      "definition": "▯ is sand.",
-      "notes": "",
-      "gloss": "",
-      "author": "Hoemai",
-      "date": "2019-12-16T21:22:15.495Z",
-      "score": 1
-    }
-  ],
-  [
-    "zaq",
-    {
-      "language": "eng",
-      "definition": "▯ appears.",
-      "notes": "",
-      "gloss": "",
-      "author": "Hoemai",
-      "date": "2019-12-16T21:22:38.461Z",
       "score": 1
     }
   ],
@@ -12513,18 +12333,6 @@
       "author": "official",
       "date": "2020-01-27T12:04:10.658Z",
       "score": 0
-    }
-  ],
-  [
-    "kaqkıubu",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘invisible’; ▯ is invisible.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-01-28T20:25:08.696Z",
-      "score": 1
     }
   ],
   [
@@ -12576,18 +12384,6 @@
     }
   ],
   [
-    "muıtoa",
-    {
-      "language": "eng",
-      "definition": "▯ is a content word.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-01-29T21:47:38.062Z",
-      "score": 1
-    }
-  ],
-  [
     "ıo",
     {
       "language": "eng",
@@ -12608,42 +12404,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2020-02-25T19:00:14.441Z",
-      "score": 1
-    }
-  ],
-  [
-    "cataq",
-    {
-      "language": "eng",
-      "definition": "▯ happens automatically; ▯ is spontaneous.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-27T16:48:21.039Z",
-      "score": 1
-    }
-  ],
-  [
-    "taokoe",
-    {
-      "language": "eng",
-      "definition": "▯ chooses/decides to satisfy property ▯ out of properties ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-27T16:56:37.918Z",
-      "score": 1
-    }
-  ],
-  [
-    "tuakoe",
-    {
-      "language": "eng",
-      "definition": "▯ chooses/decides to make ▯ be the case, out of propositions ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-27T16:58:12.361Z",
       "score": 1
     }
   ],
@@ -12720,30 +12480,6 @@
     }
   ],
   [
-    "goısaı",
-    {
-      "language": "eng",
-      "definition": "▯ is a medicine (substance).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-03-03T11:33:52.496Z",
-      "score": 1
-    }
-  ],
-  [
-    "gaqme",
-    {
-      "language": "eng",
-      "definition": "▯ is a group/band/gang/pack/herd/swarm/flock of the animals/people satisfying property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-03-07T17:02:13.116Z",
-      "score": 1
-    }
-  ],
-  [
     "sıeqca",
     {
       "language": "eng",
@@ -12764,18 +12500,6 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2020-03-19T22:29:02.405Z",
-      "score": 1
-    }
-  ],
-  [
-    "buetı",
-    {
-      "language": "eng",
-      "definition": "▯ is at home; ▯ is where they live; ▯ is in their own house.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2020-04-05T16:19:59.710Z",
       "score": 1
     }
   ],
@@ -13944,18 +13668,6 @@
     }
   ],
   [
-    "daqko",
-    {
-      "language": "eng",
-      "definition": "▯, among ▯, is the ▯th.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2021-10-04T22:03:26.507Z",
-      "score": 1
-    }
-  ],
-  [
     "fa",
     {
       "language": "eng",
@@ -14568,6 +14280,18 @@
     }
   ],
   [
+    "jıkı",
+    {
+      "language": "eng",
+      "definition": "interjection: \"you're welcome / no problem / happy to help\" (response to thanks)",
+      "notes": "",
+      "gloss": "",
+      "author": "Laqme",
+      "date": "2022-06-29T10:12:04.939Z",
+      "score": 1
+    }
+  ],
+  [
     "daıchı",
     {
       "language": "eng",
@@ -14648,30 +14372,6 @@
       "gloss": "",
       "author": "official",
       "date": "2022-07-19T12:36:53.127Z",
-      "score": 0
-    }
-  ],
-  [
-    "daqchıu",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘time.address’; ▯ is the time address of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "official",
-      "date": "2022-07-19T18:30:50.942Z",
-      "score": 0
-    }
-  ],
-  [
-    "dıetaq",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘volunteer’; ▯ volunteers for doing ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "official",
-      "date": "2022-07-19T18:30:51.106Z",
       "score": 0
     }
   ],
@@ -14829,6 +14529,18 @@
       "author": "official",
       "date": "2022-08-04T16:31:29.502Z",
       "score": 0
+    }
+  ],
+  [
+    "ıq",
+    {
+      "language": "eng",
+      "definition": "▯ satisfies property ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "Hoemai",
+      "date": "2022-08-10T11:10:48.527Z",
+      "score": 1
     }
   ],
   [
@@ -17928,6 +17640,18 @@
     }
   ],
   [
+    "paqshaı",
+    {
+      "language": "eng",
+      "definition": "▯ breaks from ▯; ▯ stops being a part of ▯",
+      "notes": "",
+      "gloss": "",
+      "author": "seaqtaq",
+      "date": "2024-10-17T00:24:30.700Z",
+      "score": 1
+    }
+  ],
+  [
     "jaq",
     {
       "language": "eng",
@@ -18008,6 +17732,18 @@
       "gloss": "",
       "author": "robintown",
       "date": "2024-10-24T04:01:12.140Z",
+      "score": 1
+    }
+  ],
+  [
+    "noa",
+    {
+      "language": "eng",
+      "definition": "▯ is difficult.",
+      "notes": "",
+      "gloss": "",
+      "author": "nano",
+      "date": "2024-10-24T21:55:01.113Z",
       "score": 1
     }
   ],
@@ -18216,18 +17952,6 @@
     }
   ],
   [
-    "ram",
-    {
-      "language": "eng",
-      "definition": "▯ is repetitively the case.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2025-09-22T10:19:48.272Z",
-      "score": 1
-    }
-  ],
-  [
     "soq",
     {
       "language": "eng",
@@ -18248,18 +17972,6 @@
       "gloss": "",
       "author": "solpahi",
       "date": "2018-09-17T22:15:56.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "meırıe",
-    {
-      "language": "eng",
-      "definition": "▯ is a valley",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-09-18T20:36:46.000Z",
       "score": 0
     }
   ],
@@ -18288,18 +18000,6 @@
     }
   ],
   [
-    "shıukune",
-    {
-      "language": "eng",
-      "definition": "▯ is a raccoon.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-02T21:54:11.000Z",
-      "score": 0
-    }
-  ],
-  [
     "guaqdıu",
     {
       "language": "eng",
@@ -18312,22 +18012,10 @@
     }
   ],
   [
-    "menı",
-    {
-      "language": "eng",
-      "definition": "▯ is a pangolin of the Manis genus.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-20T20:30:48.000Z",
-      "score": 0
-    }
-  ],
-  [
     "moıkuq",
     {
       "language": "eng",
-      "definition": "▯ says telephatically text ▯ to ▯.",
+      "definition": "▯ says telepathically ▯ (direct quote).",
       "notes": "",
       "gloss": "",
       "author": "Ilmen",
@@ -18447,18 +18135,6 @@
     "kılo",
     {
       "language": "eng",
-      "definition": "▯ masses exactly ▯ kilograms",
-      "notes": "",
-      "gloss": "",
-      "author": "fagri",
-      "date": "2018-12-30T23:24:31.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "kılo",
-    {
-      "language": "eng",
       "definition": "▯ is a kilogram.",
       "notes": "",
       "gloss": "",
@@ -18492,54 +18168,6 @@
     }
   ],
   [
-    "@toacıa",
-    {
-      "language": "eng",
-      "definition": "▯ disturbs ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-05T16:38:03.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "@toacıa",
-    {
-      "language": "eng",
-      "definition": "▯ is an ethny.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-05T16:40:38.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "shıqhuahuaı",
-    {
-      "language": "eng",
-      "definition": "▯ picks their nose; ▯ picks ▯'s nose.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-07T22:09:12.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "sıesıa",
-    {
-      "language": "eng",
-      "definition": "▯ is the first element in the sequence ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-07T22:32:46.000Z",
-      "score": 0
-    }
-  ],
-  [
     "hoıtoa",
     {
       "language": "eng",
@@ -18548,18 +18176,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2019-01-08T22:09:50.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "leaqbua",
-    {
-      "language": "eng",
-      "definition": "▯ is a neighbor of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-11T14:58:27.000Z",
       "score": 0
     }
   ],
@@ -18600,18 +18216,6 @@
     }
   ],
   [
-    "sıeme",
-    {
-      "language": "eng",
-      "definition": "▯ is a sequence; ▯ is the sequence ⟨▯, ▯ (, ▯ (, ▯ (…)))⟩.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-01-23T21:08:33.000Z",
-      "score": 0
-    }
-  ],
-  [
     "jeojeo",
     {
       "language": "eng",
@@ -18632,6 +18236,18 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2019-01-25T17:19:35.000Z",
+      "score": 0
+    }
+  ],
+  [
+    "tue",
+    {
+      "language": "eng",
+      "definition": "▯ is the event ▯/0.",
+      "notes": "",
+      "gloss": "",
+      "author": "uakci",
+      "date": "2019-01-26T00:04:18.000Z",
       "score": 0
     }
   ],
@@ -18744,18 +18360,6 @@
     }
   ],
   [
-    "koelao",
-    {
-      "language": "eng",
-      "definition": " ▯ hesitates between ▯ for satisfying property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-02-07T18:28:22.000Z",
-      "score": 0
-    }
-  ],
-  [
     "koemoı",
     {
       "language": "eng",
@@ -18764,6 +18368,18 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2019-02-07T21:54:16.000Z",
+      "score": 0
+    }
+  ],
+  [
+    "goısaı",
+    {
+      "language": "eng",
+      "definition": "▯ is a medicine.",
+      "notes": "",
+      "gloss": "",
+      "author": "Laqme",
+      "date": "2019-02-08T16:46:46.000Z",
       "score": 0
     }
   ],
@@ -18828,18 +18444,6 @@
     }
   ],
   [
-    "heqchuo",
-    {
-      "language": "eng",
-      "definition": "(fork of official) predicate: ‘container’; ▯ is a container; ▯ is a contained designed to contain anything satisfying property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-02-21T10:44:52.000Z",
-      "score": 0
-    }
-  ],
-  [
     "he",
     {
       "language": "eng",
@@ -18848,18 +18452,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2019-02-21T14:10:34.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "tapıra",
-    {
-      "language": "eng",
-      "definition": "▯ is a tapir.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-20T07:43:32.000Z",
       "score": 0
     }
   ],
@@ -18912,26 +18504,14 @@
     }
   ],
   [
-    "rudo",
+    "goso",
     {
       "language": "eng",
-      "definition": "▯ is a bramble.",
+      "definition": "▯ is a member of genus Gallus (the junglefowls and the chicken).",
       "notes": "",
       "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-08T21:58:14.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "hıderudo",
-    {
-      "language": "eng",
-      "definition": "▯ is a raspberry plant.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-09T09:34:43.000Z",
+      "author": "Hoemai",
+      "date": "2019-03-21T21:33:58.000Z",
       "score": 0
     }
   ],
@@ -18972,26 +18552,14 @@
     }
   ],
   [
-    "hoaq",
+    "kılo",
     {
       "language": "eng",
-      "definition": "▯ burns in oxidizer ▯.",
+      "definition": "▯ masses exactly ▯ kilograms",
       "notes": "",
       "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-03-27T19:56:58.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "tılıa",
-    {
-      "language": "eng",
-      "definition": "▯ is a linden/lime tree.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-20T17:32:53.000Z",
+      "author": "fagri",
+      "date": "2018-12-30T23:24:31.000Z",
       "score": 0
     }
   ],
@@ -19016,42 +18584,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2019-03-30T19:06:12.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "muqshoaı",
-    {
-      "language": "eng",
-      "definition": "▯ is a bat.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-08T15:15:20.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "ceahako",
-    {
-      "language": "eng",
-      "definition": "▯ is a koala.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-07T18:23:39.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "nuqleq",
-    {
-      "language": "eng",
-      "definition": "▯ is an anteater.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2018-10-21T13:24:19.000Z",
       "score": 0
     }
   ],
@@ -19116,18 +18648,6 @@
     }
   ],
   [
-    "seoqpıo",
-    {
-      "language": "eng",
-      "definition": "▯ is a meteorite.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-04-11T16:54:47.000Z",
-      "score": 0
-    }
-  ],
-  [
     "guaqteıdıu",
     {
       "language": "eng",
@@ -19140,18 +18660,6 @@
     }
   ],
   [
-    "pıodıu",
-    {
-      "language": "eng",
-      "definition": "▯ is petrology.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-04-11T17:23:44.000Z",
-      "score": 0
-    }
-  ],
-  [
     "luaqne",
     {
       "language": "eng",
@@ -19160,18 +18668,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2019-04-12T18:57:54.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "lutea",
-    {
-      "language": "eng",
-      "definition": "▯ is afraid of ▯ being the case.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-04-13T20:44:47.000Z",
       "score": 0
     }
   ],
@@ -19224,18 +18720,6 @@
     }
   ],
   [
-    "luısho",
-    {
-      "language": "eng",
-      "definition": "▯ passes / goes by (timewise).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-04-22T21:36:54.000Z",
-      "score": 0
-    }
-  ],
-  [
     "jaqjaq",
     {
       "language": "eng",
@@ -19272,30 +18756,6 @@
     }
   ],
   [
-    "nuıjaq",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘tiny’; ▯ is tiny.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-06-20T15:19:41.260Z",
-      "score": 0
-    }
-  ],
-  [
-    "ko",
-    {
-      "language": "qtq",
-      "definition": "sa dó pǔıjeq hóa dósaq ru měa hóa dógu bı, soq gıq dóshı dójo dó, na ru huaq tu lú mea hóa shı dó ceı dójo tu lú mea hóa shı to ru dó bũ to dógu jẽo da",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2019-01-30T20:59:23.000Z",
-      "score": 0
-    }
-  ],
-  [
     "shı",
     {
       "language": "qtq",
@@ -19304,18 +18764,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2019-01-26T11:03:17.000Z",
-      "score": 0
-    }
-  ],
-  [
-    "ea",
-    {
-      "language": "eng",
-      "definition": "▯ could be the case if ▯ were the case.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-07-21T14:31:21.848Z",
       "score": 0
     }
   ],
@@ -19332,30 +18780,6 @@
     }
   ],
   [
-    "uq",
-    {
-      "language": "eng",
-      "definition": "Connective: \"or rather\", erases the left-hand side connectand and replaces it with the right-hand side one.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-07-21T15:33:01.385Z",
-      "score": 0
-    }
-  ],
-  [
-    "elu",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘elephant’; ▯ is an elephant.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-08-23T21:43:06.076Z",
-      "score": 0
-    }
-  ],
-  [
     "buqjıaı",
     {
       "language": "eng",
@@ -19364,18 +18788,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2019-08-24T11:07:04.317Z",
-      "score": 0
-    }
-  ],
-  [
-    "heome",
-    {
-      "language": "eng",
-      "definition": "▯ is heterogenous.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-09-08T15:08:47.495Z",
       "score": 0
     }
   ],
@@ -19428,18 +18840,6 @@
     }
   ],
   [
-    "apıbue",
-    {
-      "language": "eng",
-      "definition": "▯ is a hive.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-09-17T19:19:51.084Z",
-      "score": 0
-    }
-  ],
-  [
     "heaqtıao",
     {
       "language": "eng",
@@ -19448,42 +18848,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2019-09-17T19:19:51.101Z",
-      "score": 0
-    }
-  ],
-  [
-    "pala",
-    {
-      "language": "eng",
-      "definition": "▯ is the (hard) palate.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-09-17T19:19:51.117Z",
-      "score": 0
-    }
-  ],
-  [
-    "ubula",
-    {
-      "language": "eng",
-      "definition": "▯ is an uvula.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-09-17T19:19:51.118Z",
-      "score": 0
-    }
-  ],
-  [
-    "shıqhualaq",
-    {
-      "language": "eng",
-      "definition": "▯ is a sound produced at least partly with the nose.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-09-17T19:19:51.123Z",
       "score": 0
     }
   ],
@@ -19500,38 +18864,14 @@
     }
   ],
   [
-    "duamıa",
+    "muıtoa",
     {
       "language": "eng",
-      "definition": "▯ is educated, learned, erudite, savant; ▯ is knowledgable about ▯.",
+      "definition": "▯ is a predicate word",
       "notes": "",
       "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-11-05T19:44:11.638Z",
-      "score": 0
-    }
-  ],
-  [
-    "chıtuafuı",
-    {
-      "language": "eng",
-      "definition": "▯ is gullible/credulous/naive.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-11-05T19:53:53.557Z",
-      "score": 0
-    }
-  ],
-  [
-    "eku",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘equine’; ▯ is an equine/member of genus Equus (the horses, donkeys, and zebras).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-12-02T12:01:22.035Z",
+      "author": "fagri",
+      "date": "2019-12-04T10:15:32.311Z",
       "score": 0
     }
   ],
@@ -19539,23 +18879,11 @@
     "geajıo",
     {
       "language": "eng",
-      "definition": "▯ is a tower, skyscraper or other tall building.",
+      "definition": "▯ is a tower or skyscraper.",
       "notes": "",
       "gloss": "",
       "author": "Ilmen",
-      "date": "2019-12-08T13:02:09.543Z",
-      "score": 0
-    }
-  ],
-  [
-    "arane",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘spider’; ▯ is a spider.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-12-13T21:09:07.731Z",
+      "date": "2019-12-07T17:12:21.977Z",
       "score": 0
     }
   ],
@@ -19584,6 +18912,30 @@
     }
   ],
   [
+    "anı",
+    {
+      "language": "eng",
+      "definition": "▯ is sand.",
+      "notes": "",
+      "gloss": "",
+      "author": "Hoemai",
+      "date": "2019-12-16T21:22:15.495Z",
+      "score": 0
+    }
+  ],
+  [
+    "zaq",
+    {
+      "language": "eng",
+      "definition": "▯ appears.",
+      "notes": "",
+      "gloss": "",
+      "author": "Hoemai",
+      "date": "2019-12-16T21:22:38.461Z",
+      "score": 0
+    }
+  ],
+  [
     "anıguaq",
     {
       "language": "eng",
@@ -19604,18 +18956,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2019-12-20T15:48:47.214Z",
-      "score": 0
-    }
-  ],
-  [
-    "kuejıo",
-    {
-      "language": "eng",
-      "definition": "▯ is a library.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-12-21T17:21:38.171Z",
       "score": 0
     }
   ],
@@ -19688,18 +19028,6 @@
       "gloss": "",
       "author": "fagri",
       "date": "2019-12-29T03:22:09.456Z",
-      "score": 0
-    }
-  ],
-  [
-    "sıgı",
-    {
-      "language": "eng",
-      "definition": "▯ is interesting; ▯ is interesting to ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2019-12-29T10:28:24.512Z",
       "score": 0
     }
   ],
@@ -20100,30 +19428,6 @@
     }
   ],
   [
-    "hupı",
-    {
-      "language": "eng",
-      "definition": "▯ is a fox (Vulpes genus).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-05T12:12:12.791Z",
-      "score": 0
-    }
-  ],
-  [
-    "gorılaı",
-    {
-      "language": "eng",
-      "definition": "▯ is a gorilla.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-05T12:16:55.789Z",
-      "score": 0
-    }
-  ],
-  [
     "koese",
     {
       "language": "eng",
@@ -20148,18 +19452,6 @@
     }
   ],
   [
-    "meıme",
-    {
-      "language": "eng",
-      "definition": "▯ is a mountain range.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-08T10:01:59.233Z",
-      "score": 0
-    }
-  ],
-  [
     "tıjeq",
     {
       "language": "eng",
@@ -20172,42 +19464,6 @@
     }
   ],
   [
-    "kuqbuaq",
-    {
-      "language": "eng",
-      "definition": "▯ means to say ▯ but mistakenly says something erroneous instead.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-10T18:01:48.132Z",
-      "score": 0
-    }
-  ],
-  [
-    "jogu",
-    {
-      "language": "eng",
-      "definition": "▯ is yogurt.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-16T21:55:56.920Z",
-      "score": 0
-    }
-  ],
-  [
-    "moıge",
-    {
-      "language": "eng",
-      "definition": "▯ evokes, in the mind of ▯, thought or mental manifestation ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2020-02-17T12:30:49.588Z",
-      "score": 0
-    }
-  ],
-  [
     "shıjue",
     {
       "language": "eng",
@@ -20216,18 +19472,6 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2020-02-17T23:26:07.326Z",
-      "score": 0
-    }
-  ],
-  [
-    "moegaq",
-    {
-      "language": "eng",
-      "definition": "▯ sympathizes with ▯in feeling ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2020-02-22T06:49:17.241Z",
       "score": 0
     }
   ],
@@ -20676,6 +19920,18 @@
     }
   ],
   [
+    "buetı",
+    {
+      "language": "eng",
+      "definition": "▯ is at home; ▯ is where they live; ▯ is in their own house.",
+      "notes": "",
+      "gloss": "",
+      "author": "uakci",
+      "date": "2020-04-05T16:19:59.710Z",
+      "score": 0
+    }
+  ],
+  [
     "bua",
     {
       "language": "eng",
@@ -21068,18 +20324,6 @@
       "gloss": "",
       "author": "Machy",
       "date": "2020-07-08T01:17:33.643Z",
-      "score": 0
-    }
-  ],
-  [
-    "ıq",
-    {
-      "language": "eng",
-      "definition": "Particle: accepts a predicate in the fourth tone and produces a high adverb that takes one argument as a complement",
-      "notes": "",
-      "gloss": "",
-      "author": "fagri",
-      "date": "2021-07-28T03:47:00.120Z",
       "score": 0
     }
   ],
@@ -21660,6 +20904,18 @@
     }
   ],
   [
+    "tanı",
+    {
+      "language": "eng",
+      "definition": "▯ is a stem/stalk/trunk of ▯.",
+      "notes": "",
+      "gloss": "",
+      "author": "robintown",
+      "date": "2021-10-20T04:06:54.723Z",
+      "score": 0
+    }
+  ],
+  [
     "buruo",
     {
       "language": "eng",
@@ -21788,18 +21044,6 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2021-11-03T22:21:06.297Z",
-      "score": 0
-    }
-  ],
-  [
-    "meıme",
-    {
-      "language": "eng",
-      "definition": "▯ is a heap/pile of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2021-11-07T11:51:34.385Z",
       "score": 0
     }
   ],
@@ -22076,18 +21320,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2022-01-08T12:23:20.470Z",
-      "score": 0
-    }
-  ],
-  [
-    "sope",
-    {
-      "language": "eng",
-      "definition": "(fork of #p24WieCry) ▯ and ▯ exchange values of property ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "el",
-      "date": "2022-01-08T23:53:10.514Z",
       "score": 0
     }
   ],
@@ -22992,18 +22224,6 @@
     }
   ],
   [
-    "molaı",
-    {
-      "language": "eng",
-      "definition": "▯ is an open-quote («, “, etc)",
-      "notes": "",
-      "gloss": "",
-      "author": "el",
-      "date": "2022-06-20T22:26:43.787Z",
-      "score": 0
-    }
-  ],
-  [
     "hıkuı",
     {
       "language": "eng",
@@ -23036,18 +22256,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2022-06-26T12:13:30.459Z",
-      "score": 0
-    }
-  ],
-  [
-    "jıkı",
-    {
-      "language": "eng",
-      "definition": "interjection: \"you're welcome / no problem / happy to help\" (response to thanks)",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2022-06-29T10:12:04.939Z",
       "score": 0
     }
   ],
@@ -24144,18 +23352,6 @@
     }
   ],
   [
-    "bo",
-    {
-      "language": "eng",
-      "definition": "For ▯, ▯ is a relevant thing that satisfies ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "el",
-      "date": "2022-11-18T19:06:49.739Z",
-      "score": 0
-    }
-  ],
-  [
     "soıbuaq",
     {
       "language": "eng",
@@ -24540,42 +23736,6 @@
     }
   ],
   [
-    "nhuq",
-    {
-      "language": "eng",
-      "definition": "▯ is done for ▯'s benefit.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2022-12-12T21:21:30.383Z",
-      "score": 0
-    }
-  ],
-  [
-    "fana",
-    {
-      "language": "eng",
-      "definition": "▯ is/leads towards ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2022-12-12T21:22:19.826Z",
-      "score": 0
-    }
-  ],
-  [
-    "garam",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘gram’; ▯ is a gram",
-      "notes": "",
-      "gloss": "",
-      "author": "salarua",
-      "date": "2022-12-12T23:44:50.340Z",
-      "score": 0
-    }
-  ],
-  [
     "mole",
     {
       "language": "eng",
@@ -24608,30 +23768,6 @@
       "gloss": "",
       "author": "salarua",
       "date": "2022-12-13T00:11:03.683Z",
-      "score": 0
-    }
-  ],
-  [
-    "bele",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘bel’; ▯ is a bel",
-      "notes": "",
-      "gloss": "",
-      "author": "salarua",
-      "date": "2022-12-13T00:35:16.719Z",
-      "score": 0
-    }
-  ],
-  [
-    "chaka",
-    {
-      "language": "eng",
-      "definition": "onomatopoeia: the sound of cicadas",
-      "notes": "",
-      "gloss": "",
-      "author": "robintown",
-      "date": "2022-12-13T19:51:29.551Z",
       "score": 0
     }
   ],
@@ -24696,6 +23832,18 @@
     }
   ],
   [
+    "seto",
+    {
+      "language": "eng",
+      "definition": "I guess/suppose ▯ is true",
+      "notes": "",
+      "gloss": "",
+      "author": "fagri",
+      "date": "2022-12-28T11:18:07.685Z",
+      "score": 0
+    }
+  ],
+  [
     "cuakuq",
     {
       "language": "eng",
@@ -24704,30 +23852,6 @@
       "gloss": "",
       "author": "fagri",
       "date": "2022-12-29T09:06:30.988Z",
-      "score": 0
-    }
-  ],
-  [
-    "heogaı",
-    {
-      "language": "eng",
-      "definition": "▯ perceives the difference between / that ▯ and ▯ are different",
-      "notes": "",
-      "gloss": "",
-      "author": "el",
-      "date": "2022-12-29T15:28:24.008Z",
-      "score": 0
-    }
-  ],
-  [
-    "saoduo",
-    {
-      "language": "eng",
-      "definition": "▯ happens for a long while.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2022-12-30T16:27:31.556Z",
       "score": 0
     }
   ],
@@ -24780,18 +23904,6 @@
     }
   ],
   [
-    "goso",
-    {
-      "language": "eng",
-      "definition": "▯ is a chicken.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2023-01-05T16:13:00.346Z",
-      "score": 0
-    }
-  ],
-  [
     "chuqguao",
     {
       "language": "tok",
@@ -24824,18 +23936,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2023-01-07T10:09:32.283Z",
-      "score": 0
-    }
-  ],
-  [
-    "meta",
-    {
-      "language": "eng",
-      "definition": "predicate: ‘meter’; ▯ is a meter.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2023-01-07T21:36:25.716Z",
       "score": 0
     }
   ],
@@ -24900,18 +24000,6 @@
     }
   ],
   [
-    "meta",
-    {
-      "language": "eng",
-      "definition": "▯ is one meter (unit of measure); ▯ is one meter × the cardinality of anything satisfying property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2023-01-13T23:12:52.078Z",
-      "score": 0
-    }
-  ],
-  [
     "zueqmuo",
     {
       "language": "eng",
@@ -24960,6 +24048,18 @@
     }
   ],
   [
+    "ram",
+    {
+      "language": "eng",
+      "definition": "▯ is RAM (random-access memory)",
+      "notes": "",
+      "gloss": "",
+      "author": "fagri",
+      "date": "2023-01-22T01:57:36.998Z",
+      "score": 0
+    }
+  ],
+  [
     "Deaqsha sá kamcụkeq áhoq ba.",
     {
       "language": "epo",
@@ -25004,18 +24104,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2023-01-24T14:49:23.802Z",
-      "score": 0
-    }
-  ],
-  [
-    "ram",
-    {
-      "language": "eng",
-      "definition": "▯ is random-access memory",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2023-02-05T03:13:19.663Z",
       "score": 0
     }
   ],
@@ -25076,18 +24164,6 @@
       "gloss": "",
       "author": "mimiaoganhaqpy",
       "date": "2023-02-11T19:36:33.436Z",
-      "score": 0
-    }
-  ],
-  [
-    "ıaq",
-    {
-      "language": "eng",
-      "definition": "▯ is the case no matter (if) ▯ [clause with or without indirect question].",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2023-02-12T10:44:00.672Z",
       "score": 0
     }
   ],
@@ -25176,18 +24252,6 @@
     }
   ],
   [
-    "foıfaı",
-    {
-      "language": "eng",
-      "definition": "▯ is so common that it's boring.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2023-03-01T13:34:51.106Z",
-      "score": 0
-    }
-  ],
-  [
     "shao",
     {
       "language": "tok",
@@ -25220,18 +24284,6 @@
       "gloss": "",
       "author": "nano",
       "date": "2023-03-06T12:00:47.779Z",
-      "score": 0
-    }
-  ],
-  [
-    "nıuhaq",
-    {
-      "language": "eng",
-      "definition": "▯ is a fertilizer.",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2023-03-07T08:05:42.776Z",
       "score": 0
     }
   ],
@@ -25356,18 +24408,6 @@
     }
   ],
   [
-    "ém",
-    {
-      "language": "eng",
-      "definition": "interjection: \"huh?\"",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2023-03-10T14:48:45.844Z",
-      "score": 0
-    }
-  ],
-  [
     "sheabaga",
     {
       "language": "eng",
@@ -25428,18 +24468,6 @@
     }
   ],
   [
-    "fo",
-    {
-      "language": "eng",
-      "definition": "sentence connector: ‘by.the.way’; go on tangent",
-      "notes": "",
-      "gloss": "",
-      "author": "mimiaoganhaqpy",
-      "date": "2023-04-07T04:41:47.640Z",
-      "score": 0
-    }
-  ],
-  [
     "hoemıa",
     {
       "language": "eng",
@@ -25472,18 +24500,6 @@
       "gloss": "",
       "author": "jiqci",
       "date": "2023-05-16T09:37:04.708Z",
-      "score": 0
-    }
-  ],
-  [
-    "se",
-    {
-      "language": "eng",
-      "definition": "▯ is a result/product of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "robintown",
-      "date": "2023-05-18T14:09:16.091Z",
       "score": 0
     }
   ],
@@ -25532,18 +24548,6 @@
       "gloss": "",
       "author": "Snow",
       "date": "2023-05-22T15:35:18.554Z",
-      "score": 0
-    }
-  ],
-  [
-    "seto",
-    {
-      "language": "eng",
-      "definition": "Interjection: \"I guess\"",
-      "notes": "",
-      "gloss": "",
-      "author": "TheAndSys",
-      "date": "2023-05-22T20:56:58.121Z",
       "score": 0
     }
   ],
@@ -25704,6 +24708,18 @@
     }
   ],
   [
+    "zıqtıq",
+    {
+      "language": "eng",
+      "definition": "▯ is an electronic chip / integrated circuit.",
+      "notes": "",
+      "gloss": "",
+      "author": "jiqci",
+      "date": "2023-06-03T11:29:18.772Z",
+      "score": 0
+    }
+  ],
+  [
     "zıqtoaı",
     {
       "language": "eng",
@@ -25712,18 +24728,6 @@
       "gloss": "",
       "author": "jiqci",
       "date": "2023-06-03T11:40:51.624Z",
-      "score": 0
-    }
-  ],
-  [
-    "buza",
-    {
-      "language": "eng",
-      "definition": "interjection: ‘dunno’; expressing a lack of knowledge",
-      "notes": "",
-      "gloss": "",
-      "author": "robintown",
-      "date": "2023-06-06T15:06:46.035Z",
       "score": 0
     }
   ],
@@ -25764,18 +24768,6 @@
     }
   ],
   [
-    "zudeq",
-    {
-      "language": "eng",
-      "definition": "chıe zudeq lô toaqzu súq ba :3",
-      "notes": "",
-      "gloss": "",
-      "author": "sherrin",
-      "date": "2023-06-09T13:55:23.092Z",
-      "score": 0
-    }
-  ],
-  [
     "mıehe",
     {
       "language": "eng",
@@ -25812,18 +24804,6 @@
     }
   ],
   [
-    "toru",
-    {
-      "language": "eng",
-      "definition": "conjunction: superposition",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2023-07-07T16:30:35.205Z",
-      "score": 0
-    }
-  ],
-  [
     "laqrue",
     {
       "language": "eng",
@@ -25848,18 +24828,6 @@
     }
   ],
   [
-    "cana",
-    {
-      "language": "eng",
-      "definition": "▯ is a “force”, an agentified cause.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2023-08-11T07:08:20.686Z",
-      "score": 0
-    }
-  ],
-  [
     "soqmea",
     {
       "language": "eng",
@@ -25868,18 +24836,6 @@
       "gloss": "",
       "author": "uakci",
       "date": "2023-08-18T12:08:56.982Z",
-      "score": 0
-    }
-  ],
-  [
-    "toaqgeı",
-    {
-      "language": "eng",
-      "definition": "▯ is wearing a traditional Toaq design.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2023-09-04T15:55:14.038Z",
       "score": 0
     }
   ],
@@ -25908,18 +24864,6 @@
     }
   ],
   [
-    "jıame",
-    {
-      "language": "eng",
-      "definition": "▯ is a/the future.",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2023-09-13T19:05:28.537Z",
-      "score": 0
-    }
-  ],
-  [
     "buqkuoq",
     {
       "language": "eng",
@@ -25940,18 +24884,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2023-09-27T01:01:18.361Z",
-      "score": 0
-    }
-  ],
-  [
-    "cuaqdıu",
-    {
-      "language": "eng",
-      "definition": "▯ is an abstract science (e.g. mathematics, logic…).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2023-09-29T08:45:35.230Z",
       "score": 0
     }
   ],
@@ -26328,18 +25260,6 @@
     }
   ],
   [
-    "sope",
-    {
-      "language": "eng",
-      "definition": "▯ swap/exchange values, with respect to what they satisfy property ▯ with.",
-      "notes": "",
-      "gloss": "",
-      "author": "robintown",
-      "date": "2023-11-09T19:32:27.300Z",
-      "score": 0
-    }
-  ],
-  [
     "nıqja",
     {
       "language": "eng",
@@ -26384,18 +25304,6 @@
       "gloss": "",
       "author": "robintown",
       "date": "2023-11-11T15:01:08.012Z",
-      "score": 0
-    }
-  ],
-  [
-    "choha",
-    {
-      "language": "eng",
-      "definition": "interjection: ‘I accept your warm welcome’; said in response to **shadı**",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2023-11-12T17:11:39.643Z",
       "score": 0
     }
   ],
@@ -26492,18 +25400,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2023-12-12T02:31:18.330Z",
-      "score": 0
-    }
-  ],
-  [
-    "bore",
-    {
-      "language": "eng",
-      "definition": "▯ is flat",
-      "notes": "",
-      "gloss": "",
-      "author": "saqraku",
-      "date": "2023-12-15T20:43:13.159Z",
       "score": 0
     }
   ],
@@ -26640,18 +25536,6 @@
     }
   ],
   [
-    "hoha",
-    {
-      "language": "eng",
-      "definition": "▯ honks like a goose.",
-      "notes": "",
-      "gloss": "",
-      "author": "robintown",
-      "date": "2024-01-21T20:13:17.410Z",
-      "score": 0
-    }
-  ],
-  [
     "duo",
     {
       "language": "eng",
@@ -26760,18 +25644,6 @@
     }
   ],
   [
-    "daqleı",
-    {
-      "language": "eng",
-      "definition": "▯ is seldom/infrequently/rarely the case.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-05-04T22:08:23.655Z",
-      "score": 0
-    }
-  ],
-  [
     "jıjı",
     {
       "language": "eng",
@@ -26816,18 +25688,6 @@
       "gloss": "",
       "author": "TheAndSys",
       "date": "2024-05-11T03:22:07.511Z",
-      "score": 0
-    }
-  ],
-  [
-    "neqluaq",
-    {
-      "language": "eng",
-      "definition": "▯ gambles.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-05-11T21:00:12.234Z",
       "score": 0
     }
   ],
@@ -26892,30 +25752,6 @@
     }
   ],
   [
-    "reodo",
-    {
-      "language": "eng",
-      "definition": "▯ paints/dyes ▯ color ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-06-10T16:32:52.225Z",
-      "score": 0
-    }
-  ],
-  [
-    "loeqtoq",
-    {
-      "language": "eng",
-      "definition": "▯ is a cooktop.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-06-10T18:58:14.005Z",
-      "score": 0
-    }
-  ],
-  [
     "puımıeq",
     {
       "language": "eng",
@@ -26936,18 +25772,6 @@
       "gloss": "",
       "author": "robintown",
       "date": "2024-06-18T12:25:05.342Z",
-      "score": 0
-    }
-  ],
-  [
-    "moham",
-    {
-      "language": "eng",
-      "definition": "▯ is a flap / dangling/loose piece of some sort.",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2024-06-25T07:03:10.718Z",
       "score": 0
     }
   ],
@@ -27000,18 +25824,6 @@
     }
   ],
   [
-    "gureqpıo",
-    {
-      "language": "eng",
-      "definition": "▯ is nephrite (mineral).",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2024-07-02T10:34:57.040Z",
-      "score": 0
-    }
-  ],
-  [
     "peo-",
     {
       "language": "eng",
@@ -27032,18 +25844,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2024-07-03T11:56:46.574Z",
-      "score": 0
-    }
-  ],
-  [
-    "sheamıchao",
-    {
-      "language": "eng",
-      "definition": "▯ is a starship",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2024-07-04T00:05:46.768Z",
       "score": 0
     }
   ],
@@ -27080,18 +25880,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2024-07-10T05:25:04.430Z",
-      "score": 0
-    }
-  ],
-  [
-    "kóm",
-    {
-      "language": "eng",
-      "definition": "personal pronoun: \"it\" (singular inanimate)",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-07-11T23:26:41.004Z",
       "score": 0
     }
   ],
@@ -27228,18 +26016,6 @@
     }
   ],
   [
-    "dedo",
-    {
-      "language": "eng",
-      "definition": "▯ decorates/embellishes ▯ by making it satisfy property ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2024-08-16T19:15:58.374Z",
-      "score": 0
-    }
-  ],
-  [
     "puı-",
     {
       "language": "eng",
@@ -27296,18 +26072,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2024-08-22T09:12:13.975Z",
-      "score": 0
-    }
-  ],
-  [
-    "aıla",
-    {
-      "language": "eng",
-      "definition": "▯ sort of does/is ▯; The property that ▯ satisfies is similar to property ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2024-08-25T02:59:15.511Z",
       "score": 0
     }
   ],
@@ -27444,18 +26208,6 @@
     }
   ],
   [
-    "fenuım",
-    {
-      "language": "eng",
-      "definition": "▯ is a pentagram.",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2024-09-11T21:24:36.508Z",
-      "score": 0
-    }
-  ],
-  [
     "teıgıu",
     {
       "language": "eng",
@@ -27500,18 +26252,6 @@
       "gloss": "",
       "author": "zearen",
       "date": "2024-09-19T01:24:34.568Z",
-      "score": 0
-    }
-  ],
-  [
-    "fası",
-    {
-      "language": "eng",
-      "definition": "▯ alternates between properties ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "jiqci",
-      "date": "2024-09-19T19:58:22.363Z",
       "score": 0
     }
   ],
@@ -27588,42 +26328,6 @@
     }
   ],
   [
-    "neotoq",
-    {
-      "language": "eng",
-      "definition": "▯ is a single-board shelf (e.g. on a wall).",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2024-09-25T10:25:14.765Z",
-      "score": 0
-    }
-  ],
-  [
-    "nhuogı",
-    {
-      "language": "eng",
-      "definition": "▯ is tidy/in a neat order.",
-      "notes": "",
-      "gloss": "",
-      "author": "Snow",
-      "date": "2024-09-25T10:56:12.492Z",
-      "score": 0
-    }
-  ],
-  [
-    "ıqgı",
-    {
-      "language": "eng",
-      "definition": "having property ▯ is good/beneficial.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2024-09-25T13:55:19.564Z",
-      "score": 0
-    }
-  ],
-  [
     "ıq",
     {
       "language": "jbo",
@@ -27680,18 +26384,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2024-10-02T23:38:10.209Z",
-      "score": 0
-    }
-  ],
-  [
-    "ré",
-    {
-      "language": "eng",
-      "definition": "prefix: incorporate ré object",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2024-10-03T00:50:12.142Z",
       "score": 0
     }
   ],
@@ -27768,30 +26460,6 @@
     }
   ],
   [
-    "sagaq",
-    {
-      "language": "eng",
-      "definition": "▯ has company / is not alone.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-10-15T20:43:02.668Z",
-      "score": 0
-    }
-  ],
-  [
-    "paqshaı",
-    {
-      "language": "eng",
-      "definition": "▯ breaks from ▯; ▯ stops being a part of ▯",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2024-10-17T00:24:30.700Z",
-      "score": 0
-    }
-  ],
-  [
     "ıqjı",
     {
       "language": "eng",
@@ -27800,18 +26468,6 @@
       "gloss": "",
       "author": "Ilmen",
       "date": "2024-10-23T17:27:26.111Z",
-      "score": 0
-    }
-  ],
-  [
-    "nıbo",
-    {
-      "language": "eng",
-      "definition": "▯ is of this/that; ▯ is related to this/that.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2024-10-23T18:49:39.269Z",
       "score": 0
     }
   ],
@@ -27972,18 +26628,6 @@
     }
   ],
   [
-    "tanı",
-    {
-      "language": "eng",
-      "definition": "▯ is a stem/stalk/trunk.",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2024-11-11T11:59:32.445Z",
-      "score": 0
-    }
-  ],
-  [
     "huodu",
     {
       "language": "eng",
@@ -28100,18 +26744,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2024-11-21T07:34:04.188Z",
-      "score": 0
-    }
-  ],
-  [
-    "poabuı",
-    {
-      "language": "eng",
-      "definition": "▯ is locked/shut outside of ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "seaqtaq",
-      "date": "2024-11-22T00:51:35.481Z",
       "score": 0
     }
   ],
@@ -28248,18 +26880,6 @@
     }
   ],
   [
-    "aba",
-    {
-      "language": "eng",
-      "definition": "▯ is a doll [child talk].",
-      "notes": "",
-      "gloss": "",
-      "author": "uakci",
-      "date": "2024-12-17T09:22:38.749Z",
-      "score": 0
-    }
-  ],
-  [
     "soqmea",
     {
       "language": "eng",
@@ -28340,18 +26960,6 @@
       "gloss": "",
       "author": "countries",
       "date": "2024-12-27T16:46:25.136Z",
-      "score": 0
-    }
-  ],
-  [
-    "nhom",
-    {
-      "language": "eng",
-      "definition": "▯ is affectionate to ▯.",
-      "notes": "",
-      "gloss": "",
-      "author": "Ilmen",
-      "date": "2024-12-28T12:34:36.325Z",
       "score": 0
     }
   ],
@@ -28520,18 +27128,6 @@
       "gloss": "",
       "author": "Laqme",
       "date": "2025-02-08T14:42:00.447Z",
-      "score": 0
-    }
-  ],
-  [
-    "sıba",
-    {
-      "language": "eng",
-      "definition": "interjection: \"look out!\" / \"watch out!\" / \"careful!\"",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2025-02-09T00:10:11.028Z",
       "score": 0
     }
   ],
@@ -28724,18 +27320,6 @@
       "gloss": "",
       "author": "lassc",
       "date": "2025-03-21T15:01:02.392Z",
-      "score": 0
-    }
-  ],
-  [
-    "mıja",
-    {
-      "language": "jbo",
-      "definition": "cnivla jecu smudu'i zo «.ie» ja lu« sei tugni »li'u",
-      "notes": "",
-      "gloss": "",
-      "author": "zearen",
-      "date": "2025-03-21T23:18:16.072Z",
       "score": 0
     }
   ],
@@ -29036,18 +27620,6 @@
       "gloss": "",
       "author": "seaqtaq",
       "date": "2025-03-31T18:17:52.104Z",
-      "score": 0
-    }
-  ],
-  [
-    "zu",
-    {
-      "language": "jbo",
-      "definition": "▯ bangu",
-      "notes": "",
-      "gloss": "",
-      "author": "Laqme",
-      "date": "2025-04-03T21:30:12.168Z",
       "score": 0
     }
   ],
@@ -166332,14 +164904,26 @@
     }
   ],
   [
-    "zıqtıq",
+    "e-",
     {
       "language": "eng",
-      "definition": "▯ is a pixel.",
+      "definition": "prefix: forms an ë clause of a verb, filling all of its slots with sá raı",
       "notes": "",
       "gloss": "",
-      "author": "Laqme",
-      "date": "2025-10-09T08:38:37.090Z",
+      "author": "kazoo",
+      "date": "2025-10-19T16:41:24.056Z",
+      "score": 0
+    }
+  ],
+  [
+    "tıo-",
+    {
+      "language": "eng",
+      "definition": "prefix: degree/amount/intensity of X.",
+      "notes": "",
+      "gloss": "",
+      "author": "kazoo",
+      "date": "2025-10-22T14:09:44.154Z",
       "score": 0
     }
   ]
