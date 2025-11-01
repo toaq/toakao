@@ -463,7 +463,6 @@ def sync_with(old, new):
 			for i, e in enumerate(added):
 				if e["lemma"] == new_lemma:
 					if e["discriminator"] == new[ni]["discriminator"]:
-						# TODO: ACCOUNT FOR SCORING!
 						added[i] = sync_fields_with(e, new[ni])
 						is_found = True
 						break
@@ -480,6 +479,8 @@ def sync_with(old, new):
 					assert waitlist_lemma == old[oi]["lemma"]
 					for e in waitlist:
 						old[oi] = sync_fields_with(old[oi], e)
+						dis = e["discriminator"]
+						print(f'𖣔 WL-SYNC-1ₐ: {e["lemma"]}#{dis} @{list(e["langdata"].keys())[0]}')
 					oi_has_synced = True
 				else:
 					# ⟦old[oi]⟧ has been deleted in ⟦new⟧, it must likewise be deleted in ⟦old⟧.
@@ -503,9 +504,18 @@ def sync_with(old, new):
 				definition = m.group(3)
 			if nd == "":
 				otids = all_tids_of(old[oi])
-				s = "⊤" if nid in otids else "⊥"
+				#s = "⊤" if nid in otids else "⊥"
 				#print(f"✸✸✸ {new_lemma} @{lang} #{nid} {s}: ⟪{definition}⟫")
-				if nid in otids:
+				is_presumed_monosemic_translation = (
+					od == "1" and (
+						oi == len(old) - 1
+						or not equals(
+							old[oi], old[oi + 1], lambda e: e["lemma"])
+					) and not lang in all_langs_of(old[oi])
+				)
+				if nid in otids or is_presumed_monosemic_translation:
+					if is_presumed_monosemic_translation:
+						print(f"⚠ It is assumed that the following translation doesn't represent a new polyseme:")
 					if old_lemma in DBG_LEMMAS:
 						print(f"𖣔 N-SYNC-∅ {old_lemma} @{lang}: ⟪{definition}⟫")
 						print(f"  ➤ {new[ni]}")
@@ -532,6 +542,8 @@ def sync_with(old, new):
 						assert waitlist_lemma == old[oi]["lemma"]
 						for e in waitlist:
 							old[oi] = sync_fields_with(old[oi], e)
+							dis = e["discriminator"]
+							print(f'𖣔 WL-SYNC-1ᵦ: {e["lemma"]}#{dis} @{list(e["langdata"].keys())[0]}')
 						oi_has_synced = True
 					else:
 						print(f"𖣔 O-DEL₂ {old_lemma}#{od}")
@@ -595,8 +607,8 @@ PROTECTED_FIELDS = (
 
 def sync_fields_with(old, new):
 	for lang in new["langdata"]:
-		if lang in old["langdata"]:
-			old["langdata"][lang] = new["langdata"][lang]
+		old["langdata"][lang] = new["langdata"][lang]
+		assert lang + "_definition" in new
 	for k in new:
 		if not k in IGNORED_FIELDS:
 			if new[k] not in ("", [], dict()):
@@ -607,6 +619,11 @@ def sync_fields_with(old, new):
 					)
 				if not k in PROTECTED_FIELDS:
 					old[k] = new[k]
+	for lang in all_langs_of(old):
+		if not lang in old["langdata"]:
+			print(f"⚠⚠⚠ {old['lemma']}#{old['discriminator']} MISSING {lang} IN LANGDATA!")
+			print(str(list(new["langdata"].keys())))
+			print(str(all_langs_of(new)))
 	return old
 
 # ==================================================================== #
