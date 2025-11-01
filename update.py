@@ -471,7 +471,7 @@ def sync_with(old, new):
 				definition = e[lang + "_definition"]
 				dis = e["discriminator"]
 				print(f"⚠ IGNORING NEW COMPETITOR WITHOUT DISCRIMINATOR:")
-				print(f"  {new_lemma}#{dis} @{lang} #{list(e['langdata'].values())[0]}: ⟪{definition}⟫")
+				print(f"  {e['lemma']}#{dis} @{lang} #{list(e['langdata'].values())[0]}: ⟪{definition}⟫")
 				ignored.append(e)
 			waitlist = []
 		waitlist_lemma = old_lemma
@@ -516,7 +516,7 @@ def sync_with(old, new):
 			if nd == "":
 				otids = all_tids_of(old[oi])
 				s = "⊤" if nid in otids else "⊥"
-				print(f"✸✸✸ {new_lemma} @{lang} #{nid} {s}: ⟪{definition}⟫")
+				#print(f"✸✸✸ {new_lemma} @{lang} #{nid} {s}: ⟪{definition}⟫")
 				if nid in otids:
 					if old_lemma in DBG_LEMMAS:
 						print(f"𖣔 N-SYNC-∅ {old_lemma} @{lang}: ⟪{definition}⟫")
