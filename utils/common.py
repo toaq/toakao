@@ -64,7 +64,7 @@ dicts_from_json_url = object_from_json_url
 def table_from_csv_url(url, delimiter = ','):
   content = _content_from_url(url)
   content = io.StringIO(content.decode("UTF8"), newline = None)
-  csv_reader = csv.reader(content, delim)
+  csv_reader = csv.reader(content, delimiter = delimiter)
   table = []
   for row in csv_reader:
     table.append(row)
