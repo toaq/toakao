@@ -432,38 +432,15 @@ def sync_with(old, new):
 	waitlist = []
 	oi_has_synced = False
 	while oi < len(old) and ni < len(new):
-		assert(len(new[ni]["langdata"]) == 1)
-		if "toadua_ids" in old[oi]:
-			assert not "langdata" in old[oi]
-			old[oi]["langdata"] = {
-				lang : {"id": tid, "author": "", "date": "", "score": ""}
-				for lang, tid in old[oi]["toadua_ids"].items()
-			}
-			old[oi].pop("toadua_ids")
+		assert len(new[ni]["langdata"]) == 1
 		old_lemma = old[oi]["lemma"]
 		new_lemma = new[ni]["lemma"]
 		od = old[oi]["discriminator"]
 		nd = new[ni]["discriminator"]
 		if new_lemma in DBG_LEMMAS or old_lemma in DBG_LEMMAS:
-			s = "⊤" if oi_has_synced else "⊥"
+			s = "⊤" if prev_oi == oi else "⊥"
 			print(f"● @{oi} {old_lemma}#{od} {s} : @{ni} {new_lemma}#{nd}")
 			print(f"   {all_tids_of(old[oi])} : {sole_tid_of(new[ni])}")
-		if prev_oi != oi:
-			oi_has_synced = False
-			remaining = []
-			for e in waitlist:
-				tid = sole_tid_of(e)
-				if tid in all_tids_of(old[oi]):
-					lang = list(e["langdata"].keys())[0]
-					print(f"𖣔 WL-SYNC {e['lemma']}#{od} @{lang} #{tid}")
-					assert(lang in old[oi]["langdata"].keys())
-					assert(lang in all_langs_of(old[oi]))
-					old[oi] = sync_fields_with(old[oi], e)
-					oi_has_synced = True
-				else:
-					remaining.append(e)
-			waitlist = remaining
-		prev_oi = oi
 		if waitlist_lemma not in ("", old_lemma):
 			# Purging the remnants of the waitlist.
 			for e in waitlist:
@@ -475,29 +452,40 @@ def sync_with(old, new):
 				ignored.append(e)
 			waitlist = []
 		waitlist_lemma = old_lemma
+		if prev_oi != oi:
+			oi_has_synced = False
+		prev_oi = oi
 		if old_lemma > new_lemma:
 			# ⟦new[ni]⟧ is a new lemma, absent from ⟦old⟧.
-			new[ni]["discriminator"] = "1"
+			if new[ni]["discriminator"] == "":
+				new[ni]["discriminator"] = "1"
 			is_found = False
 			for i, e in enumerate(added):
 				if e["lemma"] == new_lemma:
-					if e["discriminator"] == "1":
+					if e["discriminator"] == new[ni]["discriminator"]:
 						# TODO: ACCOUNT FOR SCORING!
 						added[i] = sync_fields_with(e, new[ni])
 						is_found = True
 						break
+			dis = new[ni]["discriminator"]
 			if not is_found:
-				print(f'𖣔 N-ADD: {new[ni]["lemma"]} @{list(new[ni]["langdata"].keys())[0]}')
+				print(f'𖣔 N-ADD: {new[ni]["lemma"]}#{dis} @{list(new[ni]["langdata"].keys())[0]}')
 				added.append(new[ni])
 			else:
-				print(f'𖣔 N-ADD-SYNC: {new[ni]["lemma"]} @{list(new[ni]["langdata"].keys())[0]}')
+				print(f'𖣔 N-ADD-SYNC: {new[ni]["lemma"]}#{dis} @{list(new[ni]["langdata"].keys())[0]}')
 			ni += 1
 		elif old_lemma < new_lemma:
 			if not oi_has_synced:
-				# ⟦old[oi]⟧ has been deleted in ⟦new⟧, it must likewise be deleted in ⟦old⟧.
-				print(f"𖣔 O-DEL {old_lemma}#{od}")
-				deleted.append(old[oi])
-				old[oi] = None
+				if waitlist != [] and old[oi]["discriminator"] == "1":
+					assert waitlist_lemma == old[oi]["lemma"]
+					for e in waitlist:
+						old[oi] = sync_fields_with(old[oi], e)
+					oi_has_synced = True
+				else:
+					# ⟦old[oi]⟧ has been deleted in ⟦new⟧, it must likewise be deleted in ⟦old⟧.
+					print(f"𖣔 O-DEL {old_lemma}#{od}")
+					deleted.append(old[oi])
+					old[oi] = None
 			oi += 1
 		else: # old_lemma == new_lemma
 			assert(equals(old[oi], new[ni], lambda e: e["lemma"]))
@@ -529,6 +517,8 @@ def sync_with(old, new):
 						print(f"    ¬∈ {otids}")
 						print(f"  ➤ {new[ni]}")
 					waitlist.append(new[ni])
+					waitlist, ds = competitorless_of(waitlist)
+					ignored += ds
 				ni += 1
 				if ni < len(new) and new[ni]["lemma"] != old_lemma:
 					oi += 1
@@ -538,9 +528,15 @@ def sync_with(old, new):
 				ni += 1
 			elif od < nd:
 				if not oi_has_synced:
-					print(f"𖣔 O-DEL₂ {old_lemma}#{od}")
-					deleted.append(old[oi])
-					old[oi] = None
+					if waitlist != [] and old[oi]["discriminator"] == "1":
+						assert waitlist_lemma == old[oi]["lemma"]
+						for e in waitlist:
+							old[oi] = sync_fields_with(old[oi], e)
+						oi_has_synced = True
+					else:
+						print(f"𖣔 O-DEL₂ {old_lemma}#{od}")
+						deleted.append(old[oi])
+						old[oi] = None
 				oi += 1
 			elif od == nd:
 				if old_lemma in DBG_LEMMAS:
