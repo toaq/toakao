@@ -1,113 +1,5 @@
 [
   {
-    "lemma": "chutı",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "gvq2QkV98",
-        "author": "Ilmen",
-        "date": "2025-10-30T22:11:31.991Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is at the middle of ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "daodıeq",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "EO4hP65AZ",
-        "author": "evie",
-        "date": "2025-10-31T04:51:10.287Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ transmits data ▯",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "durubu",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "RmGizp_NQ",
-        "author": "Ilmen",
-        "date": "2020-02-24T21:15:39.752Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is seemingly the case (but actually isn't); ▯ seemingly satisfies the property ▯ (but actually doesn't).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "dıeq",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "Z7bxg6Zj8",
-        "author": "evie",
-        "date": "2025-10-31T04:51:01.286Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ sends ▯",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "dıu",
     "discriminator": "",
     "is_official": false,
@@ -135,7 +27,7 @@
     "tok_gloss": ""
   },
   {
-    "lemma": "fıamaq",
+    "lemma": "hıko",
     "discriminator": "",
     "is_official": false,
     "type": "",
@@ -150,70 +42,16 @@
     "synonyms": [],
     "definition_type": "informal",
     "langdata": {
-      "eng": {
-        "id": "Qw1_oepxC",
-        "author": "Ilmen",
-        "date": "2019-01-05T16:04:03.000Z",
+      "tur": {
+        "id": "PgWxQgtIv",
+        "author": "kazoo",
+        "date": "2025-11-01T13:51:02.233Z",
         "score": 0
       }
     },
-    "eng_definition": "▯ is it (obviative); ▯ is the second-to-lastly mentioned inanimate referent.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "guaqfuaqche",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "8NEfvxGor",
-        "author": "robintown",
-        "date": "2021-10-23T17:40:24.220Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a cartographer.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "huoıtuo",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "fzzVkoz55",
-        "author": "jiqci",
-        "date": "2024-03-02T20:43:36.225Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is an ouroboros (symbol).",
-    "eng_notes": "",
-    "eng_gloss": ""
+    "tur_definition": "▯, ▯ arasında kaçıncı?",
+    "tur_notes": "",
+    "tur_gloss": ""
   },
   {
     "lemma": "jıao",
@@ -243,7 +81,7 @@
     "tur_gloss": ""
   },
   {
-    "lemma": "laqkakılu",
+    "lemma": "koam",
     "discriminator": "",
     "is_official": false,
     "type": "",
@@ -259,40 +97,13 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "VgMeiWYHt",
-        "author": "Laqme",
-        "date": "2023-10-06T22:04:07.254Z",
+        "id": "56ZaQUriW",
+        "author": "kazoo",
+        "date": "2025-11-01T13:49:51.477Z",
         "score": 0
       }
     },
-    "eng_definition": "▯ is basketball (the game).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "loaıhua",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "qAreO-X_5",
-        "author": "Ilmen",
-        "date": "2019-04-13T16:51:49.000Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a heart.",
+    "eng_definition": "▯ is zero in number.",
     "eng_notes": "",
     "eng_gloss": ""
   },
@@ -324,60 +135,6 @@
     "tur_gloss": ""
   },
   {
-    "lemma": "nao'aı",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "yExJbH5EZ",
-        "author": "Ilmen",
-        "date": "2020-03-03T11:29:44.856Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is liquid.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "nefuaq",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "fyMOsIeN_",
-        "author": "Ilmen",
-        "date": "2025-10-31T09:32:15.837Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a chart or graph.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "nulıloeq",
     "discriminator": "",
     "is_official": false,
@@ -401,33 +158,6 @@
       }
     },
     "eng_definition": "▯ cooks/ is cooked through contact with fat/oil",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "puaıluko",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "7KbYo1tXB",
-        "author": "Ilmen",
-        "date": "2019-04-10T16:16:08.000Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a wolf.",
     "eng_notes": "",
     "eng_gloss": ""
   },
@@ -459,33 +189,6 @@
     "tur_gloss": ""
   },
   {
-    "lemma": "saokıao",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "LWTNo1gPl",
-        "author": "seaqtaq",
-        "date": "2019-04-08T15:33:24.000Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a gate",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "seaıbıao",
     "discriminator": "",
     "is_official": false,
@@ -511,33 +214,6 @@
     "tur_definition": "▯, alkolden dolayı sarhoş/esrik.",
     "tur_notes": "",
     "tur_gloss": ""
-  },
-  {
-    "lemma": "sıozıam",
-    "discriminator": "",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "mzfDKKQUq",
-        "author": "seaqtaq",
-        "date": "2025-05-10T17:46:18.333Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "State of affairs ▯ ideologically opposes ▯",
-    "eng_notes": "",
-    "eng_gloss": ""
   },
   {
     "lemma": "zeo",
