@@ -574,7 +574,19 @@ def sync_with(old, new):
 	# CHECKING FOR DISCRIMINATOR DUPLICATION:
 	prev_lemma = ""
 	prev_discriminator = ""
-	for e in old:
+	for i, e in enumerate(old):
+		old[i]["synonyms"] = []
+		if e["sememe"] != "":
+			for i2, e2 in enumerate(old):
+				if equals(e, e2, lambda x: x["sememe"]):
+					if not equals(e, e2, lambda x: x["lemma"]):
+						#print(
+						#	f"🙨 SYNONYMS: {e['lemma']}#{e['discriminator']}"
+						#	+ f" : {e2['lemma']}#{e2['discriminator']}")
+						if not old[i]["lemma"] in old[i2]["synonyms"]:
+							old[i2]["synonyms"].append(old[i]["lemma"])
+						if not old[i2]["lemma"] in old[i]["synonyms"] != "":
+							old[i]["synonyms"].append(old[i2]["lemma"])
 		for lang in all_langs_of(e):
 			for k in [lang + suffix for suffix in ["_notes", "_gloss"]]:
 				if not k in e:
