@@ -7410,36 +7410,6 @@
     ]
   },
   {
-    "toaq": "kırısyto",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "From the Ancient Greek \"χρῑστός\", /kʰriːs.tós/.",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Th_c_2gcK",
-        "language": "eng",
-        "definition": "▯ is the Christ, Jesus of Nazareth.",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2021-10-13T16:48:50.127Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "sho dua",
     "discriminator": "",
     "is_a_lemma": false,
