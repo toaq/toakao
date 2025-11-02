@@ -18,7 +18,7 @@ def entrypoint():
 		time.time() - start_time))
 
 FIELD_ORDER = (
-    "lemma", "discriminator", "is_official", "dialect", "type", "frame", "distribution", "pronominal_class", "subject", "sememe", "examples", "synonyms", "etymology", "etymological_notes", "toadua_ids", "langdata", "definition_type", "eng_definition", "eng_notes", "eng_gloss"
+    "lemma", "discriminator", "is_official", "dialect", "type", "frame", "distribution", "pronominal_class", "subject", "sememe", "tags", "examples", "synonyms", "etymology", "etymological_notes", "langdata", "definition_type", "eng_definition", "eng_notes", "eng_lem", "eng_gloss"
   )
 
 def sorted_from(toakao):
