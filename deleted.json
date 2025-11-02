@@ -1,1 +1,326 @@
-[]
+[
+  {
+    "lemma": "puqchıo",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "3f4gYGOQ-",
+        "author": "uakci",
+        "date": "2022-07-29T07:33:22.080Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ occurs repeatedly; ▯ satisfies property ▯ repeatedly.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "puı-",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Atjon5R0q",
+        "author": "Laqme",
+        "date": "2024-08-20T14:08:50.807Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "prefix: fill direct object with **púı raı**",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "raıme",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "6Xu-kd_zL",
+        "author": "Machy",
+        "date": "2020-06-04T05:46:37.036Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ ıs the group of x1, x2, x3, etc.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "roaqroaq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "3UaRLtcuB",
+        "author": "seaqtaq",
+        "date": "2019-01-22T00:54:51.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is the parent of the parent of ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "shue",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "QSDjm4PNA",
+        "author": "robintown",
+        "date": "2021-09-18T18:45:56.553Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ remains the case; ▯ remains/keeps satisfying property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tajeo",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "lQBXcWnoB",
+        "author": "uakci",
+        "date": "2021-11-10T15:18:11.185Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ satisfies the predicate of the noun phrase pointed to by **tá**.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "toaqpoq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "8QCn_1SLt",
+        "author": "seaqtaq",
+        "date": "2018-12-23T15:50:32.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is something interested in the Toaq language in particular",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "toedea",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "3pdJR5vpH",
+        "author": "seaqtaq",
+        "date": "2019-12-11T02:50:43.417Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ (agentive) stabs ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tuaq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "uM86aaUU7",
+        "author": "robintown",
+        "date": "2022-06-07T01:58:53.023Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a horn of ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tujuı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "tubiza",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "4XSj2joGG",
+        "author": "Ilmen",
+        "date": "2018-12-29T20:02:26.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "Almost all of ▯ satisfy the property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tujuı",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "tubiza 21",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "n03N3C2R0",
+        "author": "Ilmen",
+        "date": "2021-11-02T20:59:19.706Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "Property ▯ is almost universal among what has property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tujuı",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "tubiza",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "vQ9RNcI1r",
+        "author": "el",
+        "date": "2022-07-25T18:10:38.283Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "determiner: 'almost all'",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
