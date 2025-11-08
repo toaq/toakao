@@ -32065,13 +32065,13 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "heB1mHxRV",
-        "author": "el",
-        "date": "2022-10-15T23:26:07.076Z",
+        "id": "cDCI6VFT5",
+        "author": "mimiaoganhaqpy",
+        "date": "2025-11-08T06:10:37.808Z",
         "score": 0
       }
     },
-    "eng_definition": "▯ does ▯ by accident/unintentionally",
+    "eng_definition": "▯ accidentally/unintentionally satisfies property ▯.",
     "eng_notes": "",
     "eng_gloss": ""
   },
@@ -32101,33 +32101,6 @@
     "eng_definition": "predicate: ‘do’; ▯ intentionally makes itself satisfy property ▯.",
     "eng_notes": "",
     "eng_gloss": ""
-  },
-  {
-    "lemma": "taq",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "qtq": {
-        "id": "hWrOnyGXj",
-        "author": "uakci",
-        "date": "2022-02-11T19:59:56.433Z",
-        "score": 0
-      }
-    },
-    "qtq_definition": "gujeo ja áq ja",
-    "qtq_notes": "",
-    "qtq_gloss": ""
   },
   {
     "lemma": "taq",

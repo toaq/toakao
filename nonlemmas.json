@@ -11130,36 +11130,6 @@
     ]
   },
   {
-    "toaq": "gusy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "25fbVPs3D",
-        "language": "eng",
-        "definition": "quantifier: exactly two",
-        "notes": "",
-        "gloss": "",
-        "author": "Laqme",
-        "date": "2022-05-14T21:58:18.467Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "chuıhey",
     "discriminator": "",
     "is_a_lemma": false,
@@ -12385,66 +12355,6 @@
         "gloss": "",
         "author": "verte",
         "date": "2022-06-26T04:16:22.146Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "ukyraına",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "CzQ1Fk-zW",
-        "language": "eng",
-        "definition": "▯ pertains to the culture of Ukraine.",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2022-06-27T21:02:19.877Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "ukyraınagua",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "OjUNVTKGz",
-        "language": "eng",
-        "definition": "▯ is Ukraine.",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2022-06-27T21:02:41.874Z",
         "score": 0
       }
     ]
@@ -21415,6 +21325,36 @@
         "gloss": "",
         "author": "jiqci",
         "date": "2025-10-21T06:38:30.097Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "nạ́nhuq'ao",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "XYUG322wV",
+        "language": "eng",
+        "definition": "conjunction: on behalf of, representing",
+        "notes": "",
+        "gloss": "",
+        "author": "evie",
+        "date": "2025-11-08T06:18:17.386Z",
         "score": 0
       }
     ]
