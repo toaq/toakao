@@ -148,7 +148,7 @@ function setup_2(lexicon) {
 }
 
 function setup() {
-	fetch('../toakao.json')
+	fetch('../toakao_extended.json')
     .then((response) => response.text())
     .then((json) => {setup_2(JSON.parse(json))});
 }
