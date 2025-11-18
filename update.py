@@ -484,7 +484,7 @@ def sync_with(old, new):
 					oi_has_synced = True
 				else:
 					# ⟦old[oi]⟧ has been deleted in ⟦new⟧, it must likewise be deleted in ⟦old⟧.
-					print(f"𖣔 O-DEL {old_lemma}#{od}")
+					print(f"𖣔 O-DEL: {old_lemma}#{od}")
 					deleted.append(old[oi])
 					old[oi] = None
 			oi += 1
@@ -517,7 +517,7 @@ def sync_with(old, new):
 					if is_presumed_monosemic_translation:
 						print(f"⚠ It is assumed that the following translation doesn't represent a new polyseme:")
 					if old_lemma in DBG_LEMMAS:
-						print(f"𖣔 N-SYNC-∅ {old_lemma} @{lang}: ⟪{definition}⟫")
+						print(f"𖣔 N-SYNC-∅: {old_lemma} @{lang}: ⟪{definition}⟫")
 						print(f"  ➤ {new[ni]}")
 					old[oi] = sync_fields_with(old[oi], new[ni])
 					oi_has_synced = True
