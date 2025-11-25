@@ -25,7 +25,7 @@
         "gloss": "",
         "author": "evie",
         "date": "2024-01-15T07:29:15.968Z",
-        "score": 3
+        "score": 4
       }
     ]
   },
@@ -21355,6 +21355,36 @@
         "gloss": "",
         "author": "evie",
         "date": "2025-11-08T06:18:17.386Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "mshr?",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "HNcIy21Q9",
+        "language": "eng",
+        "definition": "wdyt? (textspeak for **mıu súq hí raı?**)",
+        "notes": "",
+        "gloss": "",
+        "author": "evie",
+        "date": "2025-11-16T17:56:07.006Z",
         "score": 0
       }
     ]

@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "lemma": "buıtua",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "DUgv0ORmg",
+        "author": "seaqtaq",
+        "date": "2018-12-26T20:16:57.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ expels ▯ from ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
