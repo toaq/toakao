@@ -1,6 +1,6 @@
 [
   {
-    "lemma": "buıtua",
+    "lemma": "tuqshı",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -8,21 +8,48 @@
     "distribution": "",
     "pronominal_class": "",
     "subject": "",
-    "sememe": "",
+    "sememe": "baparu",
     "examples": [],
     "synonyms": [],
     "etymology": [],
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "DUgv0ORmg",
-        "author": "seaqtaq",
-        "date": "2018-12-26T20:16:57.000Z",
+        "id": "jfQWsVRtH",
+        "author": "Ilmen",
+        "date": "2019-04-10T20:53:29.000Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ expels ▯ from ▯",
+    "eng_definition": "▯ is the one and only thing satisfying property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tuqshı",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "baparu",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "wgFizKwdO",
+        "author": "uakci",
+        "date": "2022-07-20T20:21:36.471Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "determiner: the one and only X",
     "eng_notes": "",
     "eng_gloss": ""
   }
