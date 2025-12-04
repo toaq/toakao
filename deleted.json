@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "lemma": "jeomucuaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "4OyEbzTzg",
+        "author": "uakci",
+        "date": "2020-04-07T14:46:30.113Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a property.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "jeomudaı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "ftnEhHkIg",
+        "author": "uakci",
+        "date": "2020-04-07T14:45:06.620Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a property.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "laheq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "lusoku",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "z5q_H_IW3",
+        "author": "Ilmen",
+        "date": "2022-10-02T21:46:10.369Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "The proposition ▯ entails the proposition ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "laheq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Xz-5CkCD4",
+        "author": "Ilmen",
+        "date": "2022-10-18T17:54:22.320Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "proposition ▯ semantically entails proposition ▯; ▯ has semantic consequence ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
