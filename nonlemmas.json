@@ -1500,6 +1500,36 @@
     ]
   },
   {
+    "toaq": "jị̂aq-",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "4sopBa3KO",
+        "language": "eng",
+        "definition": "prefix: turn a modality into a complementizer adjoining to a noun phrase to resolve its referents to the possible-worlds predicated by the complementizer clause",
+        "notes": "",
+        "gloss": "",
+        "author": "uakci",
+        "date": "2025-11-28T11:55:00.590Z",
+        "score": 1
+      }
+    ]
+  },
+  {
     "toaq": "tua seo",
     "discriminator": "",
     "is_a_lemma": false,
@@ -17395,36 +17425,6 @@
         "gloss": "",
         "author": "Laqme",
         "date": "2023-12-12T02:29:47.705Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "@toacıa",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "cwbK2MykJ",
-        "language": "eng",
-        "definition": "▯ is a pleura.",
-        "notes": "",
-        "gloss": "",
-        "author": "salarua",
-        "date": "2023-12-18T00:14:14.730Z",
         "score": 0
       }
     ]
