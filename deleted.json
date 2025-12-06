@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "lemma": "jeq",
+    "discriminator": "5",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "ealjrO6mB",
+        "author": "salarua",
+        "date": "2025-03-26T00:12:09.478Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ (plural) are the same/identical.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
