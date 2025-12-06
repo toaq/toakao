@@ -83,6 +83,8 @@ function html_entry_for(entry, field_selection) {
 			continue;
 		if (!["lemma", "discriminator", "type", "eng_definition", "langdata"].includes(field)) {
 			value = entry[field];
+			if (["synonyms"].includes(field))
+				value = value.join(", ");
 			if (field == "sememe") {
 				value = "<a href='https://ntsekees.github.io/Predilex/viewer/index.html?id=" + value + "'>" + value + "</a>";
 			}
