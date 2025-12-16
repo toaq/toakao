@@ -30996,33 +30996,6 @@
     "qtq_gloss": ""
   },
   {
-    "lemma": "ko",
-    "discriminator": "2",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "PVYMGtHTS",
-        "author": "el",
-        "date": "2022-12-06T01:01:58.406Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is ▯th among ▯",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "kusu",
     "discriminator": "1",
     "is_official": true,

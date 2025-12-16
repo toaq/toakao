@@ -10740,36 +10740,6 @@
     ]
   },
   {
-    "toaq": "eqdyhaıda",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "DLZvSxeYG",
-        "language": "eng",
-        "definition": "▯ is Eqdyhaida, who comes at the end of the world and lays waste to all who stand against it.",
-        "notes": "",
-        "gloss": "",
-        "author": "Machy",
-        "date": "2022-04-20T02:43:50.191Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "aıpy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -21325,6 +21295,66 @@
         "gloss": "",
         "author": "evie",
         "date": "2025-11-16T17:56:07.006Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "kịuzoaq",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "ieP8KEwBn",
+        "language": "eng",
+        "definition": "▯ is soluble.",
+        "notes": "",
+        "gloss": "",
+        "author": "robintown",
+        "date": "2025-12-14T22:24:58.879Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "tua chızoaq",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "AsMZixFa2",
+        "language": "eng",
+        "definition": "▯ indoctrinates, into belief system ▯, person ▯.",
+        "notes": "",
+        "gloss": "",
+        "author": "robintown",
+        "date": "2025-12-14T23:12:09.940Z",
         "score": 0
       }
     ]
