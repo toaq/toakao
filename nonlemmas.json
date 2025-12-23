@@ -180,6 +180,36 @@
     ]
   },
   {
+    "toaq": "jị̂aq-",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "4sopBa3KO",
+        "language": "eng",
+        "definition": "prefix: turn a modality into a complementizer adjoining to a noun phrase to resolve its referents to the possible-worlds predicated by the complementizer clause",
+        "notes": "",
+        "gloss": "",
+        "author": "uakci",
+        "date": "2025-11-28T11:55:00.590Z",
+        "score": 2
+      }
+    ]
+  },
+  {
     "toaq": "Tıjaı jí súq da.",
     "discriminator": "",
     "is_a_lemma": false,
@@ -1495,36 +1525,6 @@
         "gloss": "",
         "author": "robintown",
         "date": "2025-05-20T17:34:32.792Z",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "toaq": "jị̂aq-",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "4sopBa3KO",
-        "language": "eng",
-        "definition": "prefix: turn a modality into a complementizer adjoining to a noun phrase to resolve its referents to the possible-worlds predicated by the complementizer clause",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2025-11-28T11:55:00.590Z",
         "score": 1
       }
     ]

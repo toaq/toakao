@@ -30121,13 +30121,13 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "KoTbzXBio",
-        "author": "kazoo",
-        "date": "2025-10-19T16:41:24.056Z",
+        "id": "Gy0SAu3s2",
+        "author": "fagri",
+        "date": "2022-12-28T21:35:52.227Z",
         "score": 0
       }
     },
-    "eng_definition": "prefix: forms an ë clause of a verb, filling all of its slots with sá raı",
+    "eng_definition": "Prefix: An event of [verb]",
     "eng_notes": "",
     "eng_gloss": ""
   },
@@ -31694,6 +31694,33 @@
       }
     },
     "eng_definition": "▯ is of color/colour spring green.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "sam-",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "-TlJAvl8-",
+        "author": "evie",
+        "date": "2025-12-19T08:11:10.393Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "prefix: negates the (last) proposition argument of a 1-seralizing verb",
     "eng_notes": "",
     "eng_gloss": ""
   },
