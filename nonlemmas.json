@@ -270,36 +270,6 @@
     ]
   },
   {
-    "toaq": "shuaınu jẽo",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "NjxAqyGuM",
-        "language": "eng",
-        "definition": "It really do be like that ",
-        "notes": "",
-        "gloss": "",
-        "author": "seaqtaq",
-        "date": "2019-01-21T06:12:26.000Z",
-        "score": 1
-      }
-    ]
-  },
-  {
     "toaq": "peı meamıq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -2485,6 +2455,36 @@
         "gloss": "",
         "author": "uakci",
         "date": "2019-01-18T01:35:00.000Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "shuaınu jẽo",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "NjxAqyGuM",
+        "language": "eng",
+        "definition": "It really do be like that ",
+        "notes": "",
+        "gloss": "",
+        "author": "seaqtaq",
+        "date": "2019-01-21T06:12:26.000Z",
         "score": 0
       }
     ]
@@ -5815,36 +5815,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2021-07-28T21:13:26.774Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "taoshıy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": [],
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "wCCQIK-Z6",
-        "language": "eng",
-        "definition": "▯ goes elsewhere to do ▯",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2021-08-06T10:50:47.077Z",
         "score": 0
       }
     ]
