@@ -88,20 +88,6 @@ function with_reformated_slots_2(definition) {
 	return s.join("");
 }
 
-function with_reformated_slots_0(definition) {
-	if (!is_string(definition)) return definition;
-	var dotl = definition.split(".");
-	for (dotle in dotl) {
-		var scl = dotle.split(";");
-		for (d in scl) {
-			d = with_reformated_slots_2(d);
-		}
-		dotle = scl.join(";");
-	}
-	return dotl.join(".");
-}
-
-
 function with_reformated_slots(definition) {
 	if (!is_string(definition)) return definition;
 	return definition
