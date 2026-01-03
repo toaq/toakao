@@ -30186,6 +30186,33 @@
     "tok_gloss": ""
   },
   {
+    "lemma": "fa",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": [],
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "hD2ohHx8H",
+        "author": "Isi",
+        "date": "2024-09-11T19:57:34.140Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "predicate: ‘go’; ▯ goes (somewhere); ▯ moves.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "facaq",
     "discriminator": "1",
     "is_official": false,
@@ -31720,7 +31747,7 @@
         "score": 0
       }
     },
-    "eng_definition": "prefix: negates the (last) proposition argument of a 1-seralizing verb",
+    "eng_definition": "prefix: on verbs whose last slot is a clause, negates it",
     "eng_notes": "",
     "eng_gloss": ""
   },
