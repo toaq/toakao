@@ -260,7 +260,7 @@ def reformated_entry(entry):
 		"pronominal_class": pop_else("pronominal_class", ""),
 		"subject":          pop_else("subject", ""),
 		"examples":         pop_else("examples", []),
-		"etymology":        [],
+		"etymology":        "",
 		"etymological_notes": "",
 		"sememe":           "",
 		"synonyms":         [],
@@ -302,7 +302,7 @@ def with_toadua_note_fields(entry, notes):
 			entry["officialized"] in ("True", "true", "Yes", "yes"))
 	if isinstance(entry["etymology"], str):
 		entry["etymological_notes"] = entry["etymology"]
-		entry["etymology"] = []
+		entry["etymology"] = ""
 	return entry
 
 # ==================================================================== #

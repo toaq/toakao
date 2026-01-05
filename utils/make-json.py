@@ -37,7 +37,7 @@ def transformed(entry):
 		return [] if l == [""] else l
 	entry["is_official"] = (
 		entry["is_official"] in ("True", "true"))
-	for k in ("examples", "etymology", "langdata"):
+	for k in ("examples", "langdata"):
 		entry[k] = json.loads(entry.get(k, "[]"))
 	for k in ("synonyms",):
 		entry[k] = f(entry.get(k, "").split("; "))

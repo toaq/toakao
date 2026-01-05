@@ -36,7 +36,7 @@ def all_keys_of(maplist):
 
 def transformed(entry, keys):
 	entry["langdata"] = dict(entry.get("langdata", dict()))
-	for k in ("examples", "etymology", "toadua_ids"):
+	for k in ("examples", "toadua_ids"):
 		entry[k] = json.dumps(
 				entry.get(k, []),
 				ensure_ascii = False)
