@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "lemma": "hake",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "TiFaYEWHI",
+        "author": "evie",
+        "date": "2025-01-09T06:46:49.690Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ = ▯ ↑ⁿ ▯ with n-2 arrows, with n being either a number suffixed to the end of the word or **kọ**-n",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "homje",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "S2g8ka-j7",
+        "author": "evie",
+        "date": "2024-07-05T22:04:42.261Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "« hóı mí Jemu »",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "hoqraı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "micaho",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "jf5SNXzrS",
+        "author": "Ilmen",
+        "date": "2019-04-14T11:46:19.000Z",
+        "score": 1
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is abstract.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "maqtoa",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "wgV2lL-vj",
+        "author": "el",
+        "date": "2022-11-27T00:28:08.963Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is an anaphoric pronoun",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "teq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "nVvhxw8gc",
+        "author": "robintown",
+        "date": "2022-02-08T17:35:53.416Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ pays to ▯ payment ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "teq",
+    "discriminator": "4",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "eXzMU7-5l",
+        "author": "TheAndSys",
+        "date": "2023-07-08T00:48:34.004Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ pays for ▯ (service or object)",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
