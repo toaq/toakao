@@ -3,7 +3,7 @@
 	<ShortName>Toakao</ShortName>
 	<Description>Toaq dictionary</Description>
 	<InputEncoding>UTF-8</InputEncoding>
-	<Image width="16" height="16" type="image/png"></Image>
+<!--	<Image width="16" height="16" type="image/png"></Image>  -->
 	<Url type="text/html" method="get" template="https://toaq.net/toakao/browser/index.html?lemma={searchTerms}"/>
 </OpenSearchDescription>
 
