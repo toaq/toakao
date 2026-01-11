@@ -12,6 +12,7 @@ function is_array(v) {
 
 function hget(map, field) {
 	if (map === null || field === null) return "";
+	if (field.endsWith("_def")) field += "inition";
 	if (field in map) {
 		return map[field];
 	} else return "";
