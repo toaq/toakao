@@ -57,13 +57,16 @@ function validated_by_filter(entry, filter) {
 				});
 			}
 		} else {
-			if (pf[k] === "") {
-				if (hget(entry, k) === "")
-					found = true;
-			} else {
-				if (hget(entry, k).search(pf[k]) >= 0)
-					found = true;
-			}
+			searched_for = pf[k];
+			k.split("|").forEach((key) => {
+				if (searched_for === "") {
+					if (hget(entry, key) === "")
+						found = true;
+				} else {
+					if (hget(entry, key).search(searched_for) >= 0)
+						found = true;
+				}
+			});
 		}
 		if (!found)
 			return false;
