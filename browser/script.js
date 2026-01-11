@@ -37,9 +37,10 @@ function validated_by_filter(entry, filter) {
 	var pf = parsed_filter(filter);
 	var found = false;
 	for (k in pf) {
+		searched_for = pf[k];
 		if (k === "") return;
 		if (k === "any") {
-			if (pf[k] === "") found = true;
+			if (searched_for === "") found = false;
 			else {
 				Object.keys(entry).forEach((gk) => {
 					var v = hget(entry, gk);
@@ -57,15 +58,9 @@ function validated_by_filter(entry, filter) {
 				});
 			}
 		} else {
-			searched_for = pf[k];
 			k.split("|").forEach((key) => {
-				if (searched_for === "") {
-					if (hget(entry, key) === "")
-						found = true;
-				} else {
-					if (hget(entry, key).search(searched_for) >= 0)
-						found = true;
-				}
+				if (hget(entry, key).search(searched_for) >= 0)
+					found = true;
 			});
 		}
 		if (!found)
