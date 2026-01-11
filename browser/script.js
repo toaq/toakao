@@ -24,7 +24,7 @@ function parsed_filter(filter) {
 		.map((f) => f.replace("\u0091", "@"));
 	var col_filters = split_filter.slice(1);
 	var map = {};
-	map.any = split_filter[0].trim();
+	map["lemma|eng_definition"] = split_filter[0].trim();
 	col_filters.forEach((f) => {
 		f = f + " ";
 		var i = f.indexOf(" ");
