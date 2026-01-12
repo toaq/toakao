@@ -13020,36 +13020,6 @@
     ]
   },
   {
-    "toaq": "sey",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "wukW-En7c",
-        "language": "eng",
-        "definition": "▯ is an action with result ▯",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-07-10T01:08:20.892Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "Esyperaqtogua",
     "discriminator": "",
     "is_a_lemma": false,
@@ -19200,66 +19170,6 @@
     ]
   },
   {
-    "toaq": "ịqrıta",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "PR2Vs5sGx",
-        "language": "eng",
-        "definition": "▯ insists upon/demands satisfying property ▯",
-        "notes": "",
-        "gloss": "",
-        "author": "seaqtaq",
-        "date": "2024-11-05T09:48:11.262Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "ịqtarı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "kGkZeYw6-",
-        "language": "eng",
-        "definition": "▯ refuses to satisfy property ▯.",
-        "notes": "",
-        "gloss": "",
-        "author": "seaqtaq",
-        "date": "2024-11-05T09:49:30.135Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "kıaı lô bue",
     "discriminator": "",
     "is_a_lemma": false,
@@ -21265,36 +21175,6 @@
         "gloss": "",
         "author": "evie",
         "date": "2025-11-16T17:56:07.006Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "kịuzoaq",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "ieP8KEwBn",
-        "language": "eng",
-        "definition": "▯ is soluble.",
-        "notes": "",
-        "gloss": "",
-        "author": "robintown",
-        "date": "2025-12-14T22:24:58.879Z",
         "score": 0
       }
     ]
