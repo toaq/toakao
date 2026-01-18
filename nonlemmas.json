@@ -510,6 +510,36 @@
     ]
   },
   {
+    "toaq": "hey",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "cp-84t-T7",
+        "language": "eng",
+        "definition": "▯ and ▯ are similar in relevant ways, except that the former has property ▯ to a greater extent than the latter.",
+        "notes": "",
+        "gloss": "",
+        "author": "uakci",
+        "date": "2021-10-02T14:45:44.333Z",
+        "score": 1
+      }
+    ]
+  },
+  {
     "toaq": "luı cheaqzua",
     "discriminator": "",
     "is_a_lemma": false,
@@ -1435,6 +1465,36 @@
         "gloss": "",
         "author": "zearen",
         "date": "2025-03-26T18:16:37.147Z",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "toaq": "g",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "bvr8NpVm6",
+        "language": "eng",
+        "definition": "clitic: make the next word not attach to incorporated/predicatizer objects",
+        "notes": "",
+        "gloss": "",
+        "author": "Laqme",
+        "date": "2025-03-30T22:59:46.416Z",
         "score": 1
       }
     ]
@@ -7105,36 +7165,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2021-10-02T14:41:08.110Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "hey",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "cp-84t-T7",
-        "language": "eng",
-        "definition": "▯ and ▯ are similar in relevant ways, except that the former has property ▯ to a greater extent than the latter.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-10-02T14:45:44.333Z",
         "score": 0
       }
     ]
@@ -19680,36 +19710,6 @@
     ]
   },
   {
-    "toaq": "g",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "bvr8NpVm6",
-        "language": "eng",
-        "definition": "clitic: make the next word not attach to incorporated/predicatizer objects",
-        "notes": "",
-        "gloss": "",
-        "author": "Laqme",
-        "date": "2025-03-30T22:59:46.416Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "stenokaı",
     "discriminator": "",
     "is_a_lemma": false,
@@ -21205,6 +21205,96 @@
         "gloss": "",
         "author": "robintown",
         "date": "2025-12-14T23:12:09.940Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "ysıloqlaı",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "kB9-XUQx6",
+        "language": "eng",
+        "definition": "▯ is the letter upsilon. (υ)",
+        "notes": "",
+        "gloss": "",
+        "author": "kazoo",
+        "date": "2026-01-16T11:19:40.849Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "nhy",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "flb-04dwv",
+        "language": "eng",
+        "definition": "partial allophone of ^: object incorporation.",
+        "notes": "",
+        "gloss": "",
+        "author": "kazoo",
+        "date": "2026-01-16T11:27:19.268Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "shr",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "2nD0XiLRH",
+        "language": "eng",
+        "definition": "▯ is identical to ▯.",
+        "notes": "",
+        "gloss": "",
+        "author": "kazoo",
+        "date": "2026-01-16T11:35:43.718Z",
         "score": 0
       }
     ]
