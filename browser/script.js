@@ -113,10 +113,14 @@ function with_reformated_slots(definition) {
 }
 
 function html_entry_for(entry, field_selection) {
-	ehtml = "<summary class='entry-head'><b style='color: #002255;'>" + entry["lemma"]
-		+ "<sub style='font-size: 60%; color: #225095;'>" + entry["discriminator"] + "</sub></b>";
-	ehtml += " <i style='font-size: 75%;'>" + entry["type"] + "</i> — ";
-	ehtml += with_reformated_slots(entry["eng_definition"]) + "</summary>";
+	ehtml = "<summary class='entry-head'><b style='color: #002255;'>"
+		+ with_escaped_html(entry["lemma"])
+		+ "<sub style='font-size: 60%; color: #225095;'>"
+		+ with_escaped_html(entry["discriminator"]) + "</sub></b>";
+	ehtml += " <i style='font-size: 75%;'>"
+		+ with_escaped_html(entry["type"]) + "</i> — ";
+	ehtml += with_escaped_html(with_reformated_slots(entry["eng_definition"]))
+		+ "</summary>";
 	details = [];
 	for (field in entry) {
 		if (field_selection === "AllNonempty" && ["", []].includes(entry[field]))
