@@ -629,6 +629,11 @@ def sync_fields_with(old, new):
 						f"❖ {old['lemma']}#{old['discriminator']}.{k}: "
 						+ f"new ⟪{new[k]}⟫ ≠ old ⟪{old[k]}⟫."
 					)
+				elif not k in old:
+					print(
+						f"❖ {old['lemma']}#{old['discriminator']}.{k}: "
+						+ f"new ⟪{new[k]}⟫."
+					)
 				if not k in PROTECTED_FIELDS:
 					old[k] = new[k]
 	for lang in all_langs_of(old):
