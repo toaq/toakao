@@ -31725,33 +31725,6 @@
     "eng_gloss": ""
   },
   {
-    "lemma": "selaq",
-    "discriminator": "1",
-    "is_official": true,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "zbbpEhsbS",
-        "author": "Hoemai",
-        "date": "2019-04-05T00:17:38.000Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is a member of the superorder Selachimorpha/Selachii (the sharks).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "shao",
     "discriminator": "1",
     "is_official": false,
