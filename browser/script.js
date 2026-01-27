@@ -103,7 +103,7 @@ function with_reformated_slots_2(definition) {
 }
 
 function with_reformated_slots(definition) {
-	if (!is_string(definition)) return definition;
+	console.assert(is_string(definition));
 	return definition
 		.split(";")
 		.map(e => {
@@ -113,6 +113,11 @@ function with_reformated_slots(definition) {
 }
 
 function html_entry_for(entry, field_selection) {
+	if (!entry.hasOwnProperty("eng_definition")) {
+		var lemma = entry["lemma"];
+		console.log(`⚠ ⟦${lemma}⟧ lacks field ⟦eng_definition⟧!`);
+		entry["eng_definition"] = "";
+	}
 	ehtml = "<summary class='entry-head'><b style='color: #002255;'>"
 		+ with_escaped_html(entry["lemma"])
 		+ "<sub style='font-size: 60%; color: #225095;'>"
