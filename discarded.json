@@ -26163,6 +26163,33 @@
     "eng_gloss": ""
   },
   {
+    "lemma": "Toaqzu",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "jpn": {
+        "id": "MPcbDndnk",
+        "author": "Ilmen",
+        "date": "2026-01-28T11:22:18.205Z",
+        "score": 0
+      }
+    },
+    "jpn_definition": "▯はトアン語。",
+    "jpn_notes": "",
+    "jpn_gloss": ""
+  },
+  {
     "lemma": "Togo",
     "discriminator": "1",
     "is_official": false,
@@ -31969,7 +31996,7 @@
   },
   {
     "lemma": "sua",
-    "discriminator": "",
+    "discriminator": "2",
     "is_official": false,
     "type": "",
     "frame": "",
