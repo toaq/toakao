@@ -31231,7 +31231,7 @@
         "id": "JH8I-TeOn",
         "author": "kazoo",
         "date": "2025-05-03T11:54:18.000Z",
-        "score": 3
+        "score": 2
       }
     },
     "eng_definition": "predicate: ‘think’; ▯ thinks thought ▯.",
@@ -31964,6 +31964,33 @@
       }
     },
     "eng_definition": "▯ are a majority among ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "sua",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "VMv_aFiuG",
+        "author": "uakci",
+        "date": "2026-01-28T09:46:06.836Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "modality: X is necessary for …; X must happen so that … can",
     "eng_notes": "",
     "eng_gloss": ""
   },

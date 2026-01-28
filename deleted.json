@@ -1,1 +1,382 @@
-[]
+[
+  {
+    "lemma": "befe",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "pitiku",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "d7IHIWkPf",
+        "author": "Ilmen",
+        "date": "2023-01-13T23:19:00.969Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ dissolves in solvent ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "butou",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "teqnpW-G6",
+        "author": "Machy",
+        "date": "2021-10-06T19:11:07.045Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "Focus prefix: \"not only\"",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "bıoıdeoq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Gk4o8BKuJ",
+        "author": "Laqme",
+        "date": "2024-04-28T10:14:05.563Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ reveals / leaks to ▯ that ▯ is the case.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "choadeoq",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "6dpmbnxy_",
+        "author": "Laqme",
+        "date": "2023-01-24T14:49:23.802Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ communicates vocally to ▯ that they (the former) satisfy property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "gaofası",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "4sAfaiSsv",
+        "author": "Machy",
+        "date": "2020-07-02T02:19:30.425Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ faces up with face ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "guqfası",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Crv-eREvd",
+        "author": "Machy",
+        "date": "2020-07-02T02:19:58.479Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ faces down with face ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "ha",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "bakipo",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "tok": {
+        "id": "DA_D3a4nb",
+        "author": "el",
+        "date": "2022-07-10T06:52:29.104Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "tok_definition": "▯ li jan ijo",
+    "tok_notes": "",
+    "tok_gloss": ""
+  },
+  {
+    "lemma": "hoalo",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "tagowu",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "wVQxBa73_",
+        "author": "robintown",
+        "date": "2025-04-01T17:32:10.138Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a stove/oven/furnace.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "hıtalı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "4YnIGATRi",
+        "author": "fagri",
+        "date": "2019-01-27T16:52:37.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ (sequence of written glyphs) is italicized",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "kılo",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "B7_nfX35S",
+        "author": "fagri",
+        "date": "2018-12-30T23:24:31.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ masses exactly ▯ kilograms",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "sıodoa",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "keliqe[DO,IO,S]",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "nc1YqvCdb",
+        "author": "Ilmen",
+        "date": "2019-04-23T21:24:15.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ gives inspiration ▯ to ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tuq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "hapawe",
+    "examples": [],
+    "synonyms": [
+      "tuq'ıq"
+    ],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "qtq": {
+        "id": "5WYbvlo1M",
+        "author": "Ilmen",
+        "date": "2020-01-25T23:21:04.552Z",
+        "score": 0
+      },
+      "jbo": {
+        "id": "eesEbHmsa",
+        "author": "Laqme",
+        "date": "2021-10-03T18:17:41.303Z",
+        "score": 0
+      },
+      "jpn": {
+        "id": "YR5BR-BNA",
+        "author": "Laqme",
+        "date": "2021-10-04T19:22:28.552Z",
+        "score": 0
+      },
+      "tok": {
+        "id": "WUyKKUWkQ",
+        "author": "el",
+        "date": "2022-07-10T07:37:56.295Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "qtq_definition": "= tu raı bı, jeojeq mêa ráı ▯ na jêo ráı ▯.",
+    "jpn_definition": "限定詞：「全ての…」（全体記号、McKayでのΛ∃）",
+    "tok_definition": "«tuq X» li sama \"X ale wan\"",
+    "jbo_definition": ".i ku'antora valsi gi'e smudu'i zo \"ru'oi\" (noi panra lo'u \"ro lo...\" le'u)",
+    "qtq_notes": "",
+    "qtq_gloss": "",
+    "jpn_notes": "",
+    "jpn_gloss": "",
+    "tok_notes": "",
+    "tok_gloss": "",
+    "jbo_notes": "",
+    "jbo_gloss": ""
+  },
+  {
+    "lemma": "zé",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "jpn": {
+        "id": "sBhCbxEFF",
+        "author": "Laqme",
+        "date": "2021-10-04T19:56:33.655Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "jpn_definition": "代名詞：「それ」；有生性クラス VII（PO句）の限定詞句を参照する束縛代名詞",
+    "jpn_notes": "",
+    "jpn_gloss": ""
+  }
+]

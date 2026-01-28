@@ -9840,36 +9840,6 @@
     ]
   },
   {
-    "toaq": "heytıao",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "kGknZEZMt",
-        "language": "eng",
-        "definition": "▯ is a (potential) replacement for ▯ in property ▯.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2022-02-16T18:22:10.142Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "po jíaqheoq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -21295,6 +21265,66 @@
         "gloss": "",
         "author": "kazoo",
         "date": "2026-01-16T11:35:43.718Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "cy",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "IjcoWdVj_",
+        "language": "eng",
+        "definition": "end ꝡä, lä, ë and tïo clauses.",
+        "notes": "",
+        "gloss": "",
+        "author": "kazoo",
+        "date": "2026-01-16T18:21:08.004Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "- go",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "DNEEchMyk",
+        "language": "eng",
+        "definition": "pseudo-suffix: akin to suffixed «<che>» but for non-agents (tools, elements, components), forming words for objects that have passive purpose/function",
+        "notes": "",
+        "gloss": "",
+        "author": "Dembim",
+        "date": "2026-01-27T14:08:35.324Z",
         "score": 0
       }
     ]
