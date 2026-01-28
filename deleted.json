@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "lemma": "nuaohua",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "nwtbWvDC7",
+        "author": "seaqtaq",
+        "date": "2024-07-25T23:30:04.938Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a tentacle",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "peıke",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "pikama",
+    "examples": [],
+    "synonyms": [
+      "peıka"
+    ],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "ORUR0dYj_",
+        "author": "Ilmen",
+        "date": "2018-10-17T19:41:35.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is an European magpie (Pica pica).",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
