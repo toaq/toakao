@@ -30861,33 +30861,6 @@
     "eng_gloss": ""
   },
   {
-    "lemma": "jí",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "jbo": {
-        "id": "e-NrP5fuW",
-        "author": "Ilmen",
-        "date": "2026-01-28T20:16:15.638Z",
-        "score": 0
-      }
-    },
-    "jbo_definition": "⚙ [X] Muıbo ní toa cúaq, ꝡë kuq hóa kúqtoaı, ꝡë paq ní toa hóa da.",
-    "jbo_notes": "",
-    "jbo_gloss": ""
-  },
-  {
     "lemma": "jü",
     "discriminator": "1",
     "is_official": false,

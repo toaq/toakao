@@ -5310,36 +5310,6 @@
     ]
   },
   {
-    "toaq": "toy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "eZDQhDYP8",
-        "language": "eng",
-        "definition": "quantifier: same as \"tu\", but only quantifies over individuals",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2020-06-11T22:05:58.100Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "juy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -7230,36 +7200,6 @@
     ]
   },
   {
-    "toaq": "duy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "qpotn_2ke",
-        "language": "eng",
-        "definition": "Particle: begin incidental relative clause (takes only a single statement, not a full sentence)",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2021-10-08T06:01:29.739Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "haqheqmy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -8335,36 +8275,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2021-11-10T10:08:33.229Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "puyshı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "vo8F2u3Mn",
-        "language": "eng",
-        "definition": "Quantifier: same as puy, but only quantifies over individuals",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2021-11-11T09:16:07.548Z",
         "score": 0
       }
     ]
@@ -21265,6 +21175,36 @@
         "gloss": "",
         "author": "Dembim",
         "date": "2026-01-27T14:08:35.324Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "- na",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "hhjyMdUsm",
+        "language": "eng",
+        "definition": "pseudo-suffix: form interjections/discursives pertaining to the stem",
+        "notes": "",
+        "gloss": "",
+        "author": "Dembim",
+        "date": "2026-01-28T23:43:41.678Z",
         "score": 0
       }
     ]
