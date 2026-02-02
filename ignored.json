@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "lemma": "cuao",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "c c",
+    "distribution": "",
+    "pronominal_class": "ta",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "pDDManh9c",
+        "author": "Dembim",
+        "date": "2026-02-02T12:41:05.824Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ so far exceeds ▯ as to lie beyond the present boundaries of perception (and/or understanding).",
+    "eng_notes": "",
+    "eng_gloss": "beyond"
+  },
+  {
+    "lemma": "nhoe",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "c c",
+    "distribution": "",
+    "pronominal_class": "ta",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "YHZ0AGc4-",
+        "author": "Dembim",
+        "date": "2026-01-31T16:30:57.732Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is in medium ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "noqze",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "",
+    "pronominal_class": "maq",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "_4h5sc8K6",
+        "author": "Dembim",
+        "date": "2026-02-01T00:10:29.701Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is a stock/broth",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
