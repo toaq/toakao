@@ -30024,6 +30024,33 @@
     "eng_gloss": ""
   },
   {
+    "lemma": "duaı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c 1i",
+    "distribution": "",
+    "pronominal_class": "ho",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "EZwOO1vub",
+        "author": "Dembim",
+        "date": "2026-02-04T19:28:40.971Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "predicate: ‘must’; ▯ (agent) is obligated to satisfy ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "duo",
     "discriminator": "1",
     "is_official": false,
@@ -30074,6 +30101,33 @@
       }
     },
     "eng_definition": "illocution: promissive–interrogative; “may/can/could/shall/should [I/they/…] …?”",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "dı",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c 1i",
+    "distribution": "",
+    "pronominal_class": "ho",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "mFjqXJblN",
+        "author": "Dembim",
+        "date": "2026-02-04T19:29:53.767Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "predicate: ‘may’; ▯ (agent) may satisfy ▯.",
     "eng_notes": "",
     "eng_gloss": ""
   },
@@ -30726,33 +30780,6 @@
     "eng_gloss": ""
   },
   {
-    "lemma": "jeotoa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "X29Gqu1xi",
-        "author": "Laqme",
-        "date": "2022-07-12T17:10:21.018Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is an \"atomic verb\" / predicate word.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "jeqmaı",
     "discriminator": "1",
     "is_official": false,
@@ -30859,6 +30886,33 @@
     "eng_definition": "▯ does ▯ as told/expected of them (by others or by themselves); ▯ conducts themselves as they should in property ▯.",
     "eng_notes": "",
     "eng_gloss": ""
+  },
+  {
+    "lemma": "jí",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "jbo": {
+        "id": "e-NrP5fuW",
+        "author": "Ilmen",
+        "date": "2026-01-28T20:16:15.638Z",
+        "score": 0
+      }
+    },
+    "jbo_definition": "⚙ [X] Muıbo ní toa cúaq, ꝡë kuq hóa kúqtoaı, ꝡë paq ní toa hóa da.",
+    "jbo_notes": "",
+    "jbo_gloss": ""
   },
   {
     "lemma": "jü",
@@ -31291,6 +31345,33 @@
     "spa_definition": "▯ es masculino/es hombre",
     "spa_notes": "",
     "spa_gloss": ""
+  },
+  {
+    "lemma": "nhoe",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c c",
+    "distribution": "",
+    "pronominal_class": "ta",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "YHZ0AGc4-",
+        "author": "Dembim",
+        "date": "2026-01-31T16:30:57.732Z",
+        "score": 1
+      }
+    },
+    "eng_definition": "▯ is in medium ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
   },
   {
     "lemma": "noqrue",
