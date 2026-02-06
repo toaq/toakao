@@ -10,7 +10,6 @@ The ⟦toakao.json⟧ JSON file's structure is constituted of a list of maps (i.
 |`frame`|string|Subtype: the serialization type of the lemma if it can take part in verb serialization; the values for this field are sequences of letters separated by whitespace, each group of letter representing one of the argument slots of the lemma, and each letter group representing a slot type, e.g. ⟪c⟫ for nonsubordinating slots, ⟪0⟫ for propositional subordination, ⟪1⟫ for property subordination… Examples of full `frame` values include `c`, `c c`, `c 0`, `c 1`, `c c 2` and so on.|
 |`distribution`|string|Subtype: distributivity signature for the lemma. Its formatting is similar as that of `frame` above, but with different letter codes: `d` = distributive argument slot, `n` = non-distributive, collective slot.|
 |`pronominal_class`|string|Subtype: pronoun assignment class for the lemma. This trait indicates which pronoun is bound by e.g. a quantifier phrase whose complement is the lemma of this entry. Possible values are: ⟪hoq⟫, ⟪maq⟫, ⟪ho⟫, ⟪ta⟫.|
-different letter codes: `d` = distributive argument slot, `n` = non-distributive, collective slot.|
 |`subject`|string|Subtype: this trait governs the behavior of the subject verbs in certain syntactic environments, most particularly when the verb bears the adverbial peaking tone. Possible values are: ⟪free⟫, ⟪individual⟫, ⟪proposition⟫, ⟪event⟫, ⟪agent⟫, ⟪shape⟫.|
 |`sememe`|string|The Predilex ID representing the meaning of the lemma.|
 |`examples`|list|A list of example sentences with translations.|
