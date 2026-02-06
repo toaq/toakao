@@ -29943,6 +29943,33 @@
     "eng_gloss": ""
   },
   {
+    "lemma": "de",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "FsPsaMYWx",
+        "author": "Ilmen",
+        "date": "2026-02-05T13:34:06.838Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "predicate: ‘beautiful’; ▯ is beautiful for the contextual evaluator (*jîe*).",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "deqchıe",
     "discriminator": "1",
     "is_official": false,
@@ -31077,6 +31104,60 @@
     "qtq_gloss": ""
   },
   {
+    "lemma": "kaqjeqda'eı",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "7UCPyBvmN",
+        "author": "Ilmen",
+        "date": "2026-02-05T13:26:51.117Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ presents as social gender ▯ in culture [ôı].",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "kaqjeqdapaq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "Oq2WgNSGM",
+        "author": "Ilmen",
+        "date": "2026-02-05T13:27:48.238Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "Property ▯ is part of social gender presentation ▯ in culture [ôı].",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "kusu",
     "discriminator": "1",
     "is_official": true,
@@ -31995,6 +32076,33 @@
     "qtq_gloss": ""
   },
   {
+    "lemma": "soaojeqda'eı",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "XLDkNIdMH",
+        "author": "Ilmen",
+        "date": "2026-02-05T13:26:17.155Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ behaves as, complies to social gender role ▯ in culture [ôı].",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "sono",
     "discriminator": "1",
     "is_official": false,
@@ -32072,6 +32180,33 @@
       }
     },
     "eng_definition": "modality: X is necessary for …; X must happen so that … can",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "suaojeqdapaq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "q_emzVFOS",
+        "author": "Ilmen",
+        "date": "2026-02-05T13:27:25.705Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "Property ▯ is part of social gender role ▯ in culture [ôı].",
     "eng_notes": "",
     "eng_gloss": ""
   },

@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "lemma": "jıqjeo",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "4cZen_FtP",
+        "author": "Machy",
+        "date": "2021-11-18T00:56:13.550Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is true in the sense of corresponding to reality.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "muoı",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "BVIf4xQ7s",
+        "author": "Machy",
+        "date": "2021-10-01T07:19:12.506Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ rotates/spins/turns to face ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "ní",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "determiner",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "86JqJqjfX",
+        "author": "el",
+        "date": "2022-11-25T07:18:05.296Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "determiner, but binds bóu: this thing which satisfies X",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "reaq",
+    "discriminator": "3",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "yYaK3GTlF",
+        "author": "uakci",
+        "date": "2022-06-05T12:19:22.623Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ lies/reclines on ▯; ▯ is level.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
