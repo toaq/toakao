@@ -28971,33 +28971,6 @@
     "tok_gloss": ""
   },
   {
-    "lemma": "bıa",
-    "discriminator": "2",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "langdata": {
-      "eng": {
-        "id": "6YtxKiTj5",
-        "author": "robintown",
-        "date": "2024-09-20T20:06:02.830Z",
-        "score": 0
-      }
-    },
-    "eng_definition": "▯ is sick/ill.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
     "lemma": "bıene",
     "discriminator": "1",
     "is_official": false,
