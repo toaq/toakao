@@ -30136,10 +30136,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "0",
+    "distribution": "d",
+    "pronominal_class": "hoq",
+    "subject": "predicate",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -30691,7 +30691,7 @@
         "id": "PkvfmZVv2",
         "author": "evie",
         "date": "2024-11-04T03:20:45.722Z",
-        "score": 2
+        "score": 3
       }
     },
     "eng_definition": "▯ increases",
