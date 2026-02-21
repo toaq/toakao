@@ -918,6 +918,33 @@
     "tok_gloss": ""
   },
   {
+    "lemma": "bıa",
+    "discriminator": "2",
+    "is_official": false,
+    "type": "",
+    "frame": "c 1i",
+    "distribution": "n d",
+    "pronominal_class": "ho",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "pol": {
+        "id": "gz9yzVXAC",
+        "author": "uakci",
+        "date": "2026-02-18T10:31:27.112Z",
+        "score": 0
+      }
+    },
+    "pol_definition": "▯ choruje na ▯; ▯ w tym, jak spełnia własność ▯, jest chory.",
+    "pol_notes": "",
+    "pol_gloss": ""
+  },
+  {
     "lemma": "bıene",
     "discriminator": "1",
     "is_official": false,
@@ -2191,10 +2218,10 @@
     "discriminator": "2",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ho",
+    "subject": "agent",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -2203,13 +2230,13 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "hD2ohHx8H",
-        "author": "Isi",
-        "date": "2024-09-11T19:57:34.140Z",
-        "score": 0
+        "id": "JYGUPYMe_",
+        "author": "Dembim",
+        "date": "2025-12-31T20:36:30.186Z",
+        "score": 1
       }
     },
-    "eng_definition": "predicate: ‘go’; ▯ goes (somewhere); ▯ moves.",
+    "eng_definition": "predicate: ‘go’; ▯ moves/autotranslocates, volitionally, with the purpose of changing their spatial relationship with something particular",
     "eng_notes": "",
     "eng_gloss": ""
   },
