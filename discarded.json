@@ -2029,10 +2029,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c c",
+    "distribution": "d d",
+    "pronominal_class": "hoq",
+    "subject": "event",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -2044,7 +2044,7 @@
         "id": "nnu-qR1Wz",
         "author": "Ilmen",
         "date": "2024-02-12T15:35:10.508Z",
-        "score": 0
+        "score": 1
       }
     },
     "eng_definition": "▯ lasts for time, has duration ▯.",
@@ -3186,6 +3186,33 @@
     "eng_gloss": ""
   },
   {
+    "lemma": "lemdaq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "xPJw_V44d",
+        "author": "uakci",
+        "date": "2026-02-27T13:48:30.014Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is a/The ▯ Period; ▯ is a period/era/wave that, uniquely or in particular, satisfies property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
     "lemma": "leo",
     "discriminator": "1",
     "is_official": false,
@@ -3313,7 +3340,7 @@
         "id": "JH8I-TeOn",
         "author": "kazoo",
         "date": "2025-05-03T11:54:18.000Z",
-        "score": 2
+        "score": 1
       }
     },
     "eng_definition": "predicate: ‘think’; ▯ thinks thought ▯.",
