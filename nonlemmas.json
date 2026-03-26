@@ -1020,6 +1020,36 @@
     ]
   },
   {
+    "toaq": "Ꝡä tı súq ní, bï jaı jí.",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "sL7_nzMNF",
+        "language": "eng",
+        "definition": "I'm happy that you're here.",
+        "notes": "",
+        "gloss": "",
+        "author": "robintown",
+        "date": "2023-10-29T21:00:15.314Z",
+        "score": 1
+      }
+    ]
+  },
+  {
     "toaq": "ch",
     "discriminator": "",
     "is_a_lemma": false,
@@ -7176,10 +7206,10 @@
     "is_official": false,
     "officialized": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -15630,36 +15660,6 @@
     ]
   },
   {
-    "toaq": "Ꝡä tı súq ní, bï jaı jí.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "sL7_nzMNF",
-        "language": "eng",
-        "definition": "I'm happy that you're here.",
-        "notes": "",
-        "gloss": "",
-        "author": "robintown",
-        "date": "2023-10-29T21:00:15.314Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "- fe",
     "discriminator": "",
     "is_a_lemma": false,
@@ -18156,10 +18156,10 @@
     "is_official": false,
     "officialized": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "hoq",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
