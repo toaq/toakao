@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "lemma": "eo",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "XtMczCAN4",
+        "author": "el",
+        "date": "2022-08-20T11:48:36.491Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ (ignoring ▯) satisfies property ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "galeche",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "CX5a-dKSa",
+        "author": "Machy",
+        "date": "2021-11-17T22:19:55.429Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is a teacher of student(s) ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "suıjeo",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "a_jELYGpv",
+        "author": "seaqtaq",
+        "date": "2019-02-07T01:01:54.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "(fork of #K1xPDYTKp) ▯ jeo’s ▯ at its (lower )limit; ▯ satisfies property ▯ as little as feasible.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
