@@ -8,7 +8,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -38,7 +38,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -68,7 +68,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -98,7 +98,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -865,36 +865,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2022-10-20T06:58:27.812Z",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "toaq": "shoesue chıe'eı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "FPFFQKCtV",
-        "language": "eng",
-        "definition": "▯ registers with ▯ for course ▯.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2022-10-20T07:03:08.428Z",
         "score": 1
       }
     ]
@@ -5138,7 +5108,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -6175,36 +6145,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2021-08-17T07:17:43.935Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "moy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": true,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "FPyLernZW",
-        "language": "eng",
-        "definition": "▯ is dark (lacking illumination).",
-        "notes": "",
-        "gloss": "",
-        "author": "Hoemai",
-        "date": "2021-08-22T06:34:53.111Z",
         "score": 0
       }
     ]
@@ -9510,36 +9450,6 @@
     ]
   },
   {
-    "toaq": "duylaı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Y4auKfCmg",
-        "language": "eng",
-        "definition": "▯ is a gesture/sign.",
-        "notes": "",
-        "gloss": "",
-        "author": "Laqme",
-        "date": "2022-03-03T01:24:08.098Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "duyluaq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -11005,36 +10915,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2022-06-22T20:34:26.054Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "deqbuchıaqtaqnoeqsoıtaqgıyleogıygıaqfıeqbuaqtıuloıtaqjeaq",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "PwS8YCEOy",
-        "language": "eng",
-        "definition": "▯ zgikemfi'inalka'esefsysajyke'ejvekemsefsyda'atoiflike'ejvejagborkemjilryjvesefsyborxenze'a ▯ ▯",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-06-23T18:58:42.987Z",
         "score": 0
       }
     ]
@@ -13740,6 +13620,36 @@
     ]
   },
   {
+    "toaq": "shoesue chıe'eı",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "FPFFQKCtV",
+        "language": "eng",
+        "definition": "▯ registers with ▯ for course ▯.",
+        "notes": "",
+        "gloss": "",
+        "author": "uakci",
+        "date": "2022-10-20T07:03:08.428Z",
+        "score": 0
+      }
+    ]
+  },
+  {
     "toaq": "aızy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -14348,7 +14258,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
