@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "lemma": "hoeshıao",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "6yguA8k0O",
+        "author": "robintown",
+        "date": "2026-04-07T15:52:34.255Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "The sun sets.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "hoezaq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "dv20GAoy5",
+        "author": "robintown",
+        "date": "2026-04-07T15:52:21.050Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "The sun rises.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
