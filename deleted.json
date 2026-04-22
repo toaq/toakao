@@ -1,12 +1,12 @@
 [
   {
-    "lemma": "aobıkuq",
+    "lemma": "acıchoha",
     "discriminator": "1",
     "is_official": false,
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "sememe": "",
     "examples": [],
@@ -15,73 +15,46 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "1px9PxAam",
-        "author": "Laqme",
-        "date": "2022-10-16T22:55:58.807Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ says lie ▯ to ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "aobıkuqse",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "Y6aZvXRZj",
-        "author": "Laqme",
-        "date": "2022-10-16T22:56:05.377Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a lie/untruth (spoken or written).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "aqcho",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "8VEQHRTWJ",
+        "id": "4q_2nEynt",
         "author": "uakci",
-        "date": "2021-08-15T12:30:09.628Z",
+        "date": "2022-09-29T17:30:42.475Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ likes ▯-self.",
+    "eng_definition": "An acid and a base interact and annihilate.",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "bubu",
+    "lemma": "aıda",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Anpb08duY",
+        "author": "Machy",
+        "date": "2021-10-12T21:39:30.172Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "illocution: metaphorical speech.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "bedoa",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -96,19 +69,19 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "MnuNDywDB",
-        "author": "uakci",
-        "date": "2019-01-01T22:00:21.000Z",
+        "id": "uvNB07xSJ",
+        "author": "akesi",
+        "date": "2020-02-10T08:03:15.466Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is not not the case; It's not the case that ▯ isn't the case; ▯ indeed is the case.",
+    "eng_definition": "▯ makes ▯ pregnant; ▯ impregnates ▯",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "cesasafaılu",
+    "lemma": "buduı",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -123,46 +96,19 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "oTMqKEcCv",
+        "id": "FaN9sUUKZ",
         "author": "Ilmen",
-        "date": "2025-03-23T17:07:03.496Z",
+        "date": "2021-10-06T17:37:17.075Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is a CSS file.",
+    "eng_definition": "▯ is not enough; ▯ insufficiently satisfies property ▯.",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "chıaısı",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "c c",
-    "distribution": "d d",
-    "pronominal_class": "ho",
-    "subject": "agent",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "6m7Rshqap",
-        "author": "robintown",
-        "date": "2021-09-16T13:40:29.023Z",
-        "score": 2
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ does ▯ carefully.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "chıaısıcıa",
+    "lemma": "cuaqkotoa",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -177,112 +123,22 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "ckiIs4KV2",
-        "author": "robintown",
-        "date": "2021-09-16T13:41:04.113Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ does ▯ carelessly/recklessly.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "co",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "qtq": {
-        "id": "bQyn-xcCm",
-        "author": "",
-        "date": "",
-        "score": ""
-      },
-      "eng": {
-        "id": "JFj7Z2C7b",
-        "author": "uakci",
-        "date": "2022-08-21T20:33:33.304Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "cataphoric predicate: ▯ is something that satisfies a floating relative clause headed by **nheı**.",
-    "eng_notes": "",
-    "eng_gloss": "",
-    "qtq_definition": "co hao = meq lu hıa hóa lî hao na na.",
-    "qtq_notes": "",
-    "qtq_gloss": ""
-  },
-  {
-    "lemma": "cuem",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "OxH9q22ef",
-        "author": "uakci",
-        "date": "2023-04-21T09:35:21.893Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ has limit ▯ in property ▯; ▯ with ▯, but no further than it, satisfies relation ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "duemıu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "hayavu",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "PJTjBgJ_Q",
+        "id": "rbTeloRub",
         "author": "Ilmen",
-        "date": "2019-06-21T12:54:38.355Z",
+        "date": "2019-01-28T17:12:00.000Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is right in his/her/their opinion ▯.",
+    "eng_definition": "▯ is a noun.",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "dı",
+    "lemma": "cuaı",
     "discriminator": "2",
     "is_official": false,
-    "type": "",
+    "type": "predicate",
     "frame": "",
     "distribution": "",
     "pronominal_class": "",
@@ -294,505 +150,19 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "nFAtiPCe2",
-        "author": "robintown",
-        "date": "2021-08-01T05:46:09.968Z",
-        "score": 1
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ may be the case; ▯ may be the case if ▯ is the case.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "faılu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "Qcj1EEpLR",
-        "author": "Ilmen",
-        "date": "2025-03-23T16:54:11.420Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a computer file.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "gaojıqzıu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "cB8VXgtaD",
-        "author": "verte",
-        "date": "2022-06-26T10:18:14.240Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a surreal number; ▯ is a surreal number with left set ▯ and right set ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "gure",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "XihzAOBpS",
-        "author": "uakci",
-        "date": "2018-09-29T22:00:28.000Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is both or none of ▯ and ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "gıaıte",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "yrK5X1302",
-        "author": "robintown",
-        "date": "2021-10-18T22:13:04.683Z",
-        "score": 1
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is carved/chiseled/engraved.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "heo'aq",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "4DWQfZXAe",
-        "author": "akesi",
-        "date": "2020-04-20T06:45:15.967Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is hypocritical, ▯ is a hypocrite",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "heotıo",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "DEg8ShNYB",
-        "author": "kazoo",
-        "date": "2025-05-25T16:31:54.882Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is true by difference ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "hetımalaofaılu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "Bk_qN1-tk",
-        "author": "Ilmen",
-        "date": "2025-03-23T17:05:24.373Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is an HTML file.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "hoapa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "2XHCwwlko",
-        "author": "Ilmen",
-        "date": "2019-04-14T11:39:34.000Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "The antecedent(s) of the relative clause satisfies property ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "hoezu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "c",
-    "distribution": "d",
-    "pronominal_class": "hoq",
-    "subject": "free",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "XEudQdFDm",
-        "author": "Ilmen",
-        "date": "2022-02-08T21:11:32.457Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is the Toaq language.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "hojı",
-    "discriminator": "1",
-    "is_official": true,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "qIrygGOL3",
-        "author": "Hoemai",
-        "date": "2019-05-29T17:49:07.798Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ are us (exclusive we, listener not included).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "hıaotaocho",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "x9WItg9YH",
-        "author": "uakci",
-        "date": "2019-05-06T12:48:29.254Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a sadist; ▯ is sadistic towards ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "jaqnu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "JrYT83U6E",
-        "author": "robintown",
-        "date": "2021-08-01T05:39:16.062Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is so much the case; ▯ satisfies property ▯ to such an extent.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "jupıgufaılu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "kS4LqtHst",
-        "author": "Ilmen",
-        "date": "2025-03-23T17:04:13.333Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a JPEG, a JPG file.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "jıesuq",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "fetodu",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "s85_8EYwF",
-        "author": "Ilmen",
-        "date": "2020-05-24T20:26:20.895Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is the case according to you; ▯ has property ▯ according to you.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "jıpa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "hemipi",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "Ysze9KPwZ",
-        "author": "Laqme",
-        "date": "2018-12-08T15:43:24.000Z",
-        "score": 1
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is satisfied by me.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "jıra",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "a certain mysterious piece of software",
-    "langdata": {
-      "eng": {
-        "id": "CCLmPNO8g",
-        "author": "uakci",
-        "date": "2022-07-31T14:47:07.097Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a viable course of action now that ▯ has taken place / been fulfilled; ▯ is enabled/facilitated/opened up as a viable course of action by ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "kuı",
-    "discriminator": "3",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "koIo2TQoY",
-        "author": "Laqme",
-        "date": "2022-03-25T14:31:26.892Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is thus the case; ▯ is the case because ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "kıqchı",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "9kfDT_gLN",
+        "id": "_EPsSjczd",
         "author": "el",
-        "date": "2022-07-24T04:13:49.698Z",
+        "date": "2021-12-22T14:26:26.565Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is kimchi, a type of Korean salted and fermented vegetables",
+    "eng_definition": "▯ is wet with ▯",
     "eng_notes": "",
-    "eng_gloss": ""
+    "eng_gloss": "wet"
   },
   {
-    "lemma": "mıakuaı",
+    "lemma": "cueluaq",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -807,100 +177,19 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "oRBhFIMUs",
-        "author": "uakci",
-        "date": "2021-09-03T19:13:10.996Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ wants to engage in ▯; ▯ wants to be places.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "neqkoe",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "42dM951V_",
-        "author": "Laqme",
-        "date": "2020-02-05T13:49:30.497Z",
-        "score": 1
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ randomly chooses (e.g. flips a coin / rolls a die to choose) ▯ out of ▯ for satisfying ▯ with.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "neqkoese",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "cTOForOyI",
-        "author": "Laqme",
-        "date": "2020-02-05T13:52:34.033Z",
-        "score": 1
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ was randomly chosen from ▯ to satisfy ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "nuadoa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "1qUGSpD_N",
+        "id": "yTiBcwsUn",
         "author": "fagri",
-        "date": "2019-07-04T22:30:26.168Z",
+        "date": "2021-11-11T09:03:12.080Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ lends property ▯ to ▯",
+    "eng_definition": "▯ doms ▯",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "nulıse",
+    "lemma": "deaıdoa",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -915,48 +204,19 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "T9PDS_AIT",
-        "author": "Machy",
-        "date": "2022-02-23T22:59:07.068Z",
+        "id": "kc1YWEcgy",
+        "author": "robintown",
+        "date": "2021-12-27T03:02:24.668Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is fried ▯.",
+    "eng_definition": "▯ gives reward ▯ to ▯.",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "nıjıaqjıq",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "tiragu",
-    "examples": [],
-    "synonyms": [
-      "jıq"
-    ],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "MzMUgHSwV",
-        "author": "Ilmen",
-        "date": "2020-02-27T20:22:25.022Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ exists in this world; ▯ is real.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "peachaq",
+    "lemma": "dochedu",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -971,292 +231,47 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "IlqmDejQX",
-        "author": "Machy",
-        "date": "2022-01-26T01:35:13.456Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "The day ▯ days ago.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "poegua",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "ZPt61-vee",
-        "author": "Machy",
-        "date": "2022-04-17T01:44:48.648Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is an embassy of country ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "pıdufofaılu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "XApZwOukh",
-        "author": "Ilmen",
-        "date": "2025-03-23T16:58:54.771Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a PDF file.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "pınagufaılu",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "wivDo5Ggb",
-        "author": "Ilmen",
-        "date": "2025-03-23T17:03:24.298Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a PNG file.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "pıonulıchıasoıche",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "1i77WvOQU",
-        "author": "Ilmen",
-        "date": "2022-02-27T20:40:12.098Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is a stranded military soldier desesperately in need of gasoline for their tank ▯ dry of fuel.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "raqbuı",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "rnYbAS0ap",
-        "author": "uakci",
-        "date": "2019-04-23T14:00:35.000Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is off-topic; ▯ is off topic ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "ruaqheo",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "9sRAkeF_X",
-        "author": "uakci",
-        "date": "2022-08-06T10:22:54.855Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is hypocritical in satisfying property ▯ (either they proclaim it but don’t satisfy it or vice versa).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "shıho",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "GdeevMgTr",
-        "author": "Ilmen",
-        "date": "2020-01-05T21:18:42.578Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is him/her/it (singular animate).",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "suqpa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "loruwe",
-    "examples": [],
-    "synonyms": [
-      "fısuq"
-    ],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "MUIvp4ypD",
-        "author": "Laqme",
-        "date": "2018-12-08T15:50:23.000Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ is satisfied by you.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "touche",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "N_1nWPjYE",
-        "author": "uakci",
-        "date": "2021-11-03T20:05:35.045Z",
-        "score": 0
-      }
-    },
-    "definition_type": "informal",
-    "eng_definition": "▯ brilliantly expresses idea ▯.",
-    "eng_notes": "",
-    "eng_gloss": ""
-  },
-  {
-    "lemma": "tuasıa",
-    "discriminator": "1",
-    "is_official": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "sememe": "",
-    "examples": [],
-    "synonyms": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "langdata": {
-      "eng": {
-        "id": "aj2zMW5Zb",
+        "id": "9_fE0C8Mx",
         "author": "seaqtaq",
-        "date": "2018-12-25T20:21:20.000Z",
+        "date": "2024-08-09T19:26:06.456Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ deletes file/data ▯",
+    "eng_definition": "▯ swindles ▯ out of possession ▯",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "za",
-    "discriminator": "2",
+    "lemma": "démıfu",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "EiljQlswl",
+        "author": "TheAndSys",
+        "date": "2026-02-03T19:12:12.263Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is a princess",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "eja",
+    "discriminator": "1",
     "is_official": false,
     "type": "",
     "frame": "",
@@ -1270,19 +285,154 @@
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "1L_OZ_oTM",
-        "author": "akesi",
-        "date": "2020-01-30T06:10:06.653Z",
+        "id": "phlGH3hM4",
+        "author": "uakci",
+        "date": "2024-04-24T14:03:30.884Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": " ▯ checks that  ▯  is the case.",
+    "eng_definition": "▯ is an event expressed by an **ë** clause.",
     "eng_notes": "",
     "eng_gloss": ""
   },
   {
-    "lemma": "ıqmı",
+    "lemma": "faohe",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "DHdsfZigP",
+        "author": "seaqtaq",
+        "date": "2024-11-01T07:27:33.149Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "modality: towards the end, when...",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "faq'uese",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "je8kYiaAf",
+        "author": "seaqtaq",
+        "date": "2020-05-14T20:52:07.522Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "agreement particle",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "heoho",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "0uHSJvaxJ",
+        "author": "uakci",
+        "date": "2022-05-26T14:48:16.769Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "animate (class I) anaphoric pronoun referring to the thing **ho** referred to before it was last rebound",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "hoao",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "PziTocxEI",
+        "author": "uakci",
+        "date": "2024-12-04T15:35:12.023Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "pro-verb: stands for the term currently being defined",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "hımea",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "NcdDJH2op",
+        "author": "uakci",
+        "date": "2021-11-10T19:44:35.313Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "Which of the arguments is true?",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "jaqbalaja",
     "discriminator": "1",
     "is_official": false,
     "type": "",
@@ -1290,21 +440,399 @@
     "distribution": "",
     "pronominal_class": "",
     "subject": "",
-    "sememe": "gavuyu",
+    "sememe": "",
     "examples": [],
     "synonyms": [],
     "etymology": "",
     "etymological_notes": "",
     "langdata": {
       "eng": {
-        "id": "tTG6kC9KI",
-        "author": "Ilmen",
-        "date": "2022-08-12T16:48:13.573Z",
+        "id": "Pz84FBD4_",
+        "author": "seaqtaq",
+        "date": "2019-09-23T00:35:45.904Z",
         "score": 0
       }
     },
     "definition_type": "informal",
-    "eng_definition": "▯ is named after property ▯.",
+    "eng_definition": "▯ is jambalaya—a Cajun dish of rice with shrimp, chicken, and vegetables.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "kaqpua",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "KZAbcvbEN",
+        "author": "uakci",
+        "date": "2019-01-27T22:00:10.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "pleasant to look at; handsome; (another sense of) beautiful",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "keopıshuaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "gxlmG5g5_",
+        "author": "Laqme",
+        "date": "2019-04-20T22:04:13.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ creates a quasi-copy of ▯ that satisfies ▯, unlike the original;  ▯ adapts ▯ into a version that distinguishes itself by satisfying ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "luekıa",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "fahahe",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "_phWP3HIp",
+        "author": "Ilmen",
+        "date": "2019-12-23T22:38:38.171Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is the colour orange.",
+    "eng_notes": "",
+    "eng_gloss": "orange"
+  },
+  {
+    "lemma": "muıfuaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "BOJAkUz2a",
+        "author": "uakci",
+        "date": "2019-01-07T22:37:15.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "graph, diagram",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "puaqmoem",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "Bd5kId-_A",
+        "author": "seaqtaq",
+        "date": "2024-11-13T16:02:08.303Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is an tactilely dull stimulus",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "rudobuıshabu",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "gafela",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "YMkXzfywI",
+        "author": "Ilmen",
+        "date": "2018-12-17T22:25:29.000Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "We are not out of the brambles.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "rúmıfu",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "KfDYgi43_",
+        "author": "TheAndSys",
+        "date": "2026-02-03T19:12:58.679Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is a prince",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "seseq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "QW9SuKxwO",
+        "author": "robintown",
+        "date": "2023-07-20T19:11:27.774Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ is in control / empowered; ▯ has sufficient self-confidence and control over their own situation to satisfy property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "soıluaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "bt28yi7l5",
+        "author": "robintown",
+        "date": "2022-01-05T16:56:12.451Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ compete against ▯ to satisfy property ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "sä",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "particle",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "t6yk2MIfH",
+        "author": "kazoo",
+        "date": "2026-01-17T16:18:20.701Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "complementizer: one that/who...",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "síem",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "CEz66Khrj",
+        "author": "Ilmen",
+        "date": "2025-12-04T18:02:02.069Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "sequence coordinator: ⟪X síem Y⟫ = the sequence ⟨X, Y⟩.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "toıluaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "YAh_kXjZL",
+        "author": "seaqtaq",
+        "date": "2024-07-18T11:30:01.929Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ doms ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "tuoıruaq",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "bfE0L6Izw",
+        "author": "uakci",
+        "date": "2022-06-24T11:51:32.900Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "▯ points out flaw ▯ in ▯; ▯ makes criticism ▯.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "ı-",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "phrase",
+    "subject": "",
+    "sememe": "",
+    "examples": [],
+    "synonyms": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "langdata": {
+      "eng": {
+        "id": "79nP7v3sm",
+        "author": "TheAndSys",
+        "date": "2025-02-18T19:38:08.158Z",
+        "score": 0
+      }
+    },
+    "definition_type": "informal",
+    "eng_definition": "Pertaining to cyberspace",
     "eng_notes": "",
     "eng_gloss": ""
   }

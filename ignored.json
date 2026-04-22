@@ -6,7 +6,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -50,6 +50,33 @@
       }
     },
     "eng_definition": "The sun rises.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "koe",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "c c",
+    "distribution": "d d",
+    "pronominal_class": "ho",
+    "subject": "agent",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "CLqur8gj7",
+        "author": "evie",
+        "date": "2026-04-18T06:51:25.448Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ chooses ▯",
     "eng_notes": "",
     "eng_gloss": ""
   }

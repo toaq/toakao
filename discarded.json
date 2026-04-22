@@ -4,10 +4,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -16,9 +16,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "Hqaij4ANM1",
+        "id": "iEpRZYPSpt3",
         "author": "countries",
-        "date": "2026-04-11T14:17:21.969Z",
+        "date": "2026-04-11T18:36:52.772Z",
         "score": 0
       }
     },
@@ -31,10 +31,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -43,9 +43,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "IJ7qhph0f",
+        "id": "MxOOD8Z4RTN",
         "author": "countries",
-        "date": "2026-04-11T14:17:22.267Z",
+        "date": "2026-04-11T18:36:52.773Z",
         "score": 0
       }
     },
@@ -85,10 +85,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -97,9 +97,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "U0piFBLsD_U",
+        "id": "kLPD6LhLscL",
         "author": "countries",
-        "date": "2026-04-06T13:37:12.804Z",
+        "date": "2026-04-11T18:36:52.858Z",
         "score": 0
       }
     },
@@ -112,10 +112,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -124,9 +124,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "4mrsqGlNTC1",
+        "id": "f6ls8cOr0JE",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.191Z",
+        "date": "2026-04-11T18:36:52.860Z",
         "score": 0
       }
     },
@@ -135,14 +135,14 @@
     "eng_gloss": ""
   },
   {
-    "lemma": "Ekuadorogua",
+    "lemma": "Ekuadoro",
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -151,9 +151,36 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "WzwZ13j-Bx",
+        "id": "6m3EZ6jEmem",
         "author": "countries",
-        "date": "2026-04-11T14:17:27.869Z",
+        "date": "2026-04-11T18:36:52.837Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ pertains to the culture of Ecuador – Republic of Ecuador.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "Ekuadorogua",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "XEEifxo_ofh",
+        "author": "countries",
+        "date": "2026-04-11T18:36:52.839Z",
         "score": 0
       }
     },
@@ -166,10 +193,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -178,9 +205,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "oBXXz53ubMD",
+        "id": "8Wz0EFIV4Xf",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.180Z",
+        "date": "2026-04-11T18:36:52.851Z",
         "score": 0
       }
     },
@@ -193,10 +220,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -205,9 +232,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "_tRs-FotKhD",
+        "id": "ftXldseEvzk",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.182Z",
+        "date": "2026-04-11T18:36:52.853Z",
         "score": 0
       }
     },
@@ -220,10 +247,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -232,9 +259,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "pqCZmTn_Cgx",
+        "id": "SsNyqr0Me82",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.129Z",
+        "date": "2026-04-11T18:36:52.816Z",
         "score": 0
       }
     },
@@ -247,10 +274,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -259,9 +286,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "LBnpnXInvPS",
+        "id": "M_XAK9VIdp_",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.131Z",
+        "date": "2026-04-11T18:36:52.817Z",
         "score": 0
       }
     },
@@ -274,10 +301,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -286,9 +313,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "X4dZ264tuC8",
+        "id": "PDFqyXVW_ky",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.118Z",
+        "date": "2026-04-11T18:36:52.809Z",
         "score": 0
       }
     },
@@ -301,10 +328,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -313,9 +340,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "n-Gr4b1k0Iq",
+        "id": "ei9NWvcEP7i",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.120Z",
+        "date": "2026-04-11T18:36:52.810Z",
         "score": 0
       }
     },
@@ -328,10 +355,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -340,9 +367,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "LpNImzI93QM",
+        "id": "W1pIaR5evRk",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.325Z",
+        "date": "2026-04-11T18:36:52.948Z",
         "score": 0
       }
     },
@@ -355,10 +382,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -367,9 +394,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "dp_pohIK3",
+        "id": "zrQjMoiIFww",
         "author": "countries",
-        "date": "2026-04-11T14:17:34.067Z",
+        "date": "2026-04-11T18:36:52.949Z",
         "score": 0
       }
     },
@@ -382,10 +409,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -394,9 +421,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "u17vXPPSurN",
+        "id": "nnppN79JH5y",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.262Z",
+        "date": "2026-04-11T18:36:52.907Z",
         "score": 0
       }
     },
@@ -409,10 +436,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -421,9 +448,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "CJmfbldlgfw",
+        "id": "PU-8BWwHReD",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.264Z",
+        "date": "2026-04-11T18:36:52.909Z",
         "score": 0
       }
     },
@@ -432,14 +459,14 @@
     "eng_gloss": ""
   },
   {
-    "lemma": "Usona",
+    "lemma": "Rasıa",
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -448,9 +475,63 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "nreuJfEdID0",
+        "id": "cqvXABr0nWj",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.509Z",
+        "date": "2026-04-11T18:36:52.985Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ pertains to the culture of Russia – Russian Federation.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "Rasıagua",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "oXFJTPANAmu",
+        "author": "countries",
+        "date": "2026-04-11T18:36:52.986Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is the country Russia – Russian Federation.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "Usona",
+    "discriminator": "1",
+    "is_official": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "KZYLtWHYVsb",
+        "author": "countries",
+        "date": "2026-04-11T18:36:53.051Z",
         "score": 0
       }
     },
@@ -463,10 +544,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -475,9 +556,9 @@
     "definition_type": "informal",
     "langdata": {
       "eng": {
-        "id": "8YKIc0AMW7x",
+        "id": "-tdw4MF53Oa",
         "author": "countries",
-        "date": "2026-04-01T08:41:38.512Z",
+        "date": "2026-04-11T18:36:53.053Z",
         "score": 0
       }
     },
@@ -1813,10 +1894,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "free",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -1977,7 +2058,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1990,7 +2071,7 @@
         "id": "pPkYeQCUA",
         "author": "uakci",
         "date": "2023-03-22T08:42:20.763Z",
-        "score": 0
+        "score": 1
       }
     },
     "eng_definition": "illocution: promissive–interrogative; “may/can/could/shall/should [I/they/…] …?”",
@@ -3462,7 +3543,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -4081,10 +4162,10 @@
     "discriminator": "1",
     "is_official": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ho",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -4191,7 +4272,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
