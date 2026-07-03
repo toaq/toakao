@@ -36,10 +36,10 @@
     "is_official": false,
     "officialized": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "hoq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -270,36 +270,6 @@
     ]
   },
   {
-    "toaq": "peı meamıq",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Uf-cJQzTq",
-        "language": "eng",
-        "definition": "▯ is infinity (mathematical constant ∞).",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2019-02-04T22:21:48.000Z",
-        "score": 1
-      }
-    ]
-  },
-  {
     "toaq": "taq teq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -308,7 +278,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -385,36 +355,6 @@
         "gloss": "",
         "author": "Hoemai",
         "date": "2019-04-12T21:54:09.000Z",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "toaq": "haqzy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": true,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Y9qYHgyiY",
-        "language": "eng",
-        "definition": "▯ is a hanzi (chinese character).",
-        "notes": "",
-        "gloss": "",
-        "author": "Hoemai",
-        "date": "2020-02-08T17:16:51.253Z",
         "score": 1
       }
     ]
@@ -685,66 +625,6 @@
         "gloss": "",
         "author": "robintown",
         "date": "2022-06-20T18:58:11.396Z",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "toaq": "nuty",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "tEIMSJm7Q",
-        "language": "eng",
-        "definition": "▯ is dregs/debris/remains",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-06-27T18:23:15.027Z",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "toaq": "kaqnuty",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "xZVEIfJ8H",
-        "language": "eng",
-        "definition": "▯ is rheum from the eyes (i.e. the gunk/crust sometimes found on one's eyes when one wakes up; also known as \"sleep\")",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-06-27T18:26:47.631Z",
         "score": 1
       }
     ]
@@ -1268,7 +1148,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1298,7 +1178,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1328,7 +1208,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1358,7 +1238,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1448,7 +1328,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1478,7 +1358,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -1645,66 +1525,6 @@
         "gloss": "",
         "author": "Ilmen",
         "date": "2018-10-08T19:19:51.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "q̄",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "particle",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "_y8bnCqVm",
-        "language": "eng",
-        "definition": "hesitation",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2018-10-11T19:49:07.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "jĩjıe",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "oCYBmqAUy",
-        "language": "eng",
-        "definition": "‘in my opinion’",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2018-10-13T21:28:41.000Z",
         "score": 0
       }
     ]
@@ -2018,7 +1838,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -2048,7 +1868,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -2490,36 +2310,6 @@
     ]
   },
   {
-    "toaq": "Kuaq ka.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Ipu3q_oZ3",
-        "language": "eng",
-        "definition": "elliptical performative",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2019-01-18T01:35:00.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "shuaınu jẽo",
     "discriminator": "",
     "is_a_lemma": false,
@@ -2695,6 +2485,36 @@
         "gloss": "",
         "author": "seaqtaq",
         "date": "2019-01-31T06:38:53.000Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "peı meamıq",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "Uf-cJQzTq",
+        "language": "eng",
+        "definition": "▯ is infinity (mathematical constant ∞).",
+        "notes": "",
+        "gloss": "",
+        "author": "Ilmen",
+        "date": "2019-02-04T22:21:48.000Z",
         "score": 0
       }
     ]
@@ -2970,66 +2790,6 @@
     ]
   },
   {
-    "toaq": "Mí Jeo",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "zmd_6Qsi_",
-        "language": "eng",
-        "definition": "True [boolean value]",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2019-02-19T06:16:27.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "Mí Bu",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "mCLTYXwoj",
-        "language": "eng",
-        "definition": "False [boolean value]",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2019-02-19T06:16:34.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "chı(jıo)joaq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -3270,36 +3030,6 @@
     ]
   },
   {
-    "toaq": "Sı ba.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "particle",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "W8UjHxZW7",
-        "language": "eng",
-        "definition": "Hey!",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2019-04-13T19:09:40.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "tua tıpoe",
     "discriminator": "",
     "is_a_lemma": false,
@@ -3415,66 +3145,6 @@
         "gloss": "",
         "author": "Laqme",
         "date": "2019-04-23T10:28:18.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "hápa kuq",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "LYeR-jxwU",
-        "language": "eng",
-        "definition": "‘what they say’; ‘what is said’",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2019-04-23T14:17:18.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "jao[kaq]bıu",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": true,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "hCLe1vfjX",
-        "language": "eng",
-        "definition": "▯ is a telescope.",
-        "notes": "",
-        "gloss": "",
-        "author": "Hoemai",
-        "date": "2019-05-07T12:04:18.055Z",
         "score": 0
       }
     ]
@@ -4050,36 +3720,6 @@
     ]
   },
   {
-    "toaq": "hoeshıy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": true,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "6HLe3RREY",
-        "language": "eng",
-        "definition": "▯ is a sunset.",
-        "notes": "",
-        "gloss": "",
-        "author": "Hoemai",
-        "date": "2019-12-16T21:23:06.918Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "naby",
     "discriminator": "",
     "is_a_lemma": false,
@@ -4200,36 +3840,6 @@
     ]
   },
   {
-    "toaq": "lè ca",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "8K_HsTx0S",
-        "language": "eng",
-        "definition": "probably causing",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2020-01-12T22:33:24.075Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "bıyq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -4290,36 +3900,6 @@
     ]
   },
   {
-    "toaq": "jèq cha",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "e2m6jknfY",
-        "language": "eng",
-        "definition": "in the same way/manner as",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2020-01-27T11:36:36.690Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "mı Hoechoqgı",
     "discriminator": "",
     "is_a_lemma": false,
@@ -4375,6 +3955,36 @@
         "gloss": "",
         "author": "uakci",
         "date": "2020-02-05T01:10:20.237Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "haqzy",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": true,
+    "officialized": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "hoq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "Y9qYHgyiY",
+        "language": "eng",
+        "definition": "▯ is a hanzi (chinese character).",
+        "notes": "",
+        "gloss": "",
+        "author": "Hoemai",
+        "date": "2020-02-08T17:16:51.253Z",
         "score": 0
       }
     ]
@@ -4530,36 +4140,6 @@
     ]
   },
   {
-    "toaq": "nèjeq lusu",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "zTz98SMN4",
-        "language": "eng",
-        "definition": "as much as …",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2020-02-24T18:30:55.438Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "tua kaqgaı",
     "discriminator": "",
     "is_a_lemma": false,
@@ -4615,36 +4195,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2020-02-25T18:26:45.181Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "hoeshıy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "zW400a6d5",
-        "language": "eng",
-        "definition": "The sun sets; Sun ▯ sets.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2020-02-25T19:00:14.441Z",
         "score": 0
       }
     ]
@@ -5100,36 +4650,6 @@
     ]
   },
   {
-    "toaq": "toyq",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "5OpQXWA8n",
-        "language": "eng",
-        "definition": "separator: medial conjunction in polyadic forethought conjunction constructions: to RU … toyq … (toyq … (toyq … (…))).",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2020-05-31T17:25:29.402Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "meyq",
     "discriminator": "",
     "is_a_lemma": false,
@@ -5155,36 +4675,6 @@
         "gloss": "",
         "author": "Ilmen",
         "date": "2020-06-03T12:33:02.599Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "rào ra ào sa",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "WqqH8auDD",
-        "language": "eng",
-        "definition": "phrase: \"has ever or would ever\"",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2020-06-04T08:21:41.693Z",
         "score": 0
       }
     ]
@@ -5335,36 +4825,6 @@
         "gloss": "",
         "author": "fagri",
         "date": "2020-06-20T06:41:02.255Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "olıqpıky",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "lkvsxPLAa",
-        "language": "eng",
-        "definition": "○ is Olympic",
-        "notes": "",
-        "gloss": "",
-        "author": "Hydro",
-        "date": "2021-07-23T14:50:22.411Z",
         "score": 0
       }
     ]
@@ -6180,36 +5640,6 @@
     ]
   },
   {
-    "toaq": "Foa séoq hı moq?",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Q-9Alk3fX",
-        "language": "eng",
-        "definition": "What's the weather like?",
-        "notes": "",
-        "gloss": "",
-        "author": "robintown",
-        "date": "2021-08-31T16:21:38.061Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "fea doıjı",
     "discriminator": "",
     "is_a_lemma": false,
@@ -6480,96 +5910,6 @@
     ]
   },
   {
-    "toaq": "Nıqguo kuq ba.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "VUcYNwe1-",
-        "language": "eng",
-        "definition": "Pardon?; Come again?; Could you repeat please?; Once again?",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-09-06T15:49:09.945Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "Meoq choa ba.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "bsu7vsTtu",
-        "language": "eng",
-        "definition": "Please speak slowly.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-09-06T15:49:27.089Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "Nıqguo ruaq ba.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "vTUE3ucQb",
-        "language": "eng",
-        "definition": "Pardon me?; Say what?",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-09-06T15:49:43.408Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "daısoq chuı",
     "discriminator": "",
     "is_a_lemma": false,
@@ -6750,46 +6090,16 @@
     ]
   },
   {
-    "toaq": "puy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "ksu_DKweA",
-        "language": "eng",
-        "definition": "Quantifier: 'many', many plural values satisfy the surrounding sentence",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2021-10-05T05:12:45.459Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "choqmy",
     "discriminator": "",
     "is_a_lemma": false,
     "is_official": false,
     "officialized": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "maq",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -6955,36 +6265,6 @@
         "gloss": "",
         "author": "Machy",
         "date": "2021-10-14T00:54:53.249Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "nıhy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "particle",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "d_rYbAgTl",
-        "language": "eng",
-        "definition": "pejorative demonstrative (points out / singles out a referent in a decrying/demonizing fashion)",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-10-20T19:48:51.314Z",
         "score": 0
       }
     ]
@@ -7740,36 +7020,6 @@
     ]
   },
   {
-    "toaq": "jeytoaı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "3BrMC_EOQ",
-        "language": "eng",
-        "definition": "▯ is a gender quale (qualia), gender gestalt; ▯ is a gender(ed) impression or “vibe” seen as relatively primitive, or tough or futile to analyze.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-11-11T10:52:41.142Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "ruaqkoy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -7795,36 +7045,6 @@
         "gloss": "",
         "author": "Ilmen",
         "date": "2021-11-11T17:53:32.378Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "bıy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "RylNI1UCR",
-        "language": "eng",
-        "definition": "anaphoric pronoun: sentence topic established with \"bı\".",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2021-11-11T18:32:16.939Z",
         "score": 0
       }
     ]
@@ -8035,36 +7255,6 @@
         "gloss": "",
         "author": "seaqtaq",
         "date": "2021-11-29T08:07:30.464Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "Sue shoe ka.",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "sqy72WDMB",
-        "language": "eng",
-        "definition": "Excuse me; pardon me; may I?",
-        "notes": "",
-        "gloss": "",
-        "author": "robintown",
-        "date": "2021-12-13T17:36:46.345Z",
         "score": 0
       }
     ]
@@ -8588,7 +7778,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -8978,7 +8168,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -9186,10 +8376,10 @@
     "is_official": false,
     "officialized": false,
     "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ho",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -9248,7 +8438,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -9278,7 +8468,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -9990,96 +9180,6 @@
     ]
   },
   {
-    "toaq": "duıpuy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "zkOj5mxzu",
-        "language": "eng",
-        "definition": "determiner: “too many”",
-        "notes": "",
-        "gloss": "",
-        "author": "Laqme",
-        "date": "2022-05-25T21:27:58.332Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "nepuy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "sNhWnSfPM",
-        "language": "eng",
-        "definition": "determiner: some things which together are many in number",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2022-05-25T21:30:22.013Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "neduıpuy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "EYclikje_",
-        "language": "eng",
-        "definition": "determiner: things that together are too many in number",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2022-05-25T21:30:33.974Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "jaokoy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -10658,7 +9758,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "particle",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -10915,6 +10015,66 @@
         "gloss": "",
         "author": "verte",
         "date": "2022-06-26T04:16:22.146Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "nuty",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "maq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "tEIMSJm7Q",
+        "language": "eng",
+        "definition": "▯ is dregs/debris/remains",
+        "notes": "",
+        "gloss": "",
+        "author": "el",
+        "date": "2022-06-27T18:23:15.027Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "kaqnuty",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "maq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "xZVEIfJ8H",
+        "language": "eng",
+        "definition": "▯ is rheum from the eyes (i.e. the gunk/crust sometimes found on one's eyes when one wakes up; also known as \"sleep\")",
+        "notes": "",
+        "gloss": "",
+        "author": "el",
+        "date": "2022-06-27T18:26:47.631Z",
         "score": 0
       }
     ]
@@ -11550,36 +10710,6 @@
     ]
   },
   {
-    "toaq": "jũ",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Ke4y0hRvU",
-        "language": "eng",
-        "definition": "begin incidental clause commenting on enclosing sentence; binds **hóa** to refer to the event",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-07-08T13:18:19.485Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "mu reu",
     "discriminator": "",
     "is_a_lemma": false,
@@ -11635,36 +10765,6 @@
         "gloss": "",
         "author": "mimiaoganhaqpy",
         "date": "2022-07-09T21:30:13.175Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "Esyperaqtogua",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "c",
-    "distribution": "d",
-    "pronominal_class": "maq",
-    "subject": "individual",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "Z2JCv-GeS",
-        "language": "eng",
-        "definition": "▯ is \"Esperantujo\".",
-        "notes": "",
-        "gloss": "",
-        "author": "mimiaoganhaqpy",
-        "date": "2022-07-10T01:40:05.166Z",
         "score": 0
       }
     ]
@@ -12008,7 +11108,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "particle",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -14258,7 +13358,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -14288,7 +13388,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -14858,7 +13958,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -14948,7 +14048,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -14978,7 +14078,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -15098,7 +14198,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -15608,7 +14708,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -15818,7 +14918,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16118,7 +15218,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16148,7 +15248,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16178,7 +15278,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16628,7 +15728,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "particle",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16688,7 +15788,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16748,7 +15848,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16808,7 +15908,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16868,7 +15968,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16898,7 +15998,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16928,7 +16028,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16958,7 +16058,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -16988,7 +16088,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17018,7 +16118,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17048,7 +16148,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17078,7 +16178,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17108,7 +16208,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17198,7 +16298,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17258,7 +16358,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17438,7 +16538,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17558,7 +16658,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17618,7 +16718,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17678,7 +16778,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17828,7 +16928,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17948,7 +17048,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -17978,7 +17078,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18008,7 +17108,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18068,7 +17168,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18085,66 +17185,6 @@
         "gloss": "",
         "author": "robintown",
         "date": "2025-04-24T21:58:23.138Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "nhạ́roı",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "USGtnNdSR",
-        "language": "eng",
-        "definition": "anaphoric pronoun: refers back to the last róı-phrase's referents.",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2025-04-28T19:19:28.019Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "nhạ́ru",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "phrase",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "RFzkjbQ1H",
-        "language": "eng",
-        "definition": "pronoun: the connectand at the left-hand side of the current logical connection.",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2025-04-28T19:19:49.377Z",
         "score": 0
       }
     ]
@@ -18278,7 +17318,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "particle",
+    "pronominal_class": "phrase",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18458,7 +17498,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18488,7 +17528,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18578,7 +17618,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "particle",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18698,7 +17738,7 @@
     "type": "",
     "frame": "",
     "distribution": "",
-    "pronominal_class": "phrase",
+    "pronominal_class": "",
     "subject": "",
     "examples": [],
     "etymology": "",
@@ -18955,6 +17995,36 @@
         "gloss": "",
         "author": "countries",
         "date": "2026-04-11T18:36:53.011Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "- mako",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "e1tf00Oqn",
+        "language": "eng",
+        "definition": "pseudo-suffix: decoration/embellishment",
+        "notes": "",
+        "gloss": "",
+        "author": "Dembim",
+        "date": "2026-05-23T17:38:31.704Z",
         "score": 0
       }
     ]
