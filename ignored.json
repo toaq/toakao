@@ -1,1 +1,191 @@
-[]
+[
+  {
+    "lemma": "doq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "F0dwtR3dx",
+        "author": "evie",
+        "date": "2026-07-17T16:38:00.328Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is short (not long/**buaı**)",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "juo",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "maq",
+    "subject": "individual",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "Hc1CqPk-o",
+        "author": "Dembim",
+        "date": "2026-07-16T10:43:46.236Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is a message.",
+    "eng_notes": "",
+    "eng_gloss": "message"
+  },
+  {
+    "lemma": "kaq",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "deu": {
+        "id": "49tu6mIoK",
+        "author": "Aburn",
+        "date": "2026-07-04T12:40:37.739Z",
+        "score": 0
+      }
+    },
+    "deu_definition": "▯ ist visuell/optisch; ▯ betrifft die Sicht/das Sehen/der Sehsinn",
+    "deu_notes": "",
+    "deu_gloss": "Sicht"
+  },
+  {
+    "lemma": "kelamnao",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "zlpgTfe_c",
+        "author": "sq",
+        "date": "2026-07-05T00:40:45.815Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is coconut water/coconut juice.",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "lıaı",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "deu": {
+        "id": "18SY4fySI",
+        "author": "Aburn",
+        "date": "2026-07-04T12:54:00.570Z",
+        "score": 0
+      }
+    },
+    "deu_definition": "▯ schwimmt",
+    "deu_notes": "",
+    "deu_gloss": "schwimmen"
+  },
+  {
+    "lemma": "suı",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "8A5cRXCea",
+        "author": "evie",
+        "date": "2026-07-05T04:14:51.113Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ satisfies property ▯ the least",
+    "eng_notes": "",
+    "eng_gloss": ""
+  },
+  {
+    "lemma": "zaobu",
+    "discriminator": "",
+    "is_official": false,
+    "type": "predicate",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "langdata": {
+      "eng": {
+        "id": "hCzUFE-bS",
+        "author": "evie",
+        "date": "2026-07-06T18:42:55.368Z",
+        "score": 0
+      }
+    },
+    "eng_definition": "▯ is unfamiliar with ▯",
+    "eng_notes": "",
+    "eng_gloss": ""
+  }
+]
