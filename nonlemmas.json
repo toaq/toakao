@@ -300,36 +300,6 @@
     ]
   },
   {
-    "toaq": "ru sugo",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "phrase",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "m4hV5ze8a",
-        "language": "eng",
-        "definition": "… and vice-versa (reciprocity of the two first arguments).",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2019-02-18T21:10:52.000Z",
-        "score": 1
-      }
-    ]
-  },
-  {
     "toaq": "huelaleq(fuo)",
     "discriminator": "",
     "is_a_lemma": false,
@@ -355,6 +325,36 @@
         "gloss": "",
         "author": "Hoemai",
         "date": "2019-04-12T21:54:09.000Z",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "toaq": "cheo heo",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "predicate",
+    "frame": "c 2ix",
+    "distribution": "n d",
+    "pronominal_class": "ta",
+    "subject": "free",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "rm7cJYIh6",
+        "language": "eng",
+        "definition": "▯ are all different in property ▯ (2-ary); ▯ are fully-characterized by what they ▯",
+        "notes": "",
+        "gloss": "",
+        "author": "fagri",
+        "date": "2019-12-28T23:38:59.043Z",
         "score": 1
       }
     ]
@@ -2016,10 +2016,10 @@
     "is_official": false,
     "officialized": false,
     "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c",
+    "distribution": "n",
+    "pronominal_class": "ho",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -2490,36 +2490,6 @@
     ]
   },
   {
-    "toaq": "du ru bu",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "YzKMBhhgT",
-        "language": "eng",
-        "definition": "▯ is seemingly the case (but actually isn't); ▯ seemingly satisfies the property ▯ (but actually doesn't).",
-        "notes": "",
-        "gloss": "",
-        "author": "Ilmen",
-        "date": "2019-02-08T17:42:58.000Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "mıu huıtua",
     "discriminator": "",
     "is_a_lemma": false,
@@ -2695,6 +2665,36 @@
         "gloss": "",
         "author": "niucuq",
         "date": "2019-02-16T03:39:35.000Z",
+        "score": 0
+      }
+    ]
+  },
+  {
+    "toaq": "ru sugo",
+    "discriminator": "",
+    "is_a_lemma": false,
+    "is_official": false,
+    "officialized": false,
+    "type": "phrase",
+    "frame": "",
+    "distribution": "",
+    "pronominal_class": "",
+    "subject": "",
+    "examples": [],
+    "etymology": "",
+    "etymological_notes": "",
+    "sememe": "",
+    "synonyms": [],
+    "definition_type": "informal",
+    "translations": [
+      {
+        "id": "m4hV5ze8a",
+        "language": "eng",
+        "definition": "… and vice-versa (reciprocity of the two first arguments).",
+        "notes": "",
+        "gloss": "",
+        "author": "Ilmen",
+        "date": "2019-02-18T21:10:52.000Z",
         "score": 0
       }
     ]
@@ -3655,36 +3655,6 @@
         "gloss": "",
         "author": "Hoemai",
         "date": "2019-12-16T21:23:24.037Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "cheo heo",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "rm7cJYIh6",
-        "language": "eng",
-        "definition": "▯ are all different in property ▯ (2-ary); ▯ are fully-characterized by what they ▯",
-        "notes": "",
-        "gloss": "",
-        "author": "fagri",
-        "date": "2019-12-28T23:38:59.043Z",
         "score": 0
       }
     ]
@@ -5395,36 +5365,6 @@
         "gloss": "",
         "author": "uakci",
         "date": "2021-08-17T07:17:43.935Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "buy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "_R9G59Rg-",
-        "language": "eng",
-        "definition": "▯ absolutely cannot occur; ▯ absolutely cannot satisfy property ▯ under any relevant circumstance.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2021-08-26T14:17:10.991Z",
         "score": 0
       }
     ]
@@ -7416,10 +7356,10 @@
     "is_official": false,
     "officialized": false,
     "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "frame": "c c c",
+    "distribution": "d d d",
+    "pronominal_class": "ho",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -9870,36 +9810,6 @@
     ]
   },
   {
-    "toaq": "nuty",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "c",
-    "distribution": "d",
-    "pronominal_class": "maq",
-    "subject": "individual",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "tEIMSJm7Q",
-        "language": "eng",
-        "definition": "▯ is dregs/debris/remains",
-        "notes": "",
-        "gloss": "",
-        "author": "el",
-        "date": "2022-06-27T18:23:15.027Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "kaqnuty",
     "discriminator": "",
     "is_a_lemma": false,
@@ -11670,36 +11580,6 @@
     ]
   },
   {
-    "toaq": "nulınuty",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "zN64UW5FK",
-        "language": "eng",
-        "definition": "▯ is tenkasu.",
-        "notes": "",
-        "gloss": "",
-        "author": "mimiaoganhaqpy",
-        "date": "2022-09-08T00:36:53.628Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "nhaqpy",
     "discriminator": "",
     "is_a_lemma": false,
@@ -11785,36 +11665,6 @@
         "gloss": "",
         "author": "salarua",
         "date": "2022-09-15T06:56:26.048Z",
-        "score": 0
-      }
-    ]
-  },
-  {
-    "toaq": "hıty",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "predicate",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "MN-bu2EWf",
-        "language": "eng",
-        "definition": "▯ makes a quick stab at satisfying property ▯ having previously vacillated/held themselves back, then recedes; ▯ makes resolute move ▯ then disappears; ▯ hits-and-runs by satisfying property ▯.",
-        "notes": "",
-        "gloss": "",
-        "author": "uakci",
-        "date": "2022-09-22T17:53:07.308Z",
         "score": 0
       }
     ]
@@ -15005,11 +14855,11 @@
     "is_a_lemma": false,
     "is_official": false,
     "officialized": false,
-    "type": "metaphor",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
+    "type": "predicate",
+    "frame": "c",
+    "distribution": "d",
+    "pronominal_class": "ta",
+    "subject": "individual",
     "examples": [],
     "etymology": "",
     "etymological_notes": "",
@@ -17520,36 +17370,6 @@
     ]
   },
   {
-    "toaq": "cy",
-    "discriminator": "",
-    "is_a_lemma": false,
-    "is_official": false,
-    "officialized": false,
-    "type": "",
-    "frame": "",
-    "distribution": "",
-    "pronominal_class": "",
-    "subject": "",
-    "examples": [],
-    "etymology": "",
-    "etymological_notes": "",
-    "sememe": "",
-    "synonyms": [],
-    "definition_type": "informal",
-    "translations": [
-      {
-        "id": "IjcoWdVj_",
-        "language": "eng",
-        "definition": "end ꝡä, lä, ë and tïo clauses.",
-        "notes": "",
-        "gloss": "",
-        "author": "kazoo",
-        "date": "2026-01-16T18:21:08.004Z",
-        "score": 0
-      }
-    ]
-  },
-  {
     "toaq": "- go",
     "discriminator": "",
     "is_a_lemma": false,
@@ -17688,13 +17508,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "rs4mBhYw6yM",
+        "id": "GPtD3UVaSSmq",
         "language": "eng",
         "definition": "▯ pertains to the culture of Austria – Republic of Austria.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.141Z",
+        "date": "2026-10-04T08:30:55.719Z",
         "score": 0
       }
     ]
@@ -17718,13 +17538,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "x-MLwJPVBTE",
+        "id": "CbCcTmLy7uwk",
         "language": "eng",
         "definition": "▯ is the country Austria – Republic of Austria.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.142Z",
+        "date": "2026-10-04T08:30:55.721Z",
         "score": 0
       }
     ]
@@ -17748,13 +17568,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "NvE27OPgpgi",
+        "id": "cKH_GuF3fTNi",
         "language": "eng",
         "definition": "▯ pertains to the culture of North Korea → Korea, North.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.514Z",
+        "date": "2026-10-04T08:30:55.988Z",
         "score": 0
       }
     ]
@@ -17778,13 +17598,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "Ls7ErDKQII7",
+        "id": "IpvlxR8YuW4z",
         "language": "eng",
         "definition": "▯ is the country North Korea → Korea, North.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.515Z",
+        "date": "2026-10-04T08:30:55.990Z",
         "score": 0
       }
     ]
@@ -17808,13 +17628,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "jAxWPXmvYb_",
+        "id": "GRh2vNzted",
         "language": "eng",
         "definition": "▯ pertains to the culture of South Korea → Korea, South.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.642Z",
+        "date": "2026-10-04T08:30:56.074Z",
         "score": 0
       }
     ]
@@ -17838,13 +17658,13 @@
     "definition_type": "informal",
     "translations": [
       {
-        "id": "guOm1yOxB_s",
+        "id": "cg3jDwR7dJ",
         "language": "eng",
         "definition": "▯ is the country South Korea → Korea, South.",
         "notes": "",
         "gloss": "",
         "author": "countries",
-        "date": "2026-07-17T07:34:08.643Z",
+        "date": "2026-10-04T08:30:56.076Z",
         "score": 0
       }
     ]
